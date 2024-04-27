@@ -1,0 +1,21 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+      "layer0": "minecraft:item/iron_axe"
+    },
+    "overrides": [
+      {
+        "predicate": {
+          "custom_model_data": 93
+        },
+        "model": "minecraft:item/ban_hammer"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 444
+        },
+        "model": "minecraft:item/sledgehammer"
+      }
+    ]
+  }
+  

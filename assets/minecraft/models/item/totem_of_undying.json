@@ -1,0 +1,122 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/totem_of_undying"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 52
+      },
+      "model": "minecraft:item/gold_trophy"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 69
+      },
+      "model": "minecraft:item/boost"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 90
+      },
+      "model": "minecraft:item/cross_totem"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 92
+      },
+      "model": "minecraft:item/wither_totem"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 97
+      },
+      "model": "minecraft:item/creeper_totem"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 134
+      },
+      "model": "minecraft:item/glitch"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 555
+      },
+      "model": "minecraft:item/villager_totem"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000
+      },
+      "model": "minecraft:item/totems/trard"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1001
+      },
+      "model": "minecraft:item/totems/darkcake"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1002
+      },
+      "model": "minecraft:item/totems/smipi"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1003
+      },
+      "model": "minecraft:item/totems/kerito"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1004
+      },
+      "model": "minecraft:item/totems/fire"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1005
+      },
+      "model": "minecraft:item/totems/link"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5001
+      },
+      "model": "minecraft:item/eggs/1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5002
+      },
+      "model": "minecraft:item/eggs/2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5003
+      },
+      "model": "minecraft:item/eggs/3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5004
+      },
+      "model": "minecraft:item/eggs/4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5005
+      },
+      "model": "minecraft:item/eggs/5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5006
+      },
+      "model": "minecraft:item/eggs/6"
+    }
+  ]
+}
