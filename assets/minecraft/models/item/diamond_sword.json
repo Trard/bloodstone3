@@ -12,6 +12,12 @@
       },
       {
         "predicate": {
+          "custom_model_data": 1444
+        },
+        "model": "civilization:item/tools/emerald_sword"
+      },
+      {
+        "predicate": {
           "custom_model_data": 2024
         },
         "model": "minecraft:item/dragon_katana"
