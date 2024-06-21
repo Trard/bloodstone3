@@ -9,6 +9,12 @@
           "custom_model_data": 444
         },
         "model": "minecraft:item/sledgehammer"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 1330
+        },
+        "model": "civilization:item/tools/mjolnir"
       }
     ]
   }
