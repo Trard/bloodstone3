@@ -1067,6 +1067,10 @@
         {
             "predicate": { "custom_model_data": 6012 },
             "model": "kssp:hats/helsing"
+        },
+        {
+            "predicate": { "custom_model_data": 6013 },
+            "model": "item/cicada1"
         }
     ]
 }
