@@ -1070,6 +1070,10 @@
         },
         {
             "predicate": { "custom_model_data": 6013 },
+            "model": "block/carved_pumpkin"
+        },
+        {
+            "predicate": { "custom_model_data": 6014 },
             "model": "item/cicada1"
         }
     ]
