@@ -25,3 +25,4 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: /tmp/BloodStone.zip
+          token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
