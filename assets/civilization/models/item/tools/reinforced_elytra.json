@@ -1,1 +1,1 @@
-{"parent":"minecraft:item/handheld","textures":{"layer0":"civilization:item/tools/reinforced_elytra"}}
+{"display":{"head":{"translation":[0,-0.25,0]}},"parent":"minecraft:item/handheld","textures":{"layer0":"civilization:item/tools/reinforced_elytra"}}
