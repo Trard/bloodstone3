@@ -84,6 +84,42 @@
     },
     {
       "predicate": {
+        "custom_model_data": 1006
+      },
+      "model": "minecraft:item/totems/bestytkir"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1007
+      },
+      "model": "minecraft:item/totems/misterio"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1008
+      },
+      "model": "minecraft:item/totems/erechi"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1009
+      },
+      "model": "minecraft:item/totems/slaizteam"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1010
+      },
+      "model": "minecraft:item/totems/ahi"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1011
+      },
+      "model": "minecraft:item/totems/mansur"
+    },
+    {
+      "predicate": {
         "custom_model_data": 5001
       },
       "model": "minecraft:item/eggs/1"
