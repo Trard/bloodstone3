@@ -1,0 +1,57 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/golden_apple"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 2000
+      },
+      "model": "minecraft:item/candies/0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2001
+      },
+      "model": "minecraft:item/candies/1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2002
+      },
+      "model": "minecraft:item/candies/2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2003
+      },
+      "model": "minecraft:item/candies/3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2004
+      },
+      "model": "minecraft:item/candies/4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2005
+      },
+      "model": "minecraft:item/candies/5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2006
+      },
+      "model": "minecraft:item/candies/6"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2007
+      },
+      "model": "minecraft:item/candies/7"
+    }
+  ]
+}
+  

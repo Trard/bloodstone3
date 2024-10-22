@@ -41,6 +41,12 @@
         "custom_model_data": 3334
       },
       "model": "item/picnic_basket"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3335
+      },
+      "model": "item/pumpkin_bucket"
     }
   ]
 }
