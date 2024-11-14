@@ -21,6 +21,12 @@
           "custom_model_data": 2024
         },
         "model": "minecraft:item/dragon_katana"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 2500
+        },
+        "model": "minecraft:item/whip"
       }
     ]
   }
