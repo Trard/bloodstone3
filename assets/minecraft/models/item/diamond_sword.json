@@ -18,6 +18,12 @@
       },
       {
         "predicate": {
+          "custom_model_data": 2017
+        },
+        "model": "civilization:item/tools/excalibur_sword"
+      },
+      {
+        "predicate": {
           "custom_model_data": 2024
         },
         "model": "minecraft:item/dragon_katana"
