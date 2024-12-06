@@ -120,6 +120,36 @@
     },
     {
       "predicate": {
+        "custom_model_data": 1012
+      },
+      "model": "minecraft:item/totems/wasurette"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1013
+      },
+      "model": "minecraft:item/totems/nezuwa"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1014
+      },
+      "model": "minecraft:item/totems/terron_"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1015
+      },
+      "model": "minecraft:item/totems/lestiadmin"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1016
+      },
+      "model": "minecraft:item/totems/xxanterria_"
+    },
+    {
+      "predicate": {
         "custom_model_data": 5001
       },
       "model": "minecraft:item/eggs/1"
