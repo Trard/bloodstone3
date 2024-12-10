@@ -47,6 +47,12 @@
         "custom_model_data": 3335
       },
       "model": "item/pumpkin_bucket"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3337
+      },
+      "model": "item/present"
     }
   ]
 }
