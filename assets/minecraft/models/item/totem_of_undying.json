@@ -150,6 +150,18 @@
     },
     {
       "predicate": {
+        "custom_model_data": 1017
+      },
+      "model": "minecraft:item/totems/thelegwar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1018
+      },
+      "model": "minecraft:item/totems/sekyndo4ka"
+    },
+    {
+      "predicate": {
         "custom_model_data": 5001
       },
       "model": "minecraft:item/eggs/1"
