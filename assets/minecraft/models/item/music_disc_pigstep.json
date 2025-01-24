@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/template_music_disc",
+  "textures": {
+    "layer0": "minecraft:item/music_disc_pigstep"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1500
+      },
+      "model": "minecraft:item/custom_disc"
+    }
+  ]
+}

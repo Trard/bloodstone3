@@ -54,9 +54,32 @@
         },
         {
             "predicate": {
-              "custom_model_data": 4023
+                "custom_model_data": 995
             },
-            "model": "civilization:item/tools/artemis_bow/default"
+            "model": "civilization:item/tools/poseidon_trident/normal/default"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "custom_model_data": 995
+            },
+            "model": "civilization:item/tools/poseidon_trident/normal/pulling/1"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.55,
+                "custom_model_data": 995
+            },
+            "model": "civilization:item/tools/poseidon_trident/normal/pulling/2"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.9,
+                "custom_model_data": 995
+            },
+            "model": "civilization:item/tools/poseidon_trident/normal/pulling/3"
         },
         {
             "predicate": {
@@ -74,7 +97,7 @@
         {
             "predicate": {
                 "pulling": 1,
-                "pull": 0.55,
+                "pull": 0.35,
                 "custom_model_data": 997
             },
             "model": "civilization:item/tools/shrink_ray/normal/pulling/2"
@@ -82,10 +105,18 @@
         {
             "predicate": {
                 "pulling": 1,
-                "pull": 0.9,
+                "pull": 0.55,
                 "custom_model_data": 997
             },
             "model": "civilization:item/tools/shrink_ray/normal/pulling/3"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.9,
+                "custom_model_data": 997
+            },
+            "model": "civilization:item/tools/shrink_ray/normal/pulling/4"
         },
         {
             "predicate": {
