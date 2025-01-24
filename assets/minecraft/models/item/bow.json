@@ -60,6 +60,35 @@
         },
         {
             "predicate": {
+                "custom_model_data": 997
+            },
+            "model": "civilization:item/tools/shrink_ray/normal/default"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "custom_model_data": 997
+            },
+            "model": "civilization:item/tools/shrink_ray/normal/pulling/1"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.55,
+                "custom_model_data": 997
+            },
+            "model": "civilization:item/tools/shrink_ray/normal/pulling/2"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.9,
+                "custom_model_data": 997
+            },
+            "model": "civilization:item/tools/shrink_ray/normal/pulling/3"
+        },
+        {
+            "predicate": {
                 "custom_model_data": 4023
             },
             "model": "civilization:item/tools/artemis_bow/default"
