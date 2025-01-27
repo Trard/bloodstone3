@@ -27,4 +27,6 @@ jobs:
           files: /tmp/BloodStone.zip
           token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
       - name: scp upload
-        run: echo ${{ secrets.SSH_KEY }} | scp -i /dev/stdin /tmp/BloodStone.zip ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }}:${{ secrets.DESTINATION }}
+        run: |
+          echo ${{ secrets.SSH_KEY }} > /tmp/ssh_key
+          scp -i /tmp/ssh_key /tmp/BloodStone.zip ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }}:${{ secrets.DESTINATION }}
