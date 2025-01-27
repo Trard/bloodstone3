@@ -20,11 +20,11 @@ jobs:
           packsquash_version: latest
           options: |
             pack_directory = '.'
-            output_file_path = '/tmp/BloodStone.zip'
+            output_file_path = 'BloodStone.zip'
       - name: Create release
         uses: softprops/action-gh-release@v2
         with:
-          files: /tmp/BloodStone.zip
+          files: BloodStone.zip
           token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
       - name: cd tmp
         run: cd /tmp
