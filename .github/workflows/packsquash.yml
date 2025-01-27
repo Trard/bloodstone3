@@ -26,6 +26,8 @@ jobs:
         with:
           files: /tmp/BloodStone.zip
           token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
+      - name: cd tmp
+        run: cd /tmp
       - uses: actions/checkout@v4
       - name: Copy file via ssh
         uses: appleboy/scp-action@v0.1.7
@@ -33,5 +35,5 @@ jobs:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_KEY }}
-          source: "/tmp/BloodStone.zip"
+          source: "BloodStone.zip"
           target: ${{ secrets.DESTINATION }}
