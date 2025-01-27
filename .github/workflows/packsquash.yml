@@ -26,8 +26,6 @@ jobs:
         with:
           files: BloodStone.zip
           token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
-      - name: cd tmp
-        run: cd /tmp
       - uses: actions/checkout@v4
       - name: Copy file via ssh
         uses: appleboy/scp-action@v0.1.7
