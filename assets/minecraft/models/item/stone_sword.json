@@ -6,7 +6,7 @@
     "overrides": [
       {
         "predicate": {
-          "custom_model_data": 1932
+          "custom_model_data": 994
         },
         "model": "civilization:item/tools/hypnosis_staff"
       }
