@@ -1,92 +1,1487 @@
 {
-    "parent": "minecraft:block/orientable",
-    "textures": {
-        "front": "minecraft:block/carved_pumpkin",
-        "side": "minecraft:block/pumpkin_side",
-        "top": "minecraft:block/pumpkin_top"
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "minecraft:block/carved_pumpkin",
+    "side": "minecraft:block/pumpkin_side",
+    "top": "minecraft:block/pumpkin_top"
+  },
+  "overrides": [
+    {
+      "predicate": { "custom_model_data": 1 },
+      "model": "civilization:item/wearable/classhats/farmer_hat"
     },
-    "overrides": [
-        {"predicate":{"custom_model_data":1},"model":"civilization:item/wearable/classhats/farmer_hat"},{"predicate":{"custom_model_data":2},"model":"civilization:item/wearable/classhats/miner_helmet/normal"},{"predicate":{"custom_model_data":3},"model":"civilization:item/wearable/classhats/warrior_helmet/normal"},{"predicate":{"custom_model_data":4},"model":"civilization:item/wearable/king_crown"},{"predicate":{"custom_model_data":5},"model":"civilization:item/wearable/chainsaw_head/normal"},{"predicate":{"custom_model_data":6},"model":"civilization:item/wearable/3d_glasses/normal"},{"predicate":{"custom_model_data":7},"model":"civilization:item/wearable/elf_hat/shiny"},{"predicate":{"custom_model_data":8},"model":"civilization:item/wearable/gingerbread_mask/shiny"},{"predicate":{"custom_model_data":9},"model":"civilization:item/wearable/cat_hat/normal"},{"predicate":{"custom_model_data":10},"model":"civilization:item/wearable/clown_hat/normal"},{"predicate":{"custom_model_data":11},"model":"civilization:item/wearable/cowboy_hat/normal"},{"predicate":{"custom_model_data":12},"model":"civilization:item/wearable/dragon_hat/normal"},{"predicate":{"custom_model_data":13},"model":"civilization:item/wearable/classhats/looter_hat/normal"},{"predicate":{"custom_model_data":14},"model":"civilization:item/wearable/frog_bucket_hat/normal"},{"predicate":{"custom_model_data":15},"model":"civilization:item/wearable/gamer_headphones/normal"},{"predicate":{"custom_model_data":16},"model":"civilization:item/wearable/glow_squid_hat/normal"},{"predicate":{"custom_model_data":17},"model":"civilization:item/wearable/spartan_helmet/normal"},{"predicate":{"custom_model_data":18},"model":"civilization:item/wearable/halo/normal"},{"predicate":{"custom_model_data":19},"model":"civilization:item/wearable/classhats/archer_hood/normal"},{"predicate":{"custom_model_data":20},"model":"civilization:item/wearable/panda_hat/normal"},{"predicate":{"custom_model_data":21},"model":"civilization:item/wearable/penguin_hat/normal"},{"predicate":{"custom_model_data":22},"model":"civilization:item/wearable/pharaoh_hat/normal"},{"predicate":{"custom_model_data":23},"model":"civilization:item/wearable/pirate_hat/normal"},{"predicate":{"custom_model_data":24},"model":"civilization:item/wearable/propeller_hat/normal"},{"predicate":{"custom_model_data":25},"model":"civilization:item/wearable/scuba_gear/normal"},{"predicate":{"custom_model_data":26},"model":"civilization:item/wearable/default_helmet/normal"},{"predicate":{"custom_model_data":27},"model":"civilization:item/wearable/tiki_head/normal"},{"predicate":{"custom_model_data":28},"model":"civilization:item/wearable/wizard_hat/normal"},{"predicate":{"custom_model_data":29},"model":"civilization:item/wearable/wolf_hat/normal"},{"predicate":{"custom_model_data":30},"model":"civilization:item/wearable/reindeer_antlers/shiny"},{"predicate":{"custom_model_data":31},"model":"civilization:item/wearable/knight_helmet/normal"},{"predicate":{"custom_model_data":32},"model":"civilization:item/wearable/santa_hat/shiny"},{"predicate":{"custom_model_data":33},"model":"civilization:item/wearable/snowman_head/shiny"},{"predicate":{"custom_model_data":34},"model":"civilization:item/wearable/mushroom_hat/normal"},{"predicate":{"custom_model_data":35},"model":"civilization:item/wearable/shark_hat/normal"},{"predicate":{"custom_model_data":36},"model":"civilization:item/wearable/samurai_helmet/normal"},{"predicate":{"custom_model_data":37},"model":"civilization:item/wearable/krampus_head/shiny"},{"predicate":{"custom_model_data":38},"model":"civilization:item/wearable/cyberpunk_hat/normal"},{"predicate":{"custom_model_data":39},"model":"civilization:item/wearable/meme_sunglasses"},{"predicate":{"custom_model_data":40},"model":"civilization:item/wearable/beta_tester_helmet/normal"},{"predicate":{"custom_model_data":41},"model":"civilization:item/wearable/dimmadome_hat/normal"},{"predicate":{"custom_model_data":42},"model":"civilization:item/wearable/throir_goggles"},{"predicate":{"custom_model_data":43},"model":"civilization:item/wearable/astronaut_helmet/normal"},{"predicate":{"custom_model_data":44},"model":"civilization:item/wearable/burger_hat/normal"},{"predicate":{"custom_model_data":45},"model":"civilization:item/wearable/frankenstein_head/normal"},{"predicate":{"custom_model_data":46},"model":"civilization:item/wearable/chef_hat/normal"},{"predicate":{"custom_model_data":47},"model":"civilization:item/wearable/jack_o_lantern_hat/normal"},{"predicate":{"custom_model_data":48},"model":"civilization:item/wearable/killer_mask/normal"},{"predicate":{"custom_model_data":49},"model":"civilization:item/wearable/king_frog/normal"},{"predicate":{"custom_model_data":50},"model":"civilization:item/wearable/plague_doctor_mask/normal"},{"predicate":{"custom_model_data":51},"model":"civilization:item/wearable/sombrero/normal"},{"predicate":{"custom_model_data":52},"model":"civilization:item/wearable/trapper_hat/normal"},{"predicate":{"custom_model_data":53},"model":"civilization:item/wearable/3d_glasses/shiny"},{"predicate":{"custom_model_data":54},"model":"civilization:item/wearable/classhats/archer_hood/shiny"},{"predicate":{"custom_model_data":55},"model":"civilization:item/wearable/astronaut_helmet/shiny"},{"predicate":{"custom_model_data":56},"model":"civilization:item/wearable/beta_tester_helmet/shiny"},{"predicate":{"custom_model_data":57},"model":"civilization:item/wearable/burger_hat/shiny"},{"predicate":{"custom_model_data":58},"model":"civilization:item/wearable/cat_hat/shiny"},{"predicate":{"custom_model_data":59},"model":"civilization:item/wearable/clown_hat/shiny"},{"predicate":{"custom_model_data":60},"model":"civilization:item/wearable/cowboy_hat/shiny"},{"predicate":{"custom_model_data":61},"model":"civilization:item/wearable/default_helmet/shiny"},{"predicate":{"custom_model_data":62},"model":"civilization:item/wearable/dragon_hat/shiny"},{"predicate":{"custom_model_data":63},"model":"civilization:item/wearable/frankenstein_head/shiny"},{"predicate":{"custom_model_data":64},"model":"civilization:item/wearable/gamer_headphones/shiny"},{"predicate":{"custom_model_data":65},"model":"civilization:item/wearable/glow_squid_hat/shiny"},{"predicate":{"custom_model_data":66},"model":"civilization:item/wearable/chef_hat/shiny"},{"predicate":{"custom_model_data":67},"model":"civilization:item/wearable/jack_o_lantern_hat/shiny"},{"predicate":{"custom_model_data":68},"model":"civilization:item/wearable/killer_mask/shiny"},{"predicate":{"custom_model_data":69},"model":"civilization:item/wearable/king_frog/shiny"},{"predicate":{"custom_model_data":70},"model":"civilization:item/wearable/knight_helmet/shiny"},{"predicate":{"custom_model_data":71},"model":"civilization:item/wearable/classhats/looter_hat/shiny"},{"predicate":{"custom_model_data":72},"model":"civilization:item/wearable/classhats/miner_helmet/shiny"},{"predicate":{"custom_model_data":73},"model":"civilization:item/wearable/mushroom_hat/shiny"},{"predicate":{"custom_model_data":74},"model":"civilization:item/wearable/panda_hat/shiny"},{"predicate":{"custom_model_data":75},"model":"civilization:item/wearable/penguin_hat/shiny"},{"predicate":{"custom_model_data":76},"model":"civilization:item/wearable/pharaoh_hat/shiny"},{"predicate":{"custom_model_data":77},"model":"civilization:item/wearable/pirate_hat/shiny"},{"predicate":{"custom_model_data":78},"model":"civilization:item/wearable/plague_doctor_mask/shiny"},{"predicate":{"custom_model_data":79},"model":"civilization:item/wearable/samurai_helmet/shiny"},{"predicate":{"custom_model_data":80},"model":"civilization:item/wearable/scuba_gear/shiny"},{"predicate":{"custom_model_data":81},"model":"civilization:item/wearable/shark_hat/shiny"},{"predicate":{"custom_model_data":82},"model":"civilization:item/wearable/sombrero/shiny"},{"predicate":{"custom_model_data":83},"model":"civilization:item/wearable/tiki_head/shiny"},{"predicate":{"custom_model_data":84},"model":"civilization:item/wearable/trapper_hat/shiny"},{"predicate":{"custom_model_data":85},"model":"civilization:item/wearable/classhats/warrior_helmet/shiny"},{"predicate":{"custom_model_data":86},"model":"civilization:item/wearable/wizard_hat/shiny"},{"predicate":{"custom_model_data":87},"model":"civilization:item/wearable/wolf_hat/shiny"},{"predicate":{"custom_model_data":88},"model":"civilization:item/wearable/dimmadome_hat/shiny"},{"predicate":{"custom_model_data":89},"model":"civilization:item/wearable/frog_bucket_hat/shiny"},{"predicate":{"custom_model_data":90},"model":"civilization:item/wearable/halo/shiny"},{"predicate":{"custom_model_data":91},"model":"civilization:item/wearable/chainsaw_head/shiny"},{"predicate":{"custom_model_data":92},"model":"civilization:item/wearable/propeller_hat/shiny"},{"predicate":{"custom_model_data":93},"model":"civilization:item/wearable/spartan_helmet/shiny"},{"predicate":{"custom_model_data":94},"model":"civilization:item/wearable/gingerbread_mask/normal"},{"predicate":{"custom_model_data":95},"model":"civilization:item/wearable/krampus_head/normal"},{"predicate":{"custom_model_data":96},"model":"civilization:item/wearable/cyberpunk_hat/shiny"},{"predicate":{"custom_model_data":97},"model":"civilization:item/wearable/reindeer_antlers/normal"},{"predicate":{"custom_model_data":98},"model":"civilization:item/wearable/santa_hat/normal"},{"predicate":{"custom_model_data":99},"model":"civilization:item/wearable/snowman_head/normal"},{"predicate":{"custom_model_data":100},"model":"civilization:item/wearable/jester_hat/normal"},{"predicate":{"custom_model_data":101},"model":"civilization:item/wearable/elf_hat/normal"},{"predicate":{"custom_model_data":102},"model":"civilization:item/wearable/frostbite_helmet/normal"},{"predicate":{"custom_model_data":103},"model":"civilization:item/wearable/frostbite_helmet/shiny"},{"predicate":{"custom_model_data":104},"model":"civilization:item/wearable/jester_hat/shiny"},{"predicate":{"custom_model_data":105},"model":"civilization:item/wearable/alien_head_muncher/normal"},{"predicate":{"custom_model_data":106},"model":"civilization:item/wearable/alien_head_muncher/shiny"},{"predicate":{"custom_model_data":107},"model":"civilization:item/wearable/drink_hat_number_1/normal"},{"predicate":{"custom_model_data":108},"model":"civilization:item/wearable/drink_hat_number_1/shiny"},{"predicate":{"custom_model_data":109},"model":"civilization:item/wearable/taco_hat/normal"},{"predicate":{"custom_model_data":110},"model":"civilization:item/wearable/taco_hat/shiny"},{"predicate":{"custom_model_data":111},"model":"civilization:item/wearable/top_hat/normal"},{"predicate":{"custom_model_data":112},"model":"civilization:item/wearable/top_hat/shiny"},{"predicate":{"custom_model_data":113},"model":"civilization:item/wearable/pufferfish_hat/normal"},{"predicate":{"custom_model_data":114},"model":"civilization:item/wearable/cupid_arrow_headband/normal"},{"predicate":{"custom_model_data":115},"model":"civilization:item/wearable/cupid_arrow_headband/shiny"},{"predicate":{"custom_model_data":116},"model":"civilization:item/wearable/flamingo_hat/normal"},{"predicate":{"custom_model_data":117},"model":"civilization:item/wearable/flamingo_hat/shiny"},{"predicate":{"custom_model_data":118},"model":"civilization:item/wearable/flower_crown/normal"},{"predicate":{"custom_model_data":119},"model":"civilization:item/wearable/flower_crown/shiny"},{"predicate":{"custom_model_data":120},"model":"civilization:item/wearable/heart_glasses/normal"},{"predicate":{"custom_model_data":121},"model":"civilization:item/wearable/heart_glasses/shiny"},{"predicate":{"custom_model_data":122},"model":"civilization:item/wearable/heart_headband/normal"},{"predicate":{"custom_model_data":123},"model":"civilization:item/wearable/heart_headband/shiny"},{"predicate":{"custom_model_data":124},"model":"civilization:item/wearable/valentines_bear_hat/normal"},{"predicate":{"custom_model_data":125},"model":"civilization:item/wearable/valentines_bear_hat/shiny"},{"predicate":{"custom_model_data":126},"model":"civilization:item/wearable/pufferfish_hat/shiny"},{"predicate":{"custom_model_data":127},"model":"civilization:item/wearable/sunflower_hat/normal"},{"predicate":{"custom_model_data":128},"model":"civilization:item/wearable/sunflower_hat/shiny"},{"predicate":{"custom_model_data":129},"model":"civilization:item/wearable/cat_ears/normal"},{"predicate":{"custom_model_data":130},"model":"civilization:item/wearable/cat_ears/shiny"},{"predicate":{"custom_model_data":131},"model":"civilization:item/wearable/valentines_knight/normal"},{"predicate":{"custom_model_data":132},"model":"civilization:item/wearable/valentines_knight/shiny"},{"predicate":{"custom_model_data":133},"model":"civilization:item/wearable/valentines_warrior/normal"},{"predicate":{"custom_model_data":134},"model":"civilization:item/wearable/valentines_warrior/shiny"},{"predicate":{"custom_model_data":135},"model":"civilization:item/wearable/sculk_monster_mouth/normal"},{"predicate":{"custom_model_data":136},"model":"civilization:item/wearable/sculk_monster_mouth/shiny"},{"predicate":{"custom_model_data":137},"model":"civilization:item/wearable/sculk_creeper_hat/normal"},{"predicate":{"custom_model_data":138},"model":"civilization:item/wearable/sculk_creeper_hat/shiny"},{"predicate":{"custom_model_data":139},"model":"civilization:item/wearable/warden_horns/normal"},{"predicate":{"custom_model_data":140},"model":"civilization:item/wearable/warden_horns/shiny"},{"predicate":{"custom_model_data":141},"model":"civilization:item/wearable/baby_warden_hat/normal"},{"predicate":{"custom_model_data":142},"model":"civilization:item/wearable/baby_warden_hat/shiny"},{"predicate":{"custom_model_data":143},"model":"civilization:item/wearable/giant_warden_head/normal"},{"predicate":{"custom_model_data":144},"model":"civilization:item/wearable/giant_warden_head/shiny"},{"predicate":{"custom_model_data":145},"model":"civilization:item/wearable/warden_bucket_hat/normal"},{"predicate":{"custom_model_data":146},"model":"civilization:item/wearable/warden_bucket_hat/shiny"},{"predicate":{"custom_model_data":147},"model":"civilization:item/wearable/warden_crown/normal"},{"predicate":{"custom_model_data":148},"model":"civilization:item/wearable/warden_crown/shiny"},{"predicate":{"custom_model_data":149},"model":"civilization:item/wearable/warden_knight_helmet/normal"},{"predicate":{"custom_model_data":150},"model":"civilization:item/wearable/warden_knight_helmet/shiny"},{"predicate":{"custom_model_data":151},"model":"civilization:item/wearable/warden_warriors_helmet/normal"},{"predicate":{"custom_model_data":152},"model":"civilization:item/wearable/warden_warriors_helmet/shiny"},{"predicate":{"custom_model_data":153},"model":"civilization:item/wearable/warden_wizard_hat/normal"},{"predicate":{"custom_model_data":154},"model":"civilization:item/wearable/warden_wizard_hat/shiny"},{"predicate":{"custom_model_data":155},"model":"civilization:item/wearable/warden_sculk_crown/normal"},{"predicate":{"custom_model_data":156},"model":"civilization:item/wearable/warden_sculk_crown/shiny"},{"predicate":{"custom_model_data":157},"model":"civilization:item/wearable/clam_crown/normal"},{"predicate":{"custom_model_data":158},"model":"civilization:item/wearable/clam_crown/shiny"},{"predicate":{"custom_model_data":159},"model":"civilization:item/wearable/serpant_helmet/normal"},{"predicate":{"custom_model_data":160},"model":"civilization:item/wearable/serpant_helmet/shiny"},{"predicate":{"custom_model_data":161},"model":"civilization:item/wearable/scuba_helmet/normal"},{"predicate":{"custom_model_data":162},"model":"civilization:item/wearable/scuba_helmet/shiny"},{"predicate":{"custom_model_data":163},"model":"civilization:item/wearable/octopus_hat/normal"},{"predicate":{"custom_model_data":164},"model":"civilization:item/wearable/octopus_hat/shiny"},{"predicate":{"custom_model_data":165},"model":"civilization:item/wearable/hotdog_hat/normal"},{"predicate":{"custom_model_data":166},"model":"civilization:item/wearable/hotdog_hat/shiny"},{"predicate":{"custom_model_data":167},"model":"civilization:item/wearable/tv_head/normal"},{"predicate":{"custom_model_data":168},"model":"civilization:item/wearable/tv_head/shiny"},{"predicate":{"custom_model_data":169},"model":"civilization:item/wearable/graduation_cap/normal"},{"predicate":{"custom_model_data":170},"model":"civilization:item/wearable/graduation_cap/shiny"},{"predicate":{"custom_model_data":171},"model":"civilization:item/wearable/kitty_headset/normal"},{"predicate":{"custom_model_data":172},"model":"civilization:item/wearable/kitty_headset/shiny"},{"predicate":{"custom_model_data":173},"model":"civilization:item/wearable/plunger_hat/normal"},{"predicate":{"custom_model_data":174},"model":"civilization:item/wearable/plunger_hat/shiny"},{"predicate":{"custom_model_data":175},"model":"civilization:item/wearable/axolotl_cap/normal"},{"predicate":{"custom_model_data":176},"model":"civilization:item/wearable/axolotl_cap/shiny"},{"predicate":{"custom_model_data":177},"model":"civilization:item/wearable/box_hat/normal"},{"predicate":{"custom_model_data":178},"model":"civilization:item/wearable/box_hat/shiny"},{"predicate":{"custom_model_data":179},"model":"civilization:item/wearable/qa_wrench_hat/normal"},{"predicate":{"custom_model_data":180},"model":"civilization:item/wearable/qa_wrench_hat/shiny"},{"predicate":{"custom_model_data":181},"model":"civilization:item/wearable/shark_fin/normal"},{"predicate":{"custom_model_data":182},"model":"civilization:item/wearable/shark_fin/shiny"},{"predicate":{"custom_model_data":183},"model":"civilization:item/wearable/translator_globe/normal"},{"predicate":{"custom_model_data":184},"model":"civilization:item/wearable/translator_globe/shiny"},{"predicate":{"custom_model_data":185},"model":"civilization:item/wearable/ram_horns/normal"},{"predicate":{"custom_model_data":186},"model":"civilization:item/wearable/ram_horns/shiny"},{"predicate":{"custom_model_data":187},"model":"civilization:item/tools/dragon_skull"},{"predicate":{"custom_model_data":188},"model":"civilization:item/wearable/banana_hat/normal"},{"predicate":{"custom_model_data":189},"model":"civilization:item/wearable/banana_hat/shiny"},{"predicate":{"custom_model_data":190},"model":"civilization:item/wearable/guardian_hat/normal"},{"predicate":{"custom_model_data":191},"model":"civilization:item/wearable/guardian_hat/shiny"},{"predicate":{"custom_model_data":192},"model":"civilization:item/wearable/jellyfish_hat/normal"},{"predicate":{"custom_model_data":193},"model":"civilization:item/wearable/jellyfish_hat/shiny"},{"predicate":{"custom_model_data":194},"model":"civilization:item/wearable/valkyrie_helmet/normal"},{"predicate":{"custom_model_data":195},"model":"civilization:item/wearable/valkyrie_helmet/shiny"},{"predicate":{"custom_model_data":196},"model":"civilization:item/wearable/nemo/normal"},{"predicate":{"custom_model_data":197},"model":"civilization:item/wearable/nemo/shiny"},{"predicate":{"custom_model_data":198},"model":"civilization:item/wearable/angler_hat/normal"},{"predicate":{"custom_model_data":199},"model":"civilization:item/wearable/angler_hat/shiny"},{"predicate":{"custom_model_data":200},"model":"civilization:item/wearable/fisherman_hat/normal"},{"predicate":{"custom_model_data":201},"model":"civilization:item/wearable/fisherman_hat/shiny"},{"predicate":{"custom_model_data":202},"model":"civilization:item/wearable/piglin_hat/normal"},{"predicate":{"custom_model_data":203},"model":"civilization:item/wearable/piglin_hat/shiny"},{"predicate":{"custom_model_data":204},"model":"civilization:item/wearable/red_devil_horns/normal"},{"predicate":{"custom_model_data":205},"model":"civilization:item/wearable/red_devil_horns/shiny"},{"predicate":{"custom_model_data":206},"model":"civilization:item/wearable/flaming_spartan_helmet/normal"},{"predicate":{"custom_model_data":207},"model":"civilization:item/wearable/flaming_spartan_helmet/shiny"},{"predicate":{"custom_model_data":208},"model":"civilization:item/wearable/flaming_skull/normal"},{"predicate":{"custom_model_data":209},"model":"civilization:item/wearable/flaming_skull/shiny"},{"predicate":{"custom_model_data":210},"model":"civilization:item/wearable/lava_hound/normal"},{"predicate":{"custom_model_data":211},"model":"civilization:item/wearable/lava_hound/shiny"},{"predicate":{"custom_model_data":212},"model":"civilization:item/wearable/lava_witch_hat/normal"},{"predicate":{"custom_model_data":213},"model":"civilization:item/wearable/lava_witch_hat/shiny"},{"predicate":{"custom_model_data":214},"model":"civilization:item/wearable/magma_cowboy_hat/normal"},{"predicate":{"custom_model_data":215},"model":"civilization:item/wearable/magma_cowboy_hat/shiny"},{"predicate":{"custom_model_data":216},"model":"civilization:item/wearable/nether_mushroom_hat/normal"},{"predicate":{"custom_model_data":217},"model":"civilization:item/wearable/nether_mushroom_hat/shiny"},{"predicate":{"custom_model_data":218},"model":"civilization:item/wearable/gerald_hat/normal"},{"predicate":{"custom_model_data":219},"model":"civilization:item/wearable/gerald_hat/shiny"},{"predicate":{"custom_model_data":220},"model":"civilization:item/wearable/shulker_hat/normal"},{"predicate":{"custom_model_data":221},"model":"civilization:item/wearable/shulker_hat/shiny"},{"predicate":{"custom_model_data":222},"model":"civilization:item/wearable/turkey_hat/normal"},{"predicate":{"custom_model_data":223},"model":"civilization:item/wearable/turkey_hat/shiny"},{"predicate":{"custom_model_data":224},"model":"civilization:item/wearable/brain_jar/normal"},{"predicate":{"custom_model_data":225},"model":"civilization:item/wearable/brain_jar/shiny"},{"predicate":{"custom_model_data":226},"model":"civilization:item/wearable/breather_mask/normal"},{"predicate":{"custom_model_data":227},"model":"civilization:item/wearable/breather_mask/shiny"},{"predicate":{"custom_model_data":228},"model":"civilization:item/wearable/cookie_hat/normal"},{"predicate":{"custom_model_data":229},"model":"civilization:item/wearable/cookie_hat/shiny"},{"predicate":{"custom_model_data":230},"model":"civilization:item/wearable/corrupted_enderman_skull/normal"},{"predicate":{"custom_model_data":231},"model":"civilization:item/wearable/corrupted_enderman_skull/shiny"},{"predicate":{"custom_model_data":232},"model":"civilization:item/wearable/ender_miner_hat/normal"},{"predicate":{"custom_model_data":233},"model":"civilization:item/wearable/ender_miner_hat/shiny"},{"predicate":{"custom_model_data":234},"model":"civilization:item/wearable/enderman_top_hat/normal"},{"predicate":{"custom_model_data":235},"model":"civilization:item/wearable/enderman_top_hat/shiny"},{"predicate":{"custom_model_data":236},"model":"civilization:item/wearable/gas_mask/normal"},{"predicate":{"custom_model_data":237},"model":"civilization:item/wearable/gas_mask/shiny"},{"predicate":{"custom_model_data":238},"model":"civilization:item/wearable/night_vision_goggles/normal"},{"predicate":{"custom_model_data":239},"model":"civilization:item/wearable/night_vision_goggles/shiny"},{"predicate":{"custom_model_data":240},"model":"civilization:item/wearable/pylon_hat/normal"},{"predicate":{"custom_model_data":241},"model":"civilization:item/wearable/pylon_hat/shiny"},{"predicate":{"custom_model_data":242},"model":"civilization:item/wearable/sunflower_crown/normal"},{"predicate":{"custom_model_data":243},"model":"civilization:item/wearable/sunflower_crown/shiny"},{"predicate":{"custom_model_data":244},"model":"civilization:item/wearable/toothful_hat/normal"},{"predicate":{"custom_model_data":245},"model":"civilization:item/wearable/toothful_hat/shiny"},{"predicate":{"custom_model_data":246},"model":"civilization:item/wearable/unicorn_hat/normal"},{"predicate":{"custom_model_data":247},"model":"civilization:item/wearable/unicorn_hat/shiny"},{"predicate":{"custom_model_data":248},"model":"civilization:item/wearable/cyber_dragon_hat/normal"},{"predicate":{"custom_model_data":249},"model":"civilization:item/wearable/cyber_dragon_hat/shiny"},{"predicate":{"custom_model_data":250},"model":"civilization:item/wearable/elite_warrior_helmet/1"},{"predicate":{"custom_model_data":251},"model":"civilization:item/wearable/elite_warrior_helmet/2"},{"predicate":{"custom_model_data":252},"model":"civilization:item/wearable/elite_warrior_helmet/3"},{"predicate":{"custom_model_data":253},"model":"civilization:item/wearable/elite_warrior_helmet/4"},{"predicate":{"custom_model_data":254},"model":"civilization:item/wearable/elite_warrior_helmet/5"},{"predicate":{"custom_model_data":255},"model":"civilization:item/wearable/elite_warrior_helmet/6"},{"predicate":{"custom_model_data":256},"model":"civilization:item/wearable/crocodile_hat/normal"},{"predicate":{"custom_model_data":257},"model":"civilization:item/wearable/crocodile_hat/shiny"},{"predicate":{"custom_model_data":258},"model":"civilization:item/wearable/football_helmet/normal"},{"predicate":{"custom_model_data":259},"model":"civilization:item/wearable/football_helmet/shiny"},{"predicate":{"custom_model_data":260},"model":"civilization:item/wearable/nemean_mane/normal"},{"predicate":{"custom_model_data":261},"model":"civilization:item/wearable/nemean_mane/shiny"},{"predicate":{"custom_model_data":262},"model":"civilization:item/wearable/toque/normal"},{"predicate":{"custom_model_data":263},"model":"civilization:item/wearable/toque/shiny"},{"predicate":{"custom_model_data":264},"model":"civilization:item/wearable/artemis_crown/normal"},{"predicate":{"custom_model_data":265},"model":"civilization:item/wearable/artemis_crown/shiny"},{"predicate":{"custom_model_data":266},"model":"civilization:item/wearable/corinthian_helm/normal"},{"predicate":{"custom_model_data":267},"model":"civilization:item/wearable/corinthian_helm/shiny"},{"predicate":{"custom_model_data":268},"model":"civilization:item/wearable/golden_headpiece/normal"},{"predicate":{"custom_model_data":269},"model":"civilization:item/wearable/golden_headpiece/shiny"},{"predicate":{"custom_model_data":270},"model":"civilization:item/wearable/laurel_wreath/normal"},{"predicate":{"custom_model_data":271},"model":"civilization:item/wearable/laurel_wreath/shiny"},{"predicate":{"custom_model_data":272},"model":"civilization:item/wearable/zeus_bolt/normal"},{"predicate":{"custom_model_data":273},"model":"civilization:item/wearable/zeus_bolt/shiny"},{"predicate":{"custom_model_data":274},"model":"civilization:item/wearable/aviator_cap/normal"},{"predicate":{"custom_model_data":275},"model":"civilization:item/wearable/aviator_cap/shiny"},{"predicate":{"custom_model_data":276},"model":"civilization:item/wearable/dingle_mask/normal"},{"predicate":{"custom_model_data":277},"model":"civilization:item/wearable/dingle_mask/shiny"},{"predicate":{"custom_model_data":278},"model":"civilization:item/wearable/steampunk_hat/normal"},{"predicate":{"custom_model_data":279},"model":"civilization:item/wearable/steampunk_hat/shiny"},{"predicate":{"custom_model_data":280},"model":"civilization:item/wearable/wolf_fur_hat/normal"},{"predicate":{"custom_model_data":281},"model":"civilization:item/wearable/wolf_fur_hat/shiny"},{"predicate":{"custom_model_data":282},"model":"civilization:item/wearable/sailor_cap/normal"},{"predicate":{"custom_model_data":283},"model":"civilization:item/wearable/sailor_cap/shiny"},{"predicate":{"custom_model_data":284},"model":"civilization:item/wearable/rainbow_earmuffs/normal"},{"predicate":{"custom_model_data":285},"model":"civilization:item/wearable/rainbow_earmuffs/shiny"},{"predicate":{"custom_model_data":286},"model":"civilization:item/wearable/viking_beard/normal"},{"predicate":{"custom_model_data":287},"model":"civilization:item/wearable/viking_beard/shiny"},{"predicate":{"custom_model_data":288},"model":"civilization:item/wearable/medusa_hat/normal"},{"predicate":{"custom_model_data":289},"model":"civilization:item/wearable/medusa_hat/shiny"},{"predicate":{"custom_model_data":290},"model":"civilization:item/wearable/ash_hat/normal"},{"predicate":{"custom_model_data":291},"model":"civilization:item/wearable/ash_hat/shiny"},{"predicate":{"custom_model_data":292},"model":"civilization:item/wearable/cute_bow/normal"},{"predicate":{"custom_model_data":293},"model":"civilization:item/wearable/cute_bow/shiny"},{"predicate":{"custom_model_data":294},"model":"civilization:item/wearable/twitch_cap"},{"predicate":{"custom_model_data":295},"model":"civilization:item/wearable/beanie/normal"},{"predicate":{"custom_model_data":296},"model":"civilization:item/wearable/beanie/shiny"},{"predicate":{"custom_model_data":297},"model":"civilization:item/wearable/egg_hat/normal"},{"predicate":{"custom_model_data":298},"model":"civilization:item/wearable/egg_hat/shiny"},{"predicate":{"custom_model_data":299},"model":"civilization:item/wearable/hat_hat/normal"},{"predicate":{"custom_model_data":300},"model":"civilization:item/wearable/hat_hat/shiny"},{"predicate":{"custom_model_data":301},"model":"civilization:item/wearable/pine_cap/normal"},{"predicate":{"custom_model_data":302},"model":"civilization:item/wearable/pine_cap/shiny"},{"predicate":{"custom_model_data":303},"model":"civilization:item/wearable/pot_hat/normal"},{"predicate":{"custom_model_data":304},"model":"civilization:item/wearable/pot_hat/shiny"},{"predicate":{"custom_model_data":305},"model":"civilization:item/wearable/straw_hat/normal"},{"predicate":{"custom_model_data":306},"model":"civilization:item/wearable/straw_hat/shiny"},{"predicate":{"custom_model_data":307},"model":"civilization:item/wearable/bat_hat/normal"},{"predicate":{"custom_model_data":308},"model":"civilization:item/wearable/bat_hat/shiny"},{"predicate":{"custom_model_data":309},"model":"civilization:item/wearable/axe_hat/normal"},{"predicate":{"custom_model_data":310},"model":"civilization:item/wearable/axe_hat/shiny"},{"predicate":{"custom_model_data":311},"model":"civilization:item/wearable/eyeball_hat/normal"},{"predicate":{"custom_model_data":312},"model":"civilization:item/wearable/eyeball_hat/shiny"},{"predicate":{"custom_model_data":313},"model":"civilization:item/wearable/mummy_mask/normal"},{"predicate":{"custom_model_data":314},"model":"civilization:item/wearable/mummy_mask/shiny"},{"predicate":{"custom_model_data":315},"model":"civilization:item/wearable/pumpkin_headband/normal"},{"predicate":{"custom_model_data":316},"model":"civilization:item/wearable/pumpkin_headband/shiny"},{"predicate":{"custom_model_data":317},"model":"civilization:item/wearable/scream_mask/normal"},{"predicate":{"custom_model_data":318},"model":"civilization:item/wearable/scream_mask/shiny"},{"predicate":{"custom_model_data":319},"model":"civilization:item/wearable/spider_hat/normal"},{"predicate":{"custom_model_data":320},"model":"civilization:item/wearable/spider_hat/shiny"},{"predicate":{"custom_model_data":321},"model":"civilization:item/wearable/1year_cake_hat/normal"},{"predicate":{"custom_model_data":322},"model":"civilization:item/wearable/1year_cake_hat/shiny"},{"predicate":{"custom_model_data":323},"model":"civilization:item/wearable/bat_wings_hat/normal"},{"predicate":{"custom_model_data":324},"model":"civilization:item/wearable/bat_wings_hat/shiny"},{"predicate":{"custom_model_data":325},"model":"civilization:item/wearable/camera_hat/normal"},{"predicate":{"custom_model_data":326},"model":"civilization:item/wearable/camera_hat/shiny"},{"predicate":{"custom_model_data":327},"model":"civilization:item/wearable/vr_headset/normal"},{"predicate":{"custom_model_data":328},"model":"civilization:item/wearable/vr_headset/shiny"},{"predicate":{"custom_model_data":329},"model":"civilization:item/wearable/snowstorm_helm/normal"},{"predicate":{"custom_model_data":330},"model":"civilization:item/wearable/snowstorm_helm/shiny"},{"predicate":{"custom_model_data":331},"model":"civilization:item/wearable/slime_control/normal"},{"predicate":{"custom_model_data":332},"model":"civilization:item/wearable/slime_control/shiny"},{"predicate":{"custom_model_data":333},"model":"civilization:item/wearable/silly_glasses/normal"},{"predicate":{"custom_model_data":334},"model":"civilization:item/wearable/silly_glasses/shiny"},{"predicate":{"custom_model_data":335},"model":"civilization:item/wearable/pirate_polly/normal"},{"predicate":{"custom_model_data":336},"model":"civilization:item/wearable/pirate_polly/shiny"},{"predicate":{"custom_model_data":337},"model":"civilization:item/wearable/piranha_troubles/normal"},{"predicate":{"custom_model_data":338},"model":"civilization:item/wearable/piranha_troubles/shiny"},{"predicate":{"custom_model_data":339},"model":"civilization:item/wearable/idiot_sandwich/normal"},{"predicate":{"custom_model_data":340},"model":"civilization:item/wearable/idiot_sandwich/shiny"},{"predicate":{"custom_model_data":341},"model":"civilization:item/wearable/ice_crown/normal"},{"predicate":{"custom_model_data":342},"model":"civilization:item/wearable/ice_crown/shiny"},{"predicate":{"custom_model_data":343},"model":"civilization:item/wearable/heart_eyes_emoji/normal"},{"predicate":{"custom_model_data":344},"model":"civilization:item/wearable/heart_eyes_emoji/shiny"},{"predicate":{"custom_model_data":345},"model":"civilization:item/wearable/gnome_rider/normal"},{"predicate":{"custom_model_data":346},"model":"civilization:item/wearable/gnome_rider/shiny"},{"predicate":{"custom_model_data":347},"model":"civilization:item/wearable/cool_can/normal"},{"predicate":{"custom_model_data":348},"model":"civilization:item/wearable/cool_can/shiny"},
-        { "predicate": { "custom_model_data": 777 }, "model": "item/crown" },
-        {
-            "predicate": { "custom_model_data": 778 },
-            "model": "item/crown_cartoon"
-        },
-        {
-            "predicate": { "custom_model_data": 779 },
-            "model": "item/rabbit_hat"
-        },
-        {
-            "predicate": { "custom_model_data": 780 },
-            "model": "item/cowboy_hat"
-        },
-        {
-            "predicate": { "custom_model_data": 6000 },
-            "model": "kssp:hats/cowboy"
-        },
-        {
-            "predicate": { "custom_model_data": 6001 },
-            "model": "kssp:hats/farmer"
-        },
-        {
-            "predicate": { "custom_model_data": 6002 },
-            "model": "kssp:hats/gibus"
-        },
-        {
-            "predicate": { "custom_model_data": 6003 },
-            "model": "kssp:hats/pile_of_hats"
-        },
-        {
-            "predicate": { "custom_model_data": 6004 },
-            "model": "kssp:hats/pirate"
-        },
-        {
-            "predicate": { "custom_model_data": 6005 },
-            "model": "kssp:hats/roman"
-        },
-        {
-            "predicate": { "custom_model_data": 6006 },
-            "model": "kssp:hats/stormtrooper"
-        },
-        {
-            "predicate": { "custom_model_data": 6007 },
-            "model": "kssp:hats/traffic_cone"
-        },
-        {
-            "predicate": { "custom_model_data": 6008 },
-            "model": "kssp:hats/ushanka"
-        },
-        {
-            "predicate": { "custom_model_data": 6009 },
-            "model": "item/darth_vader"
-        },
-        {
-            "predicate": { "custom_model_data": 6010 },
-            "model": "kssp:hats/beekeeper"
-        },
-        {
-            "predicate": { "custom_model_data": 6011 },
-            "model": "kssp:hats/archeology"
-        },
-        {
-            "predicate": { "custom_model_data": 6012 },
-            "model": "kssp:hats/helsing"
-        },
-        {
-            "predicate": { "custom_model_data": 6013 },
-            "model": "block/carved_pumpkin"
-        },
-        {
-            "predicate": { "custom_model_data": 6014 },
-            "model": "item/cicada1"
-        },
-        {
-            "predicate": { "custom_model_data": 6015 },
-            "model": "item/antlers"
-        },
-        {
-            "predicate": { "custom_model_data": 6016 },
-            "model": "item/santa_hat"
-        }
-    ]
+    {
+      "predicate": { "custom_model_data": 2 },
+      "model": "civilization:item/wearable/classhats/miner_helmet/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 3 },
+      "model": "civilization:item/wearable/classhats/warrior_helmet/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 4 },
+      "model": "civilization:item/wearable/king_crown"
+    },
+    {
+      "predicate": { "custom_model_data": 5 },
+      "model": "civilization:item/wearable/chainsaw_head/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 6 },
+      "model": "civilization:item/wearable/3d_glasses/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 7 },
+      "model": "civilization:item/wearable/elf_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 8 },
+      "model": "civilization:item/wearable/gingerbread_mask/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 9 },
+      "model": "civilization:item/wearable/cat_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 10 },
+      "model": "civilization:item/wearable/clown_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 11 },
+      "model": "civilization:item/wearable/cowboy_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 12 },
+      "model": "civilization:item/wearable/dragon_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 13 },
+      "model": "civilization:item/wearable/classhats/looter_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 14 },
+      "model": "civilization:item/wearable/frog_bucket_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 15 },
+      "model": "civilization:item/wearable/gamer_headphones/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 16 },
+      "model": "civilization:item/wearable/glow_squid_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 17 },
+      "model": "civilization:item/wearable/spartan_helmet/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 18 },
+      "model": "civilization:item/wearable/halo/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 19 },
+      "model": "civilization:item/wearable/classhats/archer_hood/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 20 },
+      "model": "civilization:item/wearable/panda_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 21 },
+      "model": "civilization:item/wearable/penguin_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 22 },
+      "model": "civilization:item/wearable/pharaoh_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 23 },
+      "model": "civilization:item/wearable/pirate_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 24 },
+      "model": "civilization:item/wearable/propeller_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 25 },
+      "model": "civilization:item/wearable/scuba_gear/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 26 },
+      "model": "civilization:item/wearable/default_helmet/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 27 },
+      "model": "civilization:item/wearable/tiki_head/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 28 },
+      "model": "civilization:item/wearable/wizard_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 29 },
+      "model": "civilization:item/wearable/wolf_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 30 },
+      "model": "civilization:item/wearable/reindeer_antlers/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 31 },
+      "model": "civilization:item/wearable/knight_helmet/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 32 },
+      "model": "civilization:item/wearable/santa_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 33 },
+      "model": "civilization:item/wearable/snowman_head/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 34 },
+      "model": "civilization:item/wearable/mushroom_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 35 },
+      "model": "civilization:item/wearable/shark_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 36 },
+      "model": "civilization:item/wearable/samurai_helmet/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 37 },
+      "model": "civilization:item/wearable/krampus_head/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 38 },
+      "model": "civilization:item/wearable/cyberpunk_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 39 },
+      "model": "civilization:item/wearable/meme_sunglasses"
+    },
+    {
+      "predicate": { "custom_model_data": 40 },
+      "model": "civilization:item/wearable/beta_tester_helmet/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 41 },
+      "model": "civilization:item/wearable/dimmadome_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 42 },
+      "model": "civilization:item/wearable/throir_goggles"
+    },
+    {
+      "predicate": { "custom_model_data": 43 },
+      "model": "civilization:item/wearable/astronaut_helmet/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 44 },
+      "model": "civilization:item/wearable/burger_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 45 },
+      "model": "civilization:item/wearable/frankenstein_head/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 46 },
+      "model": "civilization:item/wearable/chef_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 47 },
+      "model": "civilization:item/wearable/jack_o_lantern_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 48 },
+      "model": "civilization:item/wearable/killer_mask/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 49 },
+      "model": "civilization:item/wearable/king_frog/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 50 },
+      "model": "civilization:item/wearable/plague_doctor_mask/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 51 },
+      "model": "civilization:item/wearable/sombrero/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 52 },
+      "model": "civilization:item/wearable/trapper_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 53 },
+      "model": "civilization:item/wearable/3d_glasses/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 54 },
+      "model": "civilization:item/wearable/classhats/archer_hood/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 55 },
+      "model": "civilization:item/wearable/astronaut_helmet/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 56 },
+      "model": "civilization:item/wearable/beta_tester_helmet/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 57 },
+      "model": "civilization:item/wearable/burger_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 58 },
+      "model": "civilization:item/wearable/cat_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 59 },
+      "model": "civilization:item/wearable/clown_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 60 },
+      "model": "civilization:item/wearable/cowboy_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 61 },
+      "model": "civilization:item/wearable/default_helmet/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 62 },
+      "model": "civilization:item/wearable/dragon_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 63 },
+      "model": "civilization:item/wearable/frankenstein_head/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 64 },
+      "model": "civilization:item/wearable/gamer_headphones/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 65 },
+      "model": "civilization:item/wearable/glow_squid_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 66 },
+      "model": "civilization:item/wearable/chef_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 67 },
+      "model": "civilization:item/wearable/jack_o_lantern_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 68 },
+      "model": "civilization:item/wearable/killer_mask/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 69 },
+      "model": "civilization:item/wearable/king_frog/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 70 },
+      "model": "civilization:item/wearable/knight_helmet/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 71 },
+      "model": "civilization:item/wearable/classhats/looter_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 72 },
+      "model": "civilization:item/wearable/classhats/miner_helmet/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 73 },
+      "model": "civilization:item/wearable/mushroom_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 74 },
+      "model": "civilization:item/wearable/panda_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 75 },
+      "model": "civilization:item/wearable/penguin_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 76 },
+      "model": "civilization:item/wearable/pharaoh_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 77 },
+      "model": "civilization:item/wearable/pirate_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 78 },
+      "model": "civilization:item/wearable/plague_doctor_mask/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 79 },
+      "model": "civilization:item/wearable/samurai_helmet/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 80 },
+      "model": "civilization:item/wearable/scuba_gear/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 81 },
+      "model": "civilization:item/wearable/shark_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 82 },
+      "model": "civilization:item/wearable/sombrero/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 83 },
+      "model": "civilization:item/wearable/tiki_head/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 84 },
+      "model": "civilization:item/wearable/trapper_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 85 },
+      "model": "civilization:item/wearable/classhats/warrior_helmet/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 86 },
+      "model": "civilization:item/wearable/wizard_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 87 },
+      "model": "civilization:item/wearable/wolf_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 88 },
+      "model": "civilization:item/wearable/dimmadome_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 89 },
+      "model": "civilization:item/wearable/frog_bucket_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 90 },
+      "model": "civilization:item/wearable/halo/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 91 },
+      "model": "civilization:item/wearable/chainsaw_head/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 92 },
+      "model": "civilization:item/wearable/propeller_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 93 },
+      "model": "civilization:item/wearable/spartan_helmet/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 94 },
+      "model": "civilization:item/wearable/gingerbread_mask/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 95 },
+      "model": "civilization:item/wearable/krampus_head/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 96 },
+      "model": "civilization:item/wearable/cyberpunk_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 97 },
+      "model": "civilization:item/wearable/reindeer_antlers/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 98 },
+      "model": "civilization:item/wearable/santa_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 99 },
+      "model": "civilization:item/wearable/snowman_head/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 100 },
+      "model": "civilization:item/wearable/jester_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 101 },
+      "model": "civilization:item/wearable/elf_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 102 },
+      "model": "civilization:item/wearable/frostbite_helmet/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 103 },
+      "model": "civilization:item/wearable/frostbite_helmet/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 104 },
+      "model": "civilization:item/wearable/jester_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 105 },
+      "model": "civilization:item/wearable/alien_head_muncher/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 106 },
+      "model": "civilization:item/wearable/alien_head_muncher/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 107 },
+      "model": "civilization:item/wearable/drink_hat_number_1/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 108 },
+      "model": "civilization:item/wearable/drink_hat_number_1/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 109 },
+      "model": "civilization:item/wearable/taco_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 110 },
+      "model": "civilization:item/wearable/taco_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 111 },
+      "model": "civilization:item/wearable/top_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 112 },
+      "model": "civilization:item/wearable/top_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 113 },
+      "model": "civilization:item/wearable/pufferfish_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 114 },
+      "model": "civilization:item/wearable/cupid_arrow_headband/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 115 },
+      "model": "civilization:item/wearable/cupid_arrow_headband/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 116 },
+      "model": "civilization:item/wearable/flamingo_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 117 },
+      "model": "civilization:item/wearable/flamingo_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 118 },
+      "model": "civilization:item/wearable/flower_crown/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 119 },
+      "model": "civilization:item/wearable/flower_crown/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 120 },
+      "model": "civilization:item/wearable/heart_glasses/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 121 },
+      "model": "civilization:item/wearable/heart_glasses/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 122 },
+      "model": "civilization:item/wearable/heart_headband/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 123 },
+      "model": "civilization:item/wearable/heart_headband/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 124 },
+      "model": "civilization:item/wearable/valentines_bear_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 125 },
+      "model": "civilization:item/wearable/valentines_bear_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 126 },
+      "model": "civilization:item/wearable/pufferfish_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 127 },
+      "model": "civilization:item/wearable/sunflower_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 128 },
+      "model": "civilization:item/wearable/sunflower_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 129 },
+      "model": "civilization:item/wearable/cat_ears/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 130 },
+      "model": "civilization:item/wearable/cat_ears/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 131 },
+      "model": "civilization:item/wearable/valentines_knight/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 132 },
+      "model": "civilization:item/wearable/valentines_knight/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 133 },
+      "model": "civilization:item/wearable/valentines_warrior/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 134 },
+      "model": "civilization:item/wearable/valentines_warrior/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 135 },
+      "model": "civilization:item/wearable/sculk_monster_mouth/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 136 },
+      "model": "civilization:item/wearable/sculk_monster_mouth/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 137 },
+      "model": "civilization:item/wearable/sculk_creeper_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 138 },
+      "model": "civilization:item/wearable/sculk_creeper_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 139 },
+      "model": "civilization:item/wearable/warden_horns/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 140 },
+      "model": "civilization:item/wearable/warden_horns/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 141 },
+      "model": "civilization:item/wearable/baby_warden_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 142 },
+      "model": "civilization:item/wearable/baby_warden_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 143 },
+      "model": "civilization:item/wearable/giant_warden_head/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 144 },
+      "model": "civilization:item/wearable/giant_warden_head/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 145 },
+      "model": "civilization:item/wearable/warden_bucket_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 146 },
+      "model": "civilization:item/wearable/warden_bucket_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 147 },
+      "model": "civilization:item/wearable/warden_crown/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 148 },
+      "model": "civilization:item/wearable/warden_crown/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 149 },
+      "model": "civilization:item/wearable/warden_knight_helmet/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 150 },
+      "model": "civilization:item/wearable/warden_knight_helmet/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 151 },
+      "model": "civilization:item/wearable/warden_warriors_helmet/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 152 },
+      "model": "civilization:item/wearable/warden_warriors_helmet/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 153 },
+      "model": "civilization:item/wearable/warden_wizard_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 154 },
+      "model": "civilization:item/wearable/warden_wizard_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 155 },
+      "model": "civilization:item/wearable/warden_sculk_crown/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 156 },
+      "model": "civilization:item/wearable/warden_sculk_crown/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 157 },
+      "model": "civilization:item/wearable/clam_crown/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 158 },
+      "model": "civilization:item/wearable/clam_crown/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 159 },
+      "model": "civilization:item/wearable/serpant_helmet/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 160 },
+      "model": "civilization:item/wearable/serpant_helmet/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 161 },
+      "model": "civilization:item/wearable/scuba_helmet/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 162 },
+      "model": "civilization:item/wearable/scuba_helmet/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 163 },
+      "model": "civilization:item/wearable/octopus_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 164 },
+      "model": "civilization:item/wearable/octopus_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 165 },
+      "model": "civilization:item/wearable/hotdog_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 166 },
+      "model": "civilization:item/wearable/hotdog_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 167 },
+      "model": "civilization:item/wearable/tv_head/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 168 },
+      "model": "civilization:item/wearable/tv_head/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 169 },
+      "model": "civilization:item/wearable/graduation_cap/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 170 },
+      "model": "civilization:item/wearable/graduation_cap/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 171 },
+      "model": "civilization:item/wearable/kitty_headset/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 172 },
+      "model": "civilization:item/wearable/kitty_headset/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 173 },
+      "model": "civilization:item/wearable/plunger_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 174 },
+      "model": "civilization:item/wearable/plunger_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 175 },
+      "model": "civilization:item/wearable/axolotl_cap/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 176 },
+      "model": "civilization:item/wearable/axolotl_cap/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 177 },
+      "model": "civilization:item/wearable/box_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 178 },
+      "model": "civilization:item/wearable/box_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 179 },
+      "model": "civilization:item/wearable/qa_wrench_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 180 },
+      "model": "civilization:item/wearable/qa_wrench_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 181 },
+      "model": "civilization:item/wearable/shark_fin/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 182 },
+      "model": "civilization:item/wearable/shark_fin/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 183 },
+      "model": "civilization:item/wearable/translator_globe/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 184 },
+      "model": "civilization:item/wearable/translator_globe/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 185 },
+      "model": "civilization:item/wearable/ram_horns/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 186 },
+      "model": "civilization:item/wearable/ram_horns/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 187 },
+      "model": "civilization:item/tools/dragon_skull"
+    },
+    {
+      "predicate": { "custom_model_data": 188 },
+      "model": "civilization:item/wearable/banana_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 189 },
+      "model": "civilization:item/wearable/banana_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 190 },
+      "model": "civilization:item/wearable/guardian_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 191 },
+      "model": "civilization:item/wearable/guardian_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 192 },
+      "model": "civilization:item/wearable/jellyfish_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 193 },
+      "model": "civilization:item/wearable/jellyfish_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 194 },
+      "model": "civilization:item/wearable/valkyrie_helmet/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 195 },
+      "model": "civilization:item/wearable/valkyrie_helmet/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 196 },
+      "model": "civilization:item/wearable/nemo/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 197 },
+      "model": "civilization:item/wearable/nemo/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 198 },
+      "model": "civilization:item/wearable/angler_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 199 },
+      "model": "civilization:item/wearable/angler_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 200 },
+      "model": "civilization:item/wearable/fisherman_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 201 },
+      "model": "civilization:item/wearable/fisherman_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 202 },
+      "model": "civilization:item/wearable/piglin_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 203 },
+      "model": "civilization:item/wearable/piglin_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 204 },
+      "model": "civilization:item/wearable/red_devil_horns/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 205 },
+      "model": "civilization:item/wearable/red_devil_horns/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 206 },
+      "model": "civilization:item/wearable/flaming_spartan_helmet/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 207 },
+      "model": "civilization:item/wearable/flaming_spartan_helmet/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 208 },
+      "model": "civilization:item/wearable/flaming_skull/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 209 },
+      "model": "civilization:item/wearable/flaming_skull/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 210 },
+      "model": "civilization:item/wearable/lava_hound/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 211 },
+      "model": "civilization:item/wearable/lava_hound/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 212 },
+      "model": "civilization:item/wearable/lava_witch_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 213 },
+      "model": "civilization:item/wearable/lava_witch_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 214 },
+      "model": "civilization:item/wearable/magma_cowboy_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 215 },
+      "model": "civilization:item/wearable/magma_cowboy_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 216 },
+      "model": "civilization:item/wearable/nether_mushroom_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 217 },
+      "model": "civilization:item/wearable/nether_mushroom_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 218 },
+      "model": "civilization:item/wearable/gerald_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 219 },
+      "model": "civilization:item/wearable/gerald_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 220 },
+      "model": "civilization:item/wearable/shulker_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 221 },
+      "model": "civilization:item/wearable/shulker_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 222 },
+      "model": "civilization:item/wearable/turkey_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 223 },
+      "model": "civilization:item/wearable/turkey_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 224 },
+      "model": "civilization:item/wearable/brain_jar/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 225 },
+      "model": "civilization:item/wearable/brain_jar/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 226 },
+      "model": "civilization:item/wearable/breather_mask/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 227 },
+      "model": "civilization:item/wearable/breather_mask/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 228 },
+      "model": "civilization:item/wearable/cookie_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 229 },
+      "model": "civilization:item/wearable/cookie_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 230 },
+      "model": "civilization:item/wearable/corrupted_enderman_skull/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 231 },
+      "model": "civilization:item/wearable/corrupted_enderman_skull/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 232 },
+      "model": "civilization:item/wearable/ender_miner_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 233 },
+      "model": "civilization:item/wearable/ender_miner_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 234 },
+      "model": "civilization:item/wearable/enderman_top_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 235 },
+      "model": "civilization:item/wearable/enderman_top_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 236 },
+      "model": "civilization:item/wearable/gas_mask/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 237 },
+      "model": "civilization:item/wearable/gas_mask/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 238 },
+      "model": "civilization:item/wearable/night_vision_goggles/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 239 },
+      "model": "civilization:item/wearable/night_vision_goggles/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 240 },
+      "model": "civilization:item/wearable/pylon_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 241 },
+      "model": "civilization:item/wearable/pylon_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 242 },
+      "model": "civilization:item/wearable/sunflower_crown/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 243 },
+      "model": "civilization:item/wearable/sunflower_crown/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 244 },
+      "model": "civilization:item/wearable/toothful_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 245 },
+      "model": "civilization:item/wearable/toothful_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 246 },
+      "model": "civilization:item/wearable/unicorn_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 247 },
+      "model": "civilization:item/wearable/unicorn_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 248 },
+      "model": "civilization:item/wearable/cyber_dragon_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 249 },
+      "model": "civilization:item/wearable/cyber_dragon_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 250 },
+      "model": "civilization:item/wearable/elite_warrior_helmet/1"
+    },
+    {
+      "predicate": { "custom_model_data": 251 },
+      "model": "civilization:item/wearable/elite_warrior_helmet/2"
+    },
+    {
+      "predicate": { "custom_model_data": 252 },
+      "model": "civilization:item/wearable/elite_warrior_helmet/3"
+    },
+    {
+      "predicate": { "custom_model_data": 253 },
+      "model": "civilization:item/wearable/elite_warrior_helmet/4"
+    },
+    {
+      "predicate": { "custom_model_data": 254 },
+      "model": "civilization:item/wearable/elite_warrior_helmet/5"
+    },
+    {
+      "predicate": { "custom_model_data": 255 },
+      "model": "civilization:item/wearable/elite_warrior_helmet/6"
+    },
+    {
+      "predicate": { "custom_model_data": 256 },
+      "model": "civilization:item/wearable/crocodile_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 257 },
+      "model": "civilization:item/wearable/crocodile_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 258 },
+      "model": "civilization:item/wearable/football_helmet/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 259 },
+      "model": "civilization:item/wearable/football_helmet/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 260 },
+      "model": "civilization:item/wearable/nemean_mane/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 261 },
+      "model": "civilization:item/wearable/nemean_mane/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 262 },
+      "model": "civilization:item/wearable/toque/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 263 },
+      "model": "civilization:item/wearable/toque/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 264 },
+      "model": "civilization:item/wearable/artemis_crown/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 265 },
+      "model": "civilization:item/wearable/artemis_crown/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 266 },
+      "model": "civilization:item/wearable/corinthian_helm/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 267 },
+      "model": "civilization:item/wearable/corinthian_helm/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 268 },
+      "model": "civilization:item/wearable/golden_headpiece/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 269 },
+      "model": "civilization:item/wearable/golden_headpiece/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 270 },
+      "model": "civilization:item/wearable/laurel_wreath/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 271 },
+      "model": "civilization:item/wearable/laurel_wreath/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 272 },
+      "model": "civilization:item/wearable/zeus_bolt/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 273 },
+      "model": "civilization:item/wearable/zeus_bolt/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 274 },
+      "model": "civilization:item/wearable/aviator_cap/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 275 },
+      "model": "civilization:item/wearable/aviator_cap/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 276 },
+      "model": "civilization:item/wearable/dingle_mask/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 277 },
+      "model": "civilization:item/wearable/dingle_mask/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 278 },
+      "model": "civilization:item/wearable/steampunk_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 279 },
+      "model": "civilization:item/wearable/steampunk_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 280 },
+      "model": "civilization:item/wearable/wolf_fur_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 281 },
+      "model": "civilization:item/wearable/wolf_fur_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 282 },
+      "model": "civilization:item/wearable/sailor_cap/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 283 },
+      "model": "civilization:item/wearable/sailor_cap/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 284 },
+      "model": "civilization:item/wearable/rainbow_earmuffs/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 285 },
+      "model": "civilization:item/wearable/rainbow_earmuffs/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 286 },
+      "model": "civilization:item/wearable/viking_beard/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 287 },
+      "model": "civilization:item/wearable/viking_beard/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 288 },
+      "model": "civilization:item/wearable/medusa_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 289 },
+      "model": "civilization:item/wearable/medusa_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 290 },
+      "model": "civilization:item/wearable/ash_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 291 },
+      "model": "civilization:item/wearable/ash_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 292 },
+      "model": "civilization:item/wearable/cute_bow/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 293 },
+      "model": "civilization:item/wearable/cute_bow/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 294 },
+      "model": "civilization:item/wearable/twitch_cap"
+    },
+    {
+      "predicate": { "custom_model_data": 295 },
+      "model": "civilization:item/wearable/beanie/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 296 },
+      "model": "civilization:item/wearable/beanie/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 297 },
+      "model": "civilization:item/wearable/egg_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 298 },
+      "model": "civilization:item/wearable/egg_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 299 },
+      "model": "civilization:item/wearable/hat_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 300 },
+      "model": "civilization:item/wearable/hat_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 301 },
+      "model": "civilization:item/wearable/pine_cap/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 302 },
+      "model": "civilization:item/wearable/pine_cap/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 303 },
+      "model": "civilization:item/wearable/pot_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 304 },
+      "model": "civilization:item/wearable/pot_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 305 },
+      "model": "civilization:item/wearable/straw_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 306 },
+      "model": "civilization:item/wearable/straw_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 307 },
+      "model": "civilization:item/wearable/bat_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 308 },
+      "model": "civilization:item/wearable/bat_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 309 },
+      "model": "civilization:item/wearable/axe_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 310 },
+      "model": "civilization:item/wearable/axe_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 311 },
+      "model": "civilization:item/wearable/eyeball_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 312 },
+      "model": "civilization:item/wearable/eyeball_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 313 },
+      "model": "civilization:item/wearable/mummy_mask/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 314 },
+      "model": "civilization:item/wearable/mummy_mask/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 315 },
+      "model": "civilization:item/wearable/pumpkin_headband/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 316 },
+      "model": "civilization:item/wearable/pumpkin_headband/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 317 },
+      "model": "civilization:item/wearable/scream_mask/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 318 },
+      "model": "civilization:item/wearable/scream_mask/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 319 },
+      "model": "civilization:item/wearable/spider_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 320 },
+      "model": "civilization:item/wearable/spider_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 321 },
+      "model": "civilization:item/wearable/1year_cake_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 322 },
+      "model": "civilization:item/wearable/1year_cake_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 323 },
+      "model": "civilization:item/wearable/bat_wings_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 324 },
+      "model": "civilization:item/wearable/bat_wings_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 325 },
+      "model": "civilization:item/wearable/camera_hat/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 326 },
+      "model": "civilization:item/wearable/camera_hat/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 327 },
+      "model": "civilization:item/wearable/vr_headset/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 328 },
+      "model": "civilization:item/wearable/vr_headset/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 329 },
+      "model": "civilization:item/wearable/snowstorm_helm/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 330 },
+      "model": "civilization:item/wearable/snowstorm_helm/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 331 },
+      "model": "civilization:item/wearable/slime_control/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 332 },
+      "model": "civilization:item/wearable/slime_control/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 333 },
+      "model": "civilization:item/wearable/silly_glasses/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 334 },
+      "model": "civilization:item/wearable/silly_glasses/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 335 },
+      "model": "civilization:item/wearable/pirate_polly/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 336 },
+      "model": "civilization:item/wearable/pirate_polly/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 337 },
+      "model": "civilization:item/wearable/piranha_troubles/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 338 },
+      "model": "civilization:item/wearable/piranha_troubles/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 339 },
+      "model": "civilization:item/wearable/idiot_sandwich/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 340 },
+      "model": "civilization:item/wearable/idiot_sandwich/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 341 },
+      "model": "civilization:item/wearable/ice_crown/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 342 },
+      "model": "civilization:item/wearable/ice_crown/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 343 },
+      "model": "civilization:item/wearable/heart_eyes_emoji/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 344 },
+      "model": "civilization:item/wearable/heart_eyes_emoji/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 345 },
+      "model": "civilization:item/wearable/gnome_rider/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 346 },
+      "model": "civilization:item/wearable/gnome_rider/shiny"
+    },
+    {
+      "predicate": { "custom_model_data": 347 },
+      "model": "civilization:item/wearable/cool_can/normal"
+    },
+    {
+      "predicate": { "custom_model_data": 348 },
+      "model": "civilization:item/wearable/cool_can/shiny"
+    },
+    { "predicate": { "custom_model_data": 777 }, "model": "item/crown" },
+    {
+      "predicate": { "custom_model_data": 778 },
+      "model": "item/crown_cartoon"
+    },
+    {
+      "predicate": { "custom_model_data": 779 },
+      "model": "item/rabbit_hat"
+    },
+    {
+      "predicate": { "custom_model_data": 780 },
+      "model": "item/cowboy_hat"
+    },
+    {
+      "predicate": { "custom_model_data": 6000 },
+      "model": "kssp:hats/cowboy"
+    },
+    {
+      "predicate": { "custom_model_data": 6001 },
+      "model": "kssp:hats/farmer"
+    },
+    {
+      "predicate": { "custom_model_data": 6002 },
+      "model": "kssp:hats/gibus"
+    },
+    {
+      "predicate": { "custom_model_data": 6003 },
+      "model": "kssp:hats/pile_of_hats"
+    },
+    {
+      "predicate": { "custom_model_data": 6004 },
+      "model": "kssp:hats/pirate"
+    },
+    {
+      "predicate": { "custom_model_data": 6005 },
+      "model": "kssp:hats/roman"
+    },
+    {
+      "predicate": { "custom_model_data": 6006 },
+      "model": "kssp:hats/stormtrooper"
+    },
+    {
+      "predicate": { "custom_model_data": 6007 },
+      "model": "kssp:hats/traffic_cone"
+    },
+    {
+      "predicate": { "custom_model_data": 6008 },
+      "model": "kssp:hats/ushanka"
+    },
+    {
+      "predicate": { "custom_model_data": 6009 },
+      "model": "item/darth_vader"
+    },
+    {
+      "predicate": { "custom_model_data": 6010 },
+      "model": "kssp:hats/beekeeper"
+    },
+    {
+      "predicate": { "custom_model_data": 6011 },
+      "model": "kssp:hats/archeology"
+    },
+    {
+      "predicate": { "custom_model_data": 6012 },
+      "model": "kssp:hats/helsing"
+    },
+    {
+      "predicate": { "custom_model_data": 6013 },
+      "model": "block/carved_pumpkin"
+    },
+    {
+      "predicate": { "custom_model_data": 6014 },
+      "model": "item/cicada1"
+    },
+    {
+      "predicate": { "custom_model_data": 6015 },
+      "model": "item/antlers"
+    },
+    {
+      "predicate": { "custom_model_data": 6016 },
+      "model": "item/santa_hat"
+    },
+    {
+      "predicate": { "custom_model_data": 6017 },
+      "model": "origin:custom/cosmetics/stellar_hat/stellar_hat"
+    }
+  ]
 }

@@ -48,12 +48,6 @@
         },
         {
             "predicate": {
-              "custom_model_data": 1963
-            },
-            "model": "minecraft:item/revolver"
-        },
-        {
-            "predicate": {
                 "custom_model_data": 995
             },
             "model": "civilization:item/tools/poseidon_trident/normal/default"
@@ -117,6 +111,12 @@
                 "custom_model_data": 997
             },
             "model": "civilization:item/tools/shrink_ray/normal/pulling/4"
+        },
+        {
+            "predicate": {
+              "custom_model_data": 1963
+            },
+            "model": "minecraft:item/revolver"
         },
         {
             "predicate": {
