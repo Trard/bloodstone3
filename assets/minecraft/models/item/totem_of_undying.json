@@ -24,6 +24,12 @@
     },
     {
       "predicate": {
+        "custom_model_data": 91
+      },
+      "model": "minecraft:item/dark_cross_totem"
+    },
+    {
+      "predicate": {
         "custom_model_data": 92
       },
       "model": "minecraft:item/wither_totem"
