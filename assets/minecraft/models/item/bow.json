@@ -114,9 +114,32 @@
         },
         {
             "predicate": {
-              "custom_model_data": 1963
+                "custom_model_data": 1963
             },
-            "model": "minecraft:item/revolver"
+            "model": "minecraft:item/revolver/default"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "custom_model_data": 1963
+            },
+            "model": "minecraft:item/revolver/pulling/0"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.55,
+                "custom_model_data": 1963
+            },
+            "model": "minecraft:item/revolver/pulling/1"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.9,
+                "custom_model_data": 1963
+            },
+            "model": "minecraft:item/revolver/pulling/2"
         },
         {
             "predicate": {
