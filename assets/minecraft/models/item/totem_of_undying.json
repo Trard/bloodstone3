@@ -168,6 +168,18 @@
     },
     {
       "predicate": {
+        "custom_model_data": 1019
+      },
+      "model": "minecraft:item/totems/ynroh"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2020
+      },
+      "model": "minecraft:item/totems/nullisse"
+    },
+    {
+      "predicate": {
         "custom_model_data": 5001
       },
       "model": "minecraft:item/eggs/1"
