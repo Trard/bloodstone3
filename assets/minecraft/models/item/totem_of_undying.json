@@ -54,6 +54,12 @@
     },
     {
       "predicate": {
+        "custom_model_data": 666
+      },
+      "model": "minecraft:item/infected_totem"
+    },
+    {
+      "predicate": {
         "custom_model_data": 1000
       },
       "model": "minecraft:item/totems/trard"
@@ -174,9 +180,21 @@
     },
     {
       "predicate": {
-        "custom_model_data": 2020
+        "custom_model_data": 1020
       },
       "model": "minecraft:item/totems/nullisse"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1021
+      },
+      "model": "minecraft:item/totems/iwtdie"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1022
+      },
+      "model": "minecraft:item/totems/ilysanata"
     },
     {
       "predicate": {
