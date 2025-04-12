@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/toothful_hat/toothful_hat","textures":{"0":"civilization:item/wearable/toothful_hat","particle":"civilization:item/wearable/toothful_hat"}}
+{"parent":"civilization:item/wearable/toothful_hat/base","textures":{"0":"civilization:item/wearable/toothful_hat/normal","particle":"civilization:item/wearable/toothful_hat/normal"}}

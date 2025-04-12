@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/cat_ears/cat_ears","textures":{"0":"civilization:item/wearable/cat_ears","particle":"civilization:item/wearable/cat_ears"}}
+{"parent":"civilization:item/wearable/cat_ears/base","textures":{"0":"civilization:item/wearable/cat_ears/normal","particle":"civilization:item/wearable/cat_ears/normal"}}

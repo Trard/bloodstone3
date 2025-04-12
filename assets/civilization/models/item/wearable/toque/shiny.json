@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/toque/toque","textures":{"0":"civilization:item/wearable/toque_shiny","particle":"civilization:item/wearable/toque_shiny"}}
+{"parent":"civilization:item/wearable/toque/base","textures":{"0":"civilization:item/wearable/toque/shiny","particle":"civilization:item/wearable/toque/shiny"}}

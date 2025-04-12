@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/sailor_cap/sailor_cap","textures":{"0":"civilization:item/wearable/sailor_cap","particle":"civilization:item/wearable/sailor_cap"}}
+{"parent":"civilization:item/wearable/sailor_cap/base","textures":{"0":"civilization:item/wearable/sailor_cap/normal","particle":"civilization:item/wearable/sailor_cap/normal"}}

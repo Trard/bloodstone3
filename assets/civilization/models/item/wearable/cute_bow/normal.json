@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/cute_bow/cute_bow","textures":{"0":"civilization:item/wearable/cute_bow","particle":"civilization:item/wearable/cute_bow"}}
+{"parent":"civilization:item/wearable/cute_bow/base","textures":{"0":"civilization:item/wearable/cute_bow/normal","particle":"civilization:item/wearable/cute_bow/normal"}}

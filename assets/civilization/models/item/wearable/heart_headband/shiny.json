@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/heart_headband/heart_headband","textures":{"0":"civilization:item/wearable/heart_headband_shiny","particle":"civilization:item/wearable/heart_headband_shiny"}}
+{"parent":"civilization:item/wearable/heart_headband/base","textures":{"0":"civilization:item/wearable/heart_headband/shiny","particle":"civilization:item/wearable/heart_headband/shiny"}}

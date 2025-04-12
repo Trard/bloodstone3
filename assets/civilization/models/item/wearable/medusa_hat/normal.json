@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/medusa_hat/medusa_hat","textures":{"0":"civilization:item/wearable/medusa_hat","particle":"civilization:item/wearable/medusa_hat"}}
+{"parent":"civilization:item/wearable/medusa_hat/base","textures":{"0":"civilization:item/wearable/medusa_hat/normal","particle":"civilization:item/wearable/medusa_hat/normal"}}

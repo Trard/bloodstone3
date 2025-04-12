@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/pirate_polly/pirate_polly","textures":{"0":"civilization:item/wearable/pirate_polly_shiny","particle":"civilization:item/wearable/pirate_polly_shiny"}}
+{"parent":"civilization:item/wearable/pirate_polly/base","textures":{"0":"civilization:item/wearable/pirate_polly/shiny","particle":"civilization:item/wearable/pirate_polly/shiny"}}

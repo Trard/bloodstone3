@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/baby_warden_hat/baby_warden_hat","textures":{"0":"civilization:item/wearable/baby_warden_hat_shiny","particle":"civilization:item/wearable/baby_warden_hat_shiny"}}
+{"parent":"civilization:item/wearable/baby_warden_hat/base","textures":{"0":"civilization:item/wearable/baby_warden_hat/shiny","particle":"civilization:item/wearable/baby_warden_hat/shiny"}}

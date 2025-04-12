@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/silly_glasses/silly_glasses","textures":{"0":"civilization:item/wearable/silly_glasses","particle":"civilization:item/wearable/silly_glasses"}}
+{"parent":"civilization:item/wearable/silly_glasses/base","textures":{"0":"civilization:item/wearable/silly_glasses/normal","particle":"civilization:item/wearable/silly_glasses/normal"}}

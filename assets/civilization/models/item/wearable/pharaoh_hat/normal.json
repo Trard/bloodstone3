@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/pharaoh_hat/pharaoh_hat","textures":{"0":"civilization:item/wearable/pharaoh_hat","particle":"civilization:item/wearable/pharaoh_hat"}}
+{"parent":"civilization:item/wearable/pharaoh_hat/base","textures":{"0":"civilization:item/wearable/pharaoh_hat/normal","particle":"civilization:item/wearable/pharaoh_hat/normal"}}

@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/drink_hat_number_1/drink_hat_number_1","textures":{"0":"civilization:item/wearable/drink_hat_number_1","particle":"civilization:item/wearable/drink_hat_number_1"}}
+{"parent":"civilization:item/wearable/drink_hat_number_1/base","textures":{"0":"civilization:item/wearable/drink_hat_number_1/normal","particle":"civilization:item/wearable/drink_hat_number_1/normal"}}

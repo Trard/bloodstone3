@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/pine_cap/pine_cap","textures":{"0":"civilization:item/wearable/pine_cap_shiny","particle":"civilization:item/wearable/pine_cap_shiny"}}
+{"parent":"civilization:item/wearable/pine_cap/base","textures":{"0":"civilization:item/wearable/pine_cap/shiny","particle":"civilization:item/wearable/pine_cap/shiny"}}

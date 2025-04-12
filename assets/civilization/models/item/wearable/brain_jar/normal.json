@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/brain_jar/brain_jar","textures":{"0":"civilization:item/wearable/brain_jar","particle":"civilization:item/wearable/brain_jar"}}
+{"parent":"civilization:item/wearable/brain_jar/base","textures":{"0":"civilization:item/wearable/brain_jar/normal","particle":"civilization:item/wearable/brain_jar/normal"}}

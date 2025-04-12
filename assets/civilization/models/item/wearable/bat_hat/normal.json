@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/bat_hat/bat_hat","textures":{"0":"civilization:item/wearable/bat_hat","particle":"civilization:item/wearable/bat_hat"}}
+{"parent":"civilization:item/wearable/bat_hat/base","textures":{"0":"civilization:item/wearable/bat_hat/normal","particle":"civilization:item/wearable/bat_hat/normal"}}

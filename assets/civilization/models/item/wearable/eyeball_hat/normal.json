@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/eyeball_hat/eyeball_hat","textures":{"0":"civilization:item/wearable/eyeball_hat","particle":"civilization:item/wearable/eyeball_hat"}}
+{"parent":"civilization:item/wearable/eyeball_hat/base","textures":{"0":"civilization:item/wearable/eyeball_hat/normal","particle":"civilization:item/wearable/eyeball_hat/normal"}}

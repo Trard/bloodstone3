@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/reindeer_antlers/reindeer_antlers","textures":{"0":"civilization:item/wearable/reindeer_antlers_shiny","particle":"civilization:item/wearable/reindeer_antlers_shiny"}}
+{"parent":"civilization:item/wearable/reindeer_antlers/base","textures":{"0":"civilization:item/wearable/reindeer_antlers/shiny","particle":"civilization:item/wearable/reindeer_antlers/shiny"}}

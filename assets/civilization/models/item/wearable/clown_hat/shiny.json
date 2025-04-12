@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/clown_hat/clown_hat","textures":{"0":"civilization:item/wearable/clown_hat_shiny","particle":"civilization:item/wearable/clown_hat_shiny"}}
+{"parent":"civilization:item/wearable/clown_hat/base","textures":{"0":"civilization:item/wearable/clown_hat/shiny","particle":"civilization:item/wearable/clown_hat/shiny"}}

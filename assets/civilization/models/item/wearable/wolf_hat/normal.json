@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/wolf_hat/wolf_hat","textures":{"0":"civilization:item/wearable/wolf_hat","particle":"civilization:item/wearable/wolf_hat"}}
+{"parent":"civilization:item/wearable/wolf_hat/base","textures":{"0":"civilization:item/wearable/wolf_hat/normal","particle":"civilization:item/wearable/wolf_hat/normal"}}

@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/fisherman_hat/fisherman_hat","textures":{"0":"civilization:item/wearable/fisherman_hat","particle":"civilization:item/wearable/fisherman_hat"}}
+{"parent":"civilization:item/wearable/fisherman_hat/base","textures":{"0":"civilization:item/wearable/fisherman_hat/normal","particle":"civilization:item/wearable/fisherman_hat/normal"}}

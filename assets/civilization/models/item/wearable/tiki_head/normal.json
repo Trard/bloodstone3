@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/tiki_head/tiki_head","textures":{"0":"civilization:item/wearable/tiki_head","particle":"civilization:item/wearable/tiki_head"}}
+{"parent":"civilization:item/wearable/tiki_head/base","textures":{"0":"civilization:item/wearable/tiki_head/normal","particle":"civilization:item/wearable/tiki_head/normal"}}

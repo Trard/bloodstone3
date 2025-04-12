@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/beanie/beanie","textures":{"0":"civilization:item/wearable/beanie_shiny","particle":"civilization:item/wearable/beanie_shiny"}}
+{"parent":"civilization:item/wearable/beanie/base","textures":{"0":"civilization:item/wearable/beanie/shiny","particle":"civilization:item/wearable/beanie/shiny"}}

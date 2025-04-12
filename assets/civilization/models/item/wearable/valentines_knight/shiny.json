@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/valentines_knight/valentines_knight","textures":{"0":"civilization:item/wearable/valentines_knight_shiny","particle":"civilization:item/wearable/valentines_knight_shiny"}}
+{"parent":"civilization:item/wearable/valentines_knight/base","textures":{"0":"civilization:item/wearable/valentines_knight/shiny","particle":"civilization:item/wearable/valentines_knight/shiny"}}

@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/axolotl_cap/axolotl_cap","textures":{"0":"civilization:item/wearable/axolotl_cap_shiny","particle":"civilization:item/wearable/axolotl_cap_shiny"}}
+{"parent":"civilization:item/wearable/axolotl_cap/base","textures":{"0":"civilization:item/wearable/axolotl_cap/shiny","particle":"civilization:item/wearable/axolotl_cap/shiny"}}

@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/nemo/nemo","textures":{"0":"civilization:item/wearable/nemo_shiny","particle":"civilization:item/wearable/nemo_shiny"}}
+{"parent":"civilization:item/wearable/nemo/base","textures":{"0":"civilization:item/wearable/nemo/shiny","particle":"civilization:item/wearable/nemo/shiny"}}

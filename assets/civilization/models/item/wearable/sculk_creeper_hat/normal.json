@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/sculk_creeper_hat/sculk_creeper_hat","textures":{"0":"civilization:item/wearable/sculk_creeper_hat","particle":"civilization:item/wearable/sculk_creeper_hat"}}
+{"parent":"civilization:item/wearable/sculk_creeper_hat/base","textures":{"0":"civilization:item/wearable/sculk_creeper_hat/normal","particle":"civilization:item/wearable/sculk_creeper_hat/normal"}}

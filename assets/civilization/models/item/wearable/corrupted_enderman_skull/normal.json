@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/corrupted_enderman_skull/corrupted_enderman_skull","textures":{"0":"civilization:item/wearable/corrupted_enderman_skull","particle":"civilization:item/wearable/corrupted_enderman_skull"}}
+{"parent":"civilization:item/wearable/corrupted_enderman_skull/base","textures":{"0":"civilization:item/wearable/corrupted_enderman_skull/normal","particle":"civilization:item/wearable/corrupted_enderman_skull/normal"}}

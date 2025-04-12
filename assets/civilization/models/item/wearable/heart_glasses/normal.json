@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/heart_glasses/heart_glasses","textures":{"0":"civilization:item/wearable/heart_glasses","particle":"civilization:item/wearable/heart_glasses"}}
+{"parent":"civilization:item/wearable/heart_glasses/base","textures":{"0":"civilization:item/wearable/heart_glasses/normal","particle":"civilization:item/wearable/heart_glasses/normal"}}

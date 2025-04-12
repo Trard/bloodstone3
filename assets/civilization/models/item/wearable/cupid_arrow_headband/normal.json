@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/cupid_arrow_headband/cupid_arrow_headband","textures":{"0":"civilization:item/wearable/cupid_arrow_headband","particle":"civilization:item/wearable/cupid_arrow_headband"}}
+{"parent":"civilization:item/wearable/cupid_arrow_headband/base","textures":{"0":"civilization:item/wearable/cupid_arrow_headband/normal","particle":"civilization:item/wearable/cupid_arrow_headband/normal"}}

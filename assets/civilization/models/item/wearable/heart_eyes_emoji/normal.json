@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/heart_eyes_emoji/heart_eyes_emoji","textures":{"0":"civilization:item/wearable/heart_eyes_emoji","particle":"civilization:item/wearable/heart_eyes_emoji"}}
+{"parent":"civilization:item/wearable/heart_eyes_emoji/base","textures":{"0":"civilization:item/wearable/heart_eyes_emoji/normal","particle":"civilization:item/wearable/heart_eyes_emoji/normal"}}

@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/shulker_hat/shulker_hat","textures":{"0":"civilization:item/wearable/shulker_hat","particle":"civilization:item/wearable/shulker_hat"}}
+{"parent":"civilization:item/wearable/shulker_hat/base","textures":{"0":"civilization:item/wearable/shulker_hat/normal","particle":"civilization:item/wearable/shulker_hat/normal"}}

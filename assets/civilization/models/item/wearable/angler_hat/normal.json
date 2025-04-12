@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/angler_hat/angler_hat","textures":{"0":"civilization:item/wearable/angler_hat","particle":"civilization:item/wearable/angler_hat"}}
+{"parent":"civilization:item/wearable/angler_hat/base","textures":{"0":"civilization:item/wearable/angler_hat/normal","particle":"civilization:item/wearable/angler_hat/normal"}}

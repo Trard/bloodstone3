@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/warden_wizard_hat/warden_wizard_hat","textures":{"0":"civilization:item/wearable/warden_wizard_hat_shiny","particle":"civilization:item/wearable/warden_wizard_hat_shiny"}}
+{"parent":"civilization:item/wearable/warden_wizard_hat/base","textures":{"0":"civilization:item/wearable/warden_wizard_hat/shiny","particle":"civilization:item/wearable/warden_wizard_hat/shiny"}}

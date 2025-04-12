@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/shark_hat/shark_hat","textures":{"0":"civilization:item/wearable/shark_hat","particle":"civilization:item/wearable/shark_hat"}}
+{"parent":"civilization:item/wearable/shark_hat/base","textures":{"0":"civilization:item/wearable/shark_hat/normal","particle":"civilization:item/wearable/shark_hat/normal"}}

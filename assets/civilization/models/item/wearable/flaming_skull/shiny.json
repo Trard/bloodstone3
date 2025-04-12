@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/flaming_skull/flaming_skull","textures":{"0":"civilization:item/wearable/flaming_skull/shiny","particle":"civilization:item/wearable/flaming_skull/shiny"}}
+{"parent":"civilization:item/wearable/flaming_skull/base","textures":{"0":"civilization:item/wearable/flaming_skull/shiny","particle":"civilization:item/wearable/flaming_skull/shiny"}}

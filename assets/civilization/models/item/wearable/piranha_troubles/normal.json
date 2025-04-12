@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/piranha_troubles/piranha_troubles","textures":{"0":"civilization:item/wearable/piranha_troubles","particle":"civilization:item/wearable/piranha_troubles"}}
+{"parent":"civilization:item/wearable/piranha_troubles/base","textures":{"0":"civilization:item/wearable/piranha_troubles/normal","particle":"civilization:item/wearable/piranha_troubles/normal"}}

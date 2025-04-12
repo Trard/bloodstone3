@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/football_helmet/football_helmet","textures":{"0":"civilization:item/wearable/football_helmet_shiny","particle":"civilization:item/wearable/football_helmet_shiny"}}
+{"parent":"civilization:item/wearable/football_helmet/base","textures":{"0":"civilization:item/wearable/football_helmet/shiny","particle":"civilization:item/wearable/football_helmet/shiny"}}

@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/plunger_hat/plunger_hat","textures":{"0":"civilization:item/wearable/plunger_hat_shiny","particle":"civilization:item/wearable/plunger_hat_shiny"}}
+{"parent":"civilization:item/wearable/plunger_hat/base","textures":{"0":"civilization:item/wearable/plunger_hat/shiny","particle":"civilization:item/wearable/plunger_hat/shiny"}}

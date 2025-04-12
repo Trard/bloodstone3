@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/snowstorm_helm/snowstorm_helm","textures":{"0":"civilization:item/wearable/snowstorm_helm_shiny","1":"civilization:item/wearable/snowstorm_helm_anim_shiny","particle":"civilization:item/wearable/snowstorm_helm_shiny"}}
+{"parent":"civilization:item/wearable/snowstorm_helm/base","textures":{"0":"civilization:item/wearable/snowstorm_helm/shiny","1":"civilization:item/wearable/snowstorm_helm/anim_shiny","particle":"civilization:item/wearable/snowstorm_helm/shiny"}}

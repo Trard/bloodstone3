@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/lava_hound/lava_hound","textures":{"0":"civilization:item/wearable/lava_hound","particle":"civilization:item/wearable/lava_hound"}}
+{"parent":"civilization:item/wearable/lava_hound/base","textures":{"0":"civilization:item/wearable/lava_hound/normal","particle":"civilization:item/wearable/lava_hound/normal"}}

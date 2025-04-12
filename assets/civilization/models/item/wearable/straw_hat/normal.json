@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/straw_hat/straw_hat","textures":{"0":"civilization:item/wearable/straw_hat","particle":"civilization:item/wearable/straw_hat"}}
+{"parent":"civilization:item/wearable/straw_hat/base","textures":{"0":"civilization:item/wearable/straw_hat/normal","particle":"civilization:item/wearable/straw_hat/normal"}}

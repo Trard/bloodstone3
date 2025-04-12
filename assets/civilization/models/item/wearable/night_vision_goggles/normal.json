@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/night_vision_goggles/night_vision_goggles","textures":{"0":"civilization:item/wearable/night_vision_goggles","particle":"civilization:item/wearable/night_vision_goggles"}}
+{"parent":"civilization:item/wearable/night_vision_goggles/base","textures":{"0":"civilization:item/wearable/night_vision_goggles/normal","particle":"civilization:item/wearable/night_vision_goggles/normal"}}

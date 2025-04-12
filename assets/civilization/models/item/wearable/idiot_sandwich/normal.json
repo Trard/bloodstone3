@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/idiot_sandwich/idiot_sandwich","textures":{"0":"civilization:item/wearable/idiot_sandwich","particle":"civilization:item/wearable/idiot_sandwich"}}
+{"parent":"civilization:item/wearable/idiot_sandwich/base","textures":{"0":"civilization:item/wearable/idiot_sandwich/normal","particle":"civilization:item/wearable/idiot_sandwich/normal"}}

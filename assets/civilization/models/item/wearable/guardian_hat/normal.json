@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/guardian_hat/guardian_hat","textures":{"0":"civilization:item/wearable/guardian_hat","particle":"civilization:item/wearable/guardian_hat"}}
+{"parent":"civilization:item/wearable/guardian_hat/base","textures":{"0":"civilization:item/wearable/guardian_hat/normal","particle":"civilization:item/wearable/guardian_hat/normal"}}

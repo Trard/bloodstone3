@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/default_helmet/default_helmet","textures":{"0":"civilization:item/wearable/default_helmet","particle":"civilization:item/wearable/default_helmet"}}
+{"parent":"civilization:item/wearable/default_helmet/base","textures":{"0":"civilization:item/wearable/default_helmet/normal","particle":"civilization:item/wearable/default_helmet/normal"}}

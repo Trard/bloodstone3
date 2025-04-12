@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/scuba_helmet/scuba_helmet","textures":{"0":"civilization:item/wearable/scuba_helmet","particle":"civilization:item/wearable/scuba_helmet"}}
+{"parent":"civilization:item/wearable/scuba_helmet/base","textures":{"0":"civilization:item/wearable/scuba_helmet/normal","particle":"civilization:item/wearable/scuba_helmet/normal"}}

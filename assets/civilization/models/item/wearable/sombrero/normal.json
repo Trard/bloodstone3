@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/sombrero/sombrero","textures":{"0":"civilization:item/wearable/sombrero","particle":"civilization:item/wearable/sombrero"}}
+{"parent":"civilization:item/wearable/sombrero/base","textures":{"0":"civilization:item/wearable/sombrero/normal","particle":"civilization:item/wearable/sombrero/normal"}}

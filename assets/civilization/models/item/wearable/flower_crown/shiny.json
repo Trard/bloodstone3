@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/flower_crown/flower_crown","textures":{"0":"civilization:item/wearable/flower_crown_shiny","particle":"civilization:item/wearable/flower_crown_shiny"}}
+{"parent":"civilization:item/wearable/flower_crown/base","textures":{"0":"civilization:item/wearable/flower_crown/shiny","particle":"civilization:item/wearable/flower_crown/shiny"}}

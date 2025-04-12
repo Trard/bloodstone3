@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/spider_hat/spider_hat","textures":{"0":"civilization:item/wearable/spider_hat_shiny","particle":"civilization:item/wearable/spider_hat_shiny"}}
+{"parent":"civilization:item/wearable/spider_hat/base","textures":{"0":"civilization:item/wearable/spider_hat/shiny","particle":"civilization:item/wearable/spider_hat/shiny"}}

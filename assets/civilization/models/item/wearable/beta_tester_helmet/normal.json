@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/beta_tester_helmet/beta_tester_helmet","textures":{"0":"civilization:item/wearable/beta_tester_helmet","particle":"civilization:item/wearable/beta_tester_helmet"}}
+{"parent":"civilization:item/wearable/beta_tester_helmet/base","textures":{"0":"civilization:item/wearable/beta_tester_helmet/normal","particle":"civilization:item/wearable/beta_tester_helmet/normal"}}

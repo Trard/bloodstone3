@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/gnome_rider/gnome_rider","textures":{"0":"civilization:item/wearable/gnome_rider","particle":"civilization:item/wearable/gnome_rider"}}
+{"parent":"civilization:item/wearable/gnome_rider/base","textures":{"0":"civilization:item/wearable/gnome_rider/normal","particle":"civilization:item/wearable/gnome_rider/normal"}}

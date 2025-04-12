@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/jester_hat/jester_hat","textures":{"0":"civilization:item/wearable/jester_hat","particle":"civilization:item/wearable/jester_hat"}}
+{"parent":"civilization:item/wearable/jester_hat/base","textures":{"0":"civilization:item/wearable/jester_hat/normal","particle":"civilization:item/wearable/jester_hat/normal"}}

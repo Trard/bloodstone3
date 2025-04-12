@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/sunflower_crown/sunflower_crown","textures":{"0":"civilization:item/wearable/sunflower_crown","particle":"civilization:item/wearable/sunflower_crown"}}
+{"parent":"civilization:item/wearable/sunflower_crown/base","textures":{"0":"civilization:item/wearable/sunflower_crown/normal","particle":"civilization:item/wearable/sunflower_crown/normal"}}

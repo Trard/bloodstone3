@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/ram_horns/ram_horns","textures":{"0":"civilization:item/wearable/ram_horns","particle":"civilization:item/wearable/ram_horns"}}
+{"parent":"civilization:item/wearable/ram_horns/base","textures":{"0":"civilization:item/wearable/ram_horns/normal","particle":"civilization:item/wearable/ram_horns/normal"}}

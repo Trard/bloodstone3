@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/vr_headset/vr_headset","textures":{"0":"civilization:item/wearable/vr_headset_shiny","particle":"civilization:item/wearable/vr_headset_shiny"}}
+{"parent":"civilization:item/wearable/vr_headset/base","textures":{"0":"civilization:item/wearable/vr_headset/shiny","particle":"civilization:item/wearable/vr_headset/shiny"}}

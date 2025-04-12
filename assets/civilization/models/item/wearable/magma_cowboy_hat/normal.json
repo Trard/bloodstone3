@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/magma_cowboy_hat/magma_cowboy_hat","textures":{"0":"civilization:item/wearable/magma_cowboy_hat/normal","particle":"civilization:item/wearable/magma_cowboy_hat/normal"}}
+{"parent":"civilization:item/wearable/magma_cowboy_hat/base","textures":{"0":"civilization:item/wearable/magma_cowboy_hat/normal","particle":"civilization:item/wearable/magma_cowboy_hat/normal"}}

@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/taco_hat/taco_hat","textures":{"0":"civilization:item/wearable/taco_hat_shiny","particle":"civilization:item/wearable/taco_hat_shiny"}}
+{"parent":"civilization:item/wearable/taco_hat/base","textures":{"0":"civilization:item/wearable/taco_hat/shiny","particle":"civilization:item/wearable/taco_hat/shiny"}}

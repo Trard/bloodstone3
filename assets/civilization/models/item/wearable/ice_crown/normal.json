@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/ice_crown/ice_crown","textures":{"0":"civilization:item/wearable/ice_crown","particle":"civilization:item/wearable/ice_crown"}}
+{"parent":"civilization:item/wearable/ice_crown/base","textures":{"0":"civilization:item/wearable/ice_crown/normal","particle":"civilization:item/wearable/ice_crown/normal"}}

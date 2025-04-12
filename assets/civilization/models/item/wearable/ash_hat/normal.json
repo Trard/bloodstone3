@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/ash_hat/ash_hat","textures":{"0":"civilization:item/wearable/ash_hat","particle":"civilization:item/wearable/ash_hat"}}
+{"parent":"civilization:item/wearable/ash_hat/base","textures":{"0":"civilization:item/wearable/ash_hat/normal","particle":"civilization:item/wearable/ash_hat/normal"}}

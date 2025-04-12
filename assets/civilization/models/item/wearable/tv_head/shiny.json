@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/tv_head/tv_head","textures":{"0":"civilization:item/wearable/tv_head_shiny","particle":"civilization:item/wearable/tv_head_shiny"}}
+{"parent":"civilization:item/wearable/tv_head/base","textures":{"0":"civilization:item/wearable/tv_head/shiny","particle":"civilization:item/wearable/tv_head/shiny"}}

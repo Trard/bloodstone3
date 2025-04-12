@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/trapper_hat/trapper_hat","textures":{"0":"civilization:item/wearable/trapper_hat_shiny","particle":"civilization:item/wearable/trapper_hat_shiny"}}
+{"parent":"civilization:item/wearable/trapper_hat/base","textures":{"0":"civilization:item/wearable/trapper_hat/shiny","particle":"civilization:item/wearable/trapper_hat/shiny"}}

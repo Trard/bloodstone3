@@ -1,1 +1,1 @@
-{"parent":"civilization:item/tools/magma_club","gui_light":"front","display":{"gui":{"rotation":[0,0,-45],"translation":[8.5,8.5,0],"scale":[1.2,1.2,1.2]}}}
+{"parent":"civilization:item/tools/magma_club/normal","gui_light":"front","display":{"gui":{"rotation":[0,0,-45],"translation":[8.5,8.5,0],"scale":[1.2,1.2,1.2]}}}

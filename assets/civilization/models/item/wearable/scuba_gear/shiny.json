@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/scuba_gear/scuba_gear","textures":{"0":"civilization:item/wearable/scuba_gear_shiny","particle":"civilization:item/wearable/scuba_gear_shiny"}}
+{"parent":"civilization:item/wearable/scuba_gear/base","textures":{"0":"civilization:item/wearable/scuba_gear/shiny","particle":"civilization:item/wearable/scuba_gear/shiny"}}

@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/valentines_warrior/valentines_warrior","textures":{"0":"civilization:item/wearable/valentines_warrior","particle":"civilization:item/wearable/valentines_warrior"}}
+{"parent":"civilization:item/wearable/valentines_warrior/base","textures":{"0":"civilization:item/wearable/valentines_warrior/normal","particle":"civilization:item/wearable/valentines_warrior/normal"}}

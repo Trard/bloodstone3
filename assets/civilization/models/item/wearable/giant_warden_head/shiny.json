@@ -1,1 +1,1 @@
-{"parent":"civilization:item/wearable/giant_warden_head/giant_warden_head","textures":{"0":"civilization:item/wearable/giant_warden_head_shiny","particle":"civilization:item/wearable/giant_warden_head_shiny"}}
+{"parent":"civilization:item/wearable/giant_warden_head/base","textures":{"0":"civilization:item/wearable/giant_warden_head/shiny","particle":"civilization:item/wearable/giant_warden_head/shiny"}}
