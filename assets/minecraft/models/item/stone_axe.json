@@ -14,7 +14,7 @@
         "predicate": {
           "custom_model_data": 1330
         },
-        "model": "civilization:item/tools/mjolnir/normal/normal"
+        "model": "civilization:item/tools/mjolnir/normal"
       }
     ]
   }

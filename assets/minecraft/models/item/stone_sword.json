@@ -8,7 +8,7 @@
         "predicate": {
           "custom_model_data": 994
         },
-        "model": "civilization:item/tools/hypnosis_staff"
+        "model": "civilization:item/tools/hypnosis_staff/normal"
       }
     ]
   }
