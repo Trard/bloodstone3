@@ -20,7 +20,7 @@
         "predicate": {
           "custom_model_data": 2017
         },
-        "model": "civilization:item/tools/excalibur_sword"
+        "model": "civilization:item/tools/excalibur_sword/normal"
       },
       {
         "predicate": {
