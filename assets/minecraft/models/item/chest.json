@@ -53,6 +53,18 @@
         "custom_model_data": 3337
       },
       "model": "item/present"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3339
+      },
+      "model": "item/picnic_basket"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3340
+      },
+      "model": "civilization:item/wearable/pufferfish_hat/legacy"
     }
   ]
 }
