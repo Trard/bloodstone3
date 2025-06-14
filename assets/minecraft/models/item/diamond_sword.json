@@ -12,6 +12,12 @@
       },
       {
         "predicate": {
+          "custom_model_data": 1001
+        },
+        "model": "civilization:item/tools/shadow_blade/normal"
+      },
+      {
+        "predicate": {
           "custom_model_data": 1444
         },
         "model": "civilization:item/tools/emerald_sword"
