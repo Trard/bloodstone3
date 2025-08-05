@@ -5,5 +5,6 @@
     "custom.ufo_laser": { "category": "master", "sounds": [ "custom/ufo_laser" ] },
     "custom.squish": { "category": "master", "sounds": [ "custom/squish" ] },
     "custom.body_hit": { "category": "master", "sounds": [ "custom/body_hit" ] },
-    "custom.portal": { "category": "master", "sounds": [ "custom/portal" ] }
+    "custom.portal": { "category": "master", "sounds": [ "custom/portal" ] },
+    "custom.pacman": { "category": "master", "sounds": [ "custom/pacman" ] }
 }
