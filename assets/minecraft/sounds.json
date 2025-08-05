@@ -1,5 +1,4 @@
 {
-    "custom.phonk": { "category": "master", "sounds": [ "custom/phonk" ] },
     "custom.heaven": { "category": "master", "sounds": [ "custom/heaven" ] },
     "custom.ufo": { "category": "master", "sounds": [ "custom/ufo" ] },
     "custom.ufo_laser": { "category": "master", "sounds": [ "custom/ufo_laser" ] },
