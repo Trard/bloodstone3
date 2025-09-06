@@ -51,6 +51,18 @@
         "custom_model_data": 8
       },
       "model": "minecraft:item/cosmetic_display/ragdoll"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11
+      },
+      "model": "minecraft:item/cosmetic_display/white_arm"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 13
+      },
+      "model": "minecraft:item/cosmetic_display/hammer"
     }
   ]
 }
