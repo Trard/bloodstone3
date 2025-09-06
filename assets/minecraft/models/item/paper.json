@@ -64,6 +64,7 @@
       },
       "model": "minecraft:item/icons/anvil"
     },
+
     {
       "predicate": {
         "custom_model_data": 11
@@ -75,6 +76,12 @@
         "custom_model_data": 12
       },
       "model": "minecraft:item/icons/kill_effect"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 13
+      },
+      "model": "minecraft:item/icons/hammer"
     }
   ]
 }

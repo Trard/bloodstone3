@@ -5,5 +5,8 @@
     "custom.squish": { "category": "master", "sounds": [ "custom/squish" ] },
     "custom.body_hit": { "category": "master", "sounds": [ "custom/body_hit" ] },
     "custom.portal": { "category": "master", "sounds": [ "custom/portal" ] },
-    "custom.pacman": { "category": "master", "sounds": [ "custom/pacman" ] }
+    "custom.pacman": { "category": "master", "sounds": [ "custom/pacman" ] },
+    "custom.hell": { "category": "master", "sounds": [ "custom/hell" ] },
+    "custom.white_arm": { "category": "master", "sounds": [ "custom/white_arm" ] },
+    "custom.hammer": { "category": "master", "sounds": [ "custom/hammer" ] }
 }
