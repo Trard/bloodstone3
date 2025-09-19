@@ -169,6 +169,35 @@
                 "custom_model_data": 4023
             },
             "model": "civilization:item/tools/artemis_bow/pulling/3"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 5555
+            },
+            "model": "minecraft:item/timebow/timebow1"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "custom_model_data": 5555
+            },
+            "model": "minecraft:item/timebow/timebow2"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.55,
+                "custom_model_data": 5555
+            },
+            "model": "minecraft:item/timebow/timebow3"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.9,
+                "custom_model_data": 5555
+            },
+            "model": "minecraft:item/timebow/timebow4"
         }
     ]
 }

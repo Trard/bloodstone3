@@ -39,6 +39,12 @@
           "custom_model_data": 2500
         },
         "model": "minecraft:item/whip"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 5556
+        },
+        "model": "minecraft:item/frost_sword"
       }
     ]
   }
