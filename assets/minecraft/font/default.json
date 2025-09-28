@@ -110,6 +110,15 @@
         },
         {
             "type": "bitmap",
+            "file": "logo:meetups3.png",
+            "ascent": 0,
+            "height": 60,
+            "chars": [
+                "॒"
+            ]
+        },
+        {
+            "type": "bitmap",
             "file": "minecraft:font/dshrgrastishka.png",
             "ascent": 8,
             "height": 9,
