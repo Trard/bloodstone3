@@ -2,7 +2,7 @@
     "providers": [
         {
             "type": "bitmap",
-            "file": "logo:bloodstonesmp.png",
+            "file": "logo:bloodstone.png",
             "ascent": 0,
             "height": 40,
             "chars": [
@@ -29,7 +29,7 @@
         },
         {
             "type": "bitmap",
-            "file": "logo:stonehand.png",
+            "file": "logo:bloodstonesmp.png",
             "ascent": 0,
             "height": 24,
             "chars": [
