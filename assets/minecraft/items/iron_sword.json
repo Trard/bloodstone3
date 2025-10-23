@@ -1,0 +1,19 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/iron_sword"
+        },
+        "entries": [
+            {
+                "threshold": 998,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/tools/villager_wand"
+                }
+            }
+        ]
+    }
+}

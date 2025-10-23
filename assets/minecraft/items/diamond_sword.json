@@ -1,0 +1,61 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/diamond_sword"
+        },
+        "entries": [
+            {
+                "threshold": 99,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/midas_sword"
+                }
+            },
+            {
+                "threshold": 1001,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/tools/shadow_blade/normal"
+                }
+            },
+            {
+                "threshold": 1444,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/tools/emerald_sword"
+                }
+            },
+            {
+                "threshold": 2017,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/tools/excalibur_sword/normal"
+                }
+            },
+            {
+                "threshold": 2024,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/dragon_katana"
+                }
+            },
+            {
+                "threshold": 2500,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/whip"
+                }
+            },
+            {
+                "threshold": 5556,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/frost_sword"
+                }
+            }
+        ]
+    }
+}
