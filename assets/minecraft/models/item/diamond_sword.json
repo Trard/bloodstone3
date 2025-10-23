@@ -1,51 +1,63 @@
 {
-    "parent": "minecraft:item/handheld",
-    "textures": {
-      "layer0": "minecraft:item/diamond_sword"
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/diamond_sword"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 99
+      },
+      "model": "minecraft:item/midas_sword"
     },
-    "overrides": [
-      {
-        "predicate": {
-          "custom_model_data": 99
-        },
-        "model": "minecraft:item/midas_sword"
+    {
+      "predicate": {
+        "custom_model_data": 1001
       },
-      {
-        "predicate": {
-          "custom_model_data": 1001
-        },
-        "model": "civilization:item/tools/shadow_blade/normal"
+      "model": "civilization:item/tools/shadow_blade/normal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1444
       },
-      {
-        "predicate": {
-          "custom_model_data": 1444
-        },
-        "model": "civilization:item/tools/emerald_sword"
+      "model": "civilization:item/tools/emerald_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2017
       },
-      {
-        "predicate": {
-          "custom_model_data": 2017
-        },
-        "model": "civilization:item/tools/excalibur_sword/normal"
+      "model": "civilization:item/tools/excalibur_sword/normal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2024
       },
-      {
-        "predicate": {
-          "custom_model_data": 2024
-        },
-        "model": "minecraft:item/dragon_katana"
+      "model": "minecraft:item/dragon_katana"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2500
       },
-      {
-        "predicate": {
-          "custom_model_data": 2500
-        },
-        "model": "minecraft:item/whip"
+      "model": "minecraft:item/whip"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5556
       },
-      {
-        "predicate": {
-          "custom_model_data": 5556
-        },
-        "model": "minecraft:item/frost_sword"
+      "model": "minecraft:item/frost_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2007
+      },
+      "model": "minecraft:item/pidorsword"
+    },
+    {
+      "threshold": 2009,
+      "model": {
+        "type": "model",
+        "model": "minecraft:item/clownsword"
       }
-    ]
-  }
-  
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/wooden_hoe"
+        },
+        "entries": [
+            {
+                "threshold": 1985,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/pultot"
+                }
+            }
+        ]
+    }
+}

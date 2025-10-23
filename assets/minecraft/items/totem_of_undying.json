@@ -1,0 +1,313 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/totem_of_undying"
+        },
+        "entries": [
+            {
+                "threshold": 52,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/gold_trophy"
+                }
+            },
+            {
+                "threshold": 69,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/boost"
+                }
+            },
+            {
+                "threshold": 90,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/cross_totem"
+                }
+            },
+            {
+                "threshold": 91,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/dark_cross_totem"
+                }
+            },
+            {
+                "threshold": 92,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/wither_totem"
+                }
+            },
+            {
+                "threshold": 97,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/creeper_totem"
+                }
+            },
+            {
+                "threshold": 134,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/glitch"
+                }
+            },
+            {
+                "threshold": 555,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/villager_totem"
+                }
+            },
+            {
+                "threshold": 666,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/infected_totem"
+                }
+            },
+            {
+                "threshold": 1000,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/trard"
+                }
+            },
+            {
+                "threshold": 1001,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/darkcake"
+                }
+            },
+            {
+                "threshold": 1002,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/smipi"
+                }
+            },
+            {
+                "threshold": 1003,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/kerito"
+                }
+            },
+            {
+                "threshold": 1004,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/fire"
+                }
+            },
+            {
+                "threshold": 1005,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/link"
+                }
+            },
+            {
+                "threshold": 1006,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/bestytkir"
+                }
+            },
+            {
+                "threshold": 1007,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/misterio"
+                }
+            },
+            {
+                "threshold": 1008,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/erechi"
+                }
+            },
+            {
+                "threshold": 1009,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/slaizteam"
+                }
+            },
+            {
+                "threshold": 1010,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/ahi"
+                }
+            },
+            {
+                "threshold": 1011,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/mansur"
+                }
+            },
+            {
+                "threshold": 1012,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/wasurette"
+                }
+            },
+            {
+                "threshold": 1013,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/nezuwa"
+                }
+            },
+            {
+                "threshold": 1014,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/terron_"
+                }
+            },
+            {
+                "threshold": 1015,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/lestiadmin"
+                }
+            },
+            {
+                "threshold": 1016,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/xxanterria_"
+                }
+            },
+            {
+                "threshold": 1017,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/thelegwar"
+                }
+            },
+            {
+                "threshold": 1018,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/sekyndo4ka"
+                }
+            },
+            {
+                "threshold": 1019,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/ynroh"
+                }
+            },
+            {
+                "threshold": 1020,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/nullisse"
+                }
+            },
+            {
+                "threshold": 1021,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/iwtdie"
+                }
+            },
+            {
+                "threshold": 1022,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/ilysanata"
+                }
+            },
+            {
+                "threshold": 1023,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/joker"
+                }
+            },
+            {
+                "threshold": 1024,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/spirit"
+                }
+            },
+            {
+                "threshold": 1025,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/easydenis"
+                }
+            },
+            {
+                "threshold": 1026,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/sdxxxt"
+                }
+            },
+            {
+                "threshold": 1027,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/saski2007"
+                }
+            },
+            {
+                "threshold": 5001,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/eggs/1"
+                }
+            },
+            {
+                "threshold": 5002,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/eggs/2"
+                }
+            },
+            {
+                "threshold": 5003,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/eggs/3"
+                }
+            },
+            {
+                "threshold": 5004,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/eggs/4"
+                }
+            },
+            {
+                "threshold": 5005,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/eggs/5"
+                }
+            },
+            {
+                "threshold": 5006,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/eggs/6"
+                }
+            }
+        ]
+    }
+}

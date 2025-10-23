@@ -1,0 +1,14 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "minecraft:item/mace"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 18
+            },
+            "model": "minecraft:item/cuminass"
+        }
+    ]
+}

@@ -1,0 +1,3204 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:block/orientable"
+        },
+        "entries": [
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/class_hats/farmer_hat"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/class_hats/miner_helmet/normal"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/class_hats/warrior_helmet/normal"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/king_crown"
+                }
+            },
+            {
+                "threshold": 5,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/chainsaw_head/normal"
+                }
+            },
+            {
+                "threshold": 6,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/3d_glasses/normal"
+                }
+            },
+            {
+                "threshold": 7,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/elf_hat/shiny"
+                }
+            },
+            {
+                "threshold": 8,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/gingerbread_mask/shiny"
+                }
+            },
+            {
+                "threshold": 9,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/cat_hat/normal"
+                }
+            },
+            {
+                "threshold": 10,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/clown_hat/normal"
+                }
+            },
+            {
+                "threshold": 11,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/cowboy_hat/normal"
+                }
+            },
+            {
+                "threshold": 12,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/dragon_hat/normal"
+                }
+            },
+            {
+                "threshold": 13,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/class_hats/looter_hat/normal"
+                }
+            },
+            {
+                "threshold": 14,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/frog_bucket_hat/normal"
+                }
+            },
+            {
+                "threshold": 15,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/gamer_headphones/normal"
+                }
+            },
+            {
+                "threshold": 16,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/glow_squid_hat/normal"
+                }
+            },
+            {
+                "threshold": 17,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/spartan_helmet/normal"
+                }
+            },
+            {
+                "threshold": 18,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/halo/normal"
+                }
+            },
+            {
+                "threshold": 19,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/class_hats/archer_hood/normal"
+                }
+            },
+            {
+                "threshold": 20,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/panda_hat/normal"
+                }
+            },
+            {
+                "threshold": 21,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/penguin_hat/normal"
+                }
+            },
+            {
+                "threshold": 22,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/pharaoh_hat/normal"
+                }
+            },
+            {
+                "threshold": 23,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/pirate_hat/normal"
+                }
+            },
+            {
+                "threshold": 24,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/propeller_hat/normal"
+                }
+            },
+            {
+                "threshold": 25,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/scuba_gear/normal"
+                }
+            },
+            {
+                "threshold": 26,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/default_helmet/normal"
+                }
+            },
+            {
+                "threshold": 27,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/tiki_head/normal"
+                }
+            },
+            {
+                "threshold": 28,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/wizard_hat/normal"
+                }
+            },
+            {
+                "threshold": 29,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/wolf_hat/normal"
+                }
+            },
+            {
+                "threshold": 30,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/reindeer_antlers/shiny"
+                }
+            },
+            {
+                "threshold": 31,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/knight_helmet/normal"
+                }
+            },
+            {
+                "threshold": 32,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/santa_hat/shiny"
+                }
+            },
+            {
+                "threshold": 33,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/snowman_head/shiny"
+                }
+            },
+            {
+                "threshold": 34,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/mushroom_hat/normal"
+                }
+            },
+            {
+                "threshold": 35,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/shark_hat/normal"
+                }
+            },
+            {
+                "threshold": 36,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/samurai_helmet/normal"
+                }
+            },
+            {
+                "threshold": 37,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/krampus_head/shiny"
+                }
+            },
+            {
+                "threshold": 38,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/cyberpunk_hat/normal"
+                }
+            },
+            {
+                "threshold": 39,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/meme_sunglasses"
+                }
+            },
+            {
+                "threshold": 40,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/beta_tester_helmet/normal"
+                }
+            },
+            {
+                "threshold": 41,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/dimmadome_hat/normal"
+                }
+            },
+            {
+                "threshold": 42,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/throir_goggles"
+                }
+            },
+            {
+                "threshold": 43,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/astronaut_helmet/normal"
+                }
+            },
+            {
+                "threshold": 44,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/burger_hat/normal"
+                }
+            },
+            {
+                "threshold": 45,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/frankenstein_head/normal"
+                }
+            },
+            {
+                "threshold": 46,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/chef_hat/normal"
+                }
+            },
+            {
+                "threshold": 47,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/jack_o_lantern_hat/normal"
+                }
+            },
+            {
+                "threshold": 48,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/killer_mask/normal"
+                }
+            },
+            {
+                "threshold": 49,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/king_frog/normal"
+                }
+            },
+            {
+                "threshold": 50,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/plague_doctor_mask/normal"
+                }
+            },
+            {
+                "threshold": 51,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/sombrero/normal"
+                }
+            },
+            {
+                "threshold": 52,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/trapper_hat/normal"
+                }
+            },
+            {
+                "threshold": 53,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/3d_glasses/shiny"
+                }
+            },
+            {
+                "threshold": 54,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/class_hats/archer_hood/shiny"
+                }
+            },
+            {
+                "threshold": 55,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/astronaut_helmet/shiny"
+                }
+            },
+            {
+                "threshold": 56,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/beta_tester_helmet/shiny"
+                }
+            },
+            {
+                "threshold": 57,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/burger_hat/shiny"
+                }
+            },
+            {
+                "threshold": 58,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/cat_hat/shiny"
+                }
+            },
+            {
+                "threshold": 59,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/clown_hat/shiny"
+                }
+            },
+            {
+                "threshold": 60,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/cowboy_hat/shiny"
+                }
+            },
+            {
+                "threshold": 61,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/default_helmet/shiny"
+                }
+            },
+            {
+                "threshold": 62,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/dragon_hat/shiny"
+                }
+            },
+            {
+                "threshold": 63,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/frankenstein_head/shiny"
+                }
+            },
+            {
+                "threshold": 64,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/gamer_headphones/shiny"
+                }
+            },
+            {
+                "threshold": 65,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/glow_squid_hat/shiny"
+                }
+            },
+            {
+                "threshold": 66,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/chef_hat/shiny"
+                }
+            },
+            {
+                "threshold": 67,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/jack_o_lantern_hat/shiny"
+                }
+            },
+            {
+                "threshold": 68,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/killer_mask/shiny"
+                }
+            },
+            {
+                "threshold": 69,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/king_frog/shiny"
+                }
+            },
+            {
+                "threshold": 70,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/knight_helmet/shiny"
+                }
+            },
+            {
+                "threshold": 71,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/class_hats/looter_hat/shiny"
+                }
+            },
+            {
+                "threshold": 72,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/class_hats/miner_helmet/shiny"
+                }
+            },
+            {
+                "threshold": 73,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/mushroom_hat/shiny"
+                }
+            },
+            {
+                "threshold": 74,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/panda_hat/shiny"
+                }
+            },
+            {
+                "threshold": 75,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/penguin_hat/shiny"
+                }
+            },
+            {
+                "threshold": 76,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/pharaoh_hat/shiny"
+                }
+            },
+            {
+                "threshold": 77,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/pirate_hat/shiny"
+                }
+            },
+            {
+                "threshold": 78,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/plague_doctor_mask/shiny"
+                }
+            },
+            {
+                "threshold": 79,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/samurai_helmet/shiny"
+                }
+            },
+            {
+                "threshold": 80,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/scuba_gear/shiny"
+                }
+            },
+            {
+                "threshold": 81,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/shark_hat/shiny"
+                }
+            },
+            {
+                "threshold": 82,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/sombrero/shiny"
+                }
+            },
+            {
+                "threshold": 83,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/tiki_head/shiny"
+                }
+            },
+            {
+                "threshold": 84,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/trapper_hat/shiny"
+                }
+            },
+            {
+                "threshold": 85,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/class_hats/warrior_helmet/shiny"
+                }
+            },
+            {
+                "threshold": 86,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/wizard_hat/shiny"
+                }
+            },
+            {
+                "threshold": 87,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/wolf_hat/shiny"
+                }
+            },
+            {
+                "threshold": 88,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/dimmadome_hat/shiny"
+                }
+            },
+            {
+                "threshold": 89,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/frog_bucket_hat/shiny"
+                }
+            },
+            {
+                "threshold": 90,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/halo/shiny"
+                }
+            },
+            {
+                "threshold": 91,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/chainsaw_head/shiny"
+                }
+            },
+            {
+                "threshold": 92,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/propeller_hat/shiny"
+                }
+            },
+            {
+                "threshold": 93,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/spartan_helmet/shiny"
+                }
+            },
+            {
+                "threshold": 94,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/gingerbread_mask/normal"
+                }
+            },
+            {
+                "threshold": 95,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/krampus_head/normal"
+                }
+            },
+            {
+                "threshold": 96,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/cyberpunk_hat/shiny"
+                }
+            },
+            {
+                "threshold": 97,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/reindeer_antlers/normal"
+                }
+            },
+            {
+                "threshold": 98,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/santa_hat/normal"
+                }
+            },
+            {
+                "threshold": 99,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/snowman_head/normal"
+                }
+            },
+            {
+                "threshold": 100,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/jester_hat/normal"
+                }
+            },
+            {
+                "threshold": 101,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/elf_hat/normal"
+                }
+            },
+            {
+                "threshold": 102,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/frostbite_helmet/normal"
+                }
+            },
+            {
+                "threshold": 103,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/frostbite_helmet/shiny"
+                }
+            },
+            {
+                "threshold": 104,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/jester_hat/shiny"
+                }
+            },
+            {
+                "threshold": 105,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/alien_head_muncher/normal"
+                }
+            },
+            {
+                "threshold": 106,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/alien_head_muncher/shiny"
+                }
+            },
+            {
+                "threshold": 107,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/drink_hat_number_1/normal"
+                }
+            },
+            {
+                "threshold": 108,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/drink_hat_number_1/shiny"
+                }
+            },
+            {
+                "threshold": 109,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/taco_hat/normal"
+                }
+            },
+            {
+                "threshold": 110,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/taco_hat/shiny"
+                }
+            },
+            {
+                "threshold": 111,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/top_hat/normal"
+                }
+            },
+            {
+                "threshold": 112,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/top_hat/shiny"
+                }
+            },
+            {
+                "threshold": 113,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/pufferfish_hat/normal"
+                }
+            },
+            {
+                "threshold": 114,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/cupid_arrow_headband/normal"
+                }
+            },
+            {
+                "threshold": 115,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/cupid_arrow_headband/shiny"
+                }
+            },
+            {
+                "threshold": 116,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/flamingo_hat/normal"
+                }
+            },
+            {
+                "threshold": 117,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/flamingo_hat/shiny"
+                }
+            },
+            {
+                "threshold": 118,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/flower_crown/normal"
+                }
+            },
+            {
+                "threshold": 119,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/flower_crown/shiny"
+                }
+            },
+            {
+                "threshold": 120,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/heart_glasses/normal"
+                }
+            },
+            {
+                "threshold": 121,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/heart_glasses/shiny"
+                }
+            },
+            {
+                "threshold": 122,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/heart_headband/normal"
+                }
+            },
+            {
+                "threshold": 123,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/heart_headband/shiny"
+                }
+            },
+            {
+                "threshold": 124,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/valentines_bear_hat/normal"
+                }
+            },
+            {
+                "threshold": 125,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/valentines_bear_hat/shiny"
+                }
+            },
+            {
+                "threshold": 126,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/pufferfish_hat/shiny"
+                }
+            },
+            {
+                "threshold": 127,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/sunflower_hat/normal"
+                }
+            },
+            {
+                "threshold": 128,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/sunflower_hat/shiny"
+                }
+            },
+            {
+                "threshold": 129,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/cat_ears/normal"
+                }
+            },
+            {
+                "threshold": 130,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/cat_ears/shiny"
+                }
+            },
+            {
+                "threshold": 131,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/valentines_knight/normal"
+                }
+            },
+            {
+                "threshold": 132,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/valentines_knight/shiny"
+                }
+            },
+            {
+                "threshold": 133,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/valentines_warrior/normal"
+                }
+            },
+            {
+                "threshold": 134,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/valentines_warrior/shiny"
+                }
+            },
+            {
+                "threshold": 135,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/sculk_monster_mouth/normal"
+                }
+            },
+            {
+                "threshold": 136,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/sculk_monster_mouth/shiny"
+                }
+            },
+            {
+                "threshold": 137,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/sculk_creeper_hat/normal"
+                }
+            },
+            {
+                "threshold": 138,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/sculk_creeper_hat/shiny"
+                }
+            },
+            {
+                "threshold": 139,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/warden_horns/normal"
+                }
+            },
+            {
+                "threshold": 140,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/warden_horns/shiny"
+                }
+            },
+            {
+                "threshold": 141,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/baby_warden_hat/normal"
+                }
+            },
+            {
+                "threshold": 142,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/baby_warden_hat/shiny"
+                }
+            },
+            {
+                "threshold": 143,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/giant_warden_head/normal"
+                }
+            },
+            {
+                "threshold": 144,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/giant_warden_head/shiny"
+                }
+            },
+            {
+                "threshold": 145,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/warden_bucket_hat/normal"
+                }
+            },
+            {
+                "threshold": 146,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/warden_bucket_hat/shiny"
+                }
+            },
+            {
+                "threshold": 147,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/warden_crown/normal"
+                }
+            },
+            {
+                "threshold": 148,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/warden_crown/shiny"
+                }
+            },
+            {
+                "threshold": 149,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/warden_knight_helmet/normal"
+                }
+            },
+            {
+                "threshold": 150,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/warden_knight_helmet/shiny"
+                }
+            },
+            {
+                "threshold": 151,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/warden_warriors_helmet/normal"
+                }
+            },
+            {
+                "threshold": 152,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/warden_warriors_helmet/shiny"
+                }
+            },
+            {
+                "threshold": 153,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/warden_wizard_hat/normal"
+                }
+            },
+            {
+                "threshold": 154,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/warden_wizard_hat/shiny"
+                }
+            },
+            {
+                "threshold": 155,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/warden_sculk_crown/normal"
+                }
+            },
+            {
+                "threshold": 156,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/warden_sculk_crown/shiny"
+                }
+            },
+            {
+                "threshold": 157,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/clam_crown/normal"
+                }
+            },
+            {
+                "threshold": 158,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/clam_crown/shiny"
+                }
+            },
+            {
+                "threshold": 159,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/serpant_helmet/normal"
+                }
+            },
+            {
+                "threshold": 160,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/serpant_helmet/shiny"
+                }
+            },
+            {
+                "threshold": 161,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/scuba_helmet/normal"
+                }
+            },
+            {
+                "threshold": 162,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/scuba_helmet/shiny"
+                }
+            },
+            {
+                "threshold": 163,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/octopus_hat/normal"
+                }
+            },
+            {
+                "threshold": 164,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/octopus_hat/shiny"
+                }
+            },
+            {
+                "threshold": 165,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/hotdog_hat/normal"
+                }
+            },
+            {
+                "threshold": 166,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/hotdog_hat/shiny"
+                }
+            },
+            {
+                "threshold": 167,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/tv_head/normal"
+                }
+            },
+            {
+                "threshold": 168,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/tv_head/shiny"
+                }
+            },
+            {
+                "threshold": 169,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/graduation_cap/normal"
+                }
+            },
+            {
+                "threshold": 170,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/graduation_cap/shiny"
+                }
+            },
+            {
+                "threshold": 171,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/kitty_headset/normal"
+                }
+            },
+            {
+                "threshold": 172,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/kitty_headset/shiny"
+                }
+            },
+            {
+                "threshold": 173,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/plunger_hat/normal"
+                }
+            },
+            {
+                "threshold": 174,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/plunger_hat/shiny"
+                }
+            },
+            {
+                "threshold": 175,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/axolotl_cap/normal"
+                }
+            },
+            {
+                "threshold": 176,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/axolotl_cap/shiny"
+                }
+            },
+            {
+                "threshold": 177,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/box_hat/normal"
+                }
+            },
+            {
+                "threshold": 178,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/box_hat/shiny"
+                }
+            },
+            {
+                "threshold": 179,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/qa_wrench_hat/normal"
+                }
+            },
+            {
+                "threshold": 180,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/qa_wrench_hat/shiny"
+                }
+            },
+            {
+                "threshold": 181,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/shark_fin/normal"
+                }
+            },
+            {
+                "threshold": 182,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/shark_fin/shiny"
+                }
+            },
+            {
+                "threshold": 183,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/translator_globe/normal"
+                }
+            },
+            {
+                "threshold": 184,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/translator_globe/shiny"
+                }
+            },
+            {
+                "threshold": 185,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/ram_horns/normal"
+                }
+            },
+            {
+                "threshold": 186,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/ram_horns/shiny"
+                }
+            },
+            {
+                "threshold": 187,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/tools/dragon_skull"
+                }
+            },
+            {
+                "threshold": 188,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/banana_hat/normal"
+                }
+            },
+            {
+                "threshold": 189,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/banana_hat/shiny"
+                }
+            },
+            {
+                "threshold": 190,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/guardian_hat/normal"
+                }
+            },
+            {
+                "threshold": 191,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/guardian_hat/shiny"
+                }
+            },
+            {
+                "threshold": 192,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/jellyfish_hat/normal"
+                }
+            },
+            {
+                "threshold": 193,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/jellyfish_hat/shiny"
+                }
+            },
+            {
+                "threshold": 194,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/valkyrie_helmet/normal"
+                }
+            },
+            {
+                "threshold": 195,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/valkyrie_helmet/shiny"
+                }
+            },
+            {
+                "threshold": 196,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/nemo/normal"
+                }
+            },
+            {
+                "threshold": 197,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/nemo/shiny"
+                }
+            },
+            {
+                "threshold": 198,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/angler_hat/normal"
+                }
+            },
+            {
+                "threshold": 199,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/angler_hat/shiny"
+                }
+            },
+            {
+                "threshold": 200,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/fisherman_hat/normal"
+                }
+            },
+            {
+                "threshold": 201,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/fisherman_hat/shiny"
+                }
+            },
+            {
+                "threshold": 202,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/piglin_hat/normal"
+                }
+            },
+            {
+                "threshold": 203,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/piglin_hat/shiny"
+                }
+            },
+            {
+                "threshold": 204,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/red_devil_horns/normal"
+                }
+            },
+            {
+                "threshold": 205,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/red_devil_horns/shiny"
+                }
+            },
+            {
+                "threshold": 206,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/flaming_spartan_helmet/normal"
+                }
+            },
+            {
+                "threshold": 207,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/flaming_spartan_helmet/shiny"
+                }
+            },
+            {
+                "threshold": 208,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/flaming_skull/normal"
+                }
+            },
+            {
+                "threshold": 209,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/flaming_skull/shiny"
+                }
+            },
+            {
+                "threshold": 210,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/lava_hound/normal"
+                }
+            },
+            {
+                "threshold": 211,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/lava_hound/shiny"
+                }
+            },
+            {
+                "threshold": 212,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/lava_witch_hat/normal"
+                }
+            },
+            {
+                "threshold": 213,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/lava_witch_hat/shiny"
+                }
+            },
+            {
+                "threshold": 214,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/magma_cowboy_hat/normal"
+                }
+            },
+            {
+                "threshold": 215,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/magma_cowboy_hat/shiny"
+                }
+            },
+            {
+                "threshold": 216,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/nether_mushroom_hat/normal"
+                }
+            },
+            {
+                "threshold": 217,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/nether_mushroom_hat/shiny"
+                }
+            },
+            {
+                "threshold": 218,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/gerald_hat/normal"
+                }
+            },
+            {
+                "threshold": 219,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/gerald_hat/shiny"
+                }
+            },
+            {
+                "threshold": 220,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/shulker_hat/normal"
+                }
+            },
+            {
+                "threshold": 221,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/shulker_hat/shiny"
+                }
+            },
+            {
+                "threshold": 222,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/turkey_hat/normal"
+                }
+            },
+            {
+                "threshold": 223,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/turkey_hat/shiny"
+                }
+            },
+            {
+                "threshold": 224,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/brain_jar/normal"
+                }
+            },
+            {
+                "threshold": 225,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/brain_jar/shiny"
+                }
+            },
+            {
+                "threshold": 226,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/breather_mask/normal"
+                }
+            },
+            {
+                "threshold": 227,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/breather_mask/shiny"
+                }
+            },
+            {
+                "threshold": 228,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/cookie_hat/normal"
+                }
+            },
+            {
+                "threshold": 229,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/cookie_hat/shiny"
+                }
+            },
+            {
+                "threshold": 230,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/corrupted_enderman_skull/normal"
+                }
+            },
+            {
+                "threshold": 231,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/corrupted_enderman_skull/shiny"
+                }
+            },
+            {
+                "threshold": 232,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/ender_miner_hat/normal"
+                }
+            },
+            {
+                "threshold": 233,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/ender_miner_hat/shiny"
+                }
+            },
+            {
+                "threshold": 234,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/enderman_top_hat/normal"
+                }
+            },
+            {
+                "threshold": 235,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/enderman_top_hat/shiny"
+                }
+            },
+            {
+                "threshold": 236,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/gas_mask/normal"
+                }
+            },
+            {
+                "threshold": 237,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/gas_mask/shiny"
+                }
+            },
+            {
+                "threshold": 238,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/night_vision_goggles/normal"
+                }
+            },
+            {
+                "threshold": 239,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/night_vision_goggles/shiny"
+                }
+            },
+            {
+                "threshold": 240,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/pylon_hat/normal"
+                }
+            },
+            {
+                "threshold": 241,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/pylon_hat/shiny"
+                }
+            },
+            {
+                "threshold": 242,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/sunflower_crown/normal"
+                }
+            },
+            {
+                "threshold": 243,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/sunflower_crown/shiny"
+                }
+            },
+            {
+                "threshold": 244,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/toothful_hat/normal"
+                }
+            },
+            {
+                "threshold": 245,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/toothful_hat/shiny"
+                }
+            },
+            {
+                "threshold": 246,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/unicorn_hat/normal"
+                }
+            },
+            {
+                "threshold": 247,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/unicorn_hat/shiny"
+                }
+            },
+            {
+                "threshold": 248,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/cyber_dragon_hat/normal"
+                }
+            },
+            {
+                "threshold": 249,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/cyber_dragon_hat/shiny"
+                }
+            },
+            {
+                "threshold": 250,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/elite_warrior_helmet/1"
+                }
+            },
+            {
+                "threshold": 251,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/elite_warrior_helmet/2"
+                }
+            },
+            {
+                "threshold": 252,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/elite_warrior_helmet/3"
+                }
+            },
+            {
+                "threshold": 253,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/elite_warrior_helmet/4"
+                }
+            },
+            {
+                "threshold": 254,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/elite_warrior_helmet/5"
+                }
+            },
+            {
+                "threshold": 255,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/elite_warrior_helmet/6"
+                }
+            },
+            {
+                "threshold": 256,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/crocodile_hat/normal"
+                }
+            },
+            {
+                "threshold": 257,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/crocodile_hat/shiny"
+                }
+            },
+            {
+                "threshold": 258,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/football_helmet/normal"
+                }
+            },
+            {
+                "threshold": 259,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/football_helmet/shiny"
+                }
+            },
+            {
+                "threshold": 260,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/nemean_mane/normal"
+                }
+            },
+            {
+                "threshold": 261,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/nemean_mane/shiny"
+                }
+            },
+            {
+                "threshold": 262,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/toque/normal"
+                }
+            },
+            {
+                "threshold": 263,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/toque/shiny"
+                }
+            },
+            {
+                "threshold": 264,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/artemis_crown/normal"
+                }
+            },
+            {
+                "threshold": 265,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/artemis_crown/shiny"
+                }
+            },
+            {
+                "threshold": 266,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/corinthian_helm/normal"
+                }
+            },
+            {
+                "threshold": 267,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/corinthian_helm/shiny"
+                }
+            },
+            {
+                "threshold": 268,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/golden_headpiece/normal"
+                }
+            },
+            {
+                "threshold": 269,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/golden_headpiece/shiny"
+                }
+            },
+            {
+                "threshold": 270,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/laurel_wreath/normal"
+                }
+            },
+            {
+                "threshold": 271,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/laurel_wreath/shiny"
+                }
+            },
+            {
+                "threshold": 272,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/zeus_bolt/normal"
+                }
+            },
+            {
+                "threshold": 273,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/zeus_bolt/shiny"
+                }
+            },
+            {
+                "threshold": 274,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/aviator_cap/normal"
+                }
+            },
+            {
+                "threshold": 275,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/aviator_cap/shiny"
+                }
+            },
+            {
+                "threshold": 276,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/dingle_mask/normal"
+                }
+            },
+            {
+                "threshold": 277,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/dingle_mask/shiny"
+                }
+            },
+            {
+                "threshold": 278,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/steampunk_hat/normal"
+                }
+            },
+            {
+                "threshold": 279,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/steampunk_hat/shiny"
+                }
+            },
+            {
+                "threshold": 280,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/wolf_fur_hat/normal"
+                }
+            },
+            {
+                "threshold": 281,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/wolf_fur_hat/shiny"
+                }
+            },
+            {
+                "threshold": 282,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/sailor_cap/normal"
+                }
+            },
+            {
+                "threshold": 283,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/sailor_cap/shiny"
+                }
+            },
+            {
+                "threshold": 284,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/rainbow_earmuffs/normal"
+                }
+            },
+            {
+                "threshold": 285,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/rainbow_earmuffs/shiny"
+                }
+            },
+            {
+                "threshold": 286,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/viking_beard/normal"
+                }
+            },
+            {
+                "threshold": 287,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/viking_beard/shiny"
+                }
+            },
+            {
+                "threshold": 288,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/medusa_hat/normal"
+                }
+            },
+            {
+                "threshold": 289,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/medusa_hat/shiny"
+                }
+            },
+            {
+                "threshold": 290,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/ash_hat/normal"
+                }
+            },
+            {
+                "threshold": 291,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/ash_hat/shiny"
+                }
+            },
+            {
+                "threshold": 292,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/cute_bow/normal"
+                }
+            },
+            {
+                "threshold": 293,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/cute_bow/shiny"
+                }
+            },
+            {
+                "threshold": 294,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/twitch_cap"
+                }
+            },
+            {
+                "threshold": 295,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/beanie/normal"
+                }
+            },
+            {
+                "threshold": 296,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/beanie/shiny"
+                }
+            },
+            {
+                "threshold": 297,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/egg_hat/normal"
+                }
+            },
+            {
+                "threshold": 298,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/egg_hat/shiny"
+                }
+            },
+            {
+                "threshold": 299,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/hat_hat/normal"
+                }
+            },
+            {
+                "threshold": 300,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/hat_hat/shiny"
+                }
+            },
+            {
+                "threshold": 301,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/pine_cap/normal"
+                }
+            },
+            {
+                "threshold": 302,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/pine_cap/shiny"
+                }
+            },
+            {
+                "threshold": 303,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/pot_hat/normal"
+                }
+            },
+            {
+                "threshold": 304,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/pot_hat/shiny"
+                }
+            },
+            {
+                "threshold": 305,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/straw_hat/normal"
+                }
+            },
+            {
+                "threshold": 306,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/straw_hat/shiny"
+                }
+            },
+            {
+                "threshold": 307,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/bat_hat/normal"
+                }
+            },
+            {
+                "threshold": 308,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/bat_hat/shiny"
+                }
+            },
+            {
+                "threshold": 309,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/axe_hat/normal"
+                }
+            },
+            {
+                "threshold": 310,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/axe_hat/shiny"
+                }
+            },
+            {
+                "threshold": 311,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/eyeball_hat/normal"
+                }
+            },
+            {
+                "threshold": 312,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/eyeball_hat/shiny"
+                }
+            },
+            {
+                "threshold": 313,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/mummy_mask/normal"
+                }
+            },
+            {
+                "threshold": 314,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/mummy_mask/shiny"
+                }
+            },
+            {
+                "threshold": 315,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/pumpkin_headband/normal"
+                }
+            },
+            {
+                "threshold": 316,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/pumpkin_headband/shiny"
+                }
+            },
+            {
+                "threshold": 317,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/scream_mask/normal"
+                }
+            },
+            {
+                "threshold": 318,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/scream_mask/shiny"
+                }
+            },
+            {
+                "threshold": 319,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/spider_hat/normal"
+                }
+            },
+            {
+                "threshold": 320,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/spider_hat/shiny"
+                }
+            },
+            {
+                "threshold": 321,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/1year_cake_hat/normal"
+                }
+            },
+            {
+                "threshold": 322,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/1year_cake_hat/shiny"
+                }
+            },
+            {
+                "threshold": 323,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/bat_wings_hat/normal"
+                }
+            },
+            {
+                "threshold": 324,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/bat_wings_hat/shiny"
+                }
+            },
+            {
+                "threshold": 325,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/camera_hat/normal"
+                }
+            },
+            {
+                "threshold": 326,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/camera_hat/shiny"
+                }
+            },
+            {
+                "threshold": 327,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/vr_headset/normal"
+                }
+            },
+            {
+                "threshold": 328,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/vr_headset/shiny"
+                }
+            },
+            {
+                "threshold": 329,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/snowstorm_helm/normal"
+                }
+            },
+            {
+                "threshold": 330,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/snowstorm_helm/shiny"
+                }
+            },
+            {
+                "threshold": 331,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/slime_control/normal"
+                }
+            },
+            {
+                "threshold": 332,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/slime_control/shiny"
+                }
+            },
+            {
+                "threshold": 333,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/silly_glasses/normal"
+                }
+            },
+            {
+                "threshold": 334,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/silly_glasses/shiny"
+                }
+            },
+            {
+                "threshold": 335,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/pirate_polly/normal"
+                }
+            },
+            {
+                "threshold": 336,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/pirate_polly/shiny"
+                }
+            },
+            {
+                "threshold": 337,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/piranha_troubles/normal"
+                }
+            },
+            {
+                "threshold": 338,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/piranha_troubles/shiny"
+                }
+            },
+            {
+                "threshold": 339,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/idiot_sandwich/normal"
+                }
+            },
+            {
+                "threshold": 340,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/idiot_sandwich/shiny"
+                }
+            },
+            {
+                "threshold": 341,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/ice_crown/normal"
+                }
+            },
+            {
+                "threshold": 342,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/ice_crown/shiny"
+                }
+            },
+            {
+                "threshold": 343,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/heart_eyes_emoji/normal"
+                }
+            },
+            {
+                "threshold": 344,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/heart_eyes_emoji/shiny"
+                }
+            },
+            {
+                "threshold": 345,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/gnome_rider/normal"
+                }
+            },
+            {
+                "threshold": 346,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/gnome_rider/shiny"
+                }
+            },
+            {
+                "threshold": 347,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/cool_can/normal"
+                }
+            },
+            {
+                "threshold": 348,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/cool_can/shiny"
+                }
+            },
+            {
+                "threshold": 349,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/baby_skeleton_rider/normal"
+                }
+            },
+            {
+                "threshold": 350,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/baby_skeleton_rider/shiny"
+                }
+            },
+            {
+                "threshold": 351,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/balance_act/normal"
+                }
+            },
+            {
+                "threshold": 352,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/balance_act/shiny"
+                }
+            },
+            {
+                "threshold": 353,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/bee_goggles/normal"
+                }
+            },
+            {
+                "threshold": 354,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/bee_goggles/shiny"
+                }
+            },
+            {
+                "threshold": 355,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/brick_cap/normal"
+                }
+            },
+            {
+                "threshold": 356,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/brick_cap/shiny"
+                }
+            },
+            {
+                "threshold": 357,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/booksmart_hat/normal"
+                }
+            },
+            {
+                "threshold": 358,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/booksmart_hat/shiny"
+                }
+            },
+            {
+                "threshold": 359,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/cactus_cap/normal"
+                }
+            },
+            {
+                "threshold": 360,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/cactus_cap/shiny"
+                }
+            },
+            {
+                "threshold": 361,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/cool_glasses/normal"
+                }
+            },
+            {
+                "threshold": 362,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/cool_glasses/shiny"
+                }
+            },
+            {
+                "threshold": 363,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/cornucopia_hat/normal"
+                }
+            },
+            {
+                "threshold": 364,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/cornucopia_hat/shiny"
+                }
+            },
+            {
+                "threshold": 365,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/creeper_fossil/normal"
+                }
+            },
+            {
+                "threshold": 366,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/creeper_fossil/shiny"
+                }
+            },
+            {
+                "threshold": 367,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/fishbowl/normal"
+                }
+            },
+            {
+                "threshold": 368,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/fishbowl/shiny"
+                }
+            },
+            {
+                "threshold": 369,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/gearhead/normal"
+                }
+            },
+            {
+                "threshold": 370,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/gearhead/shiny"
+                }
+            },
+            {
+                "threshold": 371,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/honeycomb_headphones/normal"
+                }
+            },
+            {
+                "threshold": 372,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/honeycomb_headphones/shiny"
+                }
+            },
+            {
+                "threshold": 373,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/chill_out/normal"
+                }
+            },
+            {
+                "threshold": 374,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/chill_out/shiny"
+                }
+            },
+            {
+                "threshold": 375,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/immortal_snail/normal"
+                }
+            },
+            {
+                "threshold": 376,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/immortal_snail/shiny"
+                }
+            },
+            {
+                "threshold": 377,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/mimic_hat/normal"
+                }
+            },
+            {
+                "threshold": 378,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/mimic_hat/shiny"
+                }
+            },
+            {
+                "threshold": 379,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/pincushion/normal"
+                }
+            },
+            {
+                "threshold": 380,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/pincushion/shiny"
+                }
+            },
+            {
+                "threshold": 381,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/w_cap/normal"
+                }
+            },
+            {
+                "threshold": 382,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/w_cap/shiny"
+                }
+            },
+            {
+                "threshold": 383,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/umbrella_hat/normal"
+                }
+            },
+            {
+                "threshold": 384,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/umbrella_hat/shiny"
+                }
+            },
+            {
+                "threshold": 385,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/stonehead/normal"
+                }
+            },
+            {
+                "threshold": 386,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/stonehead/shiny"
+                }
+            },
+            {
+                "threshold": 387,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/stonehead/shift_normal"
+                }
+            },
+            {
+                "threshold": 388,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/stonehead/shift_shiny"
+                }
+            },
+            {
+                "threshold": 389,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/3d_glasses/legacy"
+                }
+            },
+            {
+                "threshold": 390,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/banana_hat/legacy"
+                }
+            },
+            {
+                "threshold": 391,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/camera_hat/legacy"
+                }
+            },
+            {
+                "threshold": 392,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/propeller_hat/legacy"
+                }
+            },
+            {
+                "threshold": 393,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/pufferfish_hat/legacy"
+                }
+            },
+            {
+                "threshold": 394,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/shark_hat/legacy"
+                }
+            },
+            {
+                "threshold": 395,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/alien_head_muncher/legacy"
+                }
+            },
+            {
+                "threshold": 396,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/axolotl_cap/legacy"
+                }
+            },
+            {
+                "threshold": 397,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/cute_bow/legacy"
+                }
+            },
+            {
+                "threshold": 398,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/dingle_mask/legacy"
+                }
+            },
+            {
+                "threshold": 399,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/gas_mask/legacy"
+                }
+            },
+            {
+                "threshold": 400,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/halo/legacy"
+                }
+            },
+            {
+                "threshold": 401,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/chainsaw_head/legacy"
+                }
+            },
+            {
+                "threshold": 402,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/chef_hat/legacy"
+                }
+            },
+            {
+                "threshold": 403,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/knight_helmet/legacy"
+                }
+            },
+            {
+                "threshold": 404,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/night_vision_goggles/legacy"
+                }
+            },
+            {
+                "threshold": 405,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/samurai_helmet/legacy"
+                }
+            },
+            {
+                "threshold": 406,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/spartan_helmet/legacy"
+                }
+            },
+            {
+                "threshold": 407,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/steampunk_hat/legacy"
+                }
+            },
+            {
+                "threshold": 408,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/valkyrie_helmet/legacy"
+                }
+            },
+            {
+                "threshold": 409,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/heart_crown/normal"
+                }
+            },
+            {
+                "threshold": 410,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/heart_crown/shiny"
+                }
+            },
+            {
+                "threshold": 411,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/kissy_face/normal"
+                }
+            },
+            {
+                "threshold": 412,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/kissy_face/shiny"
+                }
+            },
+            {
+                "threshold": 413,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/lovebird_helm/normal"
+                }
+            },
+            {
+                "threshold": 414,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/lovebird_helm/shiny"
+                }
+            },
+            {
+                "threshold": 420,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/butterfly_crown/normal"
+                }
+            },
+            {
+                "threshold": 421,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/butterfly_crown/shiny"
+                }
+            },
+            {
+                "threshold": 422,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/carrot_stick_hat/normal"
+                }
+            },
+            {
+                "threshold": 423,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/carrot_stick_hat/shiny"
+                }
+            },
+            {
+                "threshold": 424,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/dandelion_wreath/normal"
+                }
+            },
+            {
+                "threshold": 425,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/dandelion_wreath/shiny"
+                }
+            },
+            {
+                "threshold": 426,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/gummy_bear_hat/normal"
+                }
+            },
+            {
+                "threshold": 427,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/gummy_bear_hat/shiny"
+                }
+            },
+            {
+                "threshold": 428,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/chicken_mask/normal"
+                }
+            },
+            {
+                "threshold": 429,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/chicken_mask/shiny"
+                }
+            },
+            {
+                "threshold": 430,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/ladybug_helm/normal"
+                }
+            },
+            {
+                "threshold": 431,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/ladybug_helm/shiny"
+                }
+            },
+            {
+                "threshold": 432,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/rabbit_mask/normal"
+                }
+            },
+            {
+                "threshold": 433,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/rabbit_mask/shiny"
+                }
+            },
+            {
+                "threshold": 434,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/bunny_rider/normal"
+                }
+            },
+            {
+                "threshold": 435,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/bunny_rider/shiny"
+                }
+            },
+            {
+                "threshold": 436,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/egg_head/normal"
+                }
+            },
+            {
+                "threshold": 437,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/egg_head/shiny"
+                }
+            },
+            {
+                "threshold": 438,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/transparent_wrapper/normal"
+                }
+            },
+            {
+                "threshold": 439,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/transparent_wrapper/shiny"
+                }
+            },
+            {
+                "threshold": 777,
+                "model": {
+                    "type": "model",
+                    "model": "item/crown"
+                }
+            },
+            {
+                "threshold": 778,
+                "model": {
+                    "type": "model",
+                    "model": "item/crown_cartoon"
+                }
+            },
+            {
+                "threshold": 779,
+                "model": {
+                    "type": "model",
+                    "model": "item/rabbit_hat"
+                }
+            },
+            {
+                "threshold": 780,
+                "model": {
+                    "type": "model",
+                    "model": "item/cowboy_hat"
+                }
+            },
+            {
+                "threshold": 6000,
+                "model": {
+                    "type": "model",
+                    "model": "kssp:hats/cowboy"
+                }
+            },
+            {
+                "threshold": 6001,
+                "model": {
+                    "type": "model",
+                    "model": "kssp:hats/farmer"
+                }
+            },
+            {
+                "threshold": 6002,
+                "model": {
+                    "type": "model",
+                    "model": "kssp:hats/gibus"
+                }
+            },
+            {
+                "threshold": 6003,
+                "model": {
+                    "type": "model",
+                    "model": "kssp:hats/pile_of_hats"
+                }
+            },
+            {
+                "threshold": 6004,
+                "model": {
+                    "type": "model",
+                    "model": "kssp:hats/pirate"
+                }
+            },
+            {
+                "threshold": 6005,
+                "model": {
+                    "type": "model",
+                    "model": "kssp:hats/roman"
+                }
+            },
+            {
+                "threshold": 6006,
+                "model": {
+                    "type": "model",
+                    "model": "kssp:hats/stormtrooper"
+                }
+            },
+            {
+                "threshold": 6007,
+                "model": {
+                    "type": "model",
+                    "model": "kssp:hats/traffic_cone"
+                }
+            },
+            {
+                "threshold": 6008,
+                "model": {
+                    "type": "model",
+                    "model": "kssp:hats/ushanka"
+                }
+            },
+            {
+                "threshold": 6009,
+                "model": {
+                    "type": "model",
+                    "model": "item/darth_vader"
+                }
+            },
+            {
+                "threshold": 6010,
+                "model": {
+                    "type": "model",
+                    "model": "kssp:hats/beekeeper"
+                }
+            },
+            {
+                "threshold": 6011,
+                "model": {
+                    "type": "model",
+                    "model": "kssp:hats/archeology"
+                }
+            },
+            {
+                "threshold": 6012,
+                "model": {
+                    "type": "model",
+                    "model": "kssp:hats/helsing"
+                }
+            },
+            {
+                "threshold": 0,
+                "model": {
+                    "type": "model",
+                    "model": "block/carved_pumpkin"
+                }
+            },
+            {
+                "threshold": 6014,
+                "model": {
+                    "type": "model",
+                    "model": "item/cicada1"
+                }
+            },
+            {
+                "threshold": 6015,
+                "model": {
+                    "type": "model",
+                    "model": "item/antlers"
+                }
+            },
+            {
+                "threshold": 6016,
+                "model": {
+                    "type": "model",
+                    "model": "item/santa_hat"
+                }
+            },
+            {
+                "threshold": 6017,
+                "model": {
+                    "type": "model",
+                    "model": "origin:custom/cosmetics/stellar_hat/stellar_hat"
+                }
+            }
+        ]
+    }
+}

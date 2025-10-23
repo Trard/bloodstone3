@@ -1,0 +1,380 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_false": {
+                "type": "minecraft:select",
+                "property": "minecraft:charge_type",
+                "fallback": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/crossbow"
+                },
+                "cases": [
+                    {
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "minecraft:item/crossbow_arrow"
+                        },
+                        "when": "arrow"
+                    },
+                    {
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "minecraft:item/crossbow_firework"
+                        },
+                        "when": "rocket"
+                    }
+                ]
+            },
+            "on_true": {
+                "type": "minecraft:range_dispatch",
+                "property": "minecraft:crossbow/pull",
+                "fallback": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/crossbow_pulling_0"
+                },
+                "entries": [
+                    {
+                        "threshold": 0.58,
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "minecraft:item/crossbow_pulling_1"
+                        }
+                    },
+                    {
+                        "threshold": 1.0,
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "minecraft:item/crossbow_pulling_2"
+                        }
+                    }
+                ]
+            }
+        },
+        "entries": [
+            {
+                "threshold": 94,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:select",
+                        "property": "minecraft:charge_type",
+                        "fallback": {
+                            "type": "minecraft:model",
+                            "model": "item/1_standby"
+                        },
+                        "cases": [
+                            {
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "item/1_arrow"
+                                },
+                                "when": "arrow"
+                            },
+                            {
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "item/1_firework"
+                                },
+                                "when": "rocket"
+                            }
+                        ]
+                    },
+                    "on_true": {
+                        "type": "minecraft:range_dispatch",
+                        "property": "minecraft:crossbow/pull",
+                        "fallback": {
+                            "type": "minecraft:model",
+                            "model": "item/1_pulling_0"
+                        },
+                        "entries": [
+                            {
+                                "threshold": 0.58,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "item/1_pulling_1"
+                                }
+                            },
+                            {
+                                "threshold": 1.0,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "item/1_pulling_2"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "threshold": 1488,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:select",
+                        "property": "minecraft:charge_type",
+                        "fallback": {
+                            "type": "minecraft:model",
+                            "model": "item/2_standby"
+                        },
+                        "cases": [
+                            {
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "item/2_arrow"
+                                },
+                                "when": "arrow"
+                            }
+                        ]
+                    },
+                    "on_true": {
+                        "type": "minecraft:range_dispatch",
+                        "property": "minecraft:crossbow/pull",
+                        "fallback": {
+                            "type": "minecraft:model",
+                            "model": "item/2_pulling_0"
+                        },
+                        "entries": [
+                            {
+                                "threshold": 0.58,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "item/2_pulling_1"
+                                }
+                            },
+                            {
+                                "threshold": 1.0,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "item/2_pulling_2"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "threshold": 6000,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:select",
+                        "property": "minecraft:charge_type",
+                        "fallback": {
+                            "type": "minecraft:model",
+                            "model": "civilization:item/tools/flaming_crossbow/default"
+                        },
+                        "cases": [
+                            {
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "civilization:item/tools/flaming_crossbow/arrow"
+                                },
+                                "when": "arrow"
+                            }
+                        ]
+                    },
+                    "on_true": {
+                        "type": "minecraft:range_dispatch",
+                        "property": "minecraft:crossbow/pull",
+                        "fallback": {
+                            "type": "minecraft:model",
+                            "model": "civilization:item/tools/flaming_crossbow/pulling/0"
+                        },
+                        "entries": [
+                            {
+                                "threshold": 0.58,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "civilization:item/tools/flaming_crossbow/pulling/1"
+                                }
+                            },
+                            {
+                                "threshold": 1.0,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "civilization:item/tools/flaming_crossbow/pulling/2"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "threshold": 2025,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_false": {
+                        "type": "minecraft:select",
+                        "property": "minecraft:charge_type",
+                        "fallback": {
+                            "type": "minecraft:model",
+                            "model": "minecraft:item/mushket"
+                        },
+                        "cases": [
+                            {
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "minecraft:item/mushket_loaded"
+                                },
+                                "when": "arrow"
+                            }
+                        ]
+                    },
+                    "on_true": {
+                        "type": "minecraft:range_dispatch",
+                        "property": "minecraft:crossbow/pull",
+                        "fallback": {
+                            "type": "minecraft:model",
+                            "model": "minecraft:item/mushket_loading"
+                        },
+                        "entries": [
+                            {
+                                "threshold": 0.58,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "minecraft:item/mushket_loading"
+                                }
+                            },
+                            {
+                                "threshold": 1.0,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "minecraft:item/mushket_loading"
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [
+                -90,
+                0,
+                -60
+            ],
+            "translation": [
+                2,
+                0.1,
+                -3
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [
+                -90,
+                0,
+                30
+            ],
+            "translation": [
+                2,
+                0.1,
+                -3
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ]
+        },
+        "firstperson_righthand": {
+            "rotation": [
+                -90,
+                0,
+                -55
+            ],
+            "translation": [
+                1.13,
+                3.2,
+                1.13
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [
+                -90,
+                0,
+                35
+            ],
+            "translation": [
+                1.13,
+                3.2,
+                1.13
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "ground": {
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "translation": [
+                0,
+                2.5,
+                0
+            ],
+            "scale": [
+                0.5,
+                0.5,
+                0.5
+            ]
+        },
+        "fixed": {
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "translation": [
+                0,
+                0,
+                0
+            ],
+            "scale": [
+                6.0,
+                6.0,
+                1.5
+            ]
+        },
+        "gui": {
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "translation": [
+                0,
+                0,
+                0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    }
+}
