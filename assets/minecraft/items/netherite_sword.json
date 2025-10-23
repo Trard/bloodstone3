@@ -1,0 +1,26 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/netherite_sword"
+        },
+        "entries": [
+            {
+                "threshold": 33,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/sakura_sword"
+                }
+            },
+            {
+                "threshold": 7492,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/tools/cloud_sword"
+                }
+            }
+        ]
+    }
+}

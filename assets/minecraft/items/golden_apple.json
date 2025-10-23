@@ -1,0 +1,68 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/golden_apple"
+        },
+        "entries": [
+            {
+                "threshold": 2000,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/candies/0"
+                }
+            },
+            {
+                "threshold": 2001,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/candies/1"
+                }
+            },
+            {
+                "threshold": 2002,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/candies/2"
+                }
+            },
+            {
+                "threshold": 2003,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/candies/3"
+                }
+            },
+            {
+                "threshold": 2004,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/candies/4"
+                }
+            },
+            {
+                "threshold": 2005,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/candies/5"
+                }
+            },
+            {
+                "threshold": 2006,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/candies/6"
+                }
+            },
+            {
+                "threshold": 2007,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/candies/7"
+                }
+            }
+        ]
+    }
+}
