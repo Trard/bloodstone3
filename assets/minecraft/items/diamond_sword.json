@@ -28,7 +28,7 @@
                     "model": "civilization:item/tools/emerald_sword"
                 }
             },
-			            {
+			      {
                 "threshold": 2007,
                 "model": {
                     "type": "model",
