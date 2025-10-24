@@ -28,6 +28,20 @@
                     "model": "civilization:item/tools/emerald_sword"
                 }
             },
+			      {
+                "threshold": 2007,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/pidorsword"
+                }
+            },
+            {
+                "threshold": 2009,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/clownsword"
+                }
+            },
             {
                 "threshold": 2017,
                 "model": {
