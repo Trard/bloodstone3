@@ -1,14 +1,19 @@
 {
-    "parent": "minecraft:item/handheld",
-    "textures": {
-        "layer0": "minecraft:item/wooden_hoe"
-    },
-    "overrides": [
-        {
-            "predicate": {
-                "custom_model_data": 1985
-            },
-            "model": "minecraft:item/pultotyaderkiupdate"
-        }
-    ]
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/wooden_hoe"
+        },
+        "entries": [
+            {
+                "threshold": 1985,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/pultot"
+                }
+            }
+        ]
+    }
 }
