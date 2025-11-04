@@ -166,7 +166,7 @@
             "type": "bitmap",
             "file": "minecraft:font/bladik.png",
             "ascent": 7,
-            "height": 7,
+            "height": 8,
             "chars": [
                 "ぇ"
             ]
