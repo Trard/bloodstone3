@@ -97,6 +97,20 @@
                     "type": "model",
                     "model": "minecraft:item/icons/hammer"
                 }
+            },
+            {
+                "threshold": 14,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/icons/cosmetics"
+                }
+            },
+            {
+                "threshold": 15,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/icons/coin_shop"
+                }
             }
         ]
     }
