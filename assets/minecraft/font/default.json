@@ -170,6 +170,24 @@
             "chars": [
                 "ぇ"
             ]
+        },
+        {
+            "type": "bitmap",
+            "file": "logo:juggernaut.png",
+            "ascent": 0,
+            "height": 40,
+            "chars": [
+                "ୃ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "logo:juggernaut.png",
+            "ascent": 0,
+            "height": 26,
+            "chars": [
+                "ଳ"
+            ]
         }
     ]
 }
