@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/icons/skills/smp/based/smp_icon_pot_20"
+  }
+}

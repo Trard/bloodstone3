@@ -1,0 +1,49 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/discord.png",
+            "ascent": 7,
+            "height": 9,
+            "chars": [
+                "𜰄"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/coin.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "𜰷"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/win.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                "☊"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/black.png",
+            "ascent": 1,
+            "height": 1,
+            "chars": [
+                "ぃ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/bladik.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": [
+                "ぇ"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/icons/skills/pve/upgraded/pve_icon_trade_acces_pressed"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/icons/skills/cart/upgraded/cart_icon_time_kill_pressed"
+  }
+}

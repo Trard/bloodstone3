@@ -1,0 +1,45 @@
+{
+    "providers": [
+        {
+            "type": "space",
+            "advances": {
+                "": 1,
+                "": 2,
+                "": 4,
+                "": 8,
+                "": 16,
+                "": 32,
+                "": 64,
+                "": 128,
+                "": 256,
+                "": -1,
+                "": -2,
+                "": -4,
+                "": -8,
+                "": -16,
+                "": -32,
+                "": -64,
+                "": -128,
+                "": -256
+            }
+        },
+        {
+            "type": "bitmap",
+            "file": "civilization:ui/gui/misc/skill_menu.png",
+            "ascent": 14,
+            "height": 256,
+            "chars": [
+                ""
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "civilization:ui/gui/cosmetics/connect_four.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                ""
+            ]
+        }
+    ]
+}
