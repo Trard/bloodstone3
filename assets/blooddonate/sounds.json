@@ -1,0 +1,23 @@
+{
+"custom.dripstone": { "category": "master", "sounds": [ "blooddonate:custom/dripstone" ] },
+"custom.heaven": { "category": "master", "sounds": [ "blooddonate:custom/heaven" ] },
+"custom.anvil": { "category": "master", "sounds": [ "blooddonate:custom/anvil" ] },
+"custom.mini_ufo": { "category": "master", "sounds": [ "blooddonate:custom/mini_ufo" ] },
+"custom.big_ufo": { "category": "master", "sounds": [ "blooddonate:custom/big_ufo" ] },
+"custom.mini_warden": { "category": "master", "sounds": [ "blooddonate:custom/mini_warden" ] },
+"custom.paper": { "category": "master", "sounds": [ "blooddonate:custom/paper" ] },
+"custom.hell": { "category": "master", "sounds": [ "blooddonate:custom/hell" ] },
+"custom.hammer": { "category": "master", "sounds": [ "blooddonate:custom/hammer" ] },
+"custom.ragdoll": { "category": "master", "sounds": [ "blooddonate:custom/ragdoll" ] },
+"custom.portal": { "category": "master", "sounds": [ "blooddonate:custom/portal" ] },
+"custom.pacman": { "category": "master", "sounds": [ "blooddonate:custom/pacman" ] },
+"custom.white_arm": { "category": "master", "sounds": [ "blooddonate:custom/white_arm" ] },
+"custom.snowman": { "category": "master", "sounds": [ "blooddonate:custom/snowman" ] },
+"custom.ice_spikes": { "category": "master", "sounds": [ "blooddonate:custom/ice_spikes" ] },
+"custom.bubble_burst": { "category": "master", "sounds": [ "blooddonate:custom/bubble_burst" ] },
+"custom.clouds": { "category": "master", "sounds": [ "blooddonate:custom/clouds" ] },
+"custom.imposter": { "category": "master", "sounds": [ "blooddonate:custom/imposter" ] },
+"custom.shadow_merge": { "category": "master", "sounds": [ "blooddonate:custom/shadow_merge" ] },
+"custom.time_warp": { "category": "master", "sounds": [ "blooddonate:custom/time_warp" ] },
+"custom.warp_into_unknown": { "category": "master", "sounds": [ "blooddonate:custom/warp_into_unknown" ] }
+}
