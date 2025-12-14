@@ -1,0 +1,23 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"2": "blooddonate:item/cosmetic_display/time_warp",
+		"particle": "blooddonate:item/cosmetic_display/time_warp"
+	},
+	"elements": [
+		{
+			"from": [0.5, 0, 7],
+			"to": [6.5, 6, 10],
+			"rotation": {"angle": 45, "axis": "z", "origin": [3.5, 9, 8.5]},
+			"faces": {
+				"north": {"uv": [5.875, 2.125, 6.375, 2.625], "texture": "#2"},
+				"east": {"uv": [5.875, 2.6875, 6, 2.8125], "texture": "#2"},
+				"south": {"uv": [5.875, 1.625, 6.375, 2.13125], "texture": "#2"},
+				"west": {"uv": [5.9375, 2.625, 6.125, 3.8125], "texture": "#2"},
+				"up": {"uv": [6.0625, 3.6875, 5.9375, 3], "texture": "#2"},
+				"down": {"uv": [5.875, 2.75, 6.0625, 3.875], "texture": "#2"}
+			}
+		}
+	]
+}
