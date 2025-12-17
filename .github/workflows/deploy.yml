@@ -1,0 +1,44 @@
+name: Deploy resource pack to server
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    name: Deploy over SSH (on release)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Show release info
+        run: |
+          echo "Release: ${{ github.event.release.tag_name }}"
+          echo "Asset count: ${{ github.event.release.assets != null && github.event.release.assets.length || 0 }}"
+
+      - name: Download release asset (BloodStone.zip)
+        env:
+          ASSET_ID: ${{ github.event.release.assets[0].id }}
+          REPO: ${{ github.repository }}
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -z "$ASSET_ID" ] || [ "$ASSET_ID" = "null" ]; then
+            echo "No asset found on the release; aborting."
+            exit 1
+          fi
+          echo "Downloading asset id: $ASSET_ID"
+          curl -L -H "Accept: application/octet-stream" \
+               -H "Authorization: token $TOKEN" \
+               "https://api.github.com/repos/$REPO/releases/assets/$ASSET_ID" \
+               -o BloodStone.zip
+          ls -l BloodStone.zip
+
+      - name: Copy ZIP to remote via SCP
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USERNAME }}
+          key: ${{ secrets.SSH_KEY }}
+          port: 22
+          source: BloodStone.zip
+          target: ${{ secrets.DESTINATION }}
