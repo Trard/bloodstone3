@@ -2,7 +2,7 @@
 	"format_version": "1.9.0",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"5": "blooddonate:item/cosmetic_display/portal/ice_spikes"
+		"5": "blooddonate:item/cosmetic_display/ice_spikes"
 	},
 	"elements": [
 		{
