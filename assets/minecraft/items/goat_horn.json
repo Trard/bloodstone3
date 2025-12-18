@@ -3,8 +3,16 @@
         "type": "range_dispatch",
         "property": "custom_model_data",
         "fallback": {
-            "type": "model",
-            "model": "item/goat_horn"
+            "type": "minecraft:condition",
+            "on_false": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/goat_horn"
+            },
+            "on_true": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/tooting_goat_horn"
+            },
+            "property": "minecraft:using_item"
         },
         "entries": [
             {
