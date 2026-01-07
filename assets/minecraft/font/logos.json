@@ -143,6 +143,24 @@
             "chars": [
                 "ଳ"
             ]
+        },
+        {
+            "type": "bitmap",
+            "file": "logo:purge.png",
+            "ascent": 25,
+            "height": 26,
+            "chars": [
+                "ഺ"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "logo:purge.png",
+            "ascent": 0,
+            "height": 44,
+            "chars": [
+                "ጨ"
+            ]
         }
     ]
 }
