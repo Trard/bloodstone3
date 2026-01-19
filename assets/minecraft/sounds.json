@@ -8,5 +8,35 @@
     "custom.pacman": { "category": "master", "sounds": [ "custom/pacman" ] },
     "custom.hell": { "category": "master", "sounds": [ "custom/hell" ] },
     "custom.white_arm": { "category": "master", "sounds": [ "custom/white_arm" ] },
-    "custom.hammer": { "category": "master", "sounds": [ "custom/hammer" ] }
+    "custom.hammer": { "category": "master", "sounds": [ "custom/hammer" ] },
+      "bloodostrike.prepairing": {
+    "category": "player",
+    "sounds": [
+      "bloodostrike/prepairing"
+    ]
+  },
+  "bloodostrike.launch": {
+    "category": "player",
+    "sounds": [
+      "bloodostrike/launch"
+    ]
+  },
+  "bloodostrike.confirm": {
+    "category": "player",
+    "sounds": [
+      "bloodostrike/confirm"
+    ]
+  },
+  "bloodostrike.mechanisms": {
+    "category": "player",
+    "sounds": [
+      "bloodostrike/mechanisms"
+    ]
+  },
+  "bloodostrike.click": {
+    "category": "player",
+    "sounds": [
+      "bloodostrike/click"
+    ]
+  }
 }
