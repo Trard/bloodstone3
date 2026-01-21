@@ -1,0 +1,157 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/eventmaster.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\uE000"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/commanager.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\uE001"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/dev.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\uE002"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/glsser.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\uE003"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/prezident.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\uE005"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/rank_admin1.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\uE006"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/rank_production.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\uE007"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/vip.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\uE008"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/voenkor.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\uE009"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/helper.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\uE00A"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/curator.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\uE00B"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/glmoderator.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\uE00C"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/media.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\uE00D"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/moderator.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\uE00E"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/rank_admin.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\uE00F"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/rank_admin2.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\uE010"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/sser.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\uE011"
+      ]
+    }
+  ]
+}

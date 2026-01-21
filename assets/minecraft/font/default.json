@@ -11,6 +11,10 @@
         {
             "type": "reference",
             "id": "inventoryviews"
+        },
+        {
+            "type": "reference",
+            "id": "suffixes"
         }
     ]
 }
