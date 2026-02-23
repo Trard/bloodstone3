@@ -1,0 +1,42 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:using_item",
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "bloodstone:item/tools/time_bow/default/timebow1"
+    },
+    "on_true": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:use_duration",
+      "scale": 0.05,
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "bloodstone:item/tools/time_bow/default/timebow1"
+      },
+      "entries": [
+        {
+          "threshold": 0.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bloodstone:item/tools/time_bow/default/timebow2"
+          }
+        },
+        {
+          "threshold": 0.55,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bloodstone:item/tools/time_bow/default/timebow3"
+          }
+        },
+        {
+          "threshold": 0.9,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bloodstone:item/tools/time_bow/default/timebow4"
+          }
+        }
+      ]
+    }
+  }
+}

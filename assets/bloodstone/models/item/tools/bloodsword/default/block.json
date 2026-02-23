@@ -1,0 +1,74 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"5": "bloodstone:item/tools/bloodsword/default/blood_ball"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 4],
+			"to": [12, 8, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 0, 10]},
+			"faces": {
+				"north": {"uv": [2, 0, 4, 2], "texture": "#5"},
+				"east": {"uv": [2, 0, 4, 2], "texture": "#5"},
+				"south": {"uv": [2, 0, 4, 2], "texture": "#5"},
+				"west": {"uv": [2, 0, 4, 2], "texture": "#5"},
+				"up": {"uv": [2, 6, 0, 4], "texture": "#5"},
+				"down": {"uv": [6, 0, 4, 2], "texture": "#5"}
+			}
+		},
+		{
+			"from": [5, -6, 5],
+			"to": [11, 0, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, -2, 9]},
+			"faces": {
+				"north": {"uv": [6, 3.25, 7.5, 4.75], "texture": "#5"},
+				"east": {"uv": [6, 3.25, 7.5, 4.75], "texture": "#5"},
+				"south": {"uv": [6, 3.25, 7.5, 4.75], "texture": "#5"},
+				"west": {"uv": [6, 3.25, 7.5, 4.75], "texture": "#5"},
+				"up": {"uv": [7.5, 7.75, 6, 6.25], "texture": "#5"},
+				"down": {"uv": [9, 1.75, 7.5, 3.25], "texture": "#5"}
+			}
+		},
+		{
+			"from": [4, -7, 4],
+			"to": [12, 0, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, -2, 10]},
+			"faces": {
+				"north": {"uv": [0, 6, 2, 7.75], "texture": "#5"},
+				"east": {"uv": [0, 6, 2, 7.75], "texture": "#5"},
+				"south": {"uv": [0, 6, 2, 7.75], "texture": "#5"},
+				"west": {"uv": [0, 6, 2, 7.75], "texture": "#5"},
+				"up": {"uv": [4, 6, 2, 4], "texture": "#5"},
+				"down": {"uv": [6, 2, 4, 4], "texture": "#5"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, -2, -3],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, -2, -3],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"firstperson_righthand": {
+			"rotation": [-14.5, -2.9, 11.1],
+			"translation": [4.25, 9, -6.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-14.5, -2.9, 11.1],
+			"translation": [4.25, 9, -6.5]
+		},
+		"gui": {
+			"rotation": [0, 0, -45],
+			"translation": [5, 4.75, 0],
+			"scale": [1.1, 1.1, 1.1]
+		}
+	}
+}
