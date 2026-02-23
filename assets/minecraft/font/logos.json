@@ -65,6 +65,15 @@
         },
         {
             "type": "bitmap",
+            "file": "logo:battle_royale_2.png",
+            "ascent": 0,
+            "height": 36,
+            "chars": [
+                "\uF800"
+            ]
+        },
+        {
+            "type": "bitmap",
             "file": "logo:civilizations.png",
             "ascent": 0,
             "height": 24,
