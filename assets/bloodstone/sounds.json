@@ -2,5 +2,7 @@
   "laser.laser1": { "category": "master", "sounds": [ "bloodstone:laser/laser1" ] },
   "laser.laser2": { "category": "master", "sounds": [ "bloodstone:laser/laser2" ] },
   "laser.laser_finish": { "category": "master", "sounds": [ "bloodstone:laser/laser_finish" ] },
-  "laser.laser_start": { "category": "master", "sounds": [ "bloodstone:laser/laser_start" ] }
+  "laser.laser_start": { "category": "master", "sounds": [ "bloodstone:laser/laser_start" ] },
+  "gamble_sword.gamble_sword1": { "category": "master", "sounds": [ "bloodstone:gamble_sword/gamble_sword1" ] },
+  "gamble_sword.gamble_sword2": { "category": "master", "sounds": [ "bloodstone:gamble_sword/gamble_sword2" ] }
 }
