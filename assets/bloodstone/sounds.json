@@ -1,0 +1,6 @@
+{
+  "custom.laser1": { "category": "master", "sounds": [ "bloodstone:laser/laser1" ] },
+  "custom.laser2": { "category": "master", "sounds": [ "bloodstone:laser/laser2" ] },
+  "custom.laser_finish": { "category": "master", "sounds": [ "bloodstone:laser/laser_finish" ] },
+  "custom.laser_start": { "category": "master", "sounds": [ "bloodstone:laser/laser_start" ] }
+}
