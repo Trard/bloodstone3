@@ -152,6 +152,33 @@
       "chars": [
         "\uE011"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/intern.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\uE012"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/senior_helper.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\uE013"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/senior_moderatior.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\uE014"
+      ]
     }
   ]
 }
