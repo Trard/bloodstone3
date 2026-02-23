@@ -1,6 +1,6 @@
 ---
 name: bloodstone-resourcepack-tools
-description: Use scripts/extract_bbmodel_1214.py and scripts/transfer_item_namespace.py to import Blockbench .bbmodel assets into this resource pack, generate models/textures/items in the bloodstone namespace, and update texture/model paths.
+description: Use scripts/extract_bbmodel_1214.py, scripts/create_icon_from_png.py, and scripts/transfer_item_namespace.py to import Blockbench .bbmodel assets, generate icon assets from PNG files, and manage model/texture/item paths in the bloodstone namespace.
 ---
 
 # Bloodstone Resourcepack Tools
@@ -8,12 +8,14 @@ description: Use scripts/extract_bbmodel_1214.py and scripts/transfer_item_names
 ## Use This Skill When
 - A user asks to add a new model from `new/*.bbmodel`.
 - A user asks to extract model JSON and textures from a Blockbench file.
+- A user asks to create an icon item/model/texture from a `.png` file.
 - A user asks to create or update `assets/<namespace>/items/...` files.
 - A user asks to move an item asset family from one namespace to another.
 - A user asks to rename extracted texture files and fix model texture references.
 
 ## Scripts
 - `scripts/extract_bbmodel_1214.py`
+- `scripts/create_icon_from_png.py`
 - `scripts/transfer_item_namespace.py`
 
 ## Core Workflow
@@ -22,6 +24,31 @@ description: Use scripts/extract_bbmodel_1214.py and scripts/transfer_item_names
 3. Create or update the item JSON that points to the model.
 4. If texture names are unclear (for example `texture.png`), rename files and update `models/item/.../*.json` `textures` entries.
 5. Verify generated paths and references.
+
+## Create Icon Assets From A PNG
+Use this when you have a flat icon texture (for example `new/firework.png`) and want blooddonate-style icon structure.
+
+1. Run generator:
+```bash
+python3 scripts/create_icon_from_png.py 'new/firework.png' \
+  --assets-root assets \
+  --namespace bloodstone \
+  --group icons \
+  --name firework \
+  --force
+```
+
+2. Output hierarchy:
+- `assets/bloodstone/items/icons/firework.json`
+- `assets/bloodstone/models/item/icons/firework.json`
+- `assets/bloodstone/textures/item/icons/firework.png`
+
+3. Verify:
+```bash
+cat assets/bloodstone/items/icons/firework.json
+cat assets/bloodstone/models/item/icons/firework.json
+find assets/bloodstone/textures/item/icons -maxdepth 1 -type f | sort
+```
 
 ## Add A New Model From `new/*.bbmodel`
 Use this exact procedure for new imports.
@@ -87,4 +114,3 @@ Useful options:
 - Quote file paths containing spaces or parentheses.
 - Reuse `--force` only when overwriting is intended.
 - Generated models are 1.21.4-style and may include animated texture `.mcmeta` files when needed.
-
