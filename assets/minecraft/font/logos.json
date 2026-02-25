@@ -83,6 +83,24 @@
         },
         {
             "type": "bitmap",
+            "file": "logo:battle_royale_3.png",
+            "ascent": 0,
+            "height": 36,
+            "chars": [
+                "\uF802"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "logo:battle_royale_3.png",
+            "ascent": 0,
+            "height": 28,
+            "chars": [
+                "\uF803"
+            ]
+        },
+        {
+            "type": "bitmap",
             "file": "logo:civilizations.png",
             "ascent": 0,
             "height": 24,
