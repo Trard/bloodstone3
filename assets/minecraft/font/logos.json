@@ -76,7 +76,7 @@
             "type": "bitmap",
             "file": "logo:battle_royale_2.png",
             "ascent": 0,
-            "height": 24,
+            "height": 28,
             "chars": [
                 "\uF801"
             ]
