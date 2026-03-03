@@ -57,40 +57,50 @@ Use this exact procedure for new imports.
 - `asset`: folder under `models/item` and `textures/item` (example: `mirror_blade`)
 - `variant`: usually `default`
 - `model_name`: model file name without `.json` (often same as `asset`)
+- `group` (optional): folder between `item/` and `<asset>` (example: `tools`)
 
 2. Run extraction:
 ```bash
 python3 scripts/extract_bbmodel_1214.py 'new/<file>.bbmodel' \
   --assets-root assets \
   --namespace bloodstone \
+  --group <group> \
   --asset <asset> \
   --variant <variant> \
   --model-name <model_name> \
+  --item-mode create \
+  --item-name <model_name> \
   --force
 ```
 
-3. Create item file:
-- Path: `assets/bloodstone/items/<asset>/<variant>/<model_name>.json`
-- Content:
-```json
-{
-  "model": {
-    "type": "minecraft:model",
-    "model": "bloodstone:item/<asset>/<variant>/<model_name>"
-  }
-}
-```
+3. Item file is created automatically when `--item-mode create` is used.
 
 4. If needed, rename textures and update model references:
-- Rename files under `assets/bloodstone/textures/item/<asset>/<variant>/`
-- Update `textures` object in `assets/bloodstone/models/item/<asset>/<variant>/<model_name>.json`
+- Rename files under `assets/bloodstone/textures/item/<group>/<asset>/<variant>/`
+- Update `textures` object in `assets/bloodstone/models/item/<group>/<asset>/<variant>/<model_name>.json`
 - Keep `.png.mcmeta` paired with the renamed texture filename.
 
 5. Verify:
 ```bash
-jq '.textures' assets/bloodstone/models/item/<asset>/<variant>/<model_name>.json
-cat assets/bloodstone/items/<asset>/<variant>/<model_name>.json
-find assets/bloodstone/textures/item/<asset>/<variant> -maxdepth 1 -type f | sort
+jq '.textures' assets/bloodstone/models/item/<group>/<asset>/<variant>/<model_name>.json
+cat assets/bloodstone/items/<group>/<asset>/<variant>/<model_name>.json
+find assets/bloodstone/textures/item/<group>/<asset>/<variant> -maxdepth 1 -type f | sort
+```
+
+## Update Existing Model In Place
+Use this to overwrite an existing model file (for example `harpoon`) and update its existing item JSON, without creating a new model name.
+
+```bash
+python3 scripts/extract_bbmodel_1214.py 'new/blood_harpoon_pull (2).bbmodel' \
+  --assets-root assets \
+  --namespace bloodstone \
+  --group tools \
+  --asset bloodsword \
+  --variant default \
+  --update-existing-model harpoon \
+  --item-mode update \
+  --item-name harpoon \
+  --force
 ```
 
 ## Namespace Transfer Workflow

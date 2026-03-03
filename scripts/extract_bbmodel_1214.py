@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Extract one Minecraft 1.21.4+ model JSON and PNG textures from a Blockbench
-.bbmodel file.
+.bbmodel file. Optionally create or update the corresponding item JSON.
 
 This script intentionally emits exactly one model JSON per input bbmodel.
 """
@@ -39,6 +39,39 @@ def to_pack_name(raw: str) -> str:
     return PACK_NAME_PATTERN.sub("_", raw.lower())
 
 
+def sanitize_rel_path(raw: str, label: str) -> str:
+    if not raw or not raw.strip():
+        fail(f"Computed empty {label}.")
+    parts = [part for part in re.split(r"[\\/]+", raw.strip()) if part]
+    if not parts:
+        fail(f"Computed empty {label}.")
+    sanitized_parts: list[str] = []
+    for part in parts:
+        sanitized = to_pack_name(part)
+        if not sanitized:
+            fail(f"Computed empty path segment in {label}.")
+        if sanitized in {".", ".."}:
+            fail(f"Invalid path segment '{part}' in {label}.")
+        sanitized_parts.append(sanitized)
+    return "/".join(sanitized_parts)
+
+
+def build_model_ref(
+    namespace: str, group: str, asset: str, variant: str, model_name: str
+) -> str:
+    prefix = f"{group}/" if group else ""
+    return f"{namespace}:item/{prefix}{asset}/{variant}/{model_name}"
+
+
+def build_item_json(model_ref: str) -> dict:
+    return {
+        "model": {
+            "type": "minecraft:model",
+            "model": model_ref,
+        }
+    }
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description=(
@@ -70,6 +103,36 @@ def parse_args() -> argparse.Namespace:
         "--model-name",
         default=None,
         help="Output model file name without extension (default: bbmodel stem).",
+    )
+    parser.add_argument(
+        "--group",
+        default=None,
+        help=(
+            "Optional folder under models/item, textures/item, and items "
+            "(for example: tools). Supports nested paths."
+        ),
+    )
+    parser.add_argument(
+        "--update-existing-model",
+        default=None,
+        help=(
+            "Write to this existing model file name instead of --model-name "
+            "(for example: harpoon)."
+        ),
+    )
+    parser.add_argument(
+        "--item-mode",
+        choices=("none", "create", "update"),
+        default="none",
+        help=(
+            "Item JSON behavior: 'none' = skip, 'create' = write new item file, "
+            "'update' = overwrite existing item file."
+        ),
+    )
+    parser.add_argument(
+        "--item-name",
+        default=None,
+        help="Item file name without extension (default: model output name).",
     )
     parser.add_argument(
         "--prefix-textures",
@@ -173,6 +236,7 @@ def build_texture_plans(
     bbmodel: dict,
     bbmodel_path: Path,
     namespace: str,
+    group: str,
     asset: str,
     variant: str,
     model_name: str,
@@ -227,7 +291,13 @@ def build_texture_plans(
                 }
             }
 
-        rel_namespace_path = f"{namespace}:item/{asset}/{variant}/{unique_stem}"
+        rel_namespace_path = build_model_ref(
+            namespace=namespace,
+            group=group,
+            asset=asset,
+            variant=variant,
+            model_name=unique_stem,
+        )
         plans.append(
             TexturePlan(
                 index=idx,
@@ -435,15 +505,30 @@ def main() -> None:
     if namespace != args.namespace.lower():
         print(f"NOTE: sanitized namespace '{args.namespace}' -> '{namespace}'")
 
-    model_name = to_pack_name(args.model_name or bbmodel_path.stem)
+    source_model_name = to_pack_name(args.model_name or bbmodel_path.stem)
+    model_name = to_pack_name(args.update_existing_model or source_model_name)
+    group = sanitize_rel_path(args.group, "group") if args.group else ""
     asset = to_pack_name(args.asset or bbmodel_path.stem)
     variant = to_pack_name(args.variant)
+    item_name = to_pack_name(args.item_name or model_name)
     if not model_name:
         fail("Computed empty model name.")
+    if model_name in {".", ".."}:
+        fail("Invalid model name.")
+    if source_model_name in {".", ".."}:
+        fail("Invalid source model name.")
     if not asset:
         fail("Computed empty asset name.")
+    if asset in {".", ".."}:
+        fail("Invalid asset name.")
     if not variant:
         fail("Computed empty variant name.")
+    if variant in {".", ".."}:
+        fail("Invalid variant name.")
+    if not item_name:
+        fail("Computed empty item name.")
+    if item_name in {".", ".."}:
+        fail("Invalid item name.")
 
     bbmodel = read_bbmodel(bbmodel_path)
     model_resolution_width = read_positive_int(
@@ -456,6 +541,7 @@ def main() -> None:
         bbmodel=bbmodel,
         bbmodel_path=bbmodel_path,
         namespace=namespace,
+        group=group,
         asset=asset,
         variant=variant,
         model_name=model_name,
@@ -465,9 +551,19 @@ def main() -> None:
         bbmodel, texture_plans, model_resolution_width, model_resolution_height
     )
 
-    model_dir = assets_root / namespace / "models" / "item" / asset / variant
-    texture_dir = assets_root / namespace / "textures" / "item" / asset / variant
+    model_root = assets_root / namespace / "models" / "item"
+    texture_root = assets_root / namespace / "textures" / "item"
+    item_root = assets_root / namespace / "items"
+    if group:
+        model_root = model_root / group
+        texture_root = texture_root / group
+        item_root = item_root / group
+
+    model_dir = model_root / asset / variant
+    texture_dir = texture_root / asset / variant
     model_path = model_dir / f"{model_name}.json"
+    item_dir = item_root / asset / variant
+    item_path = item_dir / f"{item_name}.json" if args.item_mode != "none" else None
     texture_paths = [texture_dir / f"{t.file_stem}.png" for t in texture_plans]
     mcmeta_paths = [
         texture_dir / f"{t.file_stem}.png.mcmeta"
@@ -475,11 +571,18 @@ def main() -> None:
         if t.mcmeta_json is not None
     ]
 
-    ensure_writable([model_path, *texture_paths, *mcmeta_paths], args.force)
+    check_paths: list[Path] = [model_path, *texture_paths, *mcmeta_paths]
+    if args.item_mode == "create" and item_path is not None:
+        check_paths.append(item_path)
+    ensure_writable(check_paths, args.force)
+    if args.item_mode == "update" and item_path is not None and not item_path.exists():
+        fail(f"Item file does not exist for update mode: {item_path}")
 
     print(f"Input bbmodel : {bbmodel_path}")
     print(f"Model output  : {model_path}")
     print(f"Texture output: {texture_dir}")
+    if item_path is not None:
+        print(f"Item output   : {item_path} (mode={args.item_mode})")
     print(f"Model JSON files to write: 1")
     print(f"PNG textures to write    : {len(texture_paths)}")
     print(f"MCMETA files to write    : {len(mcmeta_paths)}")
@@ -489,6 +592,9 @@ def main() -> None:
         print(f"{'DRY-RUN ' if args.dry_run else ''}WRITE {path}")
     for path in mcmeta_paths:
         print(f"{'DRY-RUN ' if args.dry_run else ''}WRITE {path}")
+    if item_path is not None:
+        item_action = "WRITE" if args.item_mode == "create" else "UPDATE"
+        print(f"{'DRY-RUN ' if args.dry_run else ''}{item_action} {item_path}")
 
     if args.dry_run:
         print("Done (dry-run).")
@@ -496,6 +602,8 @@ def main() -> None:
 
     model_dir.mkdir(parents=True, exist_ok=True)
     texture_dir.mkdir(parents=True, exist_ok=True)
+    if item_path is not None:
+        item_dir.mkdir(parents=True, exist_ok=True)
 
     model_path.write_text(json.dumps(model_json, indent=2) + "\n", encoding="utf-8")
     for tex, path in zip(texture_plans, texture_paths):
@@ -505,6 +613,18 @@ def main() -> None:
             continue
         mcmeta_path = texture_dir / f"{tex.file_stem}.png.mcmeta"
         mcmeta_path.write_text(json.dumps(tex.mcmeta_json, indent=2) + "\n", encoding="utf-8")
+    if item_path is not None:
+        model_ref = build_model_ref(
+            namespace=namespace,
+            group=group,
+            asset=asset,
+            variant=variant,
+            model_name=model_name,
+        )
+        item_path.write_text(
+            json.dumps(build_item_json(model_ref), indent=2) + "\n",
+            encoding="utf-8",
+        )
 
     print("Done.")
 
