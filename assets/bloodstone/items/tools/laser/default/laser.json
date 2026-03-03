@@ -1,20 +1,28 @@
 {
-    "model": {
-                    "type": "minecraft:range_dispatch",
-                "property": "minecraft:use_duration",
-                "scale": 0.05,
-                "fallback": {
-                    "type": "minecraft:model",
-                    "model": "bloodstone:item/tools/laser/default/laser"
-                },
-                "entries": [
-                    {
-                        "threshold": 0.01,
-                        "model": {
-                            "type": "minecraft:model",
-                            "model": "bloodstone:item/tools/laser/default/laser1"
-                        }
-                    }
-                ]
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:using_item",
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "bloodstone:item/tools/laser/default/laser"
+    },
+    "on_true": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:use_duration",
+      "scale": 0.05,
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "bloodstone:item/tools/laser/default/laser"
+      },
+      "entries": [
+        {
+          "threshold": 0.01,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bloodstone:item/tools/laser/default/laser1"
+          }
+        }
+      ]
     }
+  }
 }

@@ -17,7 +17,7 @@ out vec4 fragColor;
 void main() {
     vec4 color = texture(Sampler0, texCoord0) * ColorModulator;
 
-    // Read original texel alpha to detect emissive marker values.
+    // what the fuck
     ivec4 ich = ivec4(round(texelFetch(Sampler0, ivec2(texCoord0 * textureSize(Sampler0, 0)), 0) * 255));
 
     switch (ich.a) {
