@@ -1,6 +1,24 @@
 {
   "pack": {
-    "description": "ЛУЧШИЙ СЕРВЕР В МАЙНКРАФТЕ",
+    "description": {
+      "text": "",
+      "extra": [
+        {
+          "text": "BLOOD",
+          "color": "#D30909",
+          "bold": true
+        },
+        {
+          "text": "STONE",
+          "color": "#D2D2D2",
+          "bold": true
+        },
+        {
+          "text": " — ваш любимый сервер",
+          "color": "#F6C344"
+        }
+      ]
+    },
     "pack_format": 46,
     "supported_formats": [46, 75],
     "min_format": 46,
