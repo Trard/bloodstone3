@@ -21,6 +21,11 @@ jobs:
           options: |
             pack_directory = '.'
             output_file_path = 'BloodStone.zip'
+
+            # Overlay directories are top-level (e.g. 1.21.5/assets/...),
+            # which PackSquash treats as custom files unless force-included.
+            ['1.21.*/**']
+            force_include = true
       - name: Create release
         uses: softprops/action-gh-release@v2
         with:
