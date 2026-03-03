@@ -25,7 +25,7 @@
         },
         {
             "type": "bitmap",
-            "file": "civilization:ui/gui/misc/skill_menu.png",
+            "file": "bloodstone:ui/gui/misc/skill_menu.png",
             "ascent": 14,
             "height": 256,
             "chars": [
@@ -34,11 +34,20 @@
         },
         {
             "type": "bitmap",
-            "file": "civilization:ui/gui/cosmetics/connect_four.png",
+            "file": "bloodstone:ui/gui/cosmetics/connect_four.png",
             "ascent": 13,
             "height": 256,
             "chars": [
                 ""
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/profile/stats.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "\uE015"
             ]
         }
     ]
