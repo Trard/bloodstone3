@@ -1,23 +1,24 @@
 {
     "model": {
-        "type": "range_dispatch",
-        "property": "custom_model_data",
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
         "fallback": {
-            "type": "model",
+            "type": "minecraft:model",
             "model": "minecraft:item/stone_axe"
         },
         "entries": [
             {
                 "threshold": 444,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "minecraft:item/sledgehammer"
                 }
             },
             {
                 "threshold": 1330,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "civilization:item/tools/mjolnir/normal"
                 }
             }

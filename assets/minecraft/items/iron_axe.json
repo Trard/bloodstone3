@@ -1,23 +1,24 @@
 {
     "model": {
-        "type": "range_dispatch",
-        "property": "custom_model_data",
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
         "fallback": {
-            "type": "model",
+            "type": "minecraft:model",
             "model": "minecraft:item/iron_axe"
         },
         "entries": [
             {
                 "threshold": 93,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "minecraft:item/ban_hammer"
                 }
             },
             {
                 "threshold": 444,
                 "model": {
-                    "type": "model",
+                    "type": "minecraft:model",
                     "model": "minecraft:item/sledgehammer"
                 }
             }
