@@ -44,7 +44,7 @@
         {
             "type": "bitmap",
             "file": "bloodstone:ui/gui/profile/stats.png",
-            "ascent": 13,
+            "ascent": 22,
             "height": 256,
             "chars": [
                 "\uE015"
