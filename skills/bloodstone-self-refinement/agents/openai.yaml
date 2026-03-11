@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bloodstone Self-Refinement"
+  short_description: "Capture lessons into AGENTS.md and skills"
+  default_prompt: "Use $bloodstone-self-refinement to save the most important lessons from this completed task into AGENTS.md or the local skills."

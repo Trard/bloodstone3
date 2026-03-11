@@ -20,6 +20,12 @@ description: Use scripts/add_suffix.py, scripts/extract_bbmodel_1214.py, scripts
 - `scripts/create_icon_from_png.py`
 - `scripts/transfer_item_namespace.py`
 
+## External References
+- For Minecraft resource-pack mechanics that are not obvious from local files, use Minecraft Wiki first.
+- Good starting pages depend on the task: item model definitions, model JSON format, pack format, atlases, and texture/layout pages.
+- For version-sensitive behavior, confirm against the target version's vanilla assets from the game jar after reading the wiki.
+- Example reference used in this pack: `https://minecraft.wiki/w/Items_model_definition`
+ 
 ## Core Workflow
 1. Identify the source file and target names.
 2. Run extractor script to generate one model JSON plus textures.
@@ -80,6 +86,35 @@ python3 scripts/create_icon_from_png.py 'new/firework.png' \
 cat assets/minecraft/items/icons/firework.json
 cat assets/minecraft/models/item/icons/firework.json
 find assets/minecraft/textures/item/icons -maxdepth 1 -type f | sort
+```
+
+## Add A Custom Shield From A PNG
+Use this when the source is a shield-layout texture rather than a flat icon or `.bbmodel`.
+
+1. If the PNG matches vanilla shield layout, do not use `create_icon_from_png.py`.
+- In 1.21.4+ the `minecraft:special` shield model keeps vanilla shield rendering, but it does not give a per-item texture override.
+- Do not replace `assets/minecraft/textures/entity/shield_base_nopattern.png` unless the user explicitly wants every plain shield to use that texture.
+- Reference when needed: `https://minecraft.wiki/w/Items_model_definition`
+
+2. Create an item-specific shield family under `bloodstone`:
+- `assets/bloodstone/items/tools/<asset>/default/<asset>.json`
+- `assets/bloodstone/models/item/tools/<asset>/default/<asset>.json`
+- `assets/bloodstone/models/item/tools/<asset>/default/<asset>_blocking.json`
+- `assets/bloodstone/textures/item/tools/<asset>/default/<asset>.png`
+
+3. Item JSON pattern:
+- Use `minecraft:condition` with `property: minecraft:using_item`
+- `on_false` -> normal model
+- `on_true` -> blocking model
+
+4. Model guidance:
+- Reuse vanilla shield `display` transforms from the target version jar (`assets/minecraft/models/item/shield.json` and `shield_blocking.json`).
+- Keep the texture item-local under `assets/bloodstone/textures/item/...`.
+- If an exact shield mesh is required, extract or recreate the real geometry; do not assume `minecraft:special` can be retextured per item.
+
+5. Test with:
+```mcfunction
+/give <player> minecraft:shield[minecraft:item_model="bloodstone:tools/<asset>/default/<asset>"]
 ```
 
 ## Add A New Model From `new/*.bbmodel`
