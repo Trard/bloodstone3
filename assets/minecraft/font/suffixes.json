@@ -179,6 +179,24 @@
       "chars": [
         "\uE014"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/builder.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\uE016"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/sponsor.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\uE017"
+      ]
     }
   ]
 }

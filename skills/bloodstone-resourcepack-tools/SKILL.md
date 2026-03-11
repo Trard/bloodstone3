@@ -1,11 +1,12 @@
 ---
 name: bloodstone-resourcepack-tools
-description: Use scripts/extract_bbmodel_1214.py, scripts/create_icon_from_png.py, and scripts/transfer_item_namespace.py to import Blockbench .bbmodel assets, generate icon assets from PNG files, and manage model/texture/item paths in the bloodstone namespace.
+description: Use scripts/add_suffix.py, scripts/extract_bbmodel_1214.py, scripts/create_icon_from_png.py, and scripts/transfer_item_namespace.py to add bitmap font suffixes, import Blockbench .bbmodel assets, generate icon assets from PNG files, and manage model/texture/item paths in this resource pack's namespaces.
 ---
 
 # Bloodstone Resourcepack Tools
 
 ## Use This Skill When
+- A user asks to add or update a suffix PNG in `assets/minecraft/font/suffixes.json`.
 - A user asks to add a new model from `new/*.bbmodel`.
 - A user asks to extract model JSON and textures from a Blockbench file.
 - A user asks to create an icon item/model/texture from a `.png` file.
@@ -14,6 +15,7 @@ description: Use scripts/extract_bbmodel_1214.py, scripts/create_icon_from_png.p
 - A user asks to rename extracted texture files and fix model texture references.
 
 ## Scripts
+- `scripts/add_suffix.py`
 - `scripts/extract_bbmodel_1214.py`
 - `scripts/create_icon_from_png.py`
 - `scripts/transfer_item_namespace.py`
@@ -25,29 +27,59 @@ description: Use scripts/extract_bbmodel_1214.py, scripts/create_icon_from_png.p
 4. If texture names are unclear (for example `texture.png`), rename files and update `models/item/.../*.json` `textures` entries.
 5. Verify generated paths and references.
 
+## Add Or Update A Font Suffix From PNG
+Use this when you have a flat suffix image for `assets/minecraft/textures/font/suffixes/*.png`.
+
+1. Choose a clear English suffix name.
+- If the source filename is opaque like `image_2026...png`, inspect the image or ask the user for the intended English name.
+- If the source name is non-English, translate it to an English asset name before running the script.
+
+2. Run the generator:
+```bash
+python3 scripts/add_suffix.py 'new/builder.png' \
+  --assets-root assets \
+  --name builder
+```
+
+3. Useful options:
+- `--dry-run` to preview the assigned codepoint and file writes.
+- `--force` to replace an existing suffix texture/provider in place.
+- `--codepoint E016` to pin an explicit private-use codepoint when needed.
+
+4. What the script does:
+- Copies the texture to `assets/minecraft/textures/font/suffixes/<name>.png`
+- Adds or updates the provider in `assets/minecraft/font/suffixes.json`
+- Auto-picks the next free private-use codepoint across `assets/minecraft/font/*.json`
+
+5. After running it, always report both:
+- the symbol code (for example `\uE016`)
+- the rendered symbol character (for example ``)
+
 ## Create Icon Assets From A PNG
 Use this when you have a flat icon texture (for example `new/firework.png`) and want blooddonate-style icon structure.
+
+Default for this pack: icon assets live in the `minecraft` namespace unless the user explicitly asks for a different namespace.
 
 1. Run generator:
 ```bash
 python3 scripts/create_icon_from_png.py 'new/firework.png' \
   --assets-root assets \
-  --namespace bloodstone \
+  --namespace minecraft \
   --group icons \
   --name firework \
   --force
 ```
 
 2. Output hierarchy:
-- `assets/bloodstone/items/icons/firework.json`
-- `assets/bloodstone/models/item/icons/firework.json`
-- `assets/bloodstone/textures/item/icons/firework.png`
+- `assets/minecraft/items/icons/firework.json`
+- `assets/minecraft/models/item/icons/firework.json`
+- `assets/minecraft/textures/item/icons/firework.png`
 
 3. Verify:
 ```bash
-cat assets/bloodstone/items/icons/firework.json
-cat assets/bloodstone/models/item/icons/firework.json
-find assets/bloodstone/textures/item/icons -maxdepth 1 -type f | sort
+cat assets/minecraft/items/icons/firework.json
+cat assets/minecraft/models/item/icons/firework.json
+find assets/minecraft/textures/item/icons -maxdepth 1 -type f | sort
 ```
 
 ## Add A New Model From `new/*.bbmodel`
