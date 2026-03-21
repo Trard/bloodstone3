@@ -19,5 +19,15 @@
 "custom.imposter": { "category": "master", "sounds": [ "blooddonate:custom/imposter" ] },
 "custom.shadow_merge": { "category": "master", "sounds": [ "blooddonate:custom/shadow_merge" ] },
 "custom.time_warp": { "category": "master", "sounds": [ "blooddonate:custom/time_warp" ] },
-"custom.warp_into_unknown": { "category": "master", "sounds": [ "blooddonate:custom/warp_into_unknown" ] }
+"custom.warp_into_unknown": { "category": "master", "sounds": [ "blooddonate:custom/warp_into_unknown" ] },
+"custom.apple": { "category": "master", "sounds": [ "blooddonate:custom/apple" ] },
+"custom.bee": { "category": "master", "sounds": [ "blooddonate:custom/bee" ] },
+"custom.egg": { "category": "master", "sounds": [ "blooddonate:custom/egg" ] },
+"custom.flowers": { "category": "master", "sounds": [ "blooddonate:custom/flowers" ] },
+"custom.gravestone": { "category": "master", "sounds": [ "blooddonate:custom/gravestone" ] },
+"custom.hearts": { "category": "master", "sounds": [ "blooddonate:custom/hearts" ] },
+"custom.katana": { "category": "master", "sounds": [ "blooddonate:custom/katana" ] },
+"custom.scarecrow": { "category": "master", "sounds": [ "blooddonate:custom/scarecrow" ] },
+"custom.sakura": { "category": "master", "sounds": [ "blooddonate:custom/sakura" ] },
+"custom.star": { "category": "master", "sounds": [ "blooddonate:custom/star" ] }
 }

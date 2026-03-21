@@ -197,6 +197,19 @@
       "chars": [
         "\uE017"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodstone:ui/tag/rarities.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\uE018",
+        "\uE019",
+        "\uE01A",
+        "\uE01B",
+        "\uE01C"
+      ]
     }
   ]
 }
