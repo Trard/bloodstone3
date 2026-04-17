@@ -27,4 +27,5 @@ A skill is a set of local instructions in a `SKILL.md` file.
 - When the user asks to add a new icon, default to the `minecraft` namespace and write under `assets/minecraft/...` unless they explicitly ask for a different namespace.
 - When the user asks to add a new icon and the source file has a non-English name, translate it to clear English for the final asset name to keep naming/style consistent. If the filename is opaque or not understandable (for example `image_8589128391.png`), ask the user for the intended English name before creating files.
 - When the user asks to add a new symbol to the font, always return both the symbol code and the rendered symbol character so it can be copied directly.
+- When the user asks to build, export, or copy the resource pack without naming a destination, default to `/mnt/c/users/trard/appdata/roaming/modrinthapp/profiles/Fabulously Optimized (5)/resourcepacks`.
 - When Minecraft resource-pack behavior or file format rules are unclear, use Minecraft Wiki as the default external reference and then confirm version-sensitive details against the target version's vanilla assets from the game jar.
