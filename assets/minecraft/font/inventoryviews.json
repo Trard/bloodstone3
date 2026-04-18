@@ -50,11 +50,56 @@
         },
         {
             "type": "bitmap",
+            "file": "bloodstone:ui/gui/misc/glow0.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "\uE538"
+            ]
+        },
+        {
+            "type": "bitmap",
             "file": "bloodstone:ui/gui/misc/glow1.png",
             "ascent": 13,
             "height": 256,
             "chars": [
                 "\uE523"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/misc/glow2.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "\uE534"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/misc/glow3.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "\uE535"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/misc/glow4.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "\uE536"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/misc/glow5.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "\uE537"
             ]
         },
         {
@@ -69,7 +114,7 @@
         {
             "type": "bitmap",
             "file": "bloodstone:ui/gui/custom_games/custom_games.png",
-            "ascent": 19,
+            "ascent": 13,
             "height": 256,
             "chars": [
                 "\uE522"
