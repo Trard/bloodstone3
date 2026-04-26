@@ -1,0 +1,76 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "bloodstone:ui/gui/component/page_previous.png",
+      "ascent": -81,
+      "height": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodstone:ui/gui/component/page_next.png",
+      "ascent": -81,
+      "height": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodstone:ui/gui/component/page_previous.png",
+      "ascent": -99,
+      "height": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodstone:ui/gui/component/page_next.png",
+      "ascent": -99,
+      "height": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodstone:ui/gui/component/page_previous.png",
+      "ascent": -187,
+      "height": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodstone:ui/gui/component/page_next.png",
+      "ascent": -187,
+      "height": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodstone:ui/gui/component/page_previous.png",
+      "ascent": -24,
+      "height": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodstone:ui/gui/component/page_next.png",
+      "ascent": -24,
+      "height": 13,
+      "chars": [
+        ""
+      ]
+    }
+  ]
+}

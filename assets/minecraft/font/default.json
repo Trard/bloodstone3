@@ -10,6 +10,10 @@
         },
         {
             "type": "reference",
+            "id": "buttons"
+        },
+        {
+            "type": "reference",
             "id": "inventoryviews"
         },
         {
