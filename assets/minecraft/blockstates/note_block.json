@@ -1,0 +1,37 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "OR": [
+          { "instrument": "harp" },
+          { "instrument": "basedrum" },
+          { "instrument": "snare" },
+          { "instrument": "hat" },
+          { "instrument": "bass" },
+          { "instrument": "flute" },
+          { "instrument": "bell" },
+          { "instrument": "guitar" },
+          { "instrument": "chime" },
+          { "instrument": "xylophone" },
+          { "instrument": "iron_xylophone" },
+          { "instrument": "cow_bell" },
+          { "instrument": "bit" },
+          { "instrument": "banjo" },
+          { "instrument": "pling" },
+          { "instrument": "creeper" },
+          { "instrument": "custom_head" },
+          { "instrument": "dragon" },
+          { "instrument": "skeleton" },
+          { "instrument": "wither_skeleton" },
+          { "instrument": "zombie" },
+          { "instrument": "piglin" }
+        ]
+      },
+      "apply": { "model": "block/note_block" }
+    },
+    {
+      "when": { "instrument": "didgeridoo" },
+      "apply": { "model": "block/note_block_instrument_didgeridoo" }
+    }
+  ]
+}
