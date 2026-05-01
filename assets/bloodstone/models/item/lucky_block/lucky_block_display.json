@@ -1,0 +1,38 @@
+{
+    "__comment": "Designed by Instantout with Cubik Studio",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 53, 50, 0 ],
+			"translation":  [ 0, 2.3, 0.6956 ],
+			"scale":  [ 0.3, 0.3, 0.3 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 53, 50, 0 ],
+			"translation":  [ 0, 2.3, 0.6956 ],
+			"scale":  [ 0.3, 0.3, 0.3 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 0, 45, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 0, 45, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"gui": {
+			"rotation":  [ 0, 0, 0 ],
+			"scale":  [ 0.7, 0.7, 0.7 ]
+		},
+		"head": {
+			"scale":  [ 1, 1, 1 ]
+		},
+		"ground": {
+			"translation":  [ 0, 3, 0 ],
+			"scale":  [ 0.25, 0.25, 0.25 ]
+		},
+		"fixed": {
+			"translation":  [ 0, 0, 0 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		}
+	}
+}

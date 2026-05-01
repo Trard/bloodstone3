@@ -1,0 +1,7 @@
+{
+  "parent": "bloodstone:item/lucky_block/still_model",
+  "textures": {
+    "particle": "bloodstone:item/lucky_block/red_still",
+    "texture": "bloodstone:item/lucky_block/red_still"
+  }
+}
