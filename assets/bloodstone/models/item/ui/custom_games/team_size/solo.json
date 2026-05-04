@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "bloodstone:item/ui/custom_games/team_size/solo"
+  }
+}
