@@ -1,0 +1,7 @@
+{
+  "parent": "bloodstone:item/wearable/lucky_block_hat/base",
+  "textures": {
+    "0": "bloodstone:item/wearable/lucky_block_hat/normal",
+    "particle": "bloodstone:item/wearable/lucky_block_hat/normal"
+  }
+}

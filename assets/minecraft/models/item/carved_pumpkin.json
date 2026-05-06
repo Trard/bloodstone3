@@ -1826,6 +1826,10 @@
     {
       "predicate": { "custom_model_data": 6017 },
       "model": "origin:custom/cosmetics/stellar_hat/stellar_hat"
+    },
+    {
+      "predicate": { "custom_model_data": 6018 },
+      "model": "bloodstone:item/wearable/lucky_block_hat/normal"
     }
   ]
 }
