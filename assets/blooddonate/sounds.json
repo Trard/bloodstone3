@@ -29,5 +29,11 @@
 "custom.katana": { "category": "master", "sounds": [ "blooddonate:custom/katana" ] },
 "custom.scarecrow": { "category": "master", "sounds": [ "blooddonate:custom/scarecrow" ] },
 "custom.sakura": { "category": "master", "sounds": [ "blooddonate:custom/sakura" ] },
-"custom.star": { "category": "master", "sounds": [ "blooddonate:custom/star" ] }
+"custom.star": { "category": "master", "sounds": [ "blooddonate:custom/star" ] },
+"custom.enderman": { "category": "master", "sounds": [ "blooddonate:custom/enderman" ] },
+"custom.tornado": { "category": "master", "sounds": [ "blooddonate:custom/tornado" ] },
+"custom.rabbit": { "category": "master", "sounds": [ "blooddonate:custom/rabbit" ] },
+"custom.bats": { "category": "master", "sounds": [ "blooddonate:custom/bats" ] },
+"custom.lightning": { "category": "master", "sounds": [ "blooddonate:custom/lightning" ] },
+"custom.arrows": { "category": "master", "sounds": [ "blooddonate:custom/arrows" ] }
 }

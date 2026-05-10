@@ -5,8 +5,12 @@
       "textures": [
         "blooddonate:trims/entity/humanoid/bunny",
         "blooddonate:trims/entity/humanoid_leggings/bunny",
+        "blooddonate:trims/entity/humanoid/cartel",
+        "blooddonate:trims/entity/humanoid_leggings/cartel",
         "blooddonate:trims/entity/humanoid/flowers",
-        "blooddonate:trims/entity/humanoid_leggings/flowers"
+        "blooddonate:trims/entity/humanoid_leggings/flowers",
+        "blooddonate:trims/entity/humanoid/obsidian",
+        "blooddonate:trims/entity/humanoid_leggings/obsidian"
       ],
       "palette_key": "trims/color_palettes/trim_palette",
       "permutations": {
