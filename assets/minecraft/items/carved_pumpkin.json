@@ -3611,6 +3611,13 @@
                     "type": "model",
                     "model": "origin:custom/cosmetics/stellar_hat/stellar_hat"
                 }
+            },
+            {
+                "threshold": 6018,
+                "model": {
+                    "type": "model",
+                    "model": "bloodstone:item/wearable/lucky_block_hat/normal"
+                }
             }
         ]
     }
