@@ -210,6 +210,15 @@
         "\uE01B",
         "\uE01C"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/support.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\uE025"
+      ]
     }
   ]
 }
