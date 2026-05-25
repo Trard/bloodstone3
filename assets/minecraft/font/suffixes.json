@@ -219,6 +219,15 @@
       "chars": [
         "\uE025"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/mvp.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\uE026"
+      ]
     }
   ]
 }
