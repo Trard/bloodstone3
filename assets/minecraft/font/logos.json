@@ -47,6 +47,15 @@
         },
         {
             "type": "bitmap",
+            "file": "logo:custom_kb.png",
+            "ascent": 0,
+            "height": 40,
+            "chars": [
+                "ঁ"
+            ]
+        },
+        {
+            "type": "bitmap",
             "file": "logo:battle_royale.png",
             "ascent": 0,
             "height": 36,
