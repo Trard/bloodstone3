@@ -206,6 +206,24 @@
             "chars": [
                 "ጨ"
             ]
+        },
+        {
+            "type": "bitmap",
+            "file": "logo:battle_castles.png",
+            "ascent": 0,
+            "height": 60,
+            "chars": [
+                "\uF804"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "logo:battle_castles.png",
+            "ascent": 0,
+            "height": 36,
+            "chars": [
+                "\uF805"
+            ]
         }
     ]
 }
