@@ -35,5 +35,6 @@
 "custom.rabbit": { "category": "master", "sounds": [ "blooddonate:custom/rabbit" ] },
 "custom.bats": { "category": "master", "sounds": [ "blooddonate:custom/bats" ] },
 "custom.lightning": { "category": "master", "sounds": [ "blooddonate:custom/lightning" ] },
-"custom.arrows": { "category": "master", "sounds": [ "blooddonate:custom/arrows" ] }
+"custom.arrows": { "category": "master", "sounds": [ "blooddonate:custom/arrows" ] },
+"custom.helicopter": { "category": "master", "sounds": [ "blooddonate:custom/helicopter" ] }
 }

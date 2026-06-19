@@ -9,6 +9,7 @@
     "custom.hell": { "category": "master", "sounds": [ "custom/hell" ] },
     "custom.white_arm": { "category": "master", "sounds": [ "custom/white_arm" ] },
     "custom.hammer": { "category": "master", "sounds": [ "custom/hammer" ] },
+    "custom.helicopter": { "category": "master", "sounds": [ "custom/helicopter" ] },
       "bloodostrike.prepairing": {
     "category": "player",
     "sounds": [

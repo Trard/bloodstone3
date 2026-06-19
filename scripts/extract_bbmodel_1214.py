@@ -241,6 +241,7 @@ def build_texture_plans(
     variant: str,
     model_name: str,
     prefix_textures: bool,
+    include_indices: set[int] | None = None,
 ) -> list[TexturePlan]:
     raw_textures = bbmodel.get("textures")
     if not isinstance(raw_textures, list):
@@ -249,6 +250,9 @@ def build_texture_plans(
     plans: list[TexturePlan] = []
     used_names: set[str] = set()
     for idx, texture in enumerate(raw_textures):
+        if include_indices is not None and idx not in include_indices:
+            continue
+
         if not isinstance(texture, dict):
             fail(f"Texture entry {idx} is not an object.")
 
@@ -308,6 +312,37 @@ def build_texture_plans(
             )
         )
     return plans
+
+
+def collect_referenced_texture_indices(bbmodel: dict) -> set[int]:
+    elements = bbmodel.get("elements")
+    if not isinstance(elements, list):
+        fail("bbmodel 'elements' field is missing or not an array.")
+
+    used_indices: set[int] = set()
+    for idx, elem in enumerate(elements):
+        if not isinstance(elem, dict):
+            fail(f"Element entry {idx} is not an object.")
+        if elem.get("visibility", True) is False:
+            continue
+
+        elem_name = str(elem.get("name") or f"element_{idx}")
+        raw_faces = elem.get("faces")
+        if not isinstance(raw_faces, dict):
+            fail(f"Element '{elem_name}' is missing valid faces object.")
+
+        for face_name in VALID_FACES:
+            raw_face = raw_faces.get(face_name)
+            if not isinstance(raw_face, dict):
+                continue
+            raw_texture = raw_face.get("texture")
+            if raw_texture is None:
+                continue
+            used_indices.add(resolve_texture_index(raw_texture, elem_name, face_name))
+
+    if not used_indices:
+        fail("No visible textured faces were found in the bbmodel.")
+    return used_indices
 
 
 def convert_face_uv(
@@ -436,7 +471,11 @@ def build_model_json(
             if not isinstance(raw_face, dict):
                 continue
 
-            tex_index = resolve_texture_index(raw_face.get("texture"), elem_name, face_name)
+            raw_texture = raw_face.get("texture")
+            if raw_texture is None:
+                continue
+
+            tex_index = resolve_texture_index(raw_texture, elem_name, face_name)
             if tex_index not in texture_lookup:
                 fail(
                     f"Element '{elem_name}' face '{face_name}' references missing texture index {tex_index}."
@@ -537,6 +576,7 @@ def main() -> None:
     model_resolution_height = read_positive_int(
         bbmodel.get("resolution", {}).get("height"), 16
     )
+    referenced_texture_indices = collect_referenced_texture_indices(bbmodel)
     texture_plans = build_texture_plans(
         bbmodel=bbmodel,
         bbmodel_path=bbmodel_path,
@@ -546,6 +586,7 @@ def main() -> None:
         variant=variant,
         model_name=model_name,
         prefix_textures=args.prefix_textures,
+        include_indices=referenced_texture_indices,
     )
     model_json = build_model_json(
         bbmodel, texture_plans, model_resolution_width, model_resolution_height
