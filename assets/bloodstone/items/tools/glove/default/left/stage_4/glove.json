@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:using_item",
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "bloodstone:item/tools/glove/default/left/stage_4/normal/glove"
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "bloodstone:item/tools/glove/default/left/stage_4/blocking/glove"
+    }
+  }
+}
