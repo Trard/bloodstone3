@@ -1,6 +1,14 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "bloodstone:item/tools/unicorn_horn/default/unicorn_horn"
+    "type": "minecraft:condition",
+    "property": "minecraft:using_item",
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "bloodstone:item/tools/unicorn_horn/default/unicorn_horn"
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "bloodstone:item/tools/unicorn_horn/default/unicorn_horn_pull"
+    }
   }
 }

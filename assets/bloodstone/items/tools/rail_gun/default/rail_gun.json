@@ -1,6 +1,14 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "bloodstone:item/tools/rail_gun/default/rail_gun"
+    "type": "minecraft:condition",
+    "property": "minecraft:using_item",
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "bloodstone:item/tools/rail_gun/default/rail_gun"
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "bloodstone:item/tools/rail_gun/default/rail_gun_pull"
+    }
   }
 }

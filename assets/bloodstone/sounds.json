@@ -6,5 +6,9 @@
   "gamble_sword.gamble_sword2": { "category": "master", "sounds": [ "bloodstone:gamble_sword/gamble_sword2" ] },
   "gamble_sword.gamble_sword3": { "category": "master", "sounds": [ "bloodstone:gamble_sword/gamble_sword3" ] },
   "gamble_sword.gamble_sword4": { "category": "master", "sounds": [ "bloodstone:gamble_sword/gamble_sword4" ] },
+  "glove.hit": { "category": "master", "sounds": [ "bloodstone:glove/hit" ] },
+  "unicorn_horn.presence": { "category": "master", "sounds": [ "bloodstone:unicorn_horn/presence" ] },
+  "rail_gun.shot": { "category": "master", "sounds": [ "bloodstone:rail_gun/shot" ] },
+  "rail_gun.headshot": { "category": "master", "sounds": [ "bloodstone:rail_gun/headshot" ] },
   "bloodsword.transition": { "category": "master", "sounds": [ "bloodstone:bloodsword/transition" ] }
 }
