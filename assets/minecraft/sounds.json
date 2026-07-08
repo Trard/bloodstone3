@@ -10,6 +10,8 @@
     "custom.white_arm": { "category": "master", "sounds": [ "custom/white_arm" ] },
     "custom.hammer": { "category": "master", "sounds": [ "custom/hammer" ] },
     "custom.helicopter": { "category": "master", "sounds": [ "custom/helicopter" ] },
+    "custom.radiation": { "category": "master", "sounds": [ "custom/radiation" ] },
+    "custom.nuclear_explosion": { "category": "master", "sounds": [ "custom/nuclear_explosion" ] },
       "bloodostrike.prepairing": {
     "category": "player",
     "sounds": [
