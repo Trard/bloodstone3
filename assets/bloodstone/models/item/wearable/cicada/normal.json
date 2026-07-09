@@ -1,0 +1,7 @@
+{
+  "parent": "bloodstone:item/wearable/cicada/base",
+  "textures": {
+    "0": "bloodstone:item/wearable/cicada/normal",
+    "particle": "bloodstone:item/wearable/cicada/normal"
+  }
+}

@@ -3588,7 +3588,7 @@
                 "threshold": 6014,
                 "model": {
                     "type": "model",
-                    "model": "item/cicada1"
+                    "model": "bloodstone:item/wearable/cicada/normal"
                 }
             },
             {

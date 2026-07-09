@@ -1813,7 +1813,7 @@
     },
     {
       "predicate": { "custom_model_data": 6014 },
-      "model": "item/cicada1"
+      "model": "bloodstone:item/wearable/cicada/normal"
     },
     {
       "predicate": { "custom_model_data": 6015 },
