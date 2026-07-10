@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/totems/player_doll/2d_doll",
+  "textures": {
+    "skin": "minecraft:item/totems/unkw_source"
+  }
+}

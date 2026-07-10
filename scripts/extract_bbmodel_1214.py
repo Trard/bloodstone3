@@ -181,6 +181,25 @@ def ensure_list4(value: object, label: str, elem_name: str) -> list[float]:
     raise AssertionError("unreachable")
 
 
+def apply_inflate(
+    from_pos: list[float], to_pos: list[float], raw_inflate: object, elem_name: str
+) -> tuple[list[float], list[float]]:
+    if raw_inflate is None:
+        return from_pos, to_pos
+    if isinstance(raw_inflate, bool) or not isinstance(raw_inflate, (int, float)):
+        fail(f"Element '{elem_name}' has non-numeric inflate value.")
+
+    inflate = float(raw_inflate)
+    if abs(inflate) <= 1e-7:
+        return from_pos, to_pos
+
+    inflated_from = [round(value - inflate, 6) for value in from_pos]
+    inflated_to = [round(value + inflate, 6) for value in to_pos]
+    if any(start > end for start, end in zip(inflated_from, inflated_to)):
+        fail(f"Element '{elem_name}' has inflate value that inverts its bounds.")
+    return inflated_from, inflated_to
+
+
 def read_positive_int(value: object, default: int) -> int:
     if isinstance(value, bool):
         return default
@@ -429,7 +448,7 @@ def build_model_json(
         str(plan.index): plan.rel_namespace_path for plan in texture_plans
     }
     if texture_plans:
-        texture_object["particle"] = texture_plans[0].rel_namespace_path
+        texture_object["particle"] = f"#{texture_plans[0].index}"
 
     elements = bbmodel.get("elements")
     if not isinstance(elements, list):
@@ -445,9 +464,15 @@ def build_model_json(
             continue
 
         elem_name = str(elem.get("name") or f"element_{idx}")
+        from_pos, to_pos = apply_inflate(
+            ensure_list3(elem.get("from"), "from", elem_name),
+            ensure_list3(elem.get("to"), "to", elem_name),
+            elem.get("inflate"),
+            elem_name,
+        )
         converted: dict[str, object] = {
-            "from": ensure_list3(elem.get("from"), "from", elem_name),
-            "to": ensure_list3(elem.get("to"), "to", elem_name),
+            "from": from_pos,
+            "to": to_pos,
         }
 
         rotation = convert_rotation(elem.get("rotation"), elem, elem_name)
@@ -480,9 +505,12 @@ def build_model_json(
                 fail(
                     f"Element '{elem_name}' face '{face_name}' references missing texture index {tex_index}."
                 )
+            raw_uv = ensure_list4(raw_face.get("uv"), "face uv", elem_name)
+            if raw_uv[0] == raw_uv[2] and raw_uv[1] == raw_uv[3]:
+                continue
             face_obj: dict[str, object] = {
                 "uv": convert_face_uv(
-                    ensure_list4(raw_face.get("uv"), "face uv", elem_name),
+                    raw_uv,
                     model_resolution_width,
                     model_resolution_height,
                 ),
@@ -491,7 +519,10 @@ def build_model_json(
 
             face_rotation = raw_face.get("rotation")
             if isinstance(face_rotation, (int, float)) and float(face_rotation) != 0.0:
-                face_obj["rotation"] = float(face_rotation)
+                rotation_value = float(face_rotation)
+                face_obj["rotation"] = (
+                    int(rotation_value) if rotation_value.is_integer() else rotation_value
+                )
 
             tint = raw_face.get("tint")
             if isinstance(tint, int) and tint >= 0:

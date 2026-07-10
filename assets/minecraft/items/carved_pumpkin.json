@@ -3618,6 +3618,13 @@
                     "type": "model",
                     "model": "bloodstone:item/wearable/lucky_block_hat/normal"
                 }
+            },
+            {
+                "threshold": 6019,
+                "model": {
+                    "type": "model",
+                    "model": "civilization:item/wearable/halo/green"
+                }
             }
         ]
     }
