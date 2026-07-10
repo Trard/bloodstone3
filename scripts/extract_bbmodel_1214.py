@@ -30,6 +30,22 @@ class TexturePlan:
     mcmeta_json: dict | None
 
 
+def read_positive_number(value: object, default: float | int) -> float | int:
+    if isinstance(value, bool):
+        return default
+    if isinstance(value, (int, float)):
+        return value if value > 0 else default
+    if isinstance(value, str):
+        try:
+            parsed = float(value)
+            if parsed.is_integer():
+                parsed = int(parsed)
+            return parsed if parsed > 0 else default
+        except ValueError:
+            return default
+    return default
+
+
 def fail(message: str) -> None:
     print(f"ERROR: {message}", file=sys.stderr)
     raise SystemExit(1)
@@ -295,7 +311,7 @@ def build_texture_plans(
         height = read_positive_int(texture.get("height"), 0)
         uv_width = read_positive_int(texture.get("uv_width"), 0)
         uv_height = read_positive_int(texture.get("uv_height"), 0)
-        frame_time = read_positive_int(texture.get("frame_time"), 1)
+        frame_time = read_positive_number(texture.get("frame_time"), 1)
         frame_interpolate = bool(texture.get("frame_interpolate"))
 
         if uv_width > 0 and uv_height > 0:
