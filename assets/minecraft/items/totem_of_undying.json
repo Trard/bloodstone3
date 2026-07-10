@@ -463,6 +463,48 @@
                 }
             },
             {
+                "threshold": 1063,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/desertykpwq"
+                }
+            },
+            {
+                "threshold": 1064,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/mayfol"
+                }
+            },
+            {
+                "threshold": 1065,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/pautx"
+                }
+            },
+            {
+                "threshold": 1066,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/vioronne"
+                }
+            },
+            {
+                "threshold": 1067,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/chel1x"
+                }
+            },
+            {
+                "threshold": 1068,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/awieconn"
+                }
+            },
+            {
                 "threshold": 5001,
                 "model": {
                     "type": "model",
