@@ -526,6 +526,13 @@
                 }
             },
             {
+                "threshold": 1072,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/amethist_play"
+                }
+            },
+            {
                 "threshold": 5001,
                 "model": {
                     "type": "model",
