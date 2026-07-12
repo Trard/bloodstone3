@@ -187,6 +187,17 @@ Useful options:
 - `--delete-source` to remove source files after transfer.
 - `--dry-run` to preview actions.
 
+## Logo Formatting Workflow
+Use when updating or adding a server/gamemode logo under `assets/logo/textures/`.
+
+1. Ensure the logo width is 255 px (range: 254-256 px). Height should scale proportionally.
+2. If the source image is larger (e.g. 1024x256), resize it using ImageMagick:
+   ```bash
+   convert new_logo.png -resize 255x assets/logo/textures/new_logo.png
+   ```
+3. Update `assets/minecraft/font/logos.json` to map the logo to a bitmap provider and a unique Private Use Area character.
+4. For details, see `assets/logo/README.md`.
+
 ## Operational Notes
 - Quote file paths containing spaces or parentheses.
 - Reuse `--force` only when overwriting is intended.

@@ -224,6 +224,25 @@
             "chars": [
                 "\uF805"
             ]
+        },
+        {
+            "type": "bitmap",
+            "file": "logo:ffa_smp.png",
+            "ascent": 0,
+            "height": 40,
+            "chars": [
+                "\uF806"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "logo:ffa_kb.png",
+            "ascent": 0,
+            "height": 40,
+            "chars": [
+                "\uF807"
+            ]
         }
     ]
 }
+
