@@ -41,7 +41,6 @@
 "custom.bamboo": { "category": "master", "sounds": [ "blooddonate:custom/bamboo" ] },
 "custom.sculk": { "category": "master", "sounds": [ "blooddonate:custom/sculk" ] },
 "custom.vines": { "category": "master", "sounds": [ "blooddonate:custom/vines" ] },
-"custom.sand": { "category": "master", "sounds": [ "blooddonate:custom/sand" ] },
 "custom.pig": { "category": "master", "sounds": [ "blooddonate:custom/pig" ] },
 "custom.wave": { "category": "master", "sounds": [ "blooddonate:custom/wave" ] },
 "custom.butterfly": { "category": "master", "sounds": [ "blooddonate:custom/butterfly" ] },

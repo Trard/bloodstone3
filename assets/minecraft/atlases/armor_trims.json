@@ -10,7 +10,9 @@
         "blooddonate:trims/entity/humanoid/flowers",
         "blooddonate:trims/entity/humanoid_leggings/flowers",
         "blooddonate:trims/entity/humanoid/obsidian",
-        "blooddonate:trims/entity/humanoid_leggings/obsidian"
+        "blooddonate:trims/entity/humanoid_leggings/obsidian",
+        "blooddonate:trims/entity/humanoid/summer",
+        "blooddonate:trims/entity/humanoid_leggings/summer"
       ],
       "palette_key": "trims/color_palettes/trim_palette",
       "permutations": {
