@@ -1,6 +1,6 @@
 {
     "providers": [
-         {
+        {
             "type": "bitmap",
             "file": "logo:bloodstone.png",
             "ascent": 0,
@@ -260,7 +260,24 @@
             "chars": [
                 "\uF809"
             ]
+        },
+        {
+            "type": "bitmap",
+            "file": "logo:practice.png",
+            "ascent": 0,
+            "height": 36,
+            "chars": [
+                "\uF80A"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "logo:practice.png",
+            "ascent": 0,
+            "height": 28,
+            "chars": [
+                "\uF80B"
+            ]
         }
     ]
 }
-

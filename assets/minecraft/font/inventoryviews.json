@@ -137,6 +137,78 @@
             "chars": [
                 "\uE015"
             ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/cosmetics/cosmetic_selection.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "\uE53A"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/kit/kit.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "\uE53B"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/shop/shop.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "\uE53C"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/shop/shop1.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "\uE53D"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/trade/trade.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "\uE53E"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/trade/trade1.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "\uE53F"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/trade/trade2.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "\uE540"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/trade/trade3.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "\uE541"
+            ]
         }
     ]
 }
