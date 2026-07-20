@@ -209,6 +209,15 @@
             "chars": [
                 "\uE541"
             ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/skupshik/skupshik.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "\uE542"
+            ]
         }
     ]
 }
