@@ -246,7 +246,7 @@
         {
             "type": "bitmap",
             "file": "logo:ffa_smp.png",
-            "ascent": 0,
+            "ascent": 28,
             "height": 28,
             "chars": [
                 "\uF808"
@@ -255,7 +255,7 @@
         {
             "type": "bitmap",
             "file": "logo:ffa_kb.png",
-            "ascent": 0,
+            "ascent": 28,
             "height": 28,
             "chars": [
                 "\uF809"
