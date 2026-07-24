@@ -218,6 +218,15 @@
             "chars": [
                 "\uE542"
             ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/custom_games/meetup_choose_scenario.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "\uE543"
+            ]
         }
     ]
 }
