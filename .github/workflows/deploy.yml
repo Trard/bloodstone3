@@ -33,13 +33,93 @@ jobs:
                -o BloodStone.zip
           ls -l BloodStone.zip
 
-      - name: Copy ZIP to remote via SCP
-        uses: appleboy/scp-action@master
-        with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USERNAME }}
-          key: ${{ secrets.SSH_KEY }}
-          port: 22
-          source: BloodStone.zip
-          target: ${{ secrets.DESTINATION }}
-          tar_tmp_path: /tmp
+      - name: Deploy ZIP over a single SSH connection
+        timeout-minutes: 8
+        env:
+          SSH_HOST: ${{ secrets.SSH_HOST }}
+          SSH_USERNAME: ${{ secrets.SSH_USERNAME }}
+          SSH_KEY: ${{ secrets.SSH_KEY }}
+          DESTINATION: ${{ secrets.DESTINATION }}
+        run: |
+          set -Eeuo pipefail
+
+          for variable in SSH_HOST SSH_USERNAME SSH_KEY DESTINATION; do
+            if [ -z "${!variable}" ]; then
+              echo "Required secret $variable is empty."
+              exit 1
+            fi
+          done
+
+          ssh_directory="$RUNNER_TEMP/resourcepack-deploy-ssh"
+          key_path="$ssh_directory/key"
+          known_hosts_path="$ssh_directory/known_hosts"
+          install -d -m 700 "$ssh_directory"
+          printf '%s\n' "$SSH_KEY" > "$key_path"
+          chmod 600 "$key_path"
+
+          expected_size="$(stat -c '%s' BloodStone.zip)"
+          expected_sha256="$(sha256sum BloodStone.zip)"
+          expected_sha256="${expected_sha256%% *}"
+          printf -v destination_quoted '%q' "$DESTINATION"
+
+          remote_command="
+          set -eu
+          umask 022
+          destination=$destination_quoted
+          expected_size=$expected_size
+          expected_sha256=$expected_sha256
+          temporary=\"\$destination/.BloodStone.zip.\$\$.tmp\"
+          trap 'rm -f -- \"\$temporary\"' EXIT HUP INT TERM
+
+          if [ ! -d \"\$destination\" ]; then
+            echo \"Destination does not exist: \$destination\" >&2
+            exit 1
+          fi
+
+          cat > \"\$temporary\"
+          received_size=\$(stat -c '%s' \"\$temporary\")
+          if [ \"\$received_size\" != \"\$expected_size\" ]; then
+            echo \"Upload size mismatch: expected \$expected_size bytes, received \$received_size bytes.\" >&2
+            exit 1
+          fi
+
+          received_sha256=\$(sha256sum \"\$temporary\")
+          received_sha256=\${received_sha256%% *}
+          if [ \"\$received_sha256\" != \"\$expected_sha256\" ]; then
+            echo \"Upload SHA-256 mismatch.\" >&2
+            exit 1
+          fi
+
+          mv -f -- \"\$temporary\" \"\$destination/BloodStone.zip\"
+          "
+
+          ssh_options=(
+            -T
+            -p 22
+            -i "$key_path"
+            -o BatchMode=yes
+            -o IdentitiesOnly=yes
+            -o StrictHostKeyChecking=accept-new
+            -o "UserKnownHostsFile=$known_hosts_path"
+            -o ConnectTimeout=45
+            -o ConnectionAttempts=1
+            -o ServerAliveInterval=15
+            -o ServerAliveCountMax=3
+          )
+
+          for attempt in 1 2 3; do
+            echo "Deploy attempt $attempt of 3."
+            if ssh "${ssh_options[@]}" "$SSH_USERNAME@$SSH_HOST" "$remote_command" < BloodStone.zip; then
+              echo "Resource pack deployed successfully."
+              exit 0
+            fi
+
+            if [ "$attempt" -eq 3 ]; then
+              echo "Deployment failed after 3 attempts." >&2
+              exit 1
+            fi
+
+            retry_delay=$((attempt * 15))
+            echo "Attempt failed; retrying in $retry_delay seconds."
+            sleep "$retry_delay"
+          done
