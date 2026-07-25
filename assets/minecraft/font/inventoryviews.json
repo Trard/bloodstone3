@@ -227,6 +227,15 @@
             "chars": [
                 "\uE543"
             ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/custom_games/meetups_menu.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "\uE544"
+            ]
         }
     ]
 }
