@@ -42,3 +42,4 @@ jobs:
           port: 22
           source: BloodStone.zip
           target: ${{ secrets.DESTINATION }}
+          tar_tmp_path: /tmp
