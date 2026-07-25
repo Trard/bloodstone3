@@ -155,15 +155,6 @@
         },
         {
             "type": "bitmap",
-            "file": "logo:meetups2.png",
-            "ascent": 0,
-            "height": 28,
-            "chars": [
-                "ധ"
-            ]
-        },
-        {
-            "type": "bitmap",
             "file": "logo:meetups3.png",
             "ascent": 0,
             "height": 60,
@@ -277,6 +268,132 @@
             "height": 28,
             "chars": [
                 "\uF80B"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "logo:meetups_smp_big/meetup_1.png",
+            "ascent": 0,
+            "height": 36,
+            "chars": [
+                "\uF80C"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "logo:meetups_smp_big/meetup_2.png",
+            "ascent": 0,
+            "height": 36,
+            "chars": [
+                "\uF80D"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "logo:meetups_smp_big/meetup_3.png",
+            "ascent": 0,
+            "height": 36,
+            "chars": [
+                "\uF80E"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "logo:meetups_smp_big/meetup_4.png",
+            "ascent": 0,
+            "height": 36,
+            "chars": [
+                "\uF80F"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "logo:meetups_uhc_big/meetup_1.png",
+            "ascent": 0,
+            "height": 36,
+            "chars": [
+                "\uF810"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "logo:meetups_uhc_big/meetup_2.png",
+            "ascent": 0,
+            "height": 36,
+            "chars": [
+                "\uF811"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "logo:meetups_uhc_big/meetup_3.png",
+            "ascent": 0,
+            "height": 36,
+            "chars": [
+                "\uF812"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "logo:meetups_uhc_big/meetup_4.png",
+            "ascent": 0,
+            "height": 36,
+            "chars": [
+                "\uF813"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "logo:meetups_smp_small/meetup_1.png",
+            "ascent": 0,
+            "height": 28,
+            "chars": [
+                "\uF814"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "logo:meetups_smp_small/meetup_2.png",
+            "ascent": 0,
+            "height": 28,
+            "chars": [
+                "\uF815"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "logo:uhc_meetup_small/meetup_1.png",
+            "ascent": 0,
+            "height": 28,
+            "chars": [
+                "\uF816"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "logo:uhc_meetup_small/meetup_2.png",
+            "ascent": 0,
+            "height": 28,
+            "chars": [
+                "\uF817"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "logo:uhc_meetup_small/meetup_3.png",
+            "ascent": 0,
+            "height": 28,
+            "chars": [
+                "\uF818"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "logo:uhc_meetup_small/meetup_4.png",
+            "ascent": 0,
+            "height": 28,
+            "chars": [
+                "\uF819"
             ]
         }
     ]
