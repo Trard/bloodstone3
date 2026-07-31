@@ -11,6 +11,15 @@
         },
         {
             "type": "bitmap",
+            "file": "minecraft:font/voice_chat.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                ""
+            ]
+        },
+        {
+            "type": "bitmap",
             "file": "minecraft:font/coin.png",
             "ascent": 8,
             "height": 8,

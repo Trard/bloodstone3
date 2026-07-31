@@ -1460,7 +1460,7 @@
   "bloodstone.voicebonus.reminder.download_hover": "Open the download page",
   "bloodstone.voicebonus.reminder.download_link": "modrinth.com/plugin/simple-voice-chat",
   "bloodstone.voicebonus.reminder.download_prompt": "Download the mod for Minecraft 1.21.11:",
-  "bloodstone.voicebonus.reminder.greeting": "Hi, %1$s! Simple Voice Chat is not connected",
+  "bloodstone.voicebonus.reminder.greeting": "Hi, %1$s!  Simple Voice Chat is not connected",
   "bloodstone.voicebonus.reminder.title": "VOICE CHAT",
   "bloodstone.autoevents.menu.back": "Back",
   "bloodstone.autoevents.menu.close": "Close",
