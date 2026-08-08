@@ -998,6 +998,7 @@
   "bloodstone.scoreboard.label.blood_coins": "Blood coins:",
   "bloodstone.scoreboard.label.donate": "Donate:",
   "bloodstone.scoreboard.label.discord": "Disc:",
+  "bloodstone.scoreboard.label.discord_full": "Discord:",
   "bloodstone.scoreboard.label.ip": "IP:",
   "bloodstone.scoreboard.label.online": "Online:",
   "bloodstone.chat.format.global": "%1$s: %2$s",

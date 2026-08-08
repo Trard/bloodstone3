@@ -743,6 +743,7 @@
   "bloodstone.scoreboard.label.blood_coins": "Бладики:",
   "bloodstone.scoreboard.label.donate": "Донат:",
   "bloodstone.scoreboard.label.discord": "ДС:",
+  "bloodstone.scoreboard.label.discord_full": "Discord:",
   "bloodstone.scoreboard.label.ip": "IP:",
   "bloodstone.scoreboard.label.online": "Онлайн:",
   "bloodstone.chat.format.global": "%1$s: %2$s",
