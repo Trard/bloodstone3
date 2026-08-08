@@ -395,6 +395,7 @@
   "bloodstone.blooddonate.selectedGenericForPlayer": "Выбрано у %1$s: %2$s",
   "bloodstone.blooddonate.availableCosmetics": "Доступная косметика:",
   "bloodstone.blooddonate.none": "Нету",
+  "bloodstone.blooddonate.rarity.format": "%2$s",
   "bloodstone.blooddonate.rarity.common": "",
   "bloodstone.blooddonate.rarity.rare": "",
   "bloodstone.blooddonate.rarity.epic": "",

@@ -649,6 +649,7 @@
   "bloodstone.blooddonate.selectedGenericForPlayer": "%1$s selected: %2$s",
   "bloodstone.blooddonate.availableCosmetics": "Available cosmetics:",
   "bloodstone.blooddonate.none": "None",
+  "bloodstone.blooddonate.rarity.format": "%1$s",
   "bloodstone.blooddonate.rarity.common": "Common",
   "bloodstone.blooddonate.rarity.rare": "Rare",
   "bloodstone.blooddonate.rarity.epic": "Epic",
