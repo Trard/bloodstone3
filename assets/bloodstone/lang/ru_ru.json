@@ -4735,7 +4735,7 @@
   "bloodstone.minigames_service.partygames.mace.player_left": "%1$s покинул игру  •  осталось: %2$s",
   "bloodstone.minigames_service.partygames.mace.action_intro": "СТАРТ: %1$sс  •  ИГРОКОВ: %2$s",
   "bloodstone.minigames_service.partygames.mace.action_selection": "РАУНД %1$s  •  ДО БОЯ: %2$sс  •  РУЛЕТКА",
-  "bloodstone.minigames_service.partygames.mace.action_active": "РАУНД %1$s  •  %2$sс  •  ЖИВЫХ: %3$s  •  %4$s",
+  "bloodstone.minigames_service.partygames.mace.action_active": "До конца раунда  •  %1$s с",
   "bloodstone.minigames_service.partygames.mace.action_resolve": "Следующий раунд  •  %1$s с",
   "bloodstone.minigames_service.partygames.mace.frozen_title": "Заморозка  •  %1$s с",
   "bloodstone.minigames_service.partygames.mace.frozen_action": "Нажимай Shift, чтобы выбраться",
