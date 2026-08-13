@@ -53,6 +53,69 @@
             "chars": [
                 "ぇ"
             ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/booster.png",
+            "ascent": 7,
+            "height": 9,
+            "chars": [
+                ""
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/castle.png",
+            "ascent": 7,
+            "height": 9,
+            "chars": [
+                ""
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/flag_blue.png",
+            "ascent": 7,
+            "height": 9,
+            "chars": [
+                ""
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/flag_red.png",
+            "ascent": 7,
+            "height": 9,
+            "chars": [
+                ""
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/tower_poor.png",
+            "ascent": 7,
+            "height": 9,
+            "chars": [
+                ""
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/tower_rich.png",
+            "ascent": 7,
+            "height": 9,
+            "chars": [
+                ""
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/tower_rich_2.png",
+            "ascent": 7,
+            "height": 9,
+            "chars": [
+                ""
+            ]
         }
     ]
 }

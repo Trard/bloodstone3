@@ -264,6 +264,24 @@
       "chars": [
         "\ue02a"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/bse.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue02b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/joker.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue02c"
+      ]
     }
   ]
 }
