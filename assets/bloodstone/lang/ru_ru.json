@@ -4820,7 +4820,7 @@
   "bloodstone.minigames_service.partygames.mace.mod_elytras_desc": "Все взлетают на элитрах; носитель может сменить их на кожаную куртку",
   "bloodstone.minigames_service.partygames.mace.phase.waiting": "Ожидание игроков",
   "bloodstone.minigames_service.partygames.mace.phase.starting": "Подготовка",
-  "bloodstone.minigames_service.partygames.mace.phase.playing": "Игра идёт",
+  "bloodstone.minigames_service.partygames.mace.phase.playing": "Бой",
   "bloodstone.minigames_service.partygames.mace.phase.finishing": "Завершение",
   "bloodstone.minigames_service.partygames.mace.phase.ended": "Игра окончена",
   "bloodstone.minigames_service.partygames.mace.placeholder.phase_label": "Фаза:",

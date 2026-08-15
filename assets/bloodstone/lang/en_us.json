@@ -5075,7 +5075,7 @@
   "bloodstone.minigames_service.partygames.mace.mod_elytras_desc": "Everyone launches on elytras; a carrier can swap to a leather tunic for a smash",
   "bloodstone.minigames_service.partygames.mace.phase.waiting": "Waiting for players",
   "bloodstone.minigames_service.partygames.mace.phase.starting": "Preparation",
-  "bloodstone.minigames_service.partygames.mace.phase.playing": "Game in progress",
+  "bloodstone.minigames_service.partygames.mace.phase.playing": "Fight",
   "bloodstone.minigames_service.partygames.mace.phase.finishing": "Finishing",
   "bloodstone.minigames_service.partygames.mace.phase.ended": "Game over",
   "bloodstone.minigames_service.partygames.mace.placeholder.phase_label": "Phase:",
