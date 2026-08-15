@@ -5076,6 +5076,7 @@
   "bloodstone.minigames_service.partygames.mace.phase.waiting": "Waiting for players",
   "bloodstone.minigames_service.partygames.mace.phase.starting": "Preparation",
   "bloodstone.minigames_service.partygames.mace.phase.playing": "Fight",
+  "bloodstone.minigames_service.partygames.mace.phase.fight": "Fight",
   "bloodstone.minigames_service.partygames.mace.phase.finishing": "Finishing",
   "bloodstone.minigames_service.partygames.mace.phase.ended": "Game over",
   "bloodstone.minigames_service.partygames.mace.placeholder.phase_label": "Phase:",
