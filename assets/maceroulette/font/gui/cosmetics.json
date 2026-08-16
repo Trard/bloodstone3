@@ -1,0 +1,60 @@
+{
+    "providers": [
+        {
+            "type": "space",
+            "advances": {
+                "\uE000": -11,
+                "\uE001": -172
+            }
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/cosmetics/smash_effects.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE010"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/cosmetics/chat_showcases.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE011"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/cosmetics/win_effects.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE012"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/cosmetics/mace_skins.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE013"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/cosmetics/pillar_skins.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE014"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/cosmetics/block_skins.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE015"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/cosmetics/profile_themes.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE016"]
+        }
+    ]
+}

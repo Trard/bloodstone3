@@ -1,0 +1,18 @@
+{
+    "providers": [
+        {
+            "type": "space",
+            "advances": {
+                "\uE000": -11,
+                "\uE001": -172
+            }
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/rankperks.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE010"]
+        }
+    ]
+}

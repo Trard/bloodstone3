@@ -1,0 +1,18 @@
+{
+    "providers": [
+        {
+            "type": "space",
+            "advances": {
+                "\uE000": -16,
+                "\uE001": -177
+            }
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/shop/overlay.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE010"]
+        }
+    ]
+}

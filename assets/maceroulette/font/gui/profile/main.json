@@ -1,0 +1,277 @@
+{
+    "providers": [
+        {
+            "type": "space",
+            "advances": {
+                "\uE000": -11,
+                "\uE001": -172
+            }
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/profile/main/cherrysunset.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE010"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/profile/main/outerislands.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE011"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/profile/main/finalshowdown.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE012"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/profile/main/ourhome.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE013"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/profile/main/midassanctum.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE014"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/profile/main/theblueprints.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE015"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/profile/main/payback.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE016"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/profile/main/shimmer.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE017"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/profile/main/lovely.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE018"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/profile/main/sunshine.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE019"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/profile/main/fullmoon_default.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE01A"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/profile/main/fullmoon_rare.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE01B"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/profile/main/terminal.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE01C"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/profile/main/polychrome.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE01D"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/profile/main/astralshower.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE01E"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/profile/main/equality_yin.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE01F"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/profile/main/equality_yang.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE020"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/profile/main/equality_yang.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE020"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/profile/main/toxic.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE021"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/profile/main/album.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE022"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/profile/main/hive.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE023"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/profile/main/graffiti.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE024"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/profile/main/motion.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE025"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/profile/main/liminal_default.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE026"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/profile/main/liminal_rare.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE027"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/profile/main/dorm.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE028"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/profile/main/thetreasure.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE029"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/profile/main/melon.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE02A"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/profile/main/apricot.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE02B"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/profile/main/lemon.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE02C"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/profile/main/pear.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE02D"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/profile/main/berry.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE02E"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/profile/main/worldcup_default.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE02F"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/profile/main/worldcup_alt.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE030"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/profile/main/summerliving.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE031"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/profile/main/koi.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE032"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/profile/main/plateaus.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE033"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/profile/main/grassy.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE034"]
+        }
+    ]
+}

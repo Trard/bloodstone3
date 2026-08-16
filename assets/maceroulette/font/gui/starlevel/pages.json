@@ -1,0 +1,19 @@
+{
+    "providers": [
+        {
+            "type": "space",
+            "advances": {
+                "\uE000": -1,
+                "\uE001": -162
+            }
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/starlevel/pages.png",
+            "ascent": -40,
+            "height": 54,
+            "chars": ["\uE010","\uE011","\uE012","\uE013","\uE014","\uE015","\uE016","\uE017",
+                "\uE018","\uE019"]
+        }
+    ]
+}

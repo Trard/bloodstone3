@@ -4776,7 +4776,7 @@
   "bloodstone.minigames_service.partygames.mace.action_active": "До конца раунда  •  %1$s с",
   "bloodstone.minigames_service.partygames.mace.action_resolve": "Следующий раунд  •  %1$s с",
   "bloodstone.minigames_service.partygames.mace.frozen_title": "%1$s с",
-  "bloodstone.minigames_service.partygames.mace.frozen_action": "Нажимай Shift, чтобы выбраться",
+  "bloodstone.minigames_service.partygames.mace.frozen_action": "Нажимай Shift — снимай по 0,5 секунды",
   "bloodstone.minigames_service.partygames.mace.duel_title": "Дуэль",
   "bloodstone.minigames_service.partygames.mace.duel_subtitle": "Осталось двое",
   "bloodstone.minigames_service.partygames.mace.round_announcement": "Раунд %1$s • В игре: %2$s",

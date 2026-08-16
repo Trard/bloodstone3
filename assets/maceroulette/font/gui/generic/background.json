@@ -1,0 +1,53 @@
+{
+    "providers": [
+        {
+            "type": "space",
+            "advances": {
+                "\uE000": -11,
+                "\uE001": -172
+            }
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/generic/background/9.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE010"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/generic/background/18.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE011"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/generic/background/27.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE012"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/generic/background/36.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE013"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/generic/background/45.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE014"]
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/generic/background/54.png",
+            "ascent": 16,
+            "height": 139,
+            "chars": ["\uE015"]
+        }
+    ]
+}

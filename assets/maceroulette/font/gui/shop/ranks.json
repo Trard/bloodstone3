@@ -1,0 +1,18 @@
+{
+    "providers": [
+        {
+            "type": "space",
+            "advances": {
+                "\uE000": -1,
+                "\uE001": -162
+            }
+        },
+        {
+            "type": "bitmap",
+            "file": "maceroulette:font/gui/shop/ranks.png",
+            "ascent": -4,
+            "height": 36,
+            "chars": ["\uE010","\uE011","\uE012","\uE013"]
+        }
+    ]
+}
