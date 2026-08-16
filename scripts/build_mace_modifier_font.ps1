@@ -95,22 +95,22 @@ function Draw-Keycap {
     $surface = [System.Drawing.Color]::FromArgb(255, 20, 54, 74)
     $shadow = [System.Drawing.Color]::FromArgb(255, 9, 25, 39)
     $letter = [System.Drawing.Color]::FromArgb(255, 235, 255, 255)
-    for ($y = 2; $y -le 13; $y++) {
-        for ($x = 2; $x -le 13; $x++) {
-            $color = if ($y -ge 12) { $shadow } elseif ($x -in 2, 13 -or $y -eq 2) { $border } else { $surface }
-            Set-KeyPixel $Bitmap ($CellX + $x) (80 + $y) $color
+    for ($y = 0; $y -le 9; $y++) {
+        for ($x = 0; $x -le 9; $x++) {
+            $color = if ($y -ge 8) { $shadow } elseif ($x -in 0, 9 -or $y -eq 0) { $border } else { $surface }
+            Set-KeyPixel $Bitmap ($CellX + $x) $y $color
         }
     }
     for ($row = 0; $row -lt $Pattern.Count; $row++) {
         for ($column = 0; $column -lt $Pattern[$row].Length; $column++) {
             if ($Pattern[$row][$column] -eq "1") {
-                Set-KeyPixel $Bitmap ($CellX + 3 + $column * 2) (84 + $row * 2) $letter 2
+                Set-KeyPixel $Bitmap ($CellX + 2 + $column) (2 + $row) $letter
             }
         }
     }
 }
 
-$sheet = [System.Drawing.Bitmap]::new(128, 96, [System.Drawing.Imaging.PixelFormat]::Format32bppArgb)
+$sheet = [System.Drawing.Bitmap]::new(128, 80, [System.Drawing.Imaging.PixelFormat]::Format32bppArgb)
 try {
     $graphics = [System.Drawing.Graphics]::FromImage($sheet)
     try {
@@ -130,11 +130,6 @@ try {
         $graphics.Dispose()
     }
 
-    Draw-Keycap $sheet 0 @("10001", "10001", "10101", "10101", "01010")
-    Draw-Keycap $sheet 16 @("01110", "10001", "11111", "10001", "10001")
-    Draw-Keycap $sheet 32 @("01111", "10000", "01110", "00001", "11110")
-    Draw-Keycap $sheet 48 @("11110", "10001", "10001", "10001", "11110")
-
     [System.IO.Directory]::CreateDirectory($outputParent) | Out-Null
     $sheet.Save($outputPath, [System.Drawing.Imaging.ImageFormat]::Png)
 } finally {
@@ -142,6 +137,20 @@ try {
 }
 
 Write-Output $outputPath
+
+$keyOutputPath = Join-Path $outputParent "mace_keys.png"
+$keySheet = [System.Drawing.Bitmap]::new(40, 10, [System.Drawing.Imaging.PixelFormat]::Format32bppArgb)
+try {
+    Draw-Keycap $keySheet 0 @("10001", "10001", "10101", "10101", "01010")
+    Draw-Keycap $keySheet 10 @("01110", "10001", "11111", "10001", "10001")
+    Draw-Keycap $keySheet 20 @("01111", "10000", "01110", "00001", "11110")
+    Draw-Keycap $keySheet 30 @("11110", "10001", "10001", "10001", "11110")
+    $keySheet.Save($keyOutputPath, [System.Drawing.Imaging.ImageFormat]::Png)
+} finally {
+    $keySheet.Dispose()
+}
+
+Write-Output $keyOutputPath
 
 $heartSource = [System.Drawing.Bitmap]::FromFile($frozenHeart)
 try {
