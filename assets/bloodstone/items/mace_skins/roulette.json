@@ -1,0 +1,1146 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+      {
+        "threshold": 71.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/purple"
+        }
+      },
+      {
+        "threshold": 72.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/command_block_staff"
+        }
+      },
+      {
+        "threshold": 73.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/sword"
+        }
+      },
+      {
+        "threshold": 74.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/flaming"
+        }
+      },
+      {
+        "threshold": 75.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/portal_frame"
+        }
+      },
+      {
+        "threshold": 76.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/drip"
+        }
+      },
+      {
+        "threshold": 77.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/piston"
+        }
+      },
+      {
+        "threshold": 78.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/golden_cod"
+        }
+      },
+      {
+        "threshold": 79.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/cactus"
+        }
+      },
+      {
+        "threshold": 80.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/50breeze"
+        }
+      },
+      {
+        "threshold": 82.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/cherry"
+        }
+      },
+      {
+        "threshold": 83.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/amethyst"
+        }
+      },
+      {
+        "threshold": 84.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/frosty"
+        }
+      },
+      {
+        "threshold": 85.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/mushroom"
+        }
+      },
+      {
+        "threshold": 86.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/sculk"
+        }
+      },
+      {
+        "threshold": 87.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/gilded"
+        }
+      },
+      {
+        "threshold": 88.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/charged"
+        }
+      },
+      {
+        "threshold": 93.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/blackstone"
+        }
+      },
+      {
+        "threshold": 94.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/fortress"
+        }
+      },
+      {
+        "threshold": 95.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/marshmellow"
+        }
+      },
+      {
+        "threshold": 96.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/noteblock"
+        }
+      },
+      {
+        "threshold": 97.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/eternity"
+        }
+      },
+      {
+        "threshold": 98.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/resin"
+        }
+      },
+      {
+        "threshold": 99.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/guitar"
+        }
+      },
+      {
+        "threshold": 100.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/aged"
+        }
+      },
+      {
+        "threshold": 101.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/electrode"
+        }
+      },
+      {
+        "threshold": 102.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/tuff"
+        }
+      },
+      {
+        "threshold": 108.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/hay"
+        }
+      },
+      {
+        "threshold": 109.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/scarecrow"
+        }
+      },
+      {
+        "threshold": 110.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/maple"
+        }
+      },
+      {
+        "threshold": 111.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/broom"
+        }
+      },
+      {
+        "threshold": 112.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/saucer"
+        }
+      },
+      {
+        "threshold": 113.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/haunted"
+        }
+      },
+      {
+        "threshold": 118.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/pumpkin"
+        }
+      },
+      {
+        "threshold": 119.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/scythe"
+        }
+      },
+      {
+        "threshold": 123.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/bogged"
+        }
+      },
+      {
+        "threshold": 124.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/bamboo"
+        }
+      },
+      {
+        "threshold": 125.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/house"
+        }
+      },
+      {
+        "threshold": 126.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/imposter"
+        }
+      },
+      {
+        "threshold": 127.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/anchor"
+        }
+      },
+      {
+        "threshold": 128.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/pufferfish"
+        }
+      },
+      {
+        "threshold": 129.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/cat"
+        }
+      },
+      {
+        "threshold": 130.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/penguin"
+        }
+      },
+      {
+        "threshold": 131.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/seal"
+        }
+      },
+      {
+        "threshold": 132.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/bird"
+        }
+      },
+      {
+        "threshold": 133.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/runic"
+        }
+      },
+      {
+        "threshold": 134.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/leafy"
+        }
+      },
+      {
+        "threshold": 135.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/stalagmace"
+        }
+      },
+      {
+        "threshold": 136.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/fishbowl"
+        }
+      },
+      {
+        "threshold": 137.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/pulse"
+        }
+      },
+      {
+        "threshold": 138.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/glitched"
+        }
+      },
+      {
+        "threshold": 145.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/tv"
+        }
+      },
+      {
+        "threshold": 146.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/blaze"
+        }
+      },
+      {
+        "threshold": 148.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/coal"
+        }
+      },
+      {
+        "threshold": 150.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/gift1"
+        }
+      },
+      {
+        "threshold": 151.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/gift5"
+        }
+      },
+      {
+        "threshold": 152.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/gift10"
+        }
+      },
+      {
+        "threshold": 153.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/gift15"
+        }
+      },
+      {
+        "threshold": 154.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/gift20"
+        }
+      },
+      {
+        "threshold": 155.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/gift50"
+        }
+      },
+      {
+        "threshold": 156.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/gift50_2"
+        }
+      },
+      {
+        "threshold": 162.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/icepick"
+        }
+      },
+      {
+        "threshold": 165.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/sweet"
+        }
+      },
+      {
+        "threshold": 167.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/snowman"
+        }
+      },
+      {
+        "threshold": 170.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/gift50_3"
+        }
+      },
+      {
+        "threshold": 171.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/gift50_4"
+        }
+      },
+      {
+        "threshold": 172.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/gift50_5"
+        }
+      },
+      {
+        "threshold": 173.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/gift50_6"
+        }
+      },
+      {
+        "threshold": 174.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/gift50_7"
+        }
+      },
+      {
+        "threshold": 175.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/gift50_8"
+        }
+      },
+      {
+        "threshold": 177.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/carrot"
+        }
+      },
+      {
+        "threshold": 190.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/firework"
+        }
+      },
+      {
+        "threshold": 191.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/redstone"
+        }
+      },
+      {
+        "threshold": 192.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/infected"
+        }
+      },
+      {
+        "threshold": 193.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/earth"
+        }
+      },
+      {
+        "threshold": 194.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/formal"
+        }
+      },
+      {
+        "threshold": 195.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/pharaoh"
+        }
+      },
+      {
+        "threshold": 196.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/diver"
+        }
+      },
+      {
+        "threshold": 197.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/neptune"
+        }
+      },
+      {
+        "threshold": 198.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/apple"
+        }
+      },
+      {
+        "threshold": 199.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/speaker"
+        }
+      },
+      {
+        "threshold": 200.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/stardust"
+        }
+      },
+      {
+        "threshold": 201.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/motor"
+        }
+      },
+      {
+        "threshold": 202.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/abyssal"
+        }
+      },
+      {
+        "threshold": 203.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/traffic"
+        }
+      },
+      {
+        "threshold": 204.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/digital"
+        }
+      },
+      {
+        "threshold": 206.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/gift50_9"
+        }
+      },
+      {
+        "threshold": 207.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/gift50_10"
+        }
+      },
+      {
+        "threshold": 209.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/burger"
+        }
+      },
+      {
+        "threshold": 210.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/rat"
+        }
+      },
+      {
+        "threshold": 211.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/leek"
+        }
+      },
+      {
+        "threshold": 212.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/valentine"
+        }
+      },
+      {
+        "threshold": 214.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/lantern"
+        }
+      },
+      {
+        "threshold": 215.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/beacon"
+        }
+      },
+      {
+        "threshold": 216.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/gift50_11"
+        }
+      },
+      {
+        "threshold": 219.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/prismarine"
+        }
+      },
+      {
+        "threshold": 220.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/rogue"
+        }
+      },
+      {
+        "threshold": 223.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/gift50_12"
+        }
+      },
+      {
+        "threshold": 224.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/shamrock"
+        }
+      },
+      {
+        "threshold": 234.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/wood"
+        }
+      },
+      {
+        "threshold": 235.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/stone"
+        }
+      },
+      {
+        "threshold": 236.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/copper"
+        }
+      },
+      {
+        "threshold": 237.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/iron"
+        }
+      },
+      {
+        "threshold": 238.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/lapis"
+        }
+      },
+      {
+        "threshold": 239.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/diamond"
+        }
+      },
+      {
+        "threshold": 240.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/emerald"
+        }
+      },
+      {
+        "threshold": 241.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/netherite"
+        }
+      },
+      {
+        "threshold": 242.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/beast"
+        }
+      },
+      {
+        "threshold": 257.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/polychrome"
+        }
+      },
+      {
+        "threshold": 259.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/gift50_13"
+        }
+      },
+      {
+        "threshold": 260.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/gift50_14"
+        }
+      },
+      {
+        "threshold": 261.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/gift50_15"
+        }
+      },
+      {
+        "threshold": 262.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/gift50_16"
+        }
+      },
+      {
+        "threshold": 263.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/gift50_17"
+        }
+      },
+      {
+        "threshold": 264.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/gift50_18"
+        }
+      },
+      {
+        "threshold": 265.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/gift50_19"
+        }
+      },
+      {
+        "threshold": 269.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/cake"
+        }
+      },
+      {
+        "threshold": 270.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/gift50_20"
+        }
+      },
+      {
+        "threshold": 271.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/star"
+        }
+      },
+      {
+        "threshold": 294.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/coral"
+        }
+      },
+      {
+        "threshold": 295.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/statue"
+        }
+      },
+      {
+        "threshold": 296.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/8ball"
+        }
+      },
+      {
+        "threshold": 297.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/void"
+        }
+      },
+      {
+        "threshold": 298.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/chimney"
+        }
+      },
+      {
+        "threshold": 299.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/bee"
+        }
+      },
+      {
+        "threshold": 300.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/aurora"
+        }
+      },
+      {
+        "threshold": 301.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/sanguine"
+        }
+      },
+      {
+        "threshold": 303.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/equality"
+        }
+      },
+      {
+        "threshold": 304.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/gift50_21"
+        }
+      },
+      {
+        "threshold": 305.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/gift50_22"
+        }
+      },
+      {
+        "threshold": 307.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/gift50_23"
+        }
+      },
+      {
+        "threshold": 308.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/gift50_24"
+        }
+      },
+      {
+        "threshold": 309.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/gift50_25"
+        }
+      },
+      {
+        "threshold": 310.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/gift50_26"
+        }
+      },
+      {
+        "threshold": 314.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/gift50_27"
+        }
+      },
+      {
+        "threshold": 315.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/cardboard"
+        }
+      },
+      {
+        "threshold": 316.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/microphone"
+        }
+      },
+      {
+        "threshold": 317.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/sundae"
+        }
+      },
+      {
+        "threshold": 318.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/bubblegum"
+        }
+      },
+      {
+        "threshold": 319.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/judge"
+        }
+      },
+      {
+        "threshold": 320.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/backrooms"
+        }
+      },
+      {
+        "threshold": 321.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/ceaseless"
+        }
+      },
+      {
+        "threshold": 322.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/thunder"
+        }
+      },
+      {
+        "threshold": 323.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/ashen"
+        }
+      },
+      {
+        "threshold": 324.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/aerial"
+        }
+      },
+      {
+        "threshold": 333.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/gift50_28"
+        }
+      },
+      {
+        "threshold": 334.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/watermelon"
+        }
+      },
+      {
+        "threshold": 335.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/apricot"
+        }
+      },
+      {
+        "threshold": 336.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/lemon"
+        }
+      },
+      {
+        "threshold": 337.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/pear"
+        }
+      },
+      {
+        "threshold": 338.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/blueberry"
+        }
+      },
+      {
+        "threshold": 339.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/poseidon"
+        }
+      },
+      {
+        "threshold": 354.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/spain"
+        }
+      },
+      {
+        "threshold": 355.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/argentina"
+        }
+      },
+      {
+        "threshold": 358.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/picnic"
+        }
+      },
+      {
+        "threshold": 359.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/umbrella"
+        }
+      },
+      {
+        "threshold": 360.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/tidal"
+        }
+      },
+      {
+        "threshold": 361.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/crab"
+        }
+      },
+      {
+        "threshold": 364.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/gift50_29"
+        }
+      },
+      {
+        "threshold": 368.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/gift50_30"
+        }
+      },
+      {
+        "threshold": 371.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/gift50_31"
+        }
+      },
+      {
+        "threshold": 372.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/mace_skins/roulette/gift50_32"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/mace"
+    }
+  }
+}
