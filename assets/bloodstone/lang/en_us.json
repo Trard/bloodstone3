@@ -5274,7 +5274,7 @@
   "bloodstone.minigames_service.partygames.mace.mod_freeze_burst": "FREEZING WIND CHARGE",
   "bloodstone.minigames_service.partygames.mace.mod_freeze_burst_desc": "A wind-charge or Wind Burst impact freezes nearby players",
   "bloodstone.minigames_service.partygames.mace.mod_punch_freeze": "PUNCH = SELF-FREEZE",
-  "bloodstone.minigames_service.partygames.mace.mod_punch_freeze_desc": "The first direct hit freezes the attacker for 10 seconds; repeat hits add 3 seconds and each Shift removes 0.5",
+  "bloodstone.minigames_service.partygames.mace.mod_punch_freeze_desc": "Only a fully charged direct hit counts: the first freezes for 10 seconds, repeats add 3 (maximum 30); each Shift removes 0.5",
   "bloodstone.minigames_service.partygames.mace.mod_honey_burst": "HONEY WIND CHARGE",
   "bloodstone.minigames_service.partygames.mace.mod_honey_burst_desc": "A wind-charge or Wind Burst impact creates a honey circle",
   "bloodstone.minigames_service.partygames.mace.mod_explosive_burst": "EXPLOSIVE BURST",

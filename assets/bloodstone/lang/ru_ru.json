@@ -5019,7 +5019,7 @@
   "bloodstone.minigames_service.partygames.mace.mod_freeze_burst": "Ледяной заряд ветра",
   "bloodstone.minigames_service.partygames.mace.mod_freeze_burst_desc": "Взрыв заряда или вихревой булавы замораживает игроков рядом",
   "bloodstone.minigames_service.partygames.mace.mod_punch_freeze": "Ударил — заморозился",
-  "bloodstone.minigames_service.partygames.mace.mod_punch_freeze_desc": "Первый прямой удар замораживает атакующего на 10 секунд; повторные добавляют 3 секунды, Shift снимает по 0,5",
+  "bloodstone.minigames_service.partygames.mace.mod_punch_freeze_desc": "Только полностью заряженный прямой удар: первый замораживает на 10 секунд, повторные добавляют 3 (максимум 30); Shift снимает по 0,5",
   "bloodstone.minigames_service.partygames.mace.mod_honey_burst": "Медовый заряд ветра",
   "bloodstone.minigames_service.partygames.mace.mod_honey_burst_desc": "Взрыв заряда или вихревой булавы создаёт круг из медовых блоков",
   "bloodstone.minigames_service.partygames.mace.mod_explosive_burst": "Взрывной заряд ветра",
