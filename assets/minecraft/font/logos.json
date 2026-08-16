@@ -425,15 +425,6 @@
         },
         {
             "type": "bitmap",
-            "file": "logo:mace_roulette_big/logo_4.png",
-            "ascent": 0,
-            "height": 36,
-            "chars": [
-                "\uF81D"
-            ]
-        },
-        {
-            "type": "bitmap",
             "file": "logo:bedwars_big/logo_1.png",
             "ascent": 0,
             "height": 36,
@@ -484,6 +475,15 @@
             "height": 28,
             "chars": [
                 "\uF823"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "logo:mace_roulette_small/logo_3.png",
+            "ascent": 0,
+            "height": 28,
+            "chars": [
+                "\uF826"
             ]
         },
         {
