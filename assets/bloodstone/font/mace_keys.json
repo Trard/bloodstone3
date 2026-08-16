@@ -3,8 +3,8 @@
     {
       "type": "bitmap",
       "file": "bloodstone:font/mace_keys.png",
-      "ascent": 8,
-      "height": 10,
+      "ascent": 9,
+      "height": 11,
       "chars": [
         "\uE328\uE329\uE32A\uE32B"
       ]

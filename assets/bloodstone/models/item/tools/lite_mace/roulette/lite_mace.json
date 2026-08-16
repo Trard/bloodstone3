@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/handheld_mace",
-  "textures": {
-    "layer0": "minecraft:item/cuminass"
-  }
+  "parent": "minecraft:item/cuminass"
 }

@@ -91,22 +91,76 @@ function Draw-Keycap {
         [int]$CellX,
         [string[]]$Pattern
     )
-    $border = [System.Drawing.Color]::FromArgb(255, 34, 216, 224)
-    $surface = [System.Drawing.Color]::FromArgb(255, 20, 54, 74)
-    $shadow = [System.Drawing.Color]::FromArgb(255, 9, 25, 39)
+    $border = [System.Drawing.Color]::FromArgb(255, 142, 164, 174)
+    $surface = [System.Drawing.Color]::FromArgb(255, 47, 59, 66)
+    $shadow = [System.Drawing.Color]::FromArgb(255, 15, 19, 23)
     $letter = [System.Drawing.Color]::FromArgb(255, 235, 255, 255)
-    for ($y = 0; $y -le 9; $y++) {
-        for ($x = 0; $x -le 9; $x++) {
-            $color = if ($y -ge 8) { $shadow } elseif ($x -in 0, 9 -or $y -eq 0) { $border } else { $surface }
+    for ($y = 0; $y -le 10; $y++) {
+        for ($x = 0; $x -le 10; $x++) {
+            $color = if ($y -ge 9 -or $x -eq 10) {
+                $shadow
+            } elseif ($x -eq 0 -or $y -eq 0) {
+                $border
+            } else {
+                $surface
+            }
             Set-KeyPixel $Bitmap ($CellX + $x) $y $color
         }
     }
     for ($row = 0; $row -lt $Pattern.Count; $row++) {
         for ($column = 0; $column -lt $Pattern[$row].Length; $column++) {
             if ($Pattern[$row][$column] -eq "1") {
-                Set-KeyPixel $Bitmap ($CellX + 2 + $column) (2 + $row) $letter
+                Set-KeyPixel $Bitmap ($CellX + 3 + $column) (1 + $row) $letter
             }
         }
+    }
+}
+
+function Draw-RewindIcon {
+    param(
+        [System.Drawing.Bitmap]$Bitmap,
+        [int]$CellX,
+        [int]$CellY
+    )
+    $transparent = [System.Drawing.Color]::Transparent
+    $outline = [System.Drawing.Color]::FromArgb(255, 4, 28, 43)
+    $cyan = [System.Drawing.Color]::FromArgb(255, 19, 228, 216)
+    $highlight = [System.Drawing.Color]::FromArgb(255, 181, 255, 255)
+    $shadow = [System.Drawing.Color]::FromArgb(255, 5, 120, 145)
+    for ($y = 0; $y -lt 16; $y++) {
+        for ($x = 0; $x -lt 16; $x++) {
+            $Bitmap.SetPixel($CellX + $x, $CellY + $y, $transparent)
+        }
+    }
+    $pixels = @{}
+    for ($y = 2; $y -le 13; $y++) {
+        $halfWidth = [math]::Min($y - 2, 13 - $y)
+        foreach ($rightEdge in 7, 14) {
+            for ($x = $rightEdge - $halfWidth; $x -le $rightEdge; $x++) {
+                $pixels["$x,$y"] = $true
+            }
+        }
+    }
+    foreach ($key in $pixels.Keys) {
+        $parts = $key.Split(',')
+        $x = [int]$parts[0]
+        $y = [int]$parts[1]
+        foreach ($offsetY in -1..1) {
+            foreach ($offsetX in -1..1) {
+                $targetX = $x + $offsetX
+                $targetY = $y + $offsetY
+                if ($targetX -in 0..15 -and $targetY -in 0..15) {
+                    $Bitmap.SetPixel($CellX + $targetX, $CellY + $targetY, $outline)
+                }
+            }
+        }
+    }
+    foreach ($key in $pixels.Keys) {
+        $parts = $key.Split(',')
+        $x = [int]$parts[0]
+        $y = [int]$parts[1]
+        $color = if ($y -le 4) { $highlight } elseif ($y -ge 11) { $shadow } else { $cyan }
+        $Bitmap.SetPixel($CellX + $x, $CellY + $y, $color)
     }
 }
 
@@ -126,6 +180,7 @@ try {
                 $image.Dispose()
             }
         }
+        Draw-RewindIcon $sheet 0 48
     } finally {
         $graphics.Dispose()
     }
@@ -139,12 +194,12 @@ try {
 Write-Output $outputPath
 
 $keyOutputPath = Join-Path $outputParent "mace_keys.png"
-$keySheet = [System.Drawing.Bitmap]::new(40, 10, [System.Drawing.Imaging.PixelFormat]::Format32bppArgb)
+$keySheet = [System.Drawing.Bitmap]::new(48, 12, [System.Drawing.Imaging.PixelFormat]::Format32bppArgb)
 try {
-    Draw-Keycap $keySheet 0 @("10001", "10001", "10101", "10101", "01010")
-    Draw-Keycap $keySheet 10 @("01110", "10001", "11111", "10001", "10001")
-    Draw-Keycap $keySheet 20 @("01111", "10000", "01110", "00001", "11110")
-    Draw-Keycap $keySheet 30 @("11110", "10001", "10001", "10001", "11110")
+    Draw-Keycap $keySheet 0 @("10001", "10001", "10001", "10101", "10101", "11011", "10001")
+    Draw-Keycap $keySheet 12 @("01110", "10001", "10001", "11111", "10001", "10001", "10001")
+    Draw-Keycap $keySheet 24 @("01111", "10000", "10000", "01110", "00001", "00001", "11110")
+    Draw-Keycap $keySheet 36 @("11110", "10001", "10001", "10001", "10001", "10001", "11110")
     $keySheet.Save($keyOutputPath, [System.Drawing.Imaging.ImageFormat]::Png)
 } finally {
     $keySheet.Dispose()
