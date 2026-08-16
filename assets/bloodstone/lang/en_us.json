@@ -5030,7 +5030,6 @@
   "bloodstone.minigames_service.partygames.mace.action_selection": "ROUND %1$s  •  FIGHT IN: %2$ss  •  ROULETTE",
   "bloodstone.minigames_service.partygames.mace.action_active": "Round ends in  •  %1$ss",
   "bloodstone.minigames_service.partygames.mace.action_resolve": "Next round  •  %1$ss",
-  "bloodstone.minigames_service.partygames.mace.frozen_title": "%1$s s",
   "bloodstone.minigames_service.partygames.mace.frozen_action": "Tap Shift — remove 0.5 seconds",
   "bloodstone.minigames_service.partygames.mace.duel_title": "Duel",
   "bloodstone.minigames_service.partygames.mace.duel_subtitle": "Two players remain",
