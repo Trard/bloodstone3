@@ -5082,6 +5082,7 @@
   "bloodstone.minigames_service.partygames.mace.mod_fourteen_desc": "Fourteen unique macers are selected",
   "bloodstone.minigames_service.partygames.mace.mod_fifteen": "FIFTEEN MACES",
   "bloodstone.minigames_service.partygames.mace.mod_fifteen_desc": "Fifteen unique macers are selected",
+  "bloodstone.minigames_service.partygames.mace.skin_name": "%1$s Mace",
   "bloodstone.minigames_service.partygames.mace.mod_big": "BIG MACE",
   "bloodstone.minigames_service.partygames.mace.mod_big_desc": "The carrier doubles in size; the roulette enlarges its highlighted player",
   "bloodstone.minigames_service.partygames.mace.mod_tiny": "TINY MACE",
