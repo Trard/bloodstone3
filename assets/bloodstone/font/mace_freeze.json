@@ -2,7 +2,7 @@
   "providers": [
     {
       "type": "bitmap",
-      "file": "minecraft:item/mace_skins/valentine.png",
+      "file": "bloodstone:font/mace_freeze.png",
       "ascent": 8,
       "height": 10,
       "chars": [
