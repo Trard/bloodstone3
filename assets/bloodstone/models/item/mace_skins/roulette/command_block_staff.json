@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld_mace",
   "textures": {
-    "layer0": "minecraft:item/mace_skins/command_block_staff"
+    "layer0": "bloodstone:item/mace_skins/roulette/command_block_staff"
   }
 }

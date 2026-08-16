@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld_mace",
   "textures": {
-    "layer0": "minecraft:item/mace_skins/earth"
+    "layer0": "bloodstone:item/mace_skins/roulette/earth"
   }
 }
