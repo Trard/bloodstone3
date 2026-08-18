@@ -1,0 +1,46 @@
+{
+  "phone.ringtone": {
+    "category": "master",
+    "sounds": ["bse:phone/ringtone"]
+  },
+  "phone.ringback": {
+    "category": "master",
+    "sounds": ["bse:phone/ringback"]
+  },
+  "phone.pickup": {
+    "category": "master",
+    "sounds": ["bse:phone/pickup"]
+  },
+  "phone.hangup": {
+    "category": "master",
+    "sounds": ["bse:phone/hangup"]
+  },
+  "phone.radio_open": {
+    "category": "master",
+    "sounds": ["bse:phone/radio_open"]
+  },
+  "phone.radio_close": {
+    "category": "master",
+    "sounds": ["bse:phone/radio_close"]
+  },
+  "phone.unavailable": {
+    "category": "master",
+    "sounds": ["bse:phone/unavailable"]
+  },
+  "voice.incoming_call": {
+    "category": "voice",
+    "sounds": ["bse:voice/incoming_call"]
+  },
+  "voice.channel_connected": {
+    "category": "voice",
+    "sounds": ["bse:voice/channel_connected"]
+  },
+  "voice.channel_disconnected": {
+    "category": "voice",
+    "sounds": ["bse:voice/channel_disconnected"]
+  },
+  "voice.subscriber_unavailable": {
+    "category": "voice",
+    "sounds": ["bse:voice/subscriber_unavailable"]
+  }
+}
