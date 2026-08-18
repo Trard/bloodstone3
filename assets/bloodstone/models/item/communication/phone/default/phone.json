@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "bloodstone:item/communication/phone/default/phone"
-  }
-}
