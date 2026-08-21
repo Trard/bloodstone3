@@ -5658,6 +5658,7 @@
   "bloodstone.perplayerkit.rtp_queue.hats.equipped": "Шапка добавлена в раскладку вместо шлема.",
   "bloodstone.perplayerkit.rtp_queue.hats.load_failed": "Не удалось загрузить доступные шапки.",
   "bloodstone.perplayerkit.rtp_queue.kit_load_cooldown": "Нельзя брать другой кит ещё %1$s сек.",
+  "bloodstone.perplayerkit.rtp_queue.kit_room_blocked": "Нельзя брать предметы из комнаты китов во время RTP Queue.",
   "bloodstone.perplayerkit.rtp_queue.layout.already_saved": "Раскладка уже сохранена.",
   "bloodstone.perplayerkit.rtp_queue.layout.invalid_item": "Раскладка содержит недопустимый предмет и не была изменена.",
   "bloodstone.perplayerkit.rtp_queue.layout.reset": "Раскладка возвращена к публичному киту.",

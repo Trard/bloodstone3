@@ -5913,6 +5913,7 @@
   "bloodstone.perplayerkit.rtp_queue.hats.equipped": "The hat replaced the helmet in this layout.",
   "bloodstone.perplayerkit.rtp_queue.hats.load_failed": "Could not load available hats.",
   "bloodstone.perplayerkit.rtp_queue.kit_load_cooldown": "You cannot take another kit for %1$s more seconds.",
+  "bloodstone.perplayerkit.rtp_queue.kit_room_blocked": "You cannot take items from the Kit Room while you are in RTP Queue.",
   "bloodstone.perplayerkit.rtp_queue.layout.already_saved": "The layout is already saved.",
   "bloodstone.perplayerkit.rtp_queue.layout.invalid_item": "The layout contains a disallowed item and was not changed.",
   "bloodstone.perplayerkit.rtp_queue.layout.reset": "The layout was reset to the public kit.",
