@@ -2,7 +2,7 @@
   "providers": [
     {
       "type": "bitmap",
-      "file": "minecraft:font/suffixes/eventmaster.png",
+      "file": "minecraft:font/suffixes/ru/eventmaster.png",
       "ascent": 7,
       "height": 7,
       "chars": [
@@ -11,7 +11,7 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:font/suffixes/commanager.png",
+      "file": "minecraft:font/suffixes/ru/commanager.png",
       "ascent": 7,
       "height": 7,
       "chars": [
@@ -20,7 +20,7 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:font/suffixes/dev.png",
+      "file": "minecraft:font/suffixes/ru/dev.png",
       "ascent": 7,
       "height": 7,
       "chars": [
@@ -29,7 +29,7 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:font/suffixes/glsser.png",
+      "file": "minecraft:font/suffixes/ru/glsser.png",
       "ascent": 7,
       "height": 7,
       "chars": [
@@ -38,7 +38,7 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:font/suffixes/prezident.png",
+      "file": "minecraft:font/suffixes/ru/prezident.png",
       "ascent": 7,
       "height": 7,
       "chars": [
@@ -47,7 +47,7 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:font/suffixes/rank_admin1.png",
+      "file": "minecraft:font/suffixes/ru/rank_admin1.png",
       "ascent": 7,
       "height": 7,
       "chars": [
@@ -56,7 +56,7 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:font/suffixes/rank_production.png",
+      "file": "minecraft:font/suffixes/ru/rank_production.png",
       "ascent": 7,
       "height": 7,
       "chars": [
@@ -65,7 +65,7 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:font/suffixes/vip.png",
+      "file": "minecraft:font/suffixes/ru/vip.png",
       "ascent": 7,
       "height": 7,
       "chars": [
@@ -74,7 +74,7 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:font/suffixes/voenkor.png",
+      "file": "minecraft:font/suffixes/ru/voenkor.png",
       "ascent": 7,
       "height": 7,
       "chars": [
@@ -83,7 +83,7 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:font/suffixes/helper.png",
+      "file": "minecraft:font/suffixes/ru/helper.png",
       "ascent": 7,
       "height": 7,
       "chars": [
@@ -92,7 +92,7 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:font/suffixes/curator.png",
+      "file": "minecraft:font/suffixes/ru/curator.png",
       "ascent": 7,
       "height": 7,
       "chars": [
@@ -101,7 +101,7 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:font/suffixes/glmoderator.png",
+      "file": "minecraft:font/suffixes/ru/glmoderator.png",
       "ascent": 7,
       "height": 7,
       "chars": [
@@ -110,7 +110,7 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:font/suffixes/media.png",
+      "file": "minecraft:font/suffixes/ru/media.png",
       "ascent": 7,
       "height": 7,
       "chars": [
@@ -119,7 +119,7 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:font/suffixes/moderator.png",
+      "file": "minecraft:font/suffixes/ru/moderator.png",
       "ascent": 7,
       "height": 7,
       "chars": [
@@ -128,7 +128,7 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:font/suffixes/rank_admin.png",
+      "file": "minecraft:font/suffixes/ru/rank_admin.png",
       "ascent": 7,
       "height": 7,
       "chars": [
@@ -137,7 +137,7 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:font/suffixes/rank_admin2.png",
+      "file": "minecraft:font/suffixes/ru/rank_admin2.png",
       "ascent": 7,
       "height": 7,
       "chars": [
@@ -146,7 +146,7 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:font/suffixes/sser.png",
+      "file": "minecraft:font/suffixes/ru/sser.png",
       "ascent": 7,
       "height": 7,
       "chars": [
@@ -155,7 +155,7 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:font/suffixes/intern.png",
+      "file": "minecraft:font/suffixes/ru/intern.png",
       "ascent": 7,
       "height": 7,
       "chars": [
@@ -164,7 +164,7 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:font/suffixes/senior_helper.png",
+      "file": "minecraft:font/suffixes/ru/senior_helper.png",
       "ascent": 7,
       "height": 7,
       "chars": [
@@ -173,7 +173,7 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:font/suffixes/senior_moderatior.png",
+      "file": "minecraft:font/suffixes/ru/senior_moderatior.png",
       "ascent": 7,
       "height": 7,
       "chars": [
@@ -182,7 +182,7 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:font/suffixes/builder.png",
+      "file": "minecraft:font/suffixes/ru/builder.png",
       "ascent": 7,
       "height": 7,
       "chars": [
@@ -191,7 +191,7 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:font/suffixes/sponsor.png",
+      "file": "minecraft:font/suffixes/ru/sponsor.png",
       "ascent": 7,
       "height": 7,
       "chars": [
@@ -200,7 +200,7 @@
     },
     {
       "type": "bitmap",
-      "file": "bloodstone:ui/tag/rarities.png",
+      "file": "bloodstone:ui/tag/rarities/ru/rarities.png",
       "ascent": 7,
       "height": 7,
       "chars": [
@@ -213,7 +213,20 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:font/suffixes/support.png",
+      "file": "bloodstone:ui/tag/rarities/en/rarities.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue052",
+        "\ue053",
+        "\ue054",
+        "\ue055",
+        "\ue056"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/ru/support.png",
       "ascent": 7,
       "height": 7,
       "chars": [
@@ -222,7 +235,7 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:font/suffixes/mvp.png",
+      "file": "minecraft:font/suffixes/ru/mvp.png",
       "ascent": 7,
       "height": 7,
       "chars": [
@@ -231,7 +244,7 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:font/suffixes/boss1.png",
+      "file": "minecraft:font/suffixes/ru/boss1.png",
       "ascent": 7,
       "height": 7,
       "chars": [
@@ -240,7 +253,7 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:font/suffixes/boss2.png",
+      "file": "minecraft:font/suffixes/ru/boss2.png",
       "ascent": 7,
       "height": 7,
       "chars": [
@@ -249,7 +262,7 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:font/suffixes/tester1.png",
+      "file": "minecraft:font/suffixes/ru/tester1.png",
       "ascent": 7,
       "height": 7,
       "chars": [
@@ -258,7 +271,7 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:font/suffixes/tester2.png",
+      "file": "minecraft:font/suffixes/ru/tester2.png",
       "ascent": 7,
       "height": 7,
       "chars": [
@@ -267,7 +280,7 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:font/suffixes/bse.png",
+      "file": "minecraft:font/suffixes/ru/bse.png",
       "ascent": 7,
       "height": 7,
       "chars": [
@@ -276,11 +289,281 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:font/suffixes/joker.png",
+      "file": "minecraft:font/suffixes/ru/joker.png",
       "ascent": 7,
       "height": 7,
       "chars": [
         "\ue02c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/en/eventmaster.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue034"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/en/commanager.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue035"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/en/dev.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue036"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/en/glsser.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue037"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/en/prezident.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue038"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/en/rank_admin1.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue039"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/en/rank_production.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue03a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/en/vip.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue03b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/en/voenkor.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue03c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/en/helper.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue03d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/en/curator.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue03e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/en/glmoderator.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue03f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/en/media.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue040"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/en/moderator.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue041"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/en/rank_admin.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue042"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/en/rank_admin2.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue043"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/en/sser.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue044"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/en/intern.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue045"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/en/senior_helper.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue046"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/en/senior_moderatior.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue047"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/en/builder.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue048"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/en/sponsor.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue049"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/en/support.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue04a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/en/mvp.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue04b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/en/boss1.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue04c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/en/boss2.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue04d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/en/tester1.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue04e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/en/tester2.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue04f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/en/bse.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue050"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/en/joker.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue051"
       ]
     }
   ]

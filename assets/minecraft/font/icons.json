@@ -116,6 +116,15 @@
             "chars": [
                 ""
             ]
+        },
+        {
+            "type": "bitmap",
+            "file": "civilization:ui/general/juggernaut_ticket.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": [
+                "\ue057"
+            ]
         }
     ]
 }
