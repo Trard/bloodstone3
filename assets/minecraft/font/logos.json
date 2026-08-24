@@ -503,6 +503,60 @@
             "chars": [
                 "\uF825"
             ]
+        },
+        {
+            "type": "bitmap",
+            "file": "logo:bloodstone_big/logo_1.png",
+            "ascent": 0,
+            "height": 24,
+            "chars": [
+                "\uF827"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "logo:bloodstone_big/logo_2.png",
+            "ascent": 0,
+            "height": 24,
+            "chars": [
+                "\uF828"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "logo:bloodstone_big/logo_3.png",
+            "ascent": 0,
+            "height": 24,
+            "chars": [
+                "\uF829"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "logo:bloodstone_big/logo_4.png",
+            "ascent": 0,
+            "height": 24,
+            "chars": [
+                "\uF82A"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "logo:bloodstone_small/logo_1.png",
+            "ascent": 0,
+            "height": 18,
+            "chars": [
+                "\uF82B"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "logo:bloodstone_small/logo_2.png",
+            "ascent": 0,
+            "height": 18,
+            "chars": [
+                "\uF82C"
+            ]
         }
     ]
 }
