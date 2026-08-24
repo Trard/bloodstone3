@@ -21,7 +21,7 @@ class SymbolUse:
     provider_type: str
     source: str
     row: int | None
-    advance: int | None
+    advance: int | float | None
     char: str
 
     @property
@@ -38,7 +38,11 @@ def iter_provider_uses(font_file: Path, provider: dict, provider_index: int) -> 
     advances = provider.get("advances")
     if isinstance(advances, dict):
         for key, value in advances.items():
-            if not isinstance(key, str) or not isinstance(value, int):
+            if (
+                not isinstance(key, str)
+                or isinstance(value, bool)
+                or not isinstance(value, (int, float))
+            ):
                 continue
             for char in key:
                 yield SymbolUse(
