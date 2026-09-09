@@ -1,0 +1,276 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "duels:font/ranked/unranked.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["\ue100"]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:font/ranked/bronza1.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["\ue101"]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:font/ranked/bronza2.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["\ue102"]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:font/ranked/bronza3.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["\ue103"]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:font/ranked/bronza4.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["\ue104"]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:font/ranked/bronza5.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["\ue105"]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:font/ranked/silver1.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["\ue106"]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:font/ranked/silver2.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["\ue107"]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:font/ranked/silver3.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["\ue108"]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:font/ranked/silver4.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["\ue109"]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:font/ranked/silver5.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["\ue10a"]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:font/ranked/gold1.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["\ue10b"]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:font/ranked/gold2.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["\ue10c"]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:font/ranked/gold3.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["\ue10d"]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:font/ranked/gold4.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["\ue10e"]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:font/ranked/gold5.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["\ue10f"]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:font/ranked/diamond1.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["\ue110"]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:font/ranked/diamond2.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["\ue111"]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:font/ranked/diamond3.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["\ue112"]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:font/ranked/diamond4.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["\ue113"]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:font/ranked/diamond5.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["\ue114"]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:font/ranked/master.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["\ue115"]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:font/ranked/champion1.png",
+      "ascent": 9,
+      "height": 10,
+      "chars": ["\ue116"]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:font/ranked/champion2.png",
+      "ascent": 9,
+      "height": 10,
+      "chars": ["\ue117"]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:font/ranked/champion3.png",
+      "ascent": 9,
+      "height": 10,
+      "chars": ["\ue118"]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:font/ranked/champion4.png",
+      "ascent": 9,
+      "height": 10,
+      "chars": ["\ue119"]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:font/ranked/champion5.png",
+      "ascent": 9,
+      "height": 10,
+      "chars": ["\ue11a"]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:font/ranked/champion6.png",
+      "ascent": 9,
+      "height": 10,
+      "chars": ["\ue11b"]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:font/ranked/champion7.png",
+      "ascent": 9,
+      "height": 10,
+      "chars": ["\ue11c"]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:font/ranked/champion8.png",
+      "ascent": 9,
+      "height": 10,
+      "chars": ["\ue11d"]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:font/ranked/champion9.png",
+      "ascent": 9,
+      "height": 10,
+      "chars": ["\ue11e"]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:font/ranked/champio10.png",
+      "ascent": 9,
+      "height": 10,
+      "chars": ["\ue11f"]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:font/ranked/progress_bar_empty_left.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["\ue120"]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:font/ranked/progress_bar_empty_middle.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["\ue121"]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:font/ranked/progress_bar_empty_right.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["\ue122"]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:font/ranked/progress_bar_left.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["\ue123"]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:font/ranked/progress_bar_middle.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["\ue124"]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:font/ranked/progress_bar_right.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["\ue125"]
+    },
+    {
+      "type": "space",
+      "advances": {
+        "\ue126": -1
+      }
+    }
+  ]
+}

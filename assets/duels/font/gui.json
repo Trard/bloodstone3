@@ -1,0 +1,163 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        "\ue600": -8
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:gui/duels.png",
+      "ascent": 14,
+      "height": 256,
+      "chars": [
+        "\ue601"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:gui/default_duels.png",
+      "ascent": 14,
+      "height": 256,
+      "chars": [
+        "\ue602"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:gui/custom_duels.png",
+      "ascent": 13,
+      "height": 256,
+      "chars": [
+        "\ue603"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:gui/private_duels.png",
+      "ascent": 14,
+      "height": 256,
+      "chars": [
+        "\ue604"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:gui/wins.png",
+      "ascent": 14,
+      "height": 256,
+      "chars": [
+        "\ue605"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:gui/team_size.png",
+      "ascent": 14,
+      "height": 256,
+      "chars": [
+        "\ue606"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:gui/map_select.png",
+      "ascent": 14,
+      "height": 256,
+      "chars": [
+        "\ue607"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:gui/settings.png",
+      "ascent": 14,
+      "height": 256,
+      "chars": [
+        "\ue608"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:gui/kit_select.png",
+      "ascent": 14,
+      "height": 256,
+      "chars": [
+        "\ue609"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:gui/ranked_duels.png",
+      "ascent": 14,
+      "height": 256,
+      "chars": [
+        "\ue60a"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:gui/your_kits.png",
+      "ascent": 14,
+      "height": 256,
+      "chars": [
+        "\ue60b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:gui/players.png",
+      "ascent": 14,
+      "height": 256,
+      "chars": [
+        "\ue60c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:gui/party.png",
+      "ascent": 14,
+      "height": 256,
+      "chars": [
+        "\ue60d"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:gui/party1.png",
+      "ascent": 14,
+      "height": 256,
+      "chars": [
+        "\ue60e"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:gui/members.png",
+      "ascent": 14,
+      "height": 256,
+      "chars": [
+        "\ue60f"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:gui/public_party.png",
+      "ascent": 14,
+      "height": 256,
+      "chars": [
+        "\ue610"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:gui/kit_builder.png",
+      "ascent": 14,
+      "height": 256,
+      "chars": [
+        "\ue611"
+      ]
+    }
+  ]
+}

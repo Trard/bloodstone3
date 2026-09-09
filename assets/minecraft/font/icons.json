@@ -119,6 +119,51 @@
         },
         {
             "type": "bitmap",
+            "file": "minecraft:font/goldmedal.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                ""
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/green_xp.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                ""
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/cup.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                ""
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/orangefire.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                ""
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/redfire.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                ""
+            ]
+        },
+        {
+            "type": "bitmap",
             "file": "civilization:ui/general/juggernaut_ticket.png",
             "ascent": 7,
             "height": 8,

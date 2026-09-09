@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "minecraft:item/obsidian_chestplate"
+  "model": {
+    "type": "minecraft:model",
+    "model": "minecraft:item/obsidian_chestplate"
   }
 }

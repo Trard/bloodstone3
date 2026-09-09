@@ -1,7 +1,6 @@
 {
-    "parent": "minecraft:item/handheld",
-    "textures": {
-      "layer0": "minecraft:item/ban_hammer"
-    }
+  "model": {
+    "type": "minecraft:model",
+    "model": "minecraft:item/ban_hammer"
+  }
 }
-  

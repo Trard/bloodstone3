@@ -1,0 +1,1 @@
+{"textures":{"1":"bettermodel:item/imposter_kill_effect_among_us_stab","particle":"bettermodel:item/imposter_kill_effect_among_us_stab"},"elements":[{"from":[-3.0,1.0,8.0],"to":[19.0,15.0,8.0],"faces":{"north":{"uv":[5.5,12.5,0.0,16.0],"tintindex":0,"texture":"#1"},"south":{"uv":[0.0,12.5,5.5,16.0],"tintindex":0,"texture":"#1"}}}]}

@@ -1,0 +1,26 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "duels:logo/hub_title.png",
+      "ascent": 3,
+      "height": 17,
+      "chars": ["\uF830\uF831\uF832\uF833", "\u0000\u0000\u0000\u0000"]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:logo/hub_title.png",
+      "ascent": -14,
+      "height": 17,
+      "chars": ["\u0000\u0000\u0000\u0000", "\uF834\uF835\uF836\uF837"]
+    },
+    {
+      "type": "space",
+      "advances": {
+        "\uF838": -1.4637680053710938,
+        "\uF839": -127.60869598388672,
+        "\uF83A": 2.5362319946289062
+      }
+    }
+  ]
+}

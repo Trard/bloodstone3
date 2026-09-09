@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:item/handheld",
-  "textures": {
-    "layer0": "minecraft:item/whip"
+  "model": {
+    "type": "minecraft:model",
+    "model": "minecraft:item/whip"
   }
 }
