@@ -162,7 +162,7 @@
         },
         {
             "type": "bitmap",
-            "file": "bloodstone:ui/gui/shop/shop.png",
+            "file": "bloodstone:ui/gui/ffa_shop/ffa_shop.png",
             "ascent": 13,
             "height": 256,
             "chars": [
@@ -171,7 +171,7 @@
         },
         {
             "type": "bitmap",
-            "file": "bloodstone:ui/gui/shop/shop1.png",
+            "file": "bloodstone:ui/gui/ffa_shop/ffa_shop1.png",
             "ascent": 13,
             "height": 256,
             "chars": [
@@ -293,6 +293,33 @@
             "height": 256,
             "chars": [
                 "\ue54a"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/store/store.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "\ue54b"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/practice/practice_menu_en.png",
+            "ascent": 12,
+            "height": 256,
+            "chars": [
+                "\ue54c"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/practice/practice_menu_ru.png",
+            "ascent": 12,
+            "height": 256,
+            "chars": [
+                "\ue54d"
             ]
         }
     ]
