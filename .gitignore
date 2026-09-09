@@ -3,3 +3,13 @@ assets/minecraft/textures/font/tmp.*
 __pycache__
 new
 bloodstone3.zip
+resourcepack*.zip
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+*.bak
+.env
+.env.*
+!.env.example
