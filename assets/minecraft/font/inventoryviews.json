@@ -226,7 +226,7 @@
         {
             "type": "bitmap",
             "file": "bloodstone:ui/gui/custom_games/meetup_choose_scenario.png",
-            "ascent": 13,
+            "ascent": 12,
             "height": 256,
             "chars": [
                 "\uE543"
@@ -239,6 +239,60 @@
             "height": 256,
             "chars": [
                 "\uE544"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/crafts/recipe_legendary.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "\ue545"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/crafts/recipe_legendary_1.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "\ue546"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/crafts/recipe_legendary_2.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "\ue547"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/crafts/recipe_legendary_3.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "\ue548"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/misc/skill_menu_ffa.png",
+            "ascent": 14,
+            "height": 256,
+            "chars": [
+                "\ue549"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/misc/mode_selection.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "\ue54a"
             ]
         }
     ]
