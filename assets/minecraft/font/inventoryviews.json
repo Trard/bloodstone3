@@ -330,6 +330,15 @@
             "chars": [
                 "\ue54e"
             ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/cosmetics/cosmetic_crate.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "\uE54F"
+            ]
         }
     ]
 }
