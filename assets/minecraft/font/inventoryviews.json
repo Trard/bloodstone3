@@ -289,7 +289,7 @@
         {
             "type": "bitmap",
             "file": "bloodstone:ui/gui/misc/mode_selection.png",
-            "ascent": 31,
+            "ascent": 33,
             "height": 256,
             "chars": [
                 "\ue54a"
