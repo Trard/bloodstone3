@@ -1,0 +1,7 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "tints": [{"type":"minecraft:custom_model_data","index":0,"default":16646142}],
+    "model": "bse:item/shadows/thin_4"
+  }
+}

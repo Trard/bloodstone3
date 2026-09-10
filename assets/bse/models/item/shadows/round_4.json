@@ -1,0 +1,7 @@
+{
+  "parent": "bse:item/shadows/sprite_plane",
+  "textures": {
+    "sprite": "bse:item/shadows/round_4",
+    "particle": "bse:item/shadows/round_4"
+  }
+}

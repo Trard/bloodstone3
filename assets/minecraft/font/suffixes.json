@@ -565,6 +565,57 @@
       "chars": [
         "\ue051"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/aurad_large_gear_1.png",
+      "ascent": 13,
+      "height": 16,
+      "chars": [
+        "\ue0d3"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/aurad_large_gear_2.png",
+      "ascent": 13,
+      "height": 16,
+      "chars": [
+        "\ue0d4"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/aurad_small_gear_1.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [
+        "\ue0d5",
+        "\ue0d6",
+        "\ue0d7"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/aurad_small_gear_2.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [
+        "\ue0d8",
+        "\ue0d9",
+        "\ue0da"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/aurad_small_gear_3.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [
+        "\ue0db",
+        "\ue0dc",
+        "\ue0dd"
+      ]
     }
   ]
 }

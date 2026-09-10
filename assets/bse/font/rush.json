@@ -1,0 +1,10 @@
+{
+  "providers": [
+    {"type": "bitmap", "file": "bse:font/rush_screamer_1.png", "ascent": 140, "height": 280, "chars": ["\uE8F0"]},
+    {"type": "bitmap", "file": "bse:font/rush_screamer_2.png", "ascent": 140, "height": 280, "chars": ["\uE8F1"]},
+    {"type": "bitmap", "file": "bse:font/rush_screamer_3.png", "ascent": 140, "height": 280, "chars": ["\uE8F2"]},
+    {"type": "bitmap", "file": "bse:font/rush_screamer_4.png", "ascent": 140, "height": 280, "chars": ["\uE8F3"]},
+    {"type": "bitmap", "file": "bse:font/rush_screamer_5.png", "ascent": 140, "height": 280, "chars": ["\uE8F4"]},
+    {"type": "bitmap", "file": "bse:font/rush_screamer_6.png", "ascent": 140, "height": 280, "chars": ["\uE8F5"]}
+  ]
+}

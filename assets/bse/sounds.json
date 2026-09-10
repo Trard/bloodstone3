@@ -42,5 +42,51 @@
   "voice.subscriber_unavailable": {
     "category": "voice",
     "sounds": ["bse:voice/subscriber_unavailable"]
+  },
+  "ransom.start": {
+    "category": "master",
+    "sounds": ["bse:ransom/start"]
+  },
+  "ransom.popup": {
+    "category": "master",
+    "sounds": ["bse:ransom/popup"]
+  },
+  "ransom.screamer": {
+    "category": "master",
+    "sounds": ["bse:scare/joker"]
+  },
+  "ransom.loop": {
+    "category": "master",
+    "sounds": ["bse:ransom/loop"]
+  },
+  "ransom.gold": {
+    "category": "master",
+    "sounds": ["bse:ransom/gold"]
+  },
+  "ransom.success": {
+    "category": "master",
+    "sounds": ["bse:ransom/success"]
+  },
+  "ransom.failure": {
+    "category": "master",
+    "sounds": ["bse:ransom/failure"]
+  },
+  "rush.screamer": {
+    "category": "master",
+    "sounds": [{"name": "bse:scare/rush", "preload": true, "stream": false}]
+  },
+  "scare.thin": {"replace": true, "sounds": [{"name": "bse:scare/thin", "preload": true, "stream": false}]},
+  "scare.round": {"replace": true, "sounds": [{"name": "bse:scare/round", "preload": true, "stream": false}]},
+  "scare.shroud": {"replace": true, "sounds": [{"name": "bse:scare/shroud", "preload": true, "stream": false}]},
+  "rush.chase": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "bse:rush/chase",
+        "stream": false,
+        "preload": true,
+        "attenuation_distance": 32
+      }
+    ]
   }
 }

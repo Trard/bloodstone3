@@ -1,0 +1,13 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "bse:font/cutscene_letterbox.png",
+      "ascent": 32,
+      "height": 64,
+      "chars": [
+        ""
+      ]
+    }
+  ]
+}
