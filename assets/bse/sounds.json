@@ -88,5 +88,129 @@
         "attenuation_distance": 32
       }
     ]
+  },
+  "ceiling.impact": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "bse:ceiling/impact",
+        "preload": true,
+        "stream": false,
+        "attenuation_distance": 24
+      }
+    ]
+  },
+  "scuba.breath": {
+    "sounds": [
+      {
+        "name": "bse:scuba/breath",
+        "stream": false,
+        "attenuation_distance": 8
+      }
+    ]
+  },
+  "vending.button": {
+    "sounds": [
+      {
+        "name": "bse:vending/button_1",
+        "volume": 1.0,
+        "attenuation_distance": 16,
+        "pitch": 0.6
+      }
+    ]
+  },
+  "vending.confirm": {
+    "sounds": [
+      {
+        "name": "bse:vending/confirm_1",
+        "volume": 1.0,
+        "attenuation_distance": 16
+      }
+    ]
+  },
+  "vending.error": {
+    "sounds": [
+      {
+        "name": "bse:vending/error_1",
+        "volume": 1.0,
+        "attenuation_distance": 16
+      }
+    ]
+  },
+  "vending.cancel": {
+    "sounds": [
+      {
+        "name": "bse:vending/cancel_1",
+        "volume": 1.0,
+        "attenuation_distance": 16
+      },
+      {
+        "name": "bse:vending/cancel_2",
+        "volume": 1.0,
+        "attenuation_distance": 16
+      },
+      {
+        "name": "bse:vending/cancel_3",
+        "volume": 1.0,
+        "attenuation_distance": 16
+      },
+      {
+        "name": "bse:vending/cancel_4",
+        "volume": 1.0,
+        "attenuation_distance": 16
+      }
+    ]
+  },
+  "vending.coin": {
+    "sounds": [
+      {
+        "name": "bse:vending/coin_1",
+        "volume": 1.0,
+        "attenuation_distance": 16
+      },
+      {
+        "name": "bse:vending/coin_2",
+        "volume": 1.0,
+        "attenuation_distance": 16
+      },
+      {
+        "name": "bse:vending/coin_3",
+        "volume": 1.0,
+        "attenuation_distance": 16
+      },
+      {
+        "name": "bse:vending/coin_4",
+        "volume": 1.0,
+        "attenuation_distance": 16
+      }
+    ]
+  },
+  "vending.motor": {
+    "sounds": [
+      {
+        "name": "bse:vending/motor_1",
+        "volume": 1.0,
+        "attenuation_distance": 16
+      }
+    ]
+  },
+  "vending.dispense": {
+    "sounds": [
+      {
+        "name": "bse:vending/dispense_1",
+        "volume": 1.0,
+        "attenuation_distance": 16
+      },
+      {
+        "name": "bse:vending/dispense_2",
+        "volume": 1.0,
+        "attenuation_distance": 16
+      },
+      {
+        "name": "bse:vending/dispense_3",
+        "volume": 1.0,
+        "attenuation_distance": 16
+      }
+    ]
   }
 }
