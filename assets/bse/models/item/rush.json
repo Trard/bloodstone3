@@ -1,13 +1,324 @@
 {
+  "credit": "BSE original Rush: connected closed shell, original animated face",
   "ambientocclusion": false,
   "gui_light": "front",
-  "textures": {"face": "bse:item/rush_face", "particle": "bse:item/rush_face"},
-  "display": {"fixed": {"rotation": [0, 0, 0], "translation": [0, 0, 0], "scale": [1, 1, 1]}},
-  "elements": [{
-    "from": [0, 0, 8], "to": [16, 16, 8], "shade": false,
-    "faces": {
-      "north": {"uv": [0, 0, 16, 16], "texture": "#face"},
-      "south": {"uv": [0, 0, 16, 16], "texture": "#face"}
+  "textures": {
+    "face": "bse:item/rush_face",
+    "dark": "bse:item/rush_dark",
+    "particle": "bse:item/rush_dark"
+  },
+  "elements": [
+    {
+      "name": "solid_head",
+      "from": [
+        2,
+        1,
+        4
+      ],
+      "to": [
+        14,
+        15,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#dark"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#face"
+        },
+        "east": {
+          "texture": "#dark"
+        },
+        "west": {
+          "texture": "#dark"
+        },
+        "up": {
+          "texture": "#dark"
+        },
+        "down": {
+          "texture": "#dark"
+        }
+      }
+    },
+    {
+      "name": "heavy_jaw",
+      "from": [
+        3,
+        -2,
+        5
+      ],
+      "to": [
+        13,
+        4,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "#dark"
+        },
+        "south": {
+          "texture": "#dark"
+        },
+        "east": {
+          "texture": "#dark"
+        },
+        "west": {
+          "texture": "#dark"
+        },
+        "up": {
+          "texture": "#dark"
+        },
+        "down": {
+          "texture": "#dark"
+        }
+      }
+    },
+    {
+      "name": "forehead_mass",
+      "from": [
+        3,
+        13,
+        5
+      ],
+      "to": [
+        13,
+        17,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "#dark"
+        },
+        "south": {
+          "texture": "#dark"
+        },
+        "east": {
+          "texture": "#dark"
+        },
+        "west": {
+          "texture": "#dark"
+        },
+        "up": {
+          "texture": "#dark"
+        },
+        "down": {
+          "texture": "#dark"
+        }
+      }
+    },
+    {
+      "name": "left_cheek",
+      "from": [
+        0,
+        3,
+        6
+      ],
+      "to": [
+        4,
+        12,
+        10
+      ],
+      "faces": {
+        "north": {
+          "texture": "#dark"
+        },
+        "south": {
+          "texture": "#dark"
+        },
+        "east": {
+          "texture": "#dark"
+        },
+        "west": {
+          "texture": "#dark"
+        },
+        "up": {
+          "texture": "#dark"
+        },
+        "down": {
+          "texture": "#dark"
+        }
+      }
+    },
+    {
+      "name": "right_cheek",
+      "from": [
+        12,
+        3,
+        6
+      ],
+      "to": [
+        16,
+        12,
+        10
+      ],
+      "faces": {
+        "north": {
+          "texture": "#dark"
+        },
+        "south": {
+          "texture": "#dark"
+        },
+        "east": {
+          "texture": "#dark"
+        },
+        "west": {
+          "texture": "#dark"
+        },
+        "up": {
+          "texture": "#dark"
+        },
+        "down": {
+          "texture": "#dark"
+        }
+      }
+    },
+    {
+      "name": "bottom_wisp_left",
+      "from": [
+        3,
+        -4,
+        6
+      ],
+      "to": [
+        7,
+        3,
+        10
+      ],
+      "faces": {
+        "north": {
+          "texture": "#dark"
+        },
+        "south": {
+          "texture": "#dark"
+        },
+        "up": {
+          "texture": "#dark"
+        },
+        "down": {
+          "texture": "#dark"
+        },
+        "east": {
+          "texture": "#dark"
+        },
+        "west": {
+          "texture": "#dark"
+        }
+      }
+    },
+    {
+      "name": "bottom_wisp_right",
+      "from": [
+        9,
+        -4,
+        6
+      ],
+      "to": [
+        13,
+        3,
+        10
+      ],
+      "faces": {
+        "north": {
+          "texture": "#dark"
+        },
+        "south": {
+          "texture": "#dark"
+        },
+        "up": {
+          "texture": "#dark"
+        },
+        "down": {
+          "texture": "#dark"
+        },
+        "east": {
+          "texture": "#dark"
+        },
+        "west": {
+          "texture": "#dark"
+        }
+      }
+    },
+    {
+      "name": "rear_mass",
+      "from": [
+        4,
+        3,
+        0
+      ],
+      "to": [
+        12,
+        13,
+        6
+      ],
+      "faces": {
+        "north": {
+          "texture": "#dark"
+        },
+        "south": {
+          "texture": "#dark"
+        },
+        "east": {
+          "texture": "#dark"
+        },
+        "west": {
+          "texture": "#dark"
+        },
+        "up": {
+          "texture": "#dark"
+        },
+        "down": {
+          "texture": "#dark"
+        }
+      }
     }
-  }]
+  ],
+  "display": {
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "gui": {
+      "rotation": [
+        12,
+        205,
+        0
+      ],
+      "translation": [
+        0,
+        -1,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ]
+    }
+  }
 }

@@ -1,83 +1,156 @@
 {
   "phone.ringtone": {
     "category": "master",
-    "sounds": ["bse:phone/ringtone"]
+    "sounds": [
+      "bse:phone/ringtone"
+    ]
   },
   "phone.ringback": {
     "category": "master",
-    "sounds": ["bse:phone/ringback"]
+    "sounds": [
+      "bse:phone/ringback"
+    ]
   },
   "phone.pickup": {
     "category": "master",
-    "sounds": ["bse:phone/pickup"]
+    "sounds": [
+      "bse:phone/pickup"
+    ]
   },
   "phone.hangup": {
     "category": "master",
-    "sounds": ["bse:phone/hangup"]
+    "sounds": [
+      "bse:phone/hangup"
+    ]
   },
   "phone.radio_open": {
     "category": "master",
-    "sounds": ["bse:phone/radio_open"]
+    "sounds": [
+      "bse:phone/radio_open"
+    ]
   },
   "phone.radio_close": {
     "category": "master",
-    "sounds": ["bse:phone/radio_close"]
+    "sounds": [
+      "bse:phone/radio_close"
+    ]
   },
   "phone.unavailable": {
     "category": "master",
-    "sounds": ["bse:phone/unavailable"]
+    "sounds": [
+      "bse:phone/unavailable"
+    ]
   },
   "voice.incoming_call": {
     "category": "voice",
-    "sounds": ["bse:voice/incoming_call"]
+    "sounds": [
+      "bse:voice/incoming_call"
+    ]
   },
   "voice.channel_connected": {
     "category": "voice",
-    "sounds": ["bse:voice/channel_connected"]
+    "sounds": [
+      "bse:voice/channel_connected"
+    ]
   },
   "voice.channel_disconnected": {
     "category": "voice",
-    "sounds": ["bse:voice/channel_disconnected"]
+    "sounds": [
+      "bse:voice/channel_disconnected"
+    ]
   },
   "voice.subscriber_unavailable": {
     "category": "voice",
-    "sounds": ["bse:voice/subscriber_unavailable"]
+    "sounds": [
+      "bse:voice/subscriber_unavailable"
+    ]
   },
   "ransom.start": {
     "category": "master",
-    "sounds": ["bse:ransom/start"]
+    "sounds": [
+      "bse:ransom/start"
+    ]
   },
   "ransom.popup": {
     "category": "master",
-    "sounds": ["bse:ransom/popup"]
+    "sounds": [
+      "bse:ransom/popup"
+    ]
   },
   "ransom.screamer": {
-    "category": "master",
-    "sounds": ["bse:scare/joker"]
+    "replace": true,
+    "sounds": [
+      {
+        "name": "bse:scare/joker",
+        "preload": true,
+        "stream": false
+      }
+    ]
   },
   "ransom.loop": {
     "category": "master",
-    "sounds": ["bse:ransom/loop"]
+    "sounds": [
+      "bse:ransom/loop"
+    ]
   },
   "ransom.gold": {
     "category": "master",
-    "sounds": ["bse:ransom/gold"]
+    "sounds": [
+      "bse:ransom/gold"
+    ]
   },
   "ransom.success": {
     "category": "master",
-    "sounds": ["bse:ransom/success"]
+    "sounds": [
+      "bse:ransom/success"
+    ]
   },
   "ransom.failure": {
     "category": "master",
-    "sounds": ["bse:ransom/failure"]
+    "sounds": [
+      "bse:ransom/failure"
+    ]
   },
   "rush.screamer": {
-    "category": "master",
-    "sounds": [{"name": "bse:scare/rush", "preload": true, "stream": false}]
+    "replace": true,
+    "sounds": [
+      {
+        "name": "bse:scare/rush",
+        "preload": true,
+        "stream": false
+      }
+    ]
   },
-  "scare.thin": {"replace": true, "sounds": [{"name": "bse:scare/thin", "preload": true, "stream": false}]},
-  "scare.round": {"replace": true, "sounds": [{"name": "bse:scare/round", "preload": true, "stream": false}]},
-  "scare.shroud": {"replace": true, "sounds": [{"name": "bse:scare/shroud", "preload": true, "stream": false}]},
+  "scare.thin": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "bse:scare/thin",
+        "preload": true,
+        "stream": false
+      }
+    ]
+  },
+  "scare.round": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "bse:scare/round",
+        "preload": true,
+        "stream": false
+      }
+    ]
+  },
+  "scare.shroud": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "bse:scare/shroud",
+        "preload": true,
+        "stream": false
+      }
+    ]
+  },
   "rush.chase": {
     "category": "hostile",
     "sounds": [
