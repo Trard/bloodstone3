@@ -1,286 +1,42 @@
 {
-  "credit": "BSE original Rush: connected closed shell, original animated face",
+  "credit": "BSE Rush: faceless animated Minecraft smoke, camera-facing RP quad",
   "ambientocclusion": false,
   "gui_light": "front",
   "textures": {
-    "face": "bse:item/rush_face",
-    "dark": "bse:item/rush_dark",
-    "particle": "bse:item/rush_dark"
+    "smoke": "bse:item/rush_smoke",
+    "particle": "bse:item/rush_smoke"
   },
   "elements": [
     {
-      "name": "solid_head",
+      "name": "faceless_smoke",
       "from": [
-        2,
-        1,
-        4
+        -4,
+        -4,
+        8
       ],
       "to": [
-        14,
-        15,
-        12
+        20,
+        20,
+        8
       ],
       "faces": {
         "north": {
+          "texture": "#smoke",
+          "uv": [
+            16,
+            0,
+            0,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#smoke",
           "uv": [
             0,
             0,
             16,
             16
-          ],
-          "texture": "#dark"
-        },
-        "south": {
-          "uv": [
-            0,
-            0,
-            16,
-            16
-          ],
-          "texture": "#face"
-        },
-        "east": {
-          "texture": "#dark"
-        },
-        "west": {
-          "texture": "#dark"
-        },
-        "up": {
-          "texture": "#dark"
-        },
-        "down": {
-          "texture": "#dark"
-        }
-      }
-    },
-    {
-      "name": "heavy_jaw",
-      "from": [
-        3,
-        -2,
-        5
-      ],
-      "to": [
-        13,
-        4,
-        11
-      ],
-      "faces": {
-        "north": {
-          "texture": "#dark"
-        },
-        "south": {
-          "texture": "#dark"
-        },
-        "east": {
-          "texture": "#dark"
-        },
-        "west": {
-          "texture": "#dark"
-        },
-        "up": {
-          "texture": "#dark"
-        },
-        "down": {
-          "texture": "#dark"
-        }
-      }
-    },
-    {
-      "name": "forehead_mass",
-      "from": [
-        3,
-        13,
-        5
-      ],
-      "to": [
-        13,
-        17,
-        11
-      ],
-      "faces": {
-        "north": {
-          "texture": "#dark"
-        },
-        "south": {
-          "texture": "#dark"
-        },
-        "east": {
-          "texture": "#dark"
-        },
-        "west": {
-          "texture": "#dark"
-        },
-        "up": {
-          "texture": "#dark"
-        },
-        "down": {
-          "texture": "#dark"
-        }
-      }
-    },
-    {
-      "name": "left_cheek",
-      "from": [
-        0,
-        3,
-        6
-      ],
-      "to": [
-        4,
-        12,
-        10
-      ],
-      "faces": {
-        "north": {
-          "texture": "#dark"
-        },
-        "south": {
-          "texture": "#dark"
-        },
-        "east": {
-          "texture": "#dark"
-        },
-        "west": {
-          "texture": "#dark"
-        },
-        "up": {
-          "texture": "#dark"
-        },
-        "down": {
-          "texture": "#dark"
-        }
-      }
-    },
-    {
-      "name": "right_cheek",
-      "from": [
-        12,
-        3,
-        6
-      ],
-      "to": [
-        16,
-        12,
-        10
-      ],
-      "faces": {
-        "north": {
-          "texture": "#dark"
-        },
-        "south": {
-          "texture": "#dark"
-        },
-        "east": {
-          "texture": "#dark"
-        },
-        "west": {
-          "texture": "#dark"
-        },
-        "up": {
-          "texture": "#dark"
-        },
-        "down": {
-          "texture": "#dark"
-        }
-      }
-    },
-    {
-      "name": "bottom_wisp_left",
-      "from": [
-        3,
-        -4,
-        6
-      ],
-      "to": [
-        7,
-        3,
-        10
-      ],
-      "faces": {
-        "north": {
-          "texture": "#dark"
-        },
-        "south": {
-          "texture": "#dark"
-        },
-        "up": {
-          "texture": "#dark"
-        },
-        "down": {
-          "texture": "#dark"
-        },
-        "east": {
-          "texture": "#dark"
-        },
-        "west": {
-          "texture": "#dark"
-        }
-      }
-    },
-    {
-      "name": "bottom_wisp_right",
-      "from": [
-        9,
-        -4,
-        6
-      ],
-      "to": [
-        13,
-        3,
-        10
-      ],
-      "faces": {
-        "north": {
-          "texture": "#dark"
-        },
-        "south": {
-          "texture": "#dark"
-        },
-        "up": {
-          "texture": "#dark"
-        },
-        "down": {
-          "texture": "#dark"
-        },
-        "east": {
-          "texture": "#dark"
-        },
-        "west": {
-          "texture": "#dark"
-        }
-      }
-    },
-    {
-      "name": "rear_mass",
-      "from": [
-        4,
-        3,
-        0
-      ],
-      "to": [
-        12,
-        13,
-        6
-      ],
-      "faces": {
-        "north": {
-          "texture": "#dark"
-        },
-        "south": {
-          "texture": "#dark"
-        },
-        "east": {
-          "texture": "#dark"
-        },
-        "west": {
-          "texture": "#dark"
-        },
-        "up": {
-          "texture": "#dark"
-        },
-        "down": {
-          "texture": "#dark"
+          ]
         }
       }
     }
@@ -305,19 +61,19 @@
     },
     "gui": {
       "rotation": [
-        12,
-        205,
+        0,
+        0,
         0
       ],
       "translation": [
         0,
-        -1,
+        0,
         0
       ],
       "scale": [
-        0.65,
-        0.65,
-        0.65
+        0.6,
+        0.6,
+        0.6
       ]
     }
   }

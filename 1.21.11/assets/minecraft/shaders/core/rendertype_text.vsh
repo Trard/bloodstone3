@@ -18,6 +18,8 @@ out vec2 texCoord0;
 out vec2 bseScreenPosition;
 flat out int bseLetterbox;
 flat out int bseScare;
+flat out int bseCameraPhase;
+flat out int bseCameraSeed;
 
 void main() {
     gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
@@ -28,6 +30,8 @@ void main() {
     bseScreenPosition = vec2(0.0);
     bseLetterbox = 0;
     bseScare = 0;
+    bseCameraPhase = -1;
+    bseCameraSeed = 0;
 
     // Only the dedicated bse:cutscene_letterbox title uses this marker.
     // Orthographic projection excludes world text / text displays entirely.
@@ -45,6 +49,16 @@ void main() {
     // Dedicated scare fonts: a full-viewport background plus 4x4 portrait tiles.
     // The RGB marker encodes tile coordinates, not a tint. Other fonts stay vanilla.
     ivec3 tag = ivec3(round(Color.rgb * 255.0));
+    bool cameraOff = tag.r == 251 && tag.g == 90 && tag.b >= 0 && tag.b < 3;
+    bool cameraNoise = tag.r == 251 && tag.g == 91 && tag.b >= 0 && tag.b < 64;
+    if (abs(ProjMat[3][3] - 1.0) < 0.001 && (cameraOff || cameraNoise)) {
+        const vec2 cameraQuad[4] = vec2[4](vec2(-1,1),vec2(-1,-1),vec2(1,-1),vec2(1,1));
+        bseScreenPosition = cameraQuad[gl_VertexID % 4];
+        gl_Position = vec4(bseScreenPosition, 0.0, 1.0);
+        bseCameraPhase = cameraOff ? tag.b : 3;
+        bseCameraSeed = tag.b;
+        vertexColor = vec4(1.0, 1.0, 1.0, Color.a);
+    }
     bool background = tag == ivec3(252, 99, 99);
     bool portrait = tag.r == 252 && tag.g >= 100 && tag.g <= 103 && tag.b >= 100 && tag.b <= 103;
     if (abs(ProjMat[3][3] - 1.0) < 0.001 && (background || portrait)) {

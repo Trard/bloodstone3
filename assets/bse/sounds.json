@@ -285,5 +285,25 @@
         "attenuation_distance": 16
       }
     ]
+  },
+  "shadow.push": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "bse:scare/shadow_push",
+        "preload": true,
+        "stream": false
+      }
+    ]
+  },
+  "camera.shadow": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "bse:scare/camera_shadow",
+        "preload": true,
+        "stream": false
+      }
+    ]
   }
 }
