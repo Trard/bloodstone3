@@ -307,7 +307,7 @@
         {
             "type": "bitmap",
             "file": "bloodstone:ui/gui/practice/practice_menu_en.png",
-            "ascent": 11,
+            "ascent": 12,
             "height": 256,
             "chars": [
                 "\ue54c"
@@ -316,7 +316,7 @@
         {
             "type": "bitmap",
             "file": "bloodstone:ui/gui/practice/practice_menu_ru.png",
-            "ascent": 11,
+            "ascent": 12,
             "height": 256,
             "chars": [
                 "\ue54d"
@@ -347,6 +347,15 @@
             "height": 256,
             "chars": [
                 "\uE550"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/ffa/ffa_menu_ru.png",
+            "ascent": 14,
+            "height": 256,
+            "chars": [
+                "\ue72d"
             ]
         }
     ]
