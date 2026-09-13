@@ -339,6 +339,15 @@
             "chars": [
                 "\uE54F"
             ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/cases/cases_menu.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "\uE550"
+            ]
         }
     ]
 }
