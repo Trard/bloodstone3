@@ -3841,6 +3841,7 @@
   "bloodstone.meetups.phase.waiting": "Waiting",
   "bloodstone.meetups.phase.preparation": "Preparation",
   "bloodstone.meetups.phase.fight": "Fight",
+  "bloodstone.meetups.phase.finished": "Match finished",
   "bloodstone.meetups.title.preparation.smp": "Collect Your Kit",
   "bloodstone.meetups.title.preparation.uhc": "Get Ready",
   "bloodstone.meetups.title.preparation.legendary": "Legendary Weapon!",
