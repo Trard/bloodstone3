@@ -4,6 +4,8 @@ Extract one Minecraft 1.21.4+ model JSON and PNG textures from a Blockbench
 .bbmodel file. Optionally create or update the corresponding item JSON.
 
 This script intentionally emits exactly one model JSON per input bbmodel.
+Use --multi-axis-rotations for Minecraft 1.21.11+ models; target an appropriate
+overlay assets directory when the pack also supports older clients.
 """
 
 from __future__ import annotations
@@ -154,6 +156,11 @@ def parse_args() -> argparse.Namespace:
         "--prefix-textures",
         action="store_true",
         help="Prefix texture file names with model name to reduce collisions.",
+    )
+    parser.add_argument(
+        "--multi-axis-rotations",
+        action="store_true",
+        help="Export multi-axis element rotations using Minecraft 1.21.11+ notation.",
     )
     parser.add_argument(
         "--force",
@@ -413,7 +420,7 @@ def resolve_texture_index(raw: object, elem_name: str, face_name: str) -> int:
     raise AssertionError("unreachable")
 
 
-def convert_rotation(raw_rotation: object, elem: dict, elem_name: str) -> dict | None:
+def convert_rotation(raw_rotation: object, elem: dict, elem_name: str, multi_axis_rotations: bool = False) -> dict | None:
     if raw_rotation is None:
         return None
 
@@ -439,6 +446,11 @@ def convert_rotation(raw_rotation: object, elem: dict, elem_name: str) -> dict |
         if not non_zero:
             return None
         if len(non_zero) > 1:
+            if multi_axis_rotations:
+                return {
+                    "origin": ensure_list3(elem.get("origin"), "origin", elem_name),
+                    **dict(zip(("x", "y", "z"), vec)),
+                }
             fail(
                 f"Element '{elem_name}' has multi-axis rotation {vec}; cannot represent in one vanilla cube rotation."
             )
@@ -458,6 +470,7 @@ def build_model_json(
     texture_plans: list[TexturePlan],
     model_resolution_width: int,
     model_resolution_height: int,
+    multi_axis_rotations: bool = False,
 ) -> dict:
     texture_lookup = {plan.index: plan for plan in texture_plans}
     texture_object: dict[str, str] = {
@@ -491,7 +504,7 @@ def build_model_json(
             "to": to_pos,
         }
 
-        rotation = convert_rotation(elem.get("rotation"), elem, elem_name)
+        rotation = convert_rotation(elem.get("rotation"), elem, elem_name, multi_axis_rotations)
         if rotation is not None:
             converted["rotation"] = rotation
 
@@ -636,7 +649,7 @@ def main() -> None:
         include_indices=referenced_texture_indices,
     )
     model_json = build_model_json(
-        bbmodel, texture_plans, model_resolution_width, model_resolution_height
+        bbmodel, texture_plans, model_resolution_width, model_resolution_height, args.multi_axis_rotations
     )
 
     model_root = assets_root / namespace / "models" / "item"
