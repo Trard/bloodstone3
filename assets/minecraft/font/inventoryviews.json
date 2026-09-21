@@ -280,7 +280,7 @@
         {
             "type": "bitmap",
             "file": "bloodstone:ui/gui/misc/skill_menu_ffa.png",
-            "ascent": 14,
+            "ascent": 24,
             "height": 256,
             "chars": [
                 "\ue549"
