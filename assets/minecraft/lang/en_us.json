@@ -130,5 +130,10 @@
   "bloodinvasion.menu.vote_change": "Click to change your vote",
   "bloodinvasion.menu.kit_active": "In use: %s / %s",
   "bloodinvasion.chat.vote_changed": "Vote changed. Your previous vote was removed.",
-  "bloodinvasion.chat.vote_same": "You have already selected this player."
+  "bloodinvasion.chat.vote_same": "You have already selected this player.",
+  "bloodinvasion.hud.points_hint": "Capture and hold the points",
+  "bloodinvasion.hud.point_free": "Neutral",
+  "bloodinvasion.hud.point_contested": "Contested",
+  "bloodinvasion.hud.point_neutralize": "Clear %s%%",
+  "bloodinvasion.hud.point_decay": "Fading %s%%"
 }

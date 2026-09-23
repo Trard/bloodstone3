@@ -130,5 +130,10 @@
   "bloodinvasion.menu.vote_change": "Нажмите, чтобы изменить выбор",
   "bloodinvasion.menu.kit_active": "В игре: %s / %s",
   "bloodinvasion.chat.vote_changed": "Выбор изменён. Предыдущий голос снят.",
-  "bloodinvasion.chat.vote_same": "Вы уже выбрали этого игрока."
+  "bloodinvasion.chat.vote_same": "Вы уже выбрали этого игрока.",
+  "bloodinvasion.hud.points_hint": "Захватывайте и удерживайте точки",
+  "bloodinvasion.hud.point_free": "Свободна",
+  "bloodinvasion.hud.point_contested": "Спор",
+  "bloodinvasion.hud.point_neutralize": "Снятие %s%%",
+  "bloodinvasion.hud.point_decay": "Спад %s%%"
 }
