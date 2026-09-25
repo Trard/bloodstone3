@@ -616,6 +616,42 @@
         "\ue0dc",
         "\ue0dd"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/ru/head_war_correspondent.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue0de"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/ru/junior_technical_admin.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue0df"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/en/head_war_correspondent.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue0e0"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/en/junior_technical_admin.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue0e1"
+      ]
     }
   ]
 }
