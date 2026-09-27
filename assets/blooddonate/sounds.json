@@ -45,5 +45,17 @@
 "custom.wave": { "category": "master", "sounds": [ "blooddonate:custom/wave" ] },
 "custom.butterfly": { "category": "master", "sounds": [ "blooddonate:custom/butterfly" ] },
 "custom.sun": { "category": "master", "sounds": [ "blooddonate:custom/sun" ] },
-"custom.phoenix": { "category": "master", "sounds": [ "blooddonate:custom/phoenix" ] }
+"custom.phoenix": { "category": "master", "sounds": [ "blooddonate:custom/phoenix" ] },
+"custom.copper_chains": { "category": "master", "sounds": [ "blooddonate:custom/copper_chains" ] },
+"custom.copper_gears": { "category": "master", "sounds": [ "blooddonate:custom/copper_gears" ] },
+"custom.dirijabel": { "category": "master", "sounds": [ "blooddonate:custom/dirijabel" ] },
+"custom.flat_ground_trap": { "category": "master", "sounds": [ "blooddonate:custom/flat_ground_trap" ] },
+"custom.golem": { "category": "master", "sounds": [ "blooddonate:custom/golem" ] },
+"custom.luk_pizduk": { "category": "master", "sounds": [ "blooddonate:custom/luk_pizduk" ] },
+"custom.orbitalka": { "category": "master", "sounds": [ "blooddonate:custom/orbitalka" ] },
+"custom.piston": { "category": "master", "sounds": [ "blooddonate:custom/piston" ] },
+"custom.red_bomb": { "category": "master", "sounds": [ "blooddonate:custom/red_bomb" ] },
+"custom.robot": { "category": "master", "sounds": [ "blooddonate:custom/robot" ] },
+"custom.tiny_golem": { "category": "master", "sounds": [ "blooddonate:custom/tiny_golem" ] },
+"custom.train": { "category": "master", "sounds": [ "blooddonate:custom/train" ] }
 }
