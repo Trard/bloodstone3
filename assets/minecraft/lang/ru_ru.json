@@ -139,5 +139,11 @@
   "bloodinvasion.menu.await_factions": "Выбор кита откроется после выбора фракций.",
   "bloodinvasion.hud.phase.teams": "Выбор команды",
   "bloodinvasion.hud.phase.leader": "Выбор лидера",
-  "bloodinvasion.hud.phase.factions": "Выбор фракции"
+  "bloodinvasion.hud.phase.factions": "Выбор фракции",
+  "bloodinvasion.hud.objective.attack": "Атакуйте точку %s",
+  "bloodinvasion.hud.objective.defend": "Защищайте точку %s",
+  "bloodinvasion.hud.objective.hold": "Удерживайте точки",
+  "bloodinvasion.hud.capture.personal": "Вы захватываете точку %s: %s%%",
+  "bloodinvasion.hud.capture.neutralize": "Вы нейтрализуете точку %s: %s%%",
+  "bloodinvasion.hud.capture.enemy": "Противник захватывает точку %s: %s%%"
 }

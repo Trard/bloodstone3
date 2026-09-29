@@ -139,5 +139,11 @@
   "bloodinvasion.menu.await_factions": "Kit selection opens after both factions have been selected.",
   "bloodinvasion.hud.phase.teams": "Choose a team",
   "bloodinvasion.hud.phase.leader": "Choose a leader",
-  "bloodinvasion.hud.phase.factions": "Choose a faction"
+  "bloodinvasion.hud.phase.factions": "Choose a faction",
+  "bloodinvasion.hud.objective.attack": "Attack point %s",
+  "bloodinvasion.hud.objective.defend": "Defend point %s",
+  "bloodinvasion.hud.objective.hold": "Hold the points",
+  "bloodinvasion.hud.capture.personal": "You are capturing point %s: %s%%",
+  "bloodinvasion.hud.capture.neutralize": "You are neutralizing point %s: %s%%",
+  "bloodinvasion.hud.capture.enemy": "The enemy is capturing point %s: %s%%"
 }
