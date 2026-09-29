@@ -135,5 +135,9 @@
   "bloodinvasion.hud.point_free": "Neutral",
   "bloodinvasion.hud.point_contested": "Contested",
   "bloodinvasion.hud.point_neutralize": "Clear %s%%",
-  "bloodinvasion.hud.point_decay": "Fading %s%%"
+  "bloodinvasion.hud.point_decay": "Fading %s%%",
+  "bloodinvasion.menu.await_factions": "Kit selection opens after both factions have been selected.",
+  "bloodinvasion.hud.phase.teams": "Choose a team",
+  "bloodinvasion.hud.phase.leader": "Choose a leader",
+  "bloodinvasion.hud.phase.factions": "Choose a faction"
 }

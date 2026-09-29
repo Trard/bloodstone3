@@ -2,6 +2,10 @@
     "providers": [
         {
             "type": "reference",
+            "id": "minecraft:invasion_factions"
+        },
+        {
+            "type": "reference",
             "id": "duels:hub_title"
         },
         {
