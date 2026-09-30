@@ -11,4 +11,11 @@
   "height": 8,
   "ascent": 7,
   "chars": ["\ue002", "\ue003", "\ue004", "\ue005", "\ue006", "\ue007", "\ue008", "\ue009", "\ue00a"]
+},
+{
+  "type": "bitmap",
+  "file": "blooddonate:particles/silver_medal.png",
+  "height": 16,
+  "ascent": 13,
+  "chars": ["\ue00b"]
 }]}
