@@ -1,6 +1,6 @@
 {
                 "model": {
                     "type": "minecraft:model",
-                    "model": "blooddonate:item/icons/tiny_golem"
+                    "model": "blooddonate:item/cosmetic_display/orbital_strike"
                 }
             }

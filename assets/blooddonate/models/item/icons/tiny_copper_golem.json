@@ -1,6 +1,6 @@
 {
                 "parent": "minecraft:item/generated",
                 "textures": {
-                    "layer0": "blooddonate:item/icons/golem"
+                    "layer0": "blooddonate:item/icons/tiny_copper_golem"
                 }
             }

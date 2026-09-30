@@ -1,6 +1,6 @@
 {
                 "model": {
                     "type": "minecraft:model",
-                    "model": "blooddonate:item/cosmetic_display/orbitalka"
+                    "model": "blooddonate:item/icons/orbital_strike"
                 }
             }

@@ -1,6 +1,6 @@
 {
                 "model": {
                     "type": "minecraft:model",
-                    "model": "blooddonate:item/icons/orbitalka"
+                    "model": "blooddonate:item/cosmetic_display/robot_terminator"
                 }
             }
