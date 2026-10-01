@@ -1,0 +1,70 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        "\ue535": -1
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/menu_level_xp_empty.png",
+      "ascent": -101,
+      "height": 3,
+      "chars": [
+        "\ue530"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/menu_level_xp_full_premium.png",
+      "ascent": -101,
+      "height": 3,
+      "chars": [
+        "\ue533"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/menu_level_xp_half_premium.png",
+      "ascent": -101,
+      "height": 3,
+      "chars": [
+        "\ue534"
+      ]
+    },
+    {
+      "type": "space",
+      "advances": {
+        "\ue075": -1
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/menu_level_xp_empty.png",
+      "ascent": -101,
+      "height": 3,
+      "chars": [
+        "\ue070"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/menu_level_xp_full_premium.png",
+      "ascent": -101,
+      "height": 3,
+      "chars": [
+        "\ue073"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/menu_level_xp_half_premium.png",
+      "ascent": -101,
+      "height": 3,
+      "chars": [
+        "\ue074"
+      ]
+    }
+  ]
+}

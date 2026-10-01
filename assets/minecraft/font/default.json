@@ -35,6 +35,10 @@
         {
             "type": "reference",
             "id": "suffixes"
+        },
+        {
+            "type": "reference",
+            "id": "bloodlevels:icons_default"
         }
     ]
 }

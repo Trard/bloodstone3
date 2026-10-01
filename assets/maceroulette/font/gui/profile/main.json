@@ -128,13 +128,6 @@
         },
         {
             "type": "bitmap",
-            "file": "maceroulette:font/gui/profile/main/equality_yang.png",
-            "ascent": 16,
-            "height": 139,
-            "chars": ["\uE020"]
-        },
-        {
-            "type": "bitmap",
             "file": "maceroulette:font/gui/profile/main/toxic.png",
             "ascent": 16,
             "height": 139,

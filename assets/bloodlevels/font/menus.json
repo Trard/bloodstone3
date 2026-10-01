@@ -1,0 +1,1038 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        "": -8,
+        "": -110,
+        "": -60
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:gui/levels.png",
+      "ascent": 25,
+      "height": 256,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:gui/quests.png",
+      "ascent": 13,
+      "height": 256,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "file": "bloodlevels:gui/levels_001.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_002.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_003.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_004.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_005.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_006.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_007.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_008.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_009.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_010.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_011.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_012.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_013.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_014.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_015.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_016.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_017.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_018.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_019.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_020.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_021.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_022.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_023.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_024.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_025.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_026.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_027.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_028.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_029.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_030.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_031.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_032.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_033.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_034.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_035.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_036.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_037.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_038.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_039.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_040.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_041.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_042.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_043.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_044.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_045.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_046.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_047.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_048.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_049.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_050.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_051.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_052.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_053.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_054.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_055.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_056.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_057.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_058.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_059.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_060.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_061.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_062.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_063.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_064.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_065.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_066.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_067.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_068.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_069.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_070.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_071.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_072.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_073.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_074.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_075.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_076.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_077.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_078.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_079.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_080.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_081.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_082.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_083.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_084.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_085.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_086.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_087.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_088.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_089.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_090.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_091.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_092.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_093.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_094.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_095.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_096.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_097.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_098.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_099.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_100.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_101.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_102.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_103.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_104.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_105.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_106.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_107.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_108.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_109.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_110.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_111.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    },
+    {
+      "file": "bloodlevels:gui/levels_112.png",
+      "chars": [
+        ""
+      ],
+      "type": "bitmap",
+      "ascent": 25,
+      "height": 256
+    }
+  ]
+}
