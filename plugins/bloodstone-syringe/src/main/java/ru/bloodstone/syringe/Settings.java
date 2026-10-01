@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-record Settings(int customModelData, NamespacedKey model, String name, boolean consume,
+record Settings(int customModelData, NamespacedKey model, int emptyCustomModelData, NamespacedKey emptyModel, String name,
                 long cooldownMillis, double distance, boolean respectPvp, boolean particles, boolean sounds,
                 double negativeChance, int threshold, long windowMillis, double overdoseNegativeChance,
                 boolean clearOnDeath, List<EffectSpec> positive, List<EffectSpec> negative) {
@@ -26,9 +26,12 @@ record Settings(int customModelData, NamespacedKey model, String name, boolean c
         NamespacedKey model = NamespacedKey.fromString(config.getString("item.model", ""));
         require(model != null, "item.model: нужен namespace:path");
         int data = integer(config.get("item.custom-model-data"), 1, 16_777_216, "item.custom-model-data");
+        int emptyData = integer(config.get("item.empty-custom-model-data", 21012), 1, 16_777_216, "item.empty-custom-model-data");
+        NamespacedKey emptyModel = NamespacedKey.fromString(config.getString("item.empty-model", "bloodstone:tools/syringe/default/syringe_empty"));
+        require(emptyModel != null, "item.empty-model: нужен namespace:path");
         String name = config.getString("item.name", "Шприц с вакциной");
         require(!name.isBlank(), "item.name не может быть пустым");
-        return new Settings(data, model, name, config.getBoolean("item.consume", true),
+        return new Settings(data, model, emptyData, emptyModel, name,
                 Math.round(number(config.get("injection.cooldown-seconds"), 0.1, 60, "cooldown") * 1000),
                 number(config.get("injection.max-distance"), 0.5, 6, "max-distance"),
                 config.getBoolean("injection.respect-world-pvp", true),

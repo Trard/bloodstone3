@@ -20,6 +20,7 @@ import java.util.Objects;
 public class SyringePlugin extends JavaPlugin {
     private volatile Settings settings;
     private SyringeItems items;
+    private SyringeRecipes recipes;
 
     @Override public void onEnable() {
         saveDefaultConfig();
@@ -31,6 +32,11 @@ public class SyringePlugin extends JavaPlugin {
         }
         items = new SyringeItems(new NamespacedKey(this, "syringe"));
         getServer().getPluginManager().registerEvents(new InjectionListener(this, items), this);
+        ItemRefreshListener refresher = new ItemRefreshListener(this, items);
+        getServer().getPluginManager().registerEvents(refresher, this);
+        Bukkit.getOnlinePlayers().forEach(refresher::schedule);
+        recipes = new SyringeRecipes(this, items);
+        recipes.scheduleRegistration();
         Objects.requireNonNull(getCommand("syringe")).setExecutor(this);
         Objects.requireNonNull(getCommand("syringe")).setTabCompleter(this);
         getLogger().info("Шприцы включены: Paper/Folia 1.21.11, CMD " + settings.customModelData());
@@ -41,8 +47,18 @@ public class SyringePlugin extends JavaPlugin {
     // Replace the immutable snapshot only after all validation succeeds.
     private synchronized void loadSettings() throws Exception {
         YamlConfiguration yaml = new YamlConfiguration();
-        yaml.load(new File(getDataFolder(), "config.yml"));
-        settings = Settings.load(yaml);
+        File file = new File(getDataFolder(), "config.yml");
+        yaml.load(file);
+        boolean migrate = yaml.getInt("config-version", 1) < 2;
+        if (migrate) {
+            if (yaml.getDouble("injection.cooldown-seconds") == 1.5)
+                yaml.set("injection.cooldown-seconds", 3.0);
+            yaml.set("config-version", 2);
+            yaml.set("item.consume", null);
+        }
+        Settings next = Settings.load(yaml);
+        if (migrate) yaml.save(file);
+        settings = next;
     }
 
     @Override public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command,
@@ -52,7 +68,7 @@ public class SyringePlugin extends JavaPlugin {
             return true;
         }
         if (args.length == 1 && args[0].equalsIgnoreCase("reload")) {
-            try { loadSettings(); reply(sender, "Настройки перезагружены."); }
+            try { loadSettings(); recipes.scheduleRegistration(); reply(sender, "Настройки перезагружены."); }
             catch (Exception error) { reply(sender, "Конфиг отклонён: " + error.getMessage() + ". Прежние настройки сохранены."); }
             return true;
         }

@@ -50,9 +50,11 @@ final class InjectionListener implements Listener {
 
     private void interactWithEntity(PlayerInteractEntityEvent event) {
         Player actor = event.getPlayer();
-        if (!items.isSyringe(actor.getInventory().getItem(event.getHand()))) return;
+        ItemStack stack = actor.getInventory().getItem(event.getHand());
+        if (!items.isSyringe(stack) && !items.isEmpty(stack)) return;
         event.setCancelled(true);
         if (event.getHand() != EquipmentSlot.HAND) return;
+        if (items.isEmpty(stack)) { hint(actor, "Шприц пуст. Заполните его вакциной на верстаке."); return; }
         if (actor.isSneaking()) inject(actor, actor);
         else if (event.getRightClicked() instanceof Player target) inject(actor, target);
     }
@@ -62,12 +64,13 @@ final class InjectionListener implements Listener {
     @EventHandler(priority = EventPriority.HIGHEST)
     public void onClick(PlayerInteractEvent event) {
         if (event.getAction() != Action.RIGHT_CLICK_AIR && event.getAction() != Action.RIGHT_CLICK_BLOCK) return;
-        if (!items.isSyringe(event.getItem())) return;
+        if (!items.isSyringe(event.getItem()) && !items.isEmpty(event.getItem())) return;
         boolean denied = event.getAction() == Action.RIGHT_CLICK_BLOCK
                 && event.useItemInHand() == Event.Result.DENY;
         event.setUseItemInHand(Event.Result.DENY);
         event.setUseInteractedBlock(Event.Result.DENY);
         if (denied || event.getHand() != EquipmentSlot.HAND) return;
+        if (items.isEmpty(event.getItem())) { hint(event.getPlayer(), "Шприц пуст. Заполните его вакциной на верстаке."); return; }
         if (event.getPlayer().isSneaking()) inject(event.getPlayer(), event.getPlayer());
     }
 
@@ -99,12 +102,17 @@ final class InjectionListener implements Listener {
         }
         ItemStack held = actor.getInventory().getItemInMainHand();
         if (!items.isSyringe(held)) return;
+        if (items.refresh(held, settings)) actor.getInventory().setItemInMainHand(held);
         long now = System.currentTimeMillis();
         PersistentDataContainer actorData = actor.getPersistentDataContainer();
         long last = actorData.getOrDefault(cooldownKey, PersistentDataType.LONG, 0L);
         long elapsed = now - last;
-        if (elapsed >= 0 && elapsed < settings.cooldownMillis()) {
-            hint(actor, String.format(Locale.ROOT, "Следующий укол через %.1f сек.", (settings.cooldownMillis() - elapsed) / 1000.0));
+        long remainingMillis = elapsed >= 0 ? Math.max(0, settings.cooldownMillis() - elapsed) : 0;
+        int remainingTicks = actor.getCooldown(items.cooldownGroup());
+        if (remainingMillis > 0 || remainingTicks > 0) {
+            if (remainingTicks == 0) actor.setCooldown(items.cooldownGroup(), (int) Math.ceil(remainingMillis / 50.0));
+            hint(actor, String.format(Locale.ROOT, "Следующий укол через %.1f сек.",
+                    Math.max(remainingMillis, remainingTicks * 50L) / 1000.0));
             return;
         }
         PersistentDataContainer targetData = target.getPersistentDataContainer();
@@ -129,9 +137,13 @@ final class InjectionListener implements Listener {
         }
         targetData.set(dosesKey, PersistentDataType.LONG_ARRAY, doses);
         actorData.set(cooldownKey, PersistentDataType.LONG, now);
-        if (settings.consume()) {
-            if (held.getAmount() <= 1) actor.getInventory().setItemInMainHand(null);
-            else held.setAmount(held.getAmount() - 1);
+        actor.setCooldown(items.cooldownGroup(), (int) Math.ceil(settings.cooldownMillis() / 50.0));
+        ItemStack empty = items.createEmpty(1, settings);
+        if (held.getAmount() <= 1) actor.getInventory().setItemInMainHand(empty);
+        else {
+            held.setAmount(held.getAmount() - 1);
+            for (ItemStack leftover : actor.getInventory().addItem(empty).values())
+                actor.getWorld().dropItemNaturally(actor.getLocation(), leftover);
         }
         actor.swingMainHand();
         playFeedback(target, overdose, negative, settings);
@@ -140,7 +152,6 @@ final class InjectionListener implements Listener {
                 .append(Component.translatable(effect.getType().translationKey()))
                 .append(Component.text(" " + (effect.getAmplifier() + 1) + " · " + effect.getDuration() / 20 + " сек."));
         target.sendActionBar(result);
-        target.sendMessage(Component.text("[Шприц] ", NamedTextColor.AQUA).append(result));
         if (!self) actor.sendActionBar(Component.text("Укол игроку " + target.getName() + ": ", NamedTextColor.AQUA).append(result));
     }
 

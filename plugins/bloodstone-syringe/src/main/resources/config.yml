@@ -1,13 +1,16 @@
 # Paper / Folia 1.21.11, Java 21. После изменения: /syringe reload
 # Предметы помечаются PDC; обычный предмет с такой же моделью не станет шприцем.
+config-version: 2
 item:
   custom-model-data: 21011
   model: 'bloodstone:tools/syringe/default/syringe'
+  empty-custom-model-data: 21012
+  empty-model: 'bloodstone:tools/syringe/default/syringe_empty'
   name: 'Шприц с вакциной'
-  # Включая творческий режим: один успешный укол расходует один предмет.
-  consume: true
+  # После укола всегда возвращается пустой шприц, в том числе в творческом режиме.
 injection:
-  cooldown-seconds: 1.5
+  # Синхронная задержка и визуальное затемнение предмета (3 секунды = 60 тиков).
+  cooldown-seconds: 3.0
   max-distance: 3.0
   # Если PvP выключен в мире, вкалывать другим игрокам нельзя.
   respect-world-pvp: true
