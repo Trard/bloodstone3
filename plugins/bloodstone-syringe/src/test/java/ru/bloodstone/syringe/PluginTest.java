@@ -87,6 +87,7 @@ class PluginTest {
         assertEquals(7, player.getInventory().getItemInMainHand().getAmount());
         assertEquals(1, history(player).length);
         assertEquals(1, countEmpty(player));
+        verify(player, never()).sendActionBar(any(Component.class));
     }
 
     @Test void sneakAirClickWorksEvenWhenVanillaPredictsNoAction() {
@@ -149,6 +150,8 @@ class PluginTest {
         assertEquals(8, target.getInventory().getItemInMainHand().getAmount());
         assertNull(history(actor));
         assertEquals(1, history(target).length);
+        verify(actor, never()).sendActionBar(any(Component.class));
+        verify(target, never()).sendActionBar(any(Component.class));
     }
 
     @Test void foreignFoliaRegionIsRejectedWithoutAccessingTargetState() {

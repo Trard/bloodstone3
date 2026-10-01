@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>ru.bloodstone</groupId>
   <artifactId>bloodstone-syringe</artifactId>
-  <version>1.1.0</version>
+  <version>1.1.1</version>
   <name>BloodstoneSyringe</name>
   <properties>
     <maven.compiler.release>21</maven.compiler.release>

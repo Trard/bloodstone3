@@ -1,7 +1,5 @@
 package ru.bloodstone.syringe;
 
-import net.kyori.adventure.text.Component;
-import net.kyori.adventure.text.format.NamedTextColor;
 import org.bukkit.Bukkit;
 import org.bukkit.GameMode;
 import org.bukkit.Location;
@@ -26,7 +24,6 @@ import org.bukkit.persistence.PersistentDataType;
 import org.bukkit.potion.PotionEffect;
 
 import java.util.List;
-import java.util.Locale;
 import java.util.concurrent.ThreadLocalRandom;
 
 final class InjectionListener implements Listener {
@@ -54,7 +51,7 @@ final class InjectionListener implements Listener {
         if (!items.isSyringe(stack) && !items.isEmpty(stack)) return;
         event.setCancelled(true);
         if (event.getHand() != EquipmentSlot.HAND) return;
-        if (items.isEmpty(stack)) { hint(actor, "Шприц пуст. Заполните его вакциной на верстаке."); return; }
+        if (items.isEmpty(stack)) return;
         if (actor.isSneaking()) inject(actor, actor);
         else if (event.getRightClicked() instanceof Player target) inject(actor, target);
     }
@@ -70,20 +67,16 @@ final class InjectionListener implements Listener {
         event.setUseItemInHand(Event.Result.DENY);
         event.setUseInteractedBlock(Event.Result.DENY);
         if (denied || event.getHand() != EquipmentSlot.HAND) return;
-        if (items.isEmpty(event.getItem())) { hint(event.getPlayer(), "Шприц пуст. Заполните его вакциной на верстаке."); return; }
+        if (items.isEmpty(event.getItem())) return;
         if (event.getPlayer().isSneaking()) inject(event.getPlayer(), event.getPlayer());
     }
 
     void inject(Player actor, Player target) {
         Settings settings = plugin.settings();
-        if (!actor.hasPermission("bloodstonesyringe.use")) {
-            hint(actor, "Нет права использовать шприц.");
-            return;
-        }
+        if (!actor.hasPermission("bloodstonesyringe.use")) return;
         // Close players normally share a ticking region. Never read a foreign
         // entity's location/inventory, even while it is transferring regions.
         if (!Bukkit.isOwnedByCurrentRegion(actor) || !Bukkit.isOwnedByCurrentRegion(target)) {
-            hint(actor, "Игрок перемещается между регионами. Повторите укол.");
             return;
         }
         if (!valid(actor) || !valid(target)) return;
@@ -92,11 +85,9 @@ final class InjectionListener implements Listener {
             if (!actor.getWorld().equals(target.getWorld())
                     || actor.getLocation().distanceSquared(target.getLocation()) > settings.distance() * settings.distance()
                     || !actor.hasLineOfSight(target)) {
-                hint(actor, "Подойдите ближе к игроку.");
                 return;
             }
             if (settings.respectPvp() && !actor.getWorld().getPVP()) {
-                hint(actor, "В этом мире уколы другим игрокам отключены вместе с PvP.");
                 return;
             }
         }
@@ -111,8 +102,6 @@ final class InjectionListener implements Listener {
         int remainingTicks = actor.getCooldown(items.cooldownGroup());
         if (remainingMillis > 0 || remainingTicks > 0) {
             if (remainingTicks == 0) actor.setCooldown(items.cooldownGroup(), (int) Math.ceil(remainingMillis / 50.0));
-            hint(actor, String.format(Locale.ROOT, "Следующий укол через %.1f сек.",
-                    Math.max(remainingMillis, remainingTicks * 50L) / 1000.0));
             return;
         }
         PersistentDataContainer targetData = target.getPersistentDataContainer();
@@ -131,10 +120,7 @@ final class InjectionListener implements Listener {
                 || !valid(actor) || !valid(target)) return;
         held = actor.getInventory().getItemInMainHand();
         if (!items.isSyringe(held)) return;
-        if (!target.addPotionEffect(effect)) {
-            hint(actor, "Эффект отклонён или уже действует более сильный. Шприц сохранён.");
-            return;
-        }
+        if (!target.addPotionEffect(effect)) return;
         targetData.set(dosesKey, PersistentDataType.LONG_ARRAY, doses);
         actorData.set(cooldownKey, PersistentDataType.LONG, now);
         actor.setCooldown(items.cooldownGroup(), (int) Math.ceil(settings.cooldownMillis() / 50.0));
@@ -147,12 +133,6 @@ final class InjectionListener implements Listener {
         }
         actor.swingMainHand();
         playFeedback(target, overdose, negative, settings);
-        NamedTextColor color = negative ? NamedTextColor.RED : NamedTextColor.GREEN;
-        Component result = Component.text(overdose ? "Передозировка! " : "Укол: ", color)
-                .append(Component.translatable(effect.getType().translationKey()))
-                .append(Component.text(" " + (effect.getAmplifier() + 1) + " · " + effect.getDuration() / 20 + " сек."));
-        target.sendActionBar(result);
-        if (!self) actor.sendActionBar(Component.text("Укол игроку " + target.getName() + ": ", NamedTextColor.AQUA).append(result));
     }
 
     private boolean valid(Player player) {
@@ -177,6 +157,4 @@ final class InjectionListener implements Listener {
     public void onDeath(PlayerDeathEvent event) {
         if (plugin.settings().clearOnDeath()) event.getEntity().getPersistentDataContainer().remove(dosesKey);
     }
-
-    private void hint(Player player, String text) { player.sendActionBar(Component.text(text, NamedTextColor.YELLOW)); }
 }
