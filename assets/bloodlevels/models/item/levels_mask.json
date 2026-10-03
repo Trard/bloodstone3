@@ -1,51 +1,51 @@
 {
   "display": {
     "gui": {
-      "scale": [
-        4,
-        4,
-        1
+      "rotation": [
+        0,
+        0,
+        0
       ],
       "translation": [
         18,
         -17,
         0
       ],
-      "rotation": [
-        0,
-        0,
-        0
+      "scale": [
+        4,
+        4,
+        1
       ]
     }
   },
   "textures": {
-    "layer0": "bloodlevels:item/levels_mask",
-    "particle": "#layer0"
+    "particle": "#layer0",
+    "layer0": "bloodlevels:item/levels_mask"
   },
   "elements": [
     {
-      "faces": {
-        "south": {
-          "uv": [
-            0,
-            0,
-            16,
-            16
-          ],
-          "texture": "#layer0"
-        }
-      },
       "to": [
         30,
         9.25,
         8
       ],
-      "shade": false,
+      "faces": {
+        "south": {
+          "texture": "#layer0",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      },
       "from": [
         -14,
         6.75,
         8
-      ]
+      ],
+      "shade": false
     }
   ],
   "gui_light": "front"

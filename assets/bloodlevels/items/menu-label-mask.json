@@ -1,7 +1,7 @@
 {
-  "oversized_in_gui": true,
   "model": {
     "type": "minecraft:model",
-    "model": "bloodlevels:item/levels_mask"
-  }
+    "model": "bloodlevels:item/levels_001_mask"
+  },
+  "oversized_in_gui": true
 }

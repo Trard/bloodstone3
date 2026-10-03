@@ -1033,24 +1033,6 @@
       "type": "bitmap",
       "ascent": 25,
       "height": 256
-    },
-    {
-      "type": "bitmap",
-      "file": "bloodlevels:gui/levels_premium_end.png",
-      "ascent": 25,
-      "height": 256,
-      "chars": [
-        ""
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "bloodlevels:gui/levels_free_only.png",
-      "ascent": 25,
-      "height": 256,
-      "chars": [
-        ""
-      ]
     }
   ]
 }
