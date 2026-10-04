@@ -2,8 +2,8 @@
   "providers": [
     {
       "type": "bitmap",
-      "file": "logo:invasion_corner.png",
-      "height": 27,
+      "file": "logo:invasion_logo.png",
+      "height": 13,
       "ascent": -32761,
       "chars": ["\ue700"]
     }

@@ -88,22 +88,22 @@ void main() {
         float guiHeight = 2.0 / abs(ProjMat[1][1]);
         float markerY = position.y - guiHeight - 16384.0;
         if (markerY >= -96.0 && markerY <= 0.0) {
-            // Action-bar origin: height - 68 - 4; HUD origin: 3 GUI pixels.
-            position.y -= 16384.0 + guiHeight - 75.0;
+            // Action-bar origin: height - 68 - 4; HUD origin: 22 GUI pixels.
+            position.y -= 16384.0 + guiHeight - 94.0;
             gl_Position = ProjMat * position;
             sphericalVertexDistance = 0.0;
             cylindricalVertexDistance = 0.0;
         }
-        float cornerY = position.y - guiHeight - 32768.0;
-        if (cornerY >= -80.0 && cornerY <= 0.0) {
+        float logoY = position.y - guiHeight - 32768.0;
+        if (logoY >= -80.0 && logoY <= 0.0) {
             float guiWidth = 2.0 / abs(ProjMat[0][0]);
             const vec2 corners[4] = vec2[4](vec2(0,0), vec2(0,1), vec2(1,1), vec2(1,0));
             invasionBranding = 1;
             invasionBrandingOrigin = ivec2(floor(UV0 * vec2(textureSize(Sampler0, 0))
-                - corners[gl_VertexID % 4] * vec2(254.98, 80.98)));
-            // Keep the logo clear of the objectives at the largest GUI scale.
-            position.xy = vec2(guiWidth - 93.0, guiWidth < 416.0 ? 54.0 : 8.0)
-                + corners[gl_VertexID % 4] * vec2(85.0, 27.0);
+                - corners[gl_VertexID % 4] * vec2(254.98, 38.98)));
+            // Center the logo above the timer, leaving a five-pixel gap.
+            position.xy = vec2((guiWidth - 85.0) * 0.5, 4.0)
+                + corners[gl_VertexID % 4] * vec2(85.0, 13.0);
             gl_Position = ProjMat * position;
             sphericalVertexDistance = 0.0;
             cylindricalVertexDistance = 0.0;

@@ -21,13 +21,13 @@ out vec4 fragColor;
 
 vec4 brandingTexel(ivec2 at) {
     vec4 value = texelFetch(Sampler0, clamp(at, invasionBrandingOrigin,
-        invasionBrandingOrigin + ivec2(254, 80)), 0);
+        invasionBrandingOrigin + ivec2(254, 38)), 0);
     return vec4(value.rgb * value.a, value.a);
 }
 
 void main() {
     if (invasionBranding == 1) {
-        // Smooth only the HD corner logo; glyphs and faction flags stay pixel sharp.
+        // Smooth only the HD logo; glyphs and faction flags stay pixel sharp.
         vec2 at = texCoord0 * vec2(textureSize(Sampler0, 0)) - 0.5;
         ivec2 pixel = ivec2(floor(at));
         vec2 weight = fract(at);

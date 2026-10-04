@@ -93,7 +93,7 @@ class Renderer:
         vao.render(moderngl.TRIANGLES)
         vao.release(); vb.release(); lights.release(); indices.release()
 
-    def render(self, component, size, actionbar, scale=1):
+    def render(self, component, size, actionbar, scale=1, offset_y=0):
         width, height = size
         pixels = (width*scale,height*scale)
         target = self.ctx.simple_framebuffer(pixels, components=4)
@@ -112,7 +112,7 @@ class Renderer:
             for child in node.get("extra",[]): walk(child,style)
         walk(component,{"font":"minecraft:invasion_hud_top","color":"#ffffff","shadow_color":0})
         advance = sum(glyph[0] for glyph,style in runs)
-        x, y = width//2-int(advance/2), height-72 if actionbar else 3
+        x, y = width//2-int(advance/2), (height-72 if actionbar else 3) + offset_y
         named = {"white":"ffffff", "gray":"aaaaaa", "gold":"ffaa00"}
         for (step,tile,w,h,up), style in runs:
             if tile:
@@ -155,7 +155,7 @@ def main():
     for size in ((427,240),(640,360),(960,540),(1920,1080),(3840,2160)):
         for path in files:
             source = json.loads(path.read_text(encoding="utf-8"))
-            expected = renderer.render(source,size,False)
+            expected = renderer.render(source,size,False,offset_y=19)
             actual = renderer.render(relocate(source),size,True)
             assert expected.tobytes() == actual.tobytes(), (size,path.name)
             assert actual.getbbox() is not None
@@ -175,10 +175,11 @@ def main():
     for size in ((320,240),(427,240),(640,360),(1920,1080)):
         branded = renderer.render(branding,size,True)
         bounds = branded.getbbox()
-        top = 54 if size[0] < 416 else 8
-        assert bounds and size[0]-94 <= bounds[0] <= size[0]-90 and bounds[2] <= size[0]-8
-        assert top <= bounds[1] <= top+1 and bounds[3] <= top+27
-        assert branded.crop((size[0]-94,top+15,size[0],top+27)).getbbox() is not None
+        left = (size[0]-85)/2
+        assert bounds and abs(bounds[0]-left) <= 1 and abs(bounds[2]-(left+85)) <= 1
+        assert 4 <= bounds[1] <= 5 and bounds[3] <= 17
+        assert branded.crop((0,17,*size)).getbbox() is None
+        assert renderer.font("minecraft:invasion_branding")["\ue700"][0] == 86
         checked += 1
     unchanged = ["#ffffff","#f6c644","#fd7e01","#fb5a00","#fb5a01","#fb5a02","#fb5b12","#fc6363","#fc6464","#fc6767"]
     def ordinary(color):
