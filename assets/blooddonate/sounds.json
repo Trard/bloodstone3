@@ -44,6 +44,7 @@
 "custom.pig": { "category": "master", "sounds": [ "blooddonate:custom/pig" ] },
 "custom.wave": { "category": "master", "sounds": [ "blooddonate:custom/wave" ] },
 "custom.butterfly": { "category": "master", "sounds": [ "blooddonate:custom/butterfly" ] },
+"custom.candy": { "category": "master", "sounds": [ "blooddonate:custom/candy" ] },
 "custom.sun": { "category": "master", "sounds": [ "blooddonate:custom/sun" ] },
 "custom.phoenix": { "category": "master", "sounds": [ "blooddonate:custom/phoenix" ] },
 "custom.copper_chains": { "category": "master", "sounds": [ "blooddonate:custom/copper_chains" ] },
@@ -59,5 +60,6 @@
 "custom.tiny_copper_golem": { "category": "master", "sounds": [ "blooddonate:custom/tiny_copper_golem" ] },
 "custom.train": { "category": "master", "sounds": [ "blooddonate:custom/train" ] },
 "custom.tentacle_grasp": { "category": "master", "sounds": [ "blooddonate:custom/tentacle_grasp" ] },
-"custom.plantfood_feasting": { "category": "master", "sounds": [ "blooddonate:custom/plantfood_feasting" ] }
+"custom.plantfood_feasting": { "category": "master", "sounds": [ "blooddonate:custom/plantfood_feasting" ] },
+"custom.grim_reaper": { "category": "master", "sounds": [ "blooddonate:custom/grim_reaper" ] }
 }
