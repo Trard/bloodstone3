@@ -10,6 +10,7 @@ in vec2 UV0;
 in ivec2 UV2;
 
 uniform sampler2D Sampler2;
+uniform sampler2D Sampler0;
 
 out float sphericalVertexDistance;
 out float cylindricalVertexDistance;
@@ -20,6 +21,8 @@ flat out int bseLetterbox;
 flat out int bseScare;
 flat out int bseCameraPhase;
 flat out int bseCameraSeed;
+flat out int invasionBranding;
+flat out ivec2 invasionBrandingOrigin;
 
 void main() {
     gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
@@ -32,6 +35,8 @@ void main() {
     bseScare = 0;
     bseCameraPhase = -1;
     bseCameraSeed = 0;
+    invasionBranding = 0;
+    invasionBrandingOrigin = ivec2(0);
 
     // Only the dedicated bse:cutscene_letterbox title uses this marker.
     // Orthographic projection excludes world text / text displays entirely.
@@ -75,5 +80,33 @@ void main() {
         gl_Position = vec4(point, background ? 0.05 : 0.0, 1.0);
         bseScare = 1;
         vertexColor = vec4(1.0, 1.0, 1.0, Color.a);
+    }
+    // Reserved ascent in bloodinvasion:overlay/*, sent only through the action bar.
+    // Leave normal GUI text, world labels and every vanilla boss bar untouched.
+    if (abs(ProjMat[3][3] - 1.0) < 0.001) {
+        vec4 position = ModelViewMat * vec4(Position, 1.0);
+        float guiHeight = 2.0 / abs(ProjMat[1][1]);
+        float markerY = position.y - guiHeight - 16384.0;
+        if (markerY >= -96.0 && markerY <= 0.0) {
+            // Action-bar origin: height - 68 - 4; HUD origin: 3 GUI pixels.
+            position.y -= 16384.0 + guiHeight - 75.0;
+            gl_Position = ProjMat * position;
+            sphericalVertexDistance = 0.0;
+            cylindricalVertexDistance = 0.0;
+        }
+        float cornerY = position.y - guiHeight - 32768.0;
+        if (cornerY >= -80.0 && cornerY <= 0.0) {
+            float guiWidth = 2.0 / abs(ProjMat[0][0]);
+            const vec2 corners[4] = vec2[4](vec2(0,0), vec2(0,1), vec2(1,1), vec2(1,0));
+            invasionBranding = 1;
+            invasionBrandingOrigin = ivec2(floor(UV0 * vec2(textureSize(Sampler0, 0))
+                - corners[gl_VertexID % 4] * vec2(254.98, 80.98)));
+            // Keep the logo clear of the objectives at the largest GUI scale.
+            position.xy = vec2(guiWidth - 93.0, guiWidth < 416.0 ? 54.0 : 8.0)
+                + corners[gl_VertexID % 4] * vec2(85.0, 27.0);
+            gl_Position = ProjMat * position;
+            sphericalVertexDistance = 0.0;
+            cylindricalVertexDistance = 0.0;
+        }
     }
 }

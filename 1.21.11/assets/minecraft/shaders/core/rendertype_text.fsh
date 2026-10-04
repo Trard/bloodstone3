@@ -14,10 +14,29 @@ flat in int bseLetterbox;
 flat in int bseScare;
 flat in int bseCameraPhase;
 flat in int bseCameraSeed;
+flat in int invasionBranding;
+flat in ivec2 invasionBrandingOrigin;
 
 out vec4 fragColor;
 
+vec4 brandingTexel(ivec2 at) {
+    vec4 value = texelFetch(Sampler0, clamp(at, invasionBrandingOrigin,
+        invasionBrandingOrigin + ivec2(254, 80)), 0);
+    return vec4(value.rgb * value.a, value.a);
+}
+
 void main() {
+    if (invasionBranding == 1) {
+        // Smooth only the HD corner logo; glyphs and faction flags stay pixel sharp.
+        vec2 at = texCoord0 * vec2(textureSize(Sampler0, 0)) - 0.5;
+        ivec2 pixel = ivec2(floor(at));
+        vec2 weight = fract(at);
+        vec4 value = mix(mix(brandingTexel(pixel), brandingTexel(pixel + ivec2(1,0)), weight.x),
+                         mix(brandingTexel(pixel + ivec2(0,1)), brandingTexel(pixel + ivec2(1,1)), weight.x), weight.y);
+        if (value.a < 0.003) discard;
+        fragColor = vec4(value.rgb / value.a, value.a) * vertexColor * ColorModulator;
+        return;
+    }
     if (bseCameraPhase >= 0) {
         float value = 0.0;
         vec2 at = abs(bseScreenPosition);

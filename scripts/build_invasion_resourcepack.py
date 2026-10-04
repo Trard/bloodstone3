@@ -19,22 +19,10 @@ def main():
     for name in build_include_list(root, load_pack_mcmeta(root)):
         source = root / name
         for path in sorted(source.rglob("*")) if source.is_dir() else [source]:
-            if path.is_file():
+            if path.is_file() and path.name not in {"Thumbs.db", ".DS_Store", "README.md"}:
                 entries[path.relative_to(root).as_posix()] = path
-    variant = root / "variants/invasion"
-    expected = {
-        "assets/minecraft/textures/gui/sprites/boss_bar/white_background.png",
-        "assets/minecraft/textures/gui/sprites/boss_bar/white_progress.png",
-    }
-    overrides = {
-        path.relative_to(variant).as_posix(): path
-        for path in variant.rglob("*") if path.is_file()
-    }
-    if overrides.keys() != expected:
-        raise SystemExit("The Invasion variant must contain only the two white boss-bar textures.")
-    if output in entries.values() or output in overrides.values():
+    if output in entries.values():
         raise SystemExit("Output must not overwrite a resource.")
-    entries.update(overrides)
     output.parent.mkdir(parents=True, exist_ok=True)
     handle, temporary = tempfile.mkstemp(suffix=".zip", dir=output.parent)
     os.close(handle)
