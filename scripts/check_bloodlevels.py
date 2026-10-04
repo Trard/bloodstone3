@@ -17,6 +17,9 @@ from check_font_symbols import FontResolver, PackView, ValidationError, check_fo
 SOURCE_SHA1 = "93f17b457b4d78e5bcce9fa2b8bf181089847b4c"
 OLD_CODES = list(range(0xE520, 0xE52A)) + list(range(0xE530, 0xE536))
 MAPPING = {chr(code): chr(code - 0x4C0) for code in OLD_CODES}
+PREMIUM_ICONS = {chr(0xE080 + i): color for i, color in enumerate(
+    ["gray", "light_gray", "yellow", "orange", "lime", "pink", "light_blue", "blue", "purple", "red"]
+)}
 FONTS = ["bloodlevels:icons", "bloodlevels:icons_default", "bloodlevels:menus",
          "bloodlevels:menu_progress", "bloodlevels:menu_premium_progress"]
 
@@ -44,13 +47,18 @@ def validate_contract(pack: PackView, config: dict):
     _, errors = check_fonts(pack, FONTS)
     require(not errors, "\n".join(errors))
     icons, exported, default = [resolver.resolve(key) for key in (FONTS[0], FONTS[1], "minecraft:default")]
-    require(set(exported) == set(MAPPING.values()), "icons_default must export exactly the 16 allocated symbols")
+    allocated = set(MAPPING.values()) | PREMIUM_ICONS.keys()
+    require(set(exported) == allocated, "icons_default must export exactly the 26 allocated symbols")
     for old, new in MAPPING.items():
         expected = single(icons, old, "original private icon").signature()
         for label, glyphs in [("new private icon", icons), ("exported icon", exported), ("default", default)]:
             require(single(glyphs, new, label).signature() == expected, f"{label}: remapped U+{ord(new):04X} changed glyph/metrics")
+    for char, color in PREMIUM_ICONS.items():
+        expected = {"type": "bitmap", "file": f"bloodlevels:font/gold_{color}.png", "ascent": 8, "height": 9, "chars": [char]}
+        for label, glyphs in [("premium private icon", icons), ("premium exported icon", exported), ("premium default", default)]:
+            require(single(glyphs, char, label).definition == expected, f"{label}: U+{ord(char):04X} changed texture/metrics")
     for char, uses in default.items():
-        if char not in MAPPING.values():
+        if char not in allocated:
             require(all(not use.font.startswith("bloodlevels:") for use in uses), f"Unexpected BloodLevels glyph in default: U+{ord(char):04X}")
     for key in FONTS[3:]:
         glyphs = resolver.resolve(key)
@@ -225,7 +233,7 @@ def main():
         else:
             print("NOTE: source ZIP not supplied; archive fidelity was not checked.")
         print(f"OK: BloodLevels format {args.format}, {dict(counts)}, 112 menu page/mask pairs.")
-        print("OK: 16 exported glyphs without collisions, old/private aliases and companion YAML match.")
+        print("OK: 26 exported glyphs without collisions, including 10 premium hearts; old/private aliases and companion YAML match.")
         if assets.assumed:
             print("NOTE: assumed vanilla model(s), not inspected: " + ", ".join(sorted(assets.assumed)))
         print("Client rendering, server configuration and compatibility with other client packs still require in-game verification.")

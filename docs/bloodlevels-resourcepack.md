@@ -23,12 +23,36 @@
 
 ## Шрифты и совместимость
 
-`minecraft:default` подключает только `bloodlevels:icons_default`, где значки используют свободные коды `U+E060–U+E069` и `U+E070–U+E075`.
+`minecraft:default` подключает только `bloodlevels:icons_default`, где значки используют свободные коды `U+E060–U+E069`, `U+E070–U+E075` и `U+E080–U+E089`.
 Старые коды пересекаются с `minecraft:inventoryviews`, поэтому подключать `bloodlevels:icons` напрямую в стандартный шрифт нельзя.
 
 Отдельный `bloodlevels:icons` сохраняет исходные символы и через reference поддерживает новые. Шрифты `bloodlevels:menu_progress` и `bloodlevels:menu_premium_progress` также поддерживают обе версии кодов.
 Так сохраняется совместимость с меню, использующим старые коды с явно заданным шрифтом. Повторение кодов в отдельных шрифтах намеренное; старые символы BloodLevels не экспортируются в `minecraft:default`.
 Шрифт фонов `bloodlevels:menus` перенесён без изменений и в стандартный шрифт не подключается.
+
+## Premium-сердца от 4 октября 2026
+
+Добавлены 10 оригинальных PNG из `new/hearts/` в `assets/bloodlevels/textures/font/gold_*.png`, без масштабирования: размер 9×9, `height: 9`, `ascent: 8`.
+Символы доступны в `minecraft:default` и `bloodlevels:icons` через существующий reference на `bloodlevels:icons_default`.
+Проверена актуальная ветка `main` BloodLevels, коммит `811ac1f27b78addc4412b7bcc5421efb0c2466fa`: секция `premium-badges` поддерживается, но по умолчанию пуста.
+Плагин выбирает premium-сердце по категории обычного уровня при наличии Premium-прогресса; пустая настройка сохраняет обычный значок.
+В рамках этого изменения обновлён только ресурспак. Для последующего включения нужно заполнить `premium-badges` в серверном `resource-pack.yml`; серверные настройки не изменены.
+
+| Ключ `premium-badges` | Текстура | Код | Символ |
+| --- | --- | --- | --- |
+| `gray` | `gold_gray.png` | U+E080 |  |
+| `white` | `gold_light_gray.png` | U+E081 |  |
+| `yellow` | `gold_yellow.png` | U+E082 |  |
+| `orange` | `gold_orange.png` | U+E083 |  |
+| `green` | `gold_lime.png` | U+E084 |  |
+| `pink` | `gold_pink.png` | U+E085 |  |
+| `cyan` | `gold_light_blue.png` | U+E086 |  |
+| `blue` | `gold_blue.png` | U+E087 |  |
+| `purple` | `gold_purple.png` | U+E088 |  |
+| `red`, `rainbow` | `gold_red.png` | U+E089 |  |
+
+Пример будущей настройки: `gray: "<white><font:bloodlevels:icons>\uE080</font> <dark_gray>%level%"` внутри `premium-badges`.
+Для остальных категорий следует сохранить цвет и оформление `%level%` из соответствующего обычного `badges`, заменив только символ сердца по таблице.
 
 ## Конфигурация плагина
 

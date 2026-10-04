@@ -140,6 +140,96 @@
       "chars": [
         "\ue074"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/gold_gray.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue080"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/gold_light_gray.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue081"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/gold_yellow.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue082"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/gold_orange.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue083"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/gold_lime.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue084"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/gold_pink.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue085"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/gold_light_blue.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue086"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/gold_blue.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue087"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/gold_purple.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue088"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/gold_red.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue089"
+      ]
     }
   ]
 }
