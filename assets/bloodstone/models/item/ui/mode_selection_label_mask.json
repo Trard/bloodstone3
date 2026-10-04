@@ -19,7 +19,7 @@
     }
   },
   "textures": {
-    "layer0": "bloodstone:ui/gui/misc/mode_selection",
+    "layer0": "bloodstone:item/ui/mode_selection_label_mask",
     "particle": "#layer0"
   },
   "elements": [
