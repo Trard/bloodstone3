@@ -181,7 +181,7 @@ def main():
     order = [weapon for pair in pairs for weapon in pair] + [3]
     assert sorted(order) == list(range(len(weapons)))
     slots = {
-        "head": {"rotation": [0, 0, 0], "translation": [0, 5.5, 0], "scale": [1.61] * 3},
+        "head": {"rotation": [12, 0, 0], "translation": [0, 4.5, 0], "scale": [1.61] * 3},
         "gui": {"rotation": [28, 135, 0], "translation": [0, 1, 0], "scale": [0.8] * 3},
         "ground": {"rotation": [0, 0, 0], "translation": [0, 5, 0], "scale": [0.65] * 3},
         "fixed": {"rotation": [-90, 0, 0], "translation": [0, 0, -8], "scale": [1.0] * 3},
@@ -218,6 +218,7 @@ def main():
         if index == 28:
             angle, lean, radius, height = 0, 0, 6.2, 8.0
             scale = min(2.3 / size[1], 1.15 / size[0])
+        scale *= 1.495
         orient = matmul(rotation(y=-angle), matmul(rotation(z=lean), basis))
         destination = [8 + radius * math.sin(angle * DEG), height,
                        8 - radius * math.cos(angle * DEG)]
