@@ -9,12 +9,17 @@ from PIL import Image, ImageDraw
 ROOT = Path(__file__).resolve().parents[1]
 TEXTURES = ROOT / 'assets/minecraft/textures/gui/invasion'
 FONTS = ROOT / 'assets/minecraft/font/invasion_menu'
-LINE_Y = [2, 24, 10, 34, 43, 52, 61, 88, 97, 41, 59, 77, 95]
-ROSTER = [9, 14, 18, 23, 27, 32, 36, 41]
+LINE_Y = [9, 24, 10, 40, 54, 58, 63, 76, 90, 99]
+ROSTER = [r*9+c for r in range(1,5) for c in range(1,8)]
 SHOP = [10, 12, 14, 16, 19, 21, 23, 25, 28, 31, 34]
-CARDS = {1: [13], 2: [11, 15], 3: [2, 6, 31],
-         4: [2, 6, 29, 33], 5: [1, 4, 7, 29, 33],
-         6: [1, 4, 7, 28, 31, 34]}
+CARDS = {1: [13], 2: [11, 15], 3: [10, 13, 16],
+         4: [11, 15, 29, 33], 5: [10, 13, 16, 29, 33],
+         6: [10, 13, 16, 28, 31, 34]}
+SPAWNS = {1: [13], 2: [13, 31], 3: [13, 29, 33], 4: [13, 29, 31, 33],
+          5: [13, 28, 30, 32, 34], 6: [13, 27, 29, 31, 33, 35]}
+PRACTICE = ROOT / 'assets/bloodstone/textures/ui/gui/practice/practice_menu_ru.png'
+PLAYERS = ROOT / 'assets/duels/textures/gui/players.png'
+
 
 
 def write_json(path, data):
@@ -31,66 +36,68 @@ def bevel(draw, box, fill='#EEEEEE'):
     draw.line((r-2, y+3, r-2, b-2, x+3, b-2), fill='#888888')
 
 
-class OffsetDraw:
-    def __init__(self, image): self.draw = ImageDraw.Draw(image)
-    def rectangle(self, box, **kw):
-        x, y, r, b = box
-        self.draw.rectangle((x, y+8, r, b+8), **kw)
-    def line(self, points, **kw):
-        self.draw.line(tuple(n+8 if i%2 else n for i,n in enumerate(points)), **kw)
-    def point(self, point, **kw): self.draw.point((point[0], point[1]+8), **kw)
-
-
-def card_boxes(count):
-    for anchor in CARDS[count]:
-        cx = 16 + anchor % 9 * 18
-        top = 16 + anchor // 9 * 18
-        half = 26 if count >= 5 else 32
-        yield cx-half, top, cx+half, top+37
+def stretch_frame(tile, width, height):
+    result = Image.new('RGBA', (width,height))
+    sx, sy = [0,3,tile.width-3,tile.width], [0,3,tile.height-3,tile.height]
+    dx, dy = [0,3,width-3,width], [0,3,height-3,height]
+    for row in range(3):
+        for col in range(3):
+            patch = tile.crop((sx[col],sy[row],sx[col+1],sy[row+1]))
+            patch = patch.resize((dx[col+1]-dx[col],dy[row+1]-dy[row]),Image.Resampling.NEAREST)
+            result.paste(patch,(dx[col],dy[row]))
+    return result
 
 
 def build_panel(name, index):
-    panel = Image.new('RGBA', (256, 256))
-    mask = Image.new('RGBA', (256, 256))
-    d, a = OffsetDraw(panel), OffsetDraw(mask)
-    bevel(d, (0, -8, 175, 221), '#D4D4D4')
-    bevel(d, (6, -4, 169, 13), '#E8E8E8')
-    d.rectangle((5, 126, 170, 216), fill='#C6C6C6')
-    d.line((6, 125, 169, 125), fill='#FFFFFF')
-    for row in range(4):
-        for col in range(9):
-            x = 7 + col * 18
-            y = 138 + row * 18 if row < 3 else 196
-            d.rectangle((x, y, x+17, y+17), fill='#888888')
-            d.line((x+1, y+16, x+16, y+16, x+16, y+1), fill='#FFFFFF')
-            d.rectangle((x+1, y+1, x+15, y+15), fill='#B5B5B5')
-    boxes = []
-    if name.startswith('cards_'):
-        boxes = list(card_boxes(int(name[-1])))
-    elif name == 'roster':
-        boxes = [(7 + slot % 9 * 18, 17 + slot // 9 * 18,
-                  78 + slot % 9 * 18, 34 + slot // 9 * 18) for slot in ROSTER]
+    # Reuse the actual Bloodstone panel, header, button edges and inventory cells.
+    practice = Image.open(PRACTICE).convert('RGBA')
+    source = Image.open(PLAYERS).convert('RGBA')
+    ImageDraw.Draw(source).rectangle((4,4,171,129),fill='#C6C6C6')
+    rows = (6 if name in ('roster','shop') else
+            3 if name in ('cards_1','cards_2','cards_3','spawns_1') else 5)
+    cut = (6-rows)*18
+    height = 114+rows*18
+    panel = Image.new('RGBA',(256,256))
+    panel.paste(source.crop((0,0,176,126-cut)),(0,0))
+    panel.paste(source.crop((0,126,176,222)),(0,126-cut))
+    mask = Image.new('RGBA',(256,256)); a=ImageDraw.Draw(mask)
+    heading = practice.crop((44,6,132,21))
+    ImageDraw.Draw(heading).rectangle((4,3,83,11),fill='#C6C6C6')
+    heading_width = 112 if name.startswith('spawns_') else 96 if name in ('roster','shop') else 88
+    panel.paste(stretch_frame(heading,heading_width,15),((176-heading_width)//2,6))
+    a.line(((176-heading_width)//2+5,21,(176+heading_width)//2-6,21),fill='white')
+    button = practice.crop((13,27,84,65))
+    ImageDraw.Draw(button).rectangle((2,2,68,35),fill='#C6C6C6')
+    cell = practice.crop((7,83,25,101))
+    boxes=[]
+    if name in ('roster','shop'):
+        for slot in ROSTER if name=='roster' else ROSTER+[47,49,51]:
+            panel.paste(cell,(7+slot%9*18,18+slot//9*18))
     elif name == 'factions':
-        boxes = list(card_boxes(3))
-    elif name == 'shop':
-        for slot in SHOP:
-            cx, y = 16 + slot % 9 * 18, 17 + slot // 9 * 18
-            boxes.append((cx-16, y, cx+16, y+17))
-        d.line((12, 92, 163, 92), fill='#AAAAAA')
-    for box in boxes:
-        bevel(d, box, '#EEEEEE')
-        x, y, r, b = box
-        a.line((x+3, y+3, x+3, b-3), fill='white')
-    for slot in ([49] if name == 'shop' else []):
-        x = 7 + slot % 9 * 18
-        bevel(d, (x, 107, x+17, 124), '#EEEEEE')
-    a.point((175, 221), fill=(255, 255, 255, 26))
-    TEXTURES.mkdir(parents=True, exist_ok=True)
-    panel.save(TEXTURES / f'{name}.png', optimize=True)
-    mask.save(TEXTURES / f'{name}_accent.png', optimize=True)
-    return [dict(type='bitmap', file=f'minecraft:gui/invasion/{name}{suffix}.png',
-                 height=256, ascent=21, chars=[chr(0xE800 + index*2 + i)])
-            for i, suffix in enumerate(['', '_accent'])]
+        for row in range(3):
+            boxes.append((7,35+row*18,168,52+row*18))
+    elif name.startswith('spawns_'):
+        for choice,slot in enumerate(SPAWNS[int(name[-1])]):
+            cx=16+slot%9*18
+            top=27 if choice==0 else 65
+            half=26 if choice==0 else 13
+            boxes.append((cx-half,top,cx+half,top+37))
+    else:
+        count=3 if name=='factions' else int(name[-1])
+        for slot in CARDS[count]:
+            cx=16+slot%9*18
+            top=27+(slot//9-1)*18
+            half=25 if count>=3 else 32
+            boxes.append((cx-half,top,cx+half,top+(44 if count==1 else 37)))
+    for x,y,r,b in boxes:
+        panel.paste(stretch_frame(button,r-x+1,b-y+1),(x,y+1))
+    a.point((175,height-1),fill=(255,255,255,26))
+    TEXTURES.mkdir(parents=True,exist_ok=True)
+    panel.save(TEXTURES/f'{name}.png',optimize=True)
+    mask.save(TEXTURES/f'{name}_accent.png',optimize=True)
+    return [dict(type='bitmap',file=f'minecraft:gui/invasion/{name}{suffix}.png',
+                 height=256,ascent=14,chars=[chr(0xE800+index*2+i)])
+            for i,suffix in enumerate(['','_accent'])]
 
 
 def build_icons():
@@ -117,12 +124,21 @@ def build_icons():
             d.polygon([(2, 8), (8, 2), (8, 5), (14, 5), (14, 10), (8, 10), (8, 13)], fill='#35443F')
             d.polygon([(3, 7), (7, 3), (7, 6), (13, 6), (13, 8), (7, 8), (7, 11)], fill='#F1E2A7')
             if name == 'next': image = image.transpose(Image.Transpose.FLIP_LEFT_RIGHT)
+        if name in ('previous', 'next'):
+            arrow = Image.open(ROOT / f'assets/bloodstone/textures/ui/gui/component/page_{name}.png').convert('RGBA')
+            image = Image.new('RGBA', (32,32))
+            image.paste(arrow, ((32-arrow.width)//2,(32-arrow.height)//2))
         path = folder / f'{name}.png'
         image.save(path, optimize=True)
         subprocess.run([sys.executable, str(ROOT / 'scripts/create_icon_from_png.py'), str(path),
                         '--assets-root', str(ROOT / 'assets'), '--namespace', 'minecraft',
                         '--group', 'invasion/menu', '--name', name, '--force'], check=True,
                        stdout=subprocess.DEVNULL)
+        if name in ('previous', 'next'):
+            model = ROOT / f'assets/minecraft/models/item/invasion/menu/{name}.json'
+            data = json.loads(model.read_text('utf-8'))
+            data['display'] = {'gui': {'scale': [2,2,2], 'translation': [2 if name=='previous' else -2,0,0]}}
+            write_json(model, data)
 
 
 def main():
@@ -132,8 +148,9 @@ def main():
         if path.name not in wanted:
             path.unlink()
     providers = []
-    for i, name in enumerate([f'cards_{n}' for n in range(1, 7)] + ['roster', 'shop', 'factions']):
+    for i, name in enumerate([f'cards_{n}' for n in range(1, 7)] + ['roster', 'shop', 'factions'] + [f'spawns_{n}' for n in range(1,7)]):
         providers.extend(build_panel(name, i))
+    assert len({p['chars'][0] for p in providers}) == len(providers)
     write_json(FONTS / 'panels.json', {'providers': providers})
     source = json.loads((ROOT / 'assets/minecraft/font/invasion_hud_top.json').read_text('utf-8'))
     for y in LINE_Y:
@@ -155,7 +172,18 @@ def main():
                 provider['height'] = 32
         write_json(FONTS / f'line_{y}.json', font)
     build_icons()
-    print('Built 9 menu layouts, faction accents, text baselines and 8 control models.')
+    write_json(ROOT / 'assets/minecraft/models/item/invasion/menu/banner.json', {
+        'parent': 'minecraft:item/template_banner',
+        'gui_light': 'front',
+        'display': {'gui': {'rotation': [0,0,0], 'translation': [0,-2.5,0], 'scale': [.4,.4,.4]}}
+    })
+    for dye in ['white','orange','magenta','light_blue','yellow','lime','pink','gray',
+                'light_gray','cyan','purple','blue','brown','green','red','black']:
+        write_json(ROOT / f'assets/minecraft/items/invasion/menu/banner/{dye}.json', {
+            'model': {'type': 'minecraft:special', 'base': 'minecraft:item/invasion/menu/banner',
+                      'model': {'type': 'minecraft:banner', 'color': dye}}
+        })
+    print('Built 15 menu layouts and upright banners; player heads and shop items remain native.')
 
 
 if __name__ == '__main__': main()

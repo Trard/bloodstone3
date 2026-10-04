@@ -10,7 +10,7 @@
       "type": "bitmap",
       "file": "minecraft:font/invasion/letters.png",
       "height": 8,
-      "ascent": -48,
+      "ascent": -63,
       "chars": [
         "!\"#$%&'()*+,-./0",
         "123456789:;<=>?@",
@@ -29,7 +29,7 @@
       "type": "bitmap",
       "file": "minecraft:font/invasion/letters_accented.png",
       "height": 12,
-      "ascent": -45,
+      "ascent": -60,
       "chars": [
         "ЙйЁё\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
       ]

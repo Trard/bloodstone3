@@ -8,9 +8,9 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:gui/invasion/letters_header.png",
-      "height": 32,
-      "ascent": 11,
+      "file": "minecraft:font/invasion/letters.png",
+      "height": 8,
+      "ascent": -50,
       "chars": [
         "!\"#$%&'()*+,-./0",
         "123456789:;<=>?@",
@@ -27,9 +27,9 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:gui/invasion/letters_accented_header.png",
-      "height": 32,
-      "ascent": 14,
+      "file": "minecraft:font/invasion/letters_accented.png",
+      "height": 12,
+      "ascent": -47,
       "chars": [
         "ЙйЁё\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
       ]
