@@ -1,0 +1,4 @@
+hats:
+  - name: "legendaryWreath"
+    rarity: "Unique"
+    customModelData: 6020

@@ -3723,6 +3723,130 @@
                     "type": "model",
                     "model": "civilization:item/wearable/halo/green"
                 }
+            },
+            {
+                "threshold": 6020,
+                "model": {
+                    "type": "minecraft:composite",
+                    "models": [
+                        {
+                            "type": "minecraft:model",
+                            "model": "blooddonate:item/hats/legendary_wreath/midas_sword"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "blooddonate:item/hats/legendary_wreath/lite_mace"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "blooddonate:item/hats/legendary_wreath/bloodsword"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "blooddonate:item/hats/legendary_wreath/sculk_crossbow"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "blooddonate:item/hats/legendary_wreath/dragon_katana"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "blooddonate:item/hats/legendary_wreath/artemis_bow"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "blooddonate:item/hats/legendary_wreath/frost_sword"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "blooddonate:item/hats/legendary_wreath/rail_gun"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "blooddonate:item/hats/legendary_wreath/mirror_blade"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "blooddonate:item/hats/legendary_wreath/laser"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "blooddonate:item/hats/legendary_wreath/shadow_blade"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "blooddonate:item/hats/legendary_wreath/time_bow"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "blooddonate:item/hats/legendary_wreath/death_scythe"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "blooddonate:item/hats/legendary_wreath/ravager_horn"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "blooddonate:item/hats/legendary_wreath/sword_of_nature"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "blooddonate:item/hats/legendary_wreath/endurance_glove"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "blooddonate:item/hats/legendary_wreath/cloud_sword"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "blooddonate:item/hats/legendary_wreath/shrink_ray"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "blooddonate:item/hats/legendary_wreath/hypnosis_staff"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "blooddonate:item/hats/legendary_wreath/mjolnir"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "blooddonate:item/hats/legendary_wreath/poseidon_trident"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "blooddonate:item/hats/legendary_wreath/unicorn_horn"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "blooddonate:item/hats/legendary_wreath/emerald_blade"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "blooddonate:item/hats/legendary_wreath/orbital_nuke"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "blooddonate:item/hats/legendary_wreath/judge_sword"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "blooddonate:item/hats/legendary_wreath/reaper_scythe"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "blooddonate:item/hats/legendary_wreath/gamble_sword"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "blooddonate:item/hats/legendary_wreath/spider_sword"
+                        },
+                        {
+                            "type": "minecraft:model",
+                            "model": "blooddonate:item/hats/legendary_wreath/excalibur"
+                        }
+                    ]
+                }
             }
         ]
     }
