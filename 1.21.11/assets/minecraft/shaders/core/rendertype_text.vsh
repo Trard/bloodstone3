@@ -88,8 +88,8 @@ void main() {
         float guiHeight = 2.0 / abs(ProjMat[1][1]);
         float markerY = position.y - guiHeight - 16384.0;
         if (markerY >= -96.0 && markerY <= 0.0) {
-            // Action-bar origin: height - 68 - 4; HUD origin: 22 GUI pixels.
-            position.y -= 16384.0 + guiHeight - 94.0;
+            // Action-bar origin: height - 68 - 4; HUD origin: 3 GUI pixels (no logo space).
+            position.y -= 16384.0 + guiHeight - 75.0;
             gl_Position = ProjMat * position;
             sphericalVertexDistance = 0.0;
             cylindricalVertexDistance = 0.0;

@@ -155,7 +155,7 @@ def main():
     for size in ((427,240),(640,360),(960,540),(1920,1080),(3840,2160)):
         for path in files:
             source = json.loads(path.read_text(encoding="utf-8"))
-            expected = renderer.render(source,size,False,offset_y=19)
+            expected = renderer.render(source,size,False,offset_y=0)
             actual = renderer.render(relocate(source),size,True)
             assert expected.tobytes() == actual.tobytes(), (size,path.name)
             assert actual.getbbox() is not None

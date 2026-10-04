@@ -1,0 +1,38 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        " ": 4
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/invasion/letters_header.png",
+      "height": 32,
+      "ascent": 11,
+      "chars": [
+        "!\"#$%&'()*+,-./0",
+        "123456789:;<=>?@",
+        "ABCDEFGHIJKLMNOP",
+        "QRSTUVWXYZ[\\]^_`",
+        "abcdefghijklmnop",
+        "qrstuvwxyz{|}~АБ",
+        "ВГДЕЖЗИКЛМНОПРСТ",
+        "УФХЦЧШЩЪЫЬЭЮЯабв",
+        "гдежзиклмнопрсту",
+        "фхцчшщъыьэюя·…—«",
+        "»\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/invasion/letters_accented_header.png",
+      "height": 32,
+      "ascent": 14,
+      "chars": [
+        "ЙйЁё\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+      ]
+    }
+  ]
+}
