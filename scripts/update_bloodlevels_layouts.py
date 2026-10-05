@@ -8,6 +8,8 @@ from pathlib import Path
 
 from PIL import Image
 
+from update_bloodlevels_arrows import load_buttons, update as update_navigation
+
 ROOT = Path(__file__).resolve().parents[1]
 BACKGROUND = (198, 198, 198, 255)
 # Preserve the original slot positions and controls; erase only the number strips inside the panel.
@@ -25,6 +27,7 @@ def write_json(path: Path, value: dict) -> None:
 
 def update(root: Path) -> None:
     assets = root / "assets/bloodlevels"
+    buttons = load_buttons(assets / "textures/item")
     model_template = json.loads((assets / "models/item/levels_mask.json").read_text())
     menus_path = assets / "font/menus.json"
     menus = json.loads(menus_path.read_text())
@@ -34,6 +37,7 @@ def update(root: Path) -> None:
             canvas = image.convert("RGBA")
         for top, bottom in strips:
             canvas.paste(BACKGROUND, (7, top, 169, bottom))
+        canvas = update_navigation(canvas, None, buttons)
         canvas.save(assets / f"textures/gui/{name}.png")
         canvas.crop((0, 140, 176, 150)).save(assets / f"textures/item/{name}_mask.png")
         model = json.loads(json.dumps(model_template))
