@@ -158,6 +158,42 @@
       "chars": [
         "\ue611"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:gui/duels_ranked.png",
+      "ascent": 14,
+      "height": 256,
+      "chars": [
+        "\ue612"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:gui/incoming_duels.png",
+      "ascent": 14,
+      "height": 256,
+      "chars": [
+        "\ue613"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:gui/duels_default.png",
+      "ascent": 14,
+      "height": 256,
+      "chars": [
+        "\ue614"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:gui/statistic.png",
+      "ascent": 14,
+      "height": 256,
+      "chars": [
+        "\ue615"
+      ]
     }
   ]
 }
