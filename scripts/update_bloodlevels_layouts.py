@@ -15,7 +15,7 @@ BACKGROUND = (198, 198, 198, 255)
 # Preserve the original slot positions and controls; erase only the number strips inside the panel.
 LAYOUTS = (
     ("levels", "levels_001", ((74, 81), (141, 148)), "menu-label-mask", 48, "\ue510"),
-    ("levels_premium_end", "levels_012", ((74, 81), (103, 110), (141, 148)), "menu-label-mask-premium-end", 48, "\ue512"),
+    ("levels_premium_end", "levels_012", ((74, 81), (103, 110), (176, 183)), "menu-label-mask-premium-end", 48, "\ue512"),
     ("levels_free_only", "levels_013", ((110, 117), (139, 146)), "menu-label-mask-free-only", 39, "\ue513"),
 )
 
