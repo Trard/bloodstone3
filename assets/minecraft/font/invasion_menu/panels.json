@@ -1,0 +1,274 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/invasion/cards_1.png",
+      "height": 256,
+      "ascent": 14,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/invasion/cards_1_accent.png",
+      "height": 256,
+      "ascent": 14,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/invasion/cards_2.png",
+      "height": 256,
+      "ascent": 14,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/invasion/cards_2_accent.png",
+      "height": 256,
+      "ascent": 14,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/invasion/cards_3.png",
+      "height": 256,
+      "ascent": 14,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/invasion/cards_3_accent.png",
+      "height": 256,
+      "ascent": 14,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/invasion/cards_4.png",
+      "height": 256,
+      "ascent": 14,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/invasion/cards_4_accent.png",
+      "height": 256,
+      "ascent": 14,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/invasion/cards_5.png",
+      "height": 256,
+      "ascent": 14,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/invasion/cards_5_accent.png",
+      "height": 256,
+      "ascent": 14,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/invasion/cards_6.png",
+      "height": 256,
+      "ascent": 14,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/invasion/cards_6_accent.png",
+      "height": 256,
+      "ascent": 14,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/invasion/roster.png",
+      "height": 256,
+      "ascent": 14,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/invasion/roster_accent.png",
+      "height": 256,
+      "ascent": 14,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/invasion/shop.png",
+      "height": 256,
+      "ascent": 14,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/invasion/shop_accent.png",
+      "height": 256,
+      "ascent": 14,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/invasion/factions.png",
+      "height": 256,
+      "ascent": 14,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/invasion/factions_accent.png",
+      "height": 256,
+      "ascent": 14,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/invasion/spawns_1.png",
+      "height": 256,
+      "ascent": 14,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/invasion/spawns_1_accent.png",
+      "height": 256,
+      "ascent": 14,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/invasion/spawns_2.png",
+      "height": 256,
+      "ascent": 14,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/invasion/spawns_2_accent.png",
+      "height": 256,
+      "ascent": 14,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/invasion/spawns_3.png",
+      "height": 256,
+      "ascent": 14,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/invasion/spawns_3_accent.png",
+      "height": 256,
+      "ascent": 14,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/invasion/spawns_4.png",
+      "height": 256,
+      "ascent": 14,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/invasion/spawns_4_accent.png",
+      "height": 256,
+      "ascent": 14,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/invasion/spawns_5.png",
+      "height": 256,
+      "ascent": 14,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/invasion/spawns_5_accent.png",
+      "height": 256,
+      "ascent": 14,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/invasion/spawns_6.png",
+      "height": 256,
+      "ascent": 14,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/invasion/spawns_6_accent.png",
+      "height": 256,
+      "ascent": 14,
+      "chars": [
+        ""
+      ]
+    }
+  ]
+}

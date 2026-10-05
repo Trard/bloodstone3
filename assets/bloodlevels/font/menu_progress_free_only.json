@@ -1,0 +1,70 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        "": -1
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/menu_level_xp_empty.png",
+      "ascent": -64,
+      "height": 3,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/menu_level_xp_full.png",
+      "ascent": -64,
+      "height": 3,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/menu_level_xp_half.png",
+      "ascent": -64,
+      "height": 3,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "space",
+      "advances": {
+        "": -1
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/menu_level_xp_empty.png",
+      "ascent": -64,
+      "height": 3,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/menu_level_xp_full.png",
+      "ascent": -64,
+      "height": 3,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/menu_level_xp_half.png",
+      "ascent": -64,
+      "height": 3,
+      "chars": [
+        ""
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "display": {
+    "gui": {
+      "scale": [
+        4,
+        4,
+        1
+      ],
+      "translation": [
+        18,
+        -17,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "textures": {
+    "layer0": "bloodstone:item/ui/mode_selection_label_mask",
+    "particle": "#layer0"
+  },
+  "elements": [
+    {
+      "faces": {
+        "south": {
+          "uv": [
+            0,
+            9.25,
+            11,
+            9.875
+          ],
+          "texture": "#layer0"
+        }
+      },
+      "to": [
+        30,
+        9.25,
+        8
+      ],
+      "shade": false,
+      "from": [
+        -14,
+        6.75,
+        8
+      ]
+    }
+  ],
+  "gui_light": "front"
+}

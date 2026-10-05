@@ -52,6 +52,12 @@
         },
         "min_format": 65,
         "max_format": 75
+      },
+      {
+        "directory": "1.21.11",
+        "formats": 75,
+        "min_format": 75,
+        "max_format": 75
       }
     ]
   }

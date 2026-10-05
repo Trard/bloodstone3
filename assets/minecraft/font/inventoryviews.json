@@ -162,7 +162,7 @@
         },
         {
             "type": "bitmap",
-            "file": "bloodstone:ui/gui/shop/shop.png",
+            "file": "bloodstone:ui/gui/ffa_shop/ffa_shop.png",
             "ascent": 13,
             "height": 256,
             "chars": [
@@ -171,7 +171,7 @@
         },
         {
             "type": "bitmap",
-            "file": "bloodstone:ui/gui/shop/shop1.png",
+            "file": "bloodstone:ui/gui/ffa_shop/ffa_shop1.png",
             "ascent": 13,
             "height": 256,
             "chars": [
@@ -235,10 +235,127 @@
         {
             "type": "bitmap",
             "file": "bloodstone:ui/gui/custom_games/meetups_menu.png",
-            "ascent": 13,
+            "ascent": 14,
             "height": 256,
             "chars": [
                 "\uE544"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/crafts/recipe_legendary.png",
+            "ascent": 31,
+            "height": 256,
+            "chars": [
+                "\ue545"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/crafts/recipe_legendary_1.png",
+            "ascent": 31,
+            "height": 256,
+            "chars": [
+                "\ue546"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/crafts/recipe_legendary_2.png",
+            "ascent": 31,
+            "height": 256,
+            "chars": [
+                "\ue547"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/crafts/recipe_legendary_3.png",
+            "ascent": 31,
+            "height": 256,
+            "chars": [
+                "\ue548"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/misc/skill_menu_ffa.png",
+            "ascent": 24,
+            "height": 256,
+            "chars": [
+                "\ue549"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/misc/mode_selection.png",
+            "ascent": 33,
+            "height": 256,
+            "chars": [
+                "\ue54a"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/store/store.png",
+            "ascent": 14,
+            "height": 256,
+            "chars": [
+                "\ue54b"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/practice/practice_menu_en.png",
+            "ascent": 12,
+            "height": 256,
+            "chars": [
+                "\ue54c"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/practice/practice_menu_ru.png",
+            "ascent": 12,
+            "height": 256,
+            "chars": [
+                "\ue54d"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/practice/play_again.png",
+            "ascent": 14,
+            "height": 256,
+            "chars": [
+                "\ue54e"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/cosmetics/cosmetic_crate.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "\uE54F"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/cases/cases_menu.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "\uE550"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/ffa/ffa_menu_ru.png",
+            "ascent": 14,
+            "height": 256,
+            "chars": [
+                "\ue72d"
             ]
         }
     ]

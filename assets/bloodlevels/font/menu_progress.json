@@ -1,0 +1,70 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        "\ue535": -1
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/menu_level_xp_empty.png",
+      "ascent": -28,
+      "height": 3,
+      "chars": [
+        "\ue530"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/menu_level_xp_full.png",
+      "ascent": -28,
+      "height": 3,
+      "chars": [
+        "\ue531"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/menu_level_xp_half.png",
+      "ascent": -28,
+      "height": 3,
+      "chars": [
+        "\ue532"
+      ]
+    },
+    {
+      "type": "space",
+      "advances": {
+        "\ue075": -1
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/menu_level_xp_empty.png",
+      "ascent": -28,
+      "height": 3,
+      "chars": [
+        "\ue070"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/menu_level_xp_full.png",
+      "ascent": -28,
+      "height": 3,
+      "chars": [
+        "\ue071"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/menu_level_xp_half.png",
+      "ascent": -28,
+      "height": 3,
+      "chars": [
+        "\ue072"
+      ]
+    }
+  ]
+}

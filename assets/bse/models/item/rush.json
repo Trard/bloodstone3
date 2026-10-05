@@ -1,0 +1,80 @@
+{
+  "credit": "BSE Rush: faceless animated Minecraft smoke, camera-facing RP quad",
+  "ambientocclusion": false,
+  "gui_light": "front",
+  "textures": {
+    "smoke": "bse:item/rush_smoke",
+    "particle": "bse:item/rush_smoke"
+  },
+  "elements": [
+    {
+      "name": "faceless_smoke",
+      "from": [
+        -4,
+        -4,
+        8
+      ],
+      "to": [
+        20,
+        20,
+        8
+      ],
+      "faces": {
+        "north": {
+          "texture": "#smoke",
+          "uv": [
+            16,
+            0,
+            0,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#smoke",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    }
+  ],
+  "display": {
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "gui": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    }
+  }
+}

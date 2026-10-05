@@ -11,10 +11,14 @@
         "blooddonate:trims/entity/humanoid_leggings/chemical_protection",
         "blooddonate:trims/entity/humanoid/flowers",
         "blooddonate:trims/entity/humanoid_leggings/flowers",
+        "blooddonate:trims/entity/humanoid/mechanism",
+        "blooddonate:trims/entity/humanoid_leggings/mechanism",
         "blooddonate:trims/entity/humanoid/obsidian",
         "blooddonate:trims/entity/humanoid_leggings/obsidian",
         "blooddonate:trims/entity/humanoid/summer",
-        "blooddonate:trims/entity/humanoid_leggings/summer"
+        "blooddonate:trims/entity/humanoid_leggings/summer",
+        "blooddonate:trims/entity/humanoid/halloween_pumpkin",
+        "blooddonate:trims/entity/humanoid_leggings/halloween_pumpkin"
       ],
       "palette_key": "trims/color_palettes/trim_palette",
       "permutations": {
@@ -27,7 +31,8 @@
         "copper": "trims/color_palettes/copper",
         "emerald": "trims/color_palettes/emerald",
         "lapis": "trims/color_palettes/lapis",
-        "amethyst": "trims/color_palettes/amethyst"
+        "amethyst": "trims/color_palettes/amethyst",
+        "resin": "trims/color_palettes/resin"
       }
     }
   ]

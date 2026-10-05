@@ -1,46 +1,309 @@
 {
   "phone.ringtone": {
     "category": "master",
-    "sounds": ["bse:phone/ringtone"]
+    "sounds": [
+      "bse:phone/ringtone"
+    ]
   },
   "phone.ringback": {
     "category": "master",
-    "sounds": ["bse:phone/ringback"]
+    "sounds": [
+      "bse:phone/ringback"
+    ]
   },
   "phone.pickup": {
     "category": "master",
-    "sounds": ["bse:phone/pickup"]
+    "sounds": [
+      "bse:phone/pickup"
+    ]
   },
   "phone.hangup": {
     "category": "master",
-    "sounds": ["bse:phone/hangup"]
+    "sounds": [
+      "bse:phone/hangup"
+    ]
   },
   "phone.radio_open": {
     "category": "master",
-    "sounds": ["bse:phone/radio_open"]
+    "sounds": [
+      "bse:phone/radio_open"
+    ]
   },
   "phone.radio_close": {
     "category": "master",
-    "sounds": ["bse:phone/radio_close"]
+    "sounds": [
+      "bse:phone/radio_close"
+    ]
   },
   "phone.unavailable": {
     "category": "master",
-    "sounds": ["bse:phone/unavailable"]
+    "sounds": [
+      "bse:phone/unavailable"
+    ]
   },
   "voice.incoming_call": {
     "category": "voice",
-    "sounds": ["bse:voice/incoming_call"]
+    "sounds": [
+      "bse:voice/incoming_call"
+    ]
   },
   "voice.channel_connected": {
     "category": "voice",
-    "sounds": ["bse:voice/channel_connected"]
+    "sounds": [
+      "bse:voice/channel_connected"
+    ]
   },
   "voice.channel_disconnected": {
     "category": "voice",
-    "sounds": ["bse:voice/channel_disconnected"]
+    "sounds": [
+      "bse:voice/channel_disconnected"
+    ]
   },
   "voice.subscriber_unavailable": {
     "category": "voice",
-    "sounds": ["bse:voice/subscriber_unavailable"]
+    "sounds": [
+      "bse:voice/subscriber_unavailable"
+    ]
+  },
+  "ransom.start": {
+    "category": "master",
+    "sounds": [
+      "bse:ransom/start"
+    ]
+  },
+  "ransom.popup": {
+    "category": "master",
+    "sounds": [
+      "bse:ransom/popup"
+    ]
+  },
+  "ransom.screamer": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "bse:scare/joker",
+        "preload": true,
+        "stream": false
+      }
+    ]
+  },
+  "ransom.loop": {
+    "category": "master",
+    "sounds": [
+      "bse:ransom/loop"
+    ]
+  },
+  "ransom.gold": {
+    "category": "master",
+    "sounds": [
+      "bse:ransom/gold"
+    ]
+  },
+  "ransom.success": {
+    "category": "master",
+    "sounds": [
+      "bse:ransom/success"
+    ]
+  },
+  "ransom.failure": {
+    "category": "master",
+    "sounds": [
+      "bse:ransom/failure"
+    ]
+  },
+  "rush.screamer": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "bse:scare/rush",
+        "preload": true,
+        "stream": false
+      }
+    ]
+  },
+  "scare.thin": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "bse:scare/thin",
+        "preload": true,
+        "stream": false
+      }
+    ]
+  },
+  "scare.round": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "bse:scare/round",
+        "preload": true,
+        "stream": false
+      }
+    ]
+  },
+  "scare.shroud": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "bse:scare/shroud",
+        "preload": true,
+        "stream": false
+      }
+    ]
+  },
+  "rush.chase": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "bse:rush/chase",
+        "stream": false,
+        "preload": true,
+        "attenuation_distance": 32
+      }
+    ]
+  },
+  "ceiling.impact": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "bse:ceiling/impact",
+        "preload": true,
+        "stream": false,
+        "attenuation_distance": 24
+      }
+    ]
+  },
+  "scuba.breath": {
+    "sounds": [
+      {
+        "name": "bse:scuba/breath",
+        "stream": false,
+        "attenuation_distance": 8
+      }
+    ]
+  },
+  "vending.button": {
+    "sounds": [
+      {
+        "name": "bse:vending/button_1",
+        "volume": 1.0,
+        "attenuation_distance": 16,
+        "pitch": 0.6
+      }
+    ]
+  },
+  "vending.confirm": {
+    "sounds": [
+      {
+        "name": "bse:vending/confirm_1",
+        "volume": 1.0,
+        "attenuation_distance": 16
+      }
+    ]
+  },
+  "vending.error": {
+    "sounds": [
+      {
+        "name": "bse:vending/error_1",
+        "volume": 1.0,
+        "attenuation_distance": 16
+      }
+    ]
+  },
+  "vending.cancel": {
+    "sounds": [
+      {
+        "name": "bse:vending/cancel_1",
+        "volume": 1.0,
+        "attenuation_distance": 16
+      },
+      {
+        "name": "bse:vending/cancel_2",
+        "volume": 1.0,
+        "attenuation_distance": 16
+      },
+      {
+        "name": "bse:vending/cancel_3",
+        "volume": 1.0,
+        "attenuation_distance": 16
+      },
+      {
+        "name": "bse:vending/cancel_4",
+        "volume": 1.0,
+        "attenuation_distance": 16
+      }
+    ]
+  },
+  "vending.coin": {
+    "sounds": [
+      {
+        "name": "bse:vending/coin_1",
+        "volume": 1.0,
+        "attenuation_distance": 16
+      },
+      {
+        "name": "bse:vending/coin_2",
+        "volume": 1.0,
+        "attenuation_distance": 16
+      },
+      {
+        "name": "bse:vending/coin_3",
+        "volume": 1.0,
+        "attenuation_distance": 16
+      },
+      {
+        "name": "bse:vending/coin_4",
+        "volume": 1.0,
+        "attenuation_distance": 16
+      }
+    ]
+  },
+  "vending.motor": {
+    "sounds": [
+      {
+        "name": "bse:vending/motor_1",
+        "volume": 1.0,
+        "attenuation_distance": 16
+      }
+    ]
+  },
+  "vending.dispense": {
+    "sounds": [
+      {
+        "name": "bse:vending/dispense_1",
+        "volume": 1.0,
+        "attenuation_distance": 16
+      },
+      {
+        "name": "bse:vending/dispense_2",
+        "volume": 1.0,
+        "attenuation_distance": 16
+      },
+      {
+        "name": "bse:vending/dispense_3",
+        "volume": 1.0,
+        "attenuation_distance": 16
+      }
+    ]
+  },
+  "shadow.push": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "bse:scare/shadow_push",
+        "preload": true,
+        "stream": false
+      }
+    ]
+  },
+  "camera.shadow": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "bse:scare/camera_shadow",
+        "preload": true,
+        "stream": false
+      }
+    ]
   }
 }

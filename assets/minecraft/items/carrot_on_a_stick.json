@@ -1,0 +1,34 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/carrot_on_a_stick"
+    },
+    "entries": [
+      {
+        "threshold": 21011,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/tools/syringe/default/syringe"
+        }
+      },
+      {
+        "threshold": 21012,
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodstone:item/tools/syringe/default/syringe_empty"
+        }
+      },
+      {
+        "threshold": 21013,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/carrot_on_a_stick"
+        }
+      }
+    ]
+  }
+}

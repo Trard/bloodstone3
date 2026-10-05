@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/invasion/menu/previous"
+  },
+  "display": {
+    "gui": {
+      "scale": [
+        2,
+        2,
+        2
+      ],
+      "translation": [
+        2,
+        0,
+        0
+      ]
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "parent": "minecraft:item/scp/keycard_base",
+  "textures": { "card": "minecraft:item/scp/keycard_1" }
+}

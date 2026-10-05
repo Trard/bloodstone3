@@ -1,0 +1,11 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/crafts/recipe_legendary.png",
+            "ascent": 51,
+            "height": 256,
+            "chars": ["\ue545"]
+        }
+    ]
+}

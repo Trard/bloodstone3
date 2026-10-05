@@ -2,6 +2,10 @@
     "providers": [
         {
             "type": "reference",
+            "id": "minecraft:invasion_factions"
+        },
+        {
+            "type": "reference",
             "id": "duels:hub_title"
         },
         {
@@ -31,6 +35,10 @@
         {
             "type": "reference",
             "id": "suffixes"
+        },
+        {
+            "type": "reference",
+            "id": "bloodlevels:icons_default"
         }
     ]
 }

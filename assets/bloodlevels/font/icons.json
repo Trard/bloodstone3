@@ -1,0 +1,149 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        "\ue535": -1
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/gray.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue520"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/light_gray.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue521"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/yellow.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue522"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/orange.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue523"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/lime.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue524"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/pink.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue525"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/light_blue.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue526"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/blue.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue527"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/purple.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue528"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/red.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue529"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/level_xp_empty.png",
+      "ascent": 5,
+      "height": 5,
+      "chars": [
+        "\ue530"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/level_xp_full.png",
+      "ascent": 5,
+      "height": 5,
+      "chars": [
+        "\ue531"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/level_xp_half.png",
+      "ascent": 5,
+      "height": 5,
+      "chars": [
+        "\ue532"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/level_xp_full_premium.png",
+      "ascent": 5,
+      "height": 5,
+      "chars": [
+        "\ue533"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/level_xp_half_premium.png",
+      "ascent": 5,
+      "height": 5,
+      "chars": [
+        "\ue534"
+      ]
+    },
+    {
+      "type": "reference",
+      "id": "bloodlevels:icons_default"
+    }
+  ]
+}

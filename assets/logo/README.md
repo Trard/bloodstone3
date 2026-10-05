@@ -7,6 +7,15 @@ Bloodstone's small alias uses `U+E45D` (`-2`) to compensate for its fractional 1
 
 ## Bloodstone
 
+The Invasion HUD joins the four HD `bloodstone_big` cells and downsamples with Lanczos
+into `textures/invasion_logo.png` (255×39, transparent). `scripts/build_invasion_branding.py`
+keeps the original proportions with a transparent bottom margin and no address. The 1.21.11 shader applies
+bilinear filtering only to this image; font glyphs and faction flags retain nearest sampling.
+`minecraft:invasion_branding` maps U+E700 (``) to an 85×13 GUI-pixel image;
+its reserved ascent anchors it to the horizontal center at y=4, above the timer at y=22.
+The glyph advance remains 86 pixels, compatible with BloodInvasion 1.9.39 and newer.
+It is not in the default font.
+
 | Variant | Source | Output cells | Cell size | Font height | Translation key |
 | --- | --- | --- | --- | --- | --- |
 | Large | `new/mofdde2l.png` | `textures/bloodstone_big/logo_1.png`–`logo_4.png` | 255×153 | 24 | `bloodstone.logo.bloodstone.large` |

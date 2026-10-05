@@ -1,0 +1,235 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        "\ue075": -1
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/gray.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue060"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/light_gray.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue061"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/yellow.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue062"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/orange.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue063"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/lime.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue064"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/pink.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue065"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/light_blue.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue066"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/blue.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue067"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/purple.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue068"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/red.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue069"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/level_xp_empty.png",
+      "ascent": 5,
+      "height": 5,
+      "chars": [
+        "\ue070"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/level_xp_full.png",
+      "ascent": 5,
+      "height": 5,
+      "chars": [
+        "\ue071"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/level_xp_half.png",
+      "ascent": 5,
+      "height": 5,
+      "chars": [
+        "\ue072"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/level_xp_full_premium.png",
+      "ascent": 5,
+      "height": 5,
+      "chars": [
+        "\ue073"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/level_xp_half_premium.png",
+      "ascent": 5,
+      "height": 5,
+      "chars": [
+        "\ue074"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/gold_gray.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue080"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/gold_light_gray.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue081"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/gold_yellow.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue082"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/gold_orange.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue083"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/gold_lime.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue084"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/gold_pink.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue085"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/gold_light_blue.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue086"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/gold_blue.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue087"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/gold_purple.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue088"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "bloodlevels:font/gold_red.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ue089"
+      ]
+    }
+  ]
+}

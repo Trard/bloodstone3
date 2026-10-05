@@ -1,0 +1,52 @@
+{
+  "display": {
+    "gui": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        18,
+        -35,
+        0
+      ],
+      "scale": [
+        4,
+        4,
+        1
+      ]
+    }
+  },
+  "textures": {
+    "particle": "#layer0",
+    "layer0": "bloodlevels:item/levels_014_mask"
+  },
+  "elements": [
+    {
+      "to": [
+        30,
+        9.25,
+        8
+      ],
+      "faces": {
+        "south": {
+          "texture": "#layer0",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      },
+      "from": [
+        -14,
+        6.75,
+        8
+      ],
+      "shade": false
+    }
+  ],
+  "gui_light": "front"
+}

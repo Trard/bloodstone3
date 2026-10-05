@@ -1,0 +1,7 @@
+{
+  "credit": "BloodStoneEntertaiment — original BSE pixel coin",
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "bse:item/event_coin"
+  }
+}

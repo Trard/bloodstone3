@@ -44,6 +44,22 @@
 "custom.pig": { "category": "master", "sounds": [ "blooddonate:custom/pig" ] },
 "custom.wave": { "category": "master", "sounds": [ "blooddonate:custom/wave" ] },
 "custom.butterfly": { "category": "master", "sounds": [ "blooddonate:custom/butterfly" ] },
+"custom.candy": { "category": "master", "sounds": [ "blooddonate:custom/candy" ] },
 "custom.sun": { "category": "master", "sounds": [ "blooddonate:custom/sun" ] },
-"custom.phoenix": { "category": "master", "sounds": [ "blooddonate:custom/phoenix" ] }
+"custom.phoenix": { "category": "master", "sounds": [ "blooddonate:custom/phoenix" ] },
+"custom.copper_chains": { "category": "master", "sounds": [ "blooddonate:custom/copper_chains" ] },
+"custom.copper_gears": { "category": "master", "sounds": [ "blooddonate:custom/copper_gears" ] },
+"custom.airship": { "category": "master", "sounds": [ "blooddonate:custom/airship" ] },
+"custom.flat_ground_trap": { "category": "master", "sounds": [ "blooddonate:custom/flat_ground_trap" ] },
+"custom.copper_golem": { "category": "master", "sounds": [ "blooddonate:custom/copper_golem" ] },
+"custom.trapdoor": { "category": "master", "sounds": [ "blooddonate:custom/trapdoor" ] },
+"custom.orbital_strike": { "category": "master", "sounds": [ "blooddonate:custom/orbital_strike" ] },
+"custom.piston": { "category": "master", "sounds": [ "blooddonate:custom/piston" ] },
+"custom.red_bomb": { "category": "master", "sounds": [ "blooddonate:custom/red_bomb" ] },
+"custom.robot_terminator": { "category": "master", "sounds": [ "blooddonate:custom/robot_terminator" ] },
+"custom.tiny_copper_golem": { "category": "master", "sounds": [ "blooddonate:custom/tiny_copper_golem" ] },
+"custom.train": { "category": "master", "sounds": [ "blooddonate:custom/train" ] },
+"custom.tentacle_grasp": { "category": "master", "sounds": [ "blooddonate:custom/tentacle_grasp" ] },
+"custom.plantfood_feasting": { "category": "master", "sounds": [ "blooddonate:custom/plantfood_feasting" ] },
+"custom.grim_reaper": { "category": "master", "sounds": [ "blooddonate:custom/grim_reaper" ] }
 }

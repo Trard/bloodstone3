@@ -302,7 +302,7 @@
       "ascent": 7,
       "height": 7,
       "chars": [
-        "\ue034"
+        "\ue0d0"
       ]
     },
     {
@@ -311,7 +311,7 @@
       "ascent": 7,
       "height": 7,
       "chars": [
-        "\ue035"
+        "\ue0d1"
       ]
     },
     {
@@ -320,7 +320,7 @@
       "ascent": 7,
       "height": 7,
       "chars": [
-        "\ue036"
+        "\ue0d2"
       ]
     },
     {
@@ -329,7 +329,7 @@
       "ascent": 7,
       "height": 7,
       "chars": [
-        "\ue037"
+        "\ue0d3"
       ]
     },
     {
@@ -338,7 +338,7 @@
       "ascent": 7,
       "height": 7,
       "chars": [
-        "\ue038"
+        "\ue0d4"
       ]
     },
     {
@@ -564,6 +564,93 @@
       "height": 7,
       "chars": [
         "\ue051"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/aurad_large_gear_1.png",
+      "ascent": 13,
+      "height": 16,
+      "chars": [
+        "\ue0e8"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/aurad_large_gear_2.png",
+      "ascent": 13,
+      "height": 16,
+      "chars": [
+        "\ue0e9"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/aurad_small_gear_1.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [
+        "\ue0d5",
+        "\ue0d6",
+        "\ue0d7"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/aurad_small_gear_2.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [
+        "\ue0d8",
+        "\ue0d9",
+        "\ue0da"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/aurad_small_gear_3.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [
+        "\ue0db",
+        "\ue0dc",
+        "\ue0dd"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/ru/head_war_correspondent.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue0de"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/ru/junior_technical_admin.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue0df"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/en/head_war_correspondent.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue0e0"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/en/junior_technical_admin.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue0e1"
       ]
     }
   ]

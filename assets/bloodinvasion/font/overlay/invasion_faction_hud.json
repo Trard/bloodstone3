@@ -1,0 +1,13 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "minecraft:invasion/factions/hud.png",
+      "height": 44,
+      "ascent": -16377,
+      "chars": [
+        ""
+      ]
+    }
+  ]
+}
