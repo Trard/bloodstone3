@@ -34,6 +34,13 @@
         },
         "entries": [
             {
+                "threshold": 3333,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "blooddonate:item/crates/mechanism/default/mechanism"
+                }
+            },
+            {
                 "threshold": 3334,
                 "model": {
                     "type": "model",
