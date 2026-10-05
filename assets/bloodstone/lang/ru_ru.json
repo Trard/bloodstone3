@@ -256,6 +256,7 @@
   "bloodstone.blooddonate.minigamesCratesModule": "Модуль Кейсы для мини-игр",
   "bloodstone.blooddonate.magicDustModule": "Модуль Магической Пыли",
   "bloodstone.blooddonate.migrationModule": "Модуль Миграций",
+  "bloodstone.blooddonate.configMigrationModule": "Модуль обновления конфигурации",
   "bloodstone.blooddonate.cosmeticMenuModule": "Модуль Меню Косметики",
   "bloodstone.blooddonate.vipQueueModule": "Модуль Очереди для Вип",
   "bloodstone.blooddonate.dressRoomModule": "Модуль Примерочной",

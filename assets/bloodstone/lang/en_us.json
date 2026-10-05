@@ -510,6 +510,7 @@
   "bloodstone.blooddonate.minigamesCratesModule": "Minigames Crates Module",
   "bloodstone.blooddonate.magicDustModule": "Magic Dust Module",
   "bloodstone.blooddonate.migrationModule": "Migration Module",
+  "bloodstone.blooddonate.configMigrationModule": "Config Migration Module",
   "bloodstone.blooddonate.cosmeticMenuModule": "Cosmetic Menu Module",
   "bloodstone.blooddonate.vipQueueModule": "Vip Queue Module",
   "bloodstone.blooddonate.dressRoomModule": "Dress Room Module",
