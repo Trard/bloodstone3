@@ -1,0 +1,15 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "minecraft:item/ender_pearl"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "minecraft:item/practice/menu/enabled_badge"
+      }
+    ]
+  }
+}

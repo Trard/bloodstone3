@@ -1,0 +1,33 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:select",
+        "cases": [
+          {
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/spyglass"
+            },
+            "when": [
+              "gui",
+              "ground",
+              "fixed",
+              "on_shelf"
+            ]
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/spyglass_in_hand"
+        },
+        "property": "minecraft:display_context"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "minecraft:item/practice/menu/disabled_badge"
+      }
+    ]
+  }
+}

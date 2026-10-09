@@ -1,0 +1,21 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "minecraft:item/splash_potion",
+        "tints": [
+          {
+            "type": "minecraft:potion",
+            "default": -13083194
+          }
+        ]
+      },
+      {
+        "type": "minecraft:model",
+        "model": "minecraft:item/practice/menu/disabled_badge"
+      }
+    ]
+  }
+}
