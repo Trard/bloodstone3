@@ -47,6 +47,10 @@
         {
             "type": "reference",
             "id": "minecraft:practice_menus_v3"
+        },
+        {
+            "type": "reference",
+            "id": "minecraft:practice_menus_v4"
         }
     ]
 }

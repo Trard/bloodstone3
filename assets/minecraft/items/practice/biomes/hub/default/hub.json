@@ -1,0 +1,7 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "minecraft:item/practice/biomes/hub/default/hub"
+  },
+  "oversized_in_gui": true
+}
