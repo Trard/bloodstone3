@@ -2,5 +2,20 @@
   "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "minecraft:item/invasion/menu/kinder"
+  },
+  "gui_light": "front",
+  "display": {
+    "gui": {
+      "scale": [
+        1.25,
+        1.25,
+        1.25
+      ],
+      "translation": [
+        0,
+        2,
+        0
+      ]
+    }
   }
 }
