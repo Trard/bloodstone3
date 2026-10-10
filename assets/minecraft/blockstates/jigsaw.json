@@ -1,0 +1,45 @@
+{
+  "variants": {
+    "orientation=down_east": {
+      "model": "bloodstone:block/metro_train/section_0"
+    },
+    "orientation=down_north": {
+      "model": "bloodstone:block/metro_train/section_1"
+    },
+    "orientation=down_south": {
+      "model": "bloodstone:block/metro_train/section_2"
+    },
+    "orientation=down_west": {
+      "model": "bloodstone:block/metro_train/section_3"
+    },
+    "orientation=east_up": {
+      "model": "bloodstone:block/metro_train/section_4"
+    },
+    "orientation=north_up": {
+      "model": "bloodstone:block/metro_train/section_5"
+    },
+    "orientation=south_up": {
+      "model": "bloodstone:block/metro_train/section_6"
+    },
+    "orientation=up_east": {
+      "model": "minecraft:block/jigsaw",
+      "x": 270,
+      "y": 270
+    },
+    "orientation=up_north": {
+      "model": "bloodstone:block/metro_train/doors_open"
+    },
+    "orientation=up_south": {
+      "model": "bloodstone:block/metro_train/doors_closed"
+    },
+    "orientation=up_west": {
+      "model": "minecraft:block/jigsaw",
+      "x": 270,
+      "y": 90
+    },
+    "orientation=west_up": {
+      "model": "minecraft:block/jigsaw",
+      "y": 270
+    }
+  }
+}
