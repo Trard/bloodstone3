@@ -11,7 +11,7 @@
     },
     {
       "type": "bitmap",
-      "file": "minecraft:invasion/factions/kinder.png",
+      "file": "minecraft:invasion/factions/kinder_chat.png",
       "height": 10,
       "ascent": 9,
       "chars": [
