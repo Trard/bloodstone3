@@ -194,6 +194,42 @@
       "chars": [
         "\ue615"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:gui/kits.png",
+      "ascent": 14,
+      "height": 256,
+      "chars": [
+        "\ue616"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:gui/my_kits.png",
+      "ascent": 14,
+      "height": 256,
+      "chars": [
+        "\ue617"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:gui/normal.png",
+      "ascent": 14,
+      "height": 256,
+      "chars": [
+        "\ue618"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:gui/ranked.png",
+      "ascent": 14,
+      "height": 256,
+      "chars": [
+        "\ue619"
+      ]
     }
   ]
 }
