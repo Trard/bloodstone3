@@ -38,6 +38,12 @@
   "overrides": [
     {
       "predicate": {
+        "custom_model_data": 3333
+      },
+      "model": "blooddonate:item/crates/mechanism/default/mechanism"
+    },
+    {
+      "predicate": {
         "custom_model_data": 3334
       },
       "model": "item/picnic_basket"

@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:special",
+        "base": "minecraft:item/template_skull",
+        "model": {
+          "type": "minecraft:head",
+          "kind": "skeleton"
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "minecraft:item/practice/menu/enabled_badge"
+      }
+    ]
+  }
+}

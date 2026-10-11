@@ -1,0 +1,7 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "minecraft:item/practice/biomes/snowy_fields/default/snowy_fields"
+  },
+  "oversized_in_gui": true
+}

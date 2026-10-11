@@ -1,0 +1,153 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice/rows_1.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice/rows_2.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice/rows_3.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice/rows_4.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice/rows_5.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice/rows_6.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice/biomes.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice/arenas.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice/queue.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice/settings.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice/kit_settings.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice/cooldowns.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice/presets.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice/layout.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice/title_font.png",
+      "height": 8,
+      "ascent": 7,
+      "chars": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+      ]
+    },
+    {
+      "type": "space",
+      "advances": {
+        "": -8,
+        "": -169,
+        "": 3,
+        "": 1
+      }
+    }
+  ]
+}

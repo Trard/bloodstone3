@@ -1,0 +1,7 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "minecraft:item/practice/biomes/desert/default/desert"
+  },
+  "oversized_in_gui": true
+}

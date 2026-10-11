@@ -1,0 +1,6 @@
+{
+  "providers": [
+    { "type": "bitmap", "file": "bloodlevels:font/reward_notice_free.png", "ascent": 8, "height": 9, "chars": ["\uE540"] },
+    { "type": "bitmap", "file": "bloodlevels:font/reward_notice_premium.png", "ascent": 8, "height": 10, "chars": ["\uE541"] }
+  ]
+}

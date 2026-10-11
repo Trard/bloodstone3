@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "bloodstone:block/train_collision"
+    },
+    "type=double": {
+      "model": "minecraft:block/oak_planks"
+    },
+    "type=top": {
+      "model": "bloodstone:block/train_collision"
+    }
+  }
+}

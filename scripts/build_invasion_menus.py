@@ -9,7 +9,7 @@ from PIL import Image, ImageDraw
 ROOT = Path(__file__).resolve().parents[1]
 TEXTURES = ROOT / 'assets/minecraft/textures/gui/invasion'
 FONTS = ROOT / 'assets/minecraft/font/invasion_menu'
-LINE_Y = [9, 24, 10, 40, 54, 58, 63, 76, 90, 99]
+LINE_Y = [9, 24, 10, 40, 54, 58, 63, 76, 90, 99, 112]
 ROSTER = [r*9+c for r in range(1,5) for c in range(1,8)]
 SHOP = [10, 12, 14, 16, 19, 21, 23, 25, 28, 31, 34]
 CARDS = {1: [13], 2: [11, 15], 3: [10, 13, 16],
@@ -27,13 +27,13 @@ def write_json(path, data):
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
 
-def bevel(draw, box, fill='#EEEEEE'):
+def bevel(draw, box, fill='#D6D6D6'):
     x, y, r, b = box
-    draw.rectangle((x+1, y, r-1, b), fill='#222222')
-    draw.rectangle((x, y+1, r, b-1), fill='#222222')
+    draw.rectangle((x+1, y, r-1, b), fill='#202020')
+    draw.rectangle((x, y+1, r, b-1), fill='#202020')
     draw.rectangle((x+1, y+1, r-1, b-1), fill=fill)
     draw.line((x+2, b-2, x+2, y+2, r-2, y+2), fill='#FFFFFF')
-    draw.line((r-2, y+3, r-2, b-2, x+3, b-2), fill='#888888')
+    draw.line((r-2, y+3, r-2, b-2, x+3, b-2), fill='#858585')
 
 
 def stretch_frame(tile, width, height):
@@ -53,7 +53,7 @@ def build_panel(name, index):
     practice = Image.open(PRACTICE).convert('RGBA')
     source = Image.open(PLAYERS).convert('RGBA')
     ImageDraw.Draw(source).rectangle((4,4,171,129),fill='#C6C6C6')
-    rows = (6 if name in ('roster','shop') else
+    rows = (6 if name in ('roster','shop','factions') else
             3 if name in ('cards_1','cards_2','cards_3','spawns_1') else 5)
     cut = (6-rows)*18
     height = 114+rows*18
@@ -66,21 +66,25 @@ def build_panel(name, index):
     heading_width = 112 if name.startswith('spawns_') else 96 if name in ('roster','shop') else 88
     panel.paste(stretch_frame(heading,heading_width,15),((176-heading_width)//2,6))
     a.line(((176-heading_width)//2+5,21,(176+heading_width)//2-6,21),fill='white')
-    button = practice.crop((13,27,84,65))
-    ImageDraw.Draw(button).rectangle((2,2,68,35),fill='#C6C6C6')
     cell = practice.crop((7,83,25,101))
     boxes=[]
     if name in ('roster','shop'):
-        for slot in ROSTER if name=='roster' else ROSTER+[47,49,51]:
+        # Roster heads use ordinary slots; each shop offer gets its own button.
+        for slot in ROSTER if name=='roster' else []:
             panel.paste(cell,(7+slot%9*18,18+slot//9*18))
+        if name == 'shop':
+            for slot in SHOP:
+                x,y=7+slot%9*18,18+slot//9*18
+                panel.paste(cell,(x,y))
+            panel.paste(cell,(7+49%9*18,18+49//9*18))
     elif name == 'factions':
         for row in range(3):
-            boxes.append((7,35+row*18,168,52+row*18))
+            boxes.append((7,32+row*36,168,55+row*36))
     elif name.startswith('spawns_'):
         for choice,slot in enumerate(SPAWNS[int(name[-1])]):
             cx=16+slot%9*18
-            top=27 if choice==0 else 65
-            half=26 if choice==0 else 13
+            top=27 if choice==0 else 68
+            half=26 if choice==0 else (16 if int(name[-1]) < 6 else 13)
             boxes.append((cx-half,top,cx+half,top+37))
     else:
         count=3 if name=='factions' else int(name[-1])
@@ -90,7 +94,7 @@ def build_panel(name, index):
             half=25 if count>=3 else 32
             boxes.append((cx-half,top,cx+half,top+(44 if count==1 else 37)))
     for x,y,r,b in boxes:
-        panel.paste(stretch_frame(button,r-x+1,b-y+1),(x,y+1))
+        bevel(ImageDraw.Draw(panel),(x,y,r,b))
     a.point((175,height-1),fill=(255,255,255,26))
     TEXTURES.mkdir(parents=True,exist_ok=True)
     panel.save(TEXTURES/f'{name}.png',optimize=True)
@@ -103,31 +107,35 @@ def build_panel(name, index):
 def build_icons():
     folder = ROOT / 'assets/minecraft/textures/item/invasion/menu'
     folder.mkdir(parents=True, exist_ok=True)
-    for name in ['close', 'previous', 'next', 'back', 'confirm', 'clear', 'locked', 'empty']:
+    for name in ['close', 'previous', 'next', 'back', 'confirm', 'disabled', 'clear', 'locked', 'empty']:
         image = Image.new('RGBA', (16, 16))
         d = ImageDraw.Draw(image)
-        if name != 'empty': bevel(d, (0, 0, 15, 15), '#EEEEEE')
+        if name != 'empty': bevel(d, (0, 0, 15, 15))
         if name in ['close', 'clear']:
-            d.line((4, 4, 11, 11), fill='#323C39', width=4)
-            d.line((11, 4, 4, 11), fill='#323C39', width=4)
-            d.line((4, 3, 11, 10), fill='#DF786B', width=2)
-            d.line((11, 3, 4, 10), fill='#DF786B', width=2)
-        elif name == 'confirm':
-            d.line((3, 8, 6, 11, 13, 4), fill='#253D30', width=4)
-            d.line((3, 7, 6, 10, 13, 3), fill='#75BB70', width=2)
+            for x,y in [(4,4),(5,5),(6,6),(7,7),(8,8),(9,9),(10,10),
+                        (10,4),(9,5),(8,6),(6,8),(5,9),(4,10)]:
+                d.rectangle((x,y,x+1,y+1),fill='#AB403D')
+        elif name in ('confirm','disabled'):
+            color = '#397842' if name=='confirm' else '#969696'
+            for x,y in [(3,7),(4,8),(5,9),(6,10),(7,9),(8,8),(9,7),(10,6),(11,5)]:
+                d.rectangle((x,y,x+1,y+1),fill=color)
         elif name == 'locked':
             d.rectangle((5, 3, 10, 8), outline='#52645C', width=2)
             d.rectangle((3, 7, 12, 13), fill='#52645C')
             d.rectangle((4, 8, 11, 12), fill='#A1AEA5')
             d.line((8, 9, 8, 11), fill='#52645C')
         elif name != 'empty':
-            d.polygon([(2, 8), (8, 2), (8, 5), (14, 5), (14, 10), (8, 10), (8, 13)], fill='#35443F')
-            d.polygon([(3, 7), (7, 3), (7, 6), (13, 6), (13, 8), (7, 8), (7, 11)], fill='#F1E2A7')
+            d.polygon([(3,7),(7,3),(7,6),(12,6),(12,9),(7,9),(7,12)], fill='#484848')
             if name == 'next': image = image.transpose(Image.Transpose.FLIP_LEFT_RIGHT)
         if name in ('previous', 'next'):
-            arrow = Image.open(ROOT / f'assets/bloodstone/textures/ui/gui/component/page_{name}.png').convert('RGBA')
             image = Image.new('RGBA', (32,32))
-            image.paste(arrow, ((32-arrow.width)//2,(32-arrow.height)//2))
+            d=ImageDraw.Draw(image)
+            bevel(d,(2,9,29,22))
+            d.polygon([(11,15),(16,11),(16,14),(21,14),(21,17),(16,17),(16,20)],fill='#484848')
+            if name=='next':
+                # Mirror only the arrow: lighting stays on the upper left.
+                glyph=image.crop((10,11,22,21)).transpose(Image.Transpose.FLIP_LEFT_RIGHT)
+                image.paste(glyph,(10,11))
         path = folder / f'{name}.png'
         image.save(path, optimize=True)
         subprocess.run([sys.executable, str(ROOT / 'scripts/create_icon_from_png.py'), str(path),
@@ -139,6 +147,10 @@ def build_icons():
             data = json.loads(model.read_text('utf-8'))
             data['display'] = {'gui': {'scale': [2,2,2], 'translation': [2 if name=='previous' else -2,0,0]}}
             write_json(model, data)
+            item = ROOT / f'assets/minecraft/items/invasion/menu/{name}.json'
+            definition = json.loads(item.read_text('utf-8'))
+            definition['oversized_in_gui'] = True
+            write_json(item, definition)
 
 
 def main():

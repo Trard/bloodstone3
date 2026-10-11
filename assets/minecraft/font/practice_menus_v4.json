@@ -1,0 +1,294 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice_v4/rows_1_ru.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice_v4/rows_1_en.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice_v4/rows_2_ru.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice_v4/rows_2_en.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice_v4/rows_3_ru.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice_v4/rows_3_en.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice_v4/rows_4_ru.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice_v4/rows_4_en.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice_v4/rows_5_ru.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice_v4/rows_5_en.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice_v4/rows_6_ru.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice_v4/rows_6_en.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice_v4/biomes_ru.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice_v4/biomes_en.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice_v4/arenas_ru.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice_v4/arenas_en.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice_v4/queue_ru.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice_v4/queue_en.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice_v4/settings_ru.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice_v4/settings_en.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice_v4/kit_settings_ru.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice_v4/kit_settings_en.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice_v4/cooldowns_ru.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice_v4/cooldowns_en.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice_v4/presets_ru.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice_v4/presets_en.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice_v4/layout_ru.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice_v4/layout_en.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice_v4/ppk_home_ru.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice_v4/ppk_home_en.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/practice_v4/title_font.png",
+      "height": 12,
+      "ascent": 11,
+      "chars": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+      ]
+    },
+    {
+      "type": "space",
+      "advances": {
+        "": 4
+      }
+    }
+  ]
+}
