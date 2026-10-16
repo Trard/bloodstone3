@@ -533,6 +533,34 @@
                 }
             },
             {
+                "threshold": 1073,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/tukisg"
+                }
+            },
+            {
+                "threshold": 1074,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/intrueme"
+                }
+            },
+            {
+                "threshold": 1075,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/barsikoo7"
+                }
+            },
+            {
+                "threshold": 1076,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/totems/nomielua"
+                }
+            },
+            {
                 "threshold": 5001,
                 "model": {
                     "type": "model",
