@@ -9,12 +9,13 @@ from PIL import Image, ImageDraw
 ROOT = Path(__file__).resolve().parents[1]
 TEXTURES = ROOT / 'assets/minecraft/textures/gui/invasion'
 FONTS = ROOT / 'assets/minecraft/font/invasion_menu'
-LINE_Y = [9, 24, 10, 40, 54, 58, 63, 76, 90, 99, 112]
+LINE_Y = [9, 24, 10, 36, 40, 52, 54, 58, 61, 63, 70, 72, 79, 76, 88, 90, 97, 99, 108, 117, 112]
 ROSTER = [r*9+c for r in range(1,5) for c in range(1,8)]
 SHOP = [10, 12, 14, 16, 19, 21, 23, 25, 28, 31, 34]
 CARDS = {1: [13], 2: [11, 15], 3: [10, 13, 16],
          4: [11, 15, 29, 33], 5: [10, 13, 16, 29, 33],
          6: [10, 13, 16, 28, 31, 34]}
+CARDS[0] = CARDS[2]
 SPAWNS = {1: [13], 2: [13, 31], 3: [13, 29, 33], 4: [13, 29, 31, 33],
           5: [13, 28, 30, 32, 34], 6: [13, 27, 29, 31, 33, 35]}
 PRACTICE = ROOT / 'assets/bloodstone/textures/ui/gui/practice/practice_menu_ru.png'
@@ -53,8 +54,9 @@ def build_panel(name, index):
     practice = Image.open(PRACTICE).convert('RGBA')
     source = Image.open(PLAYERS).convert('RGBA')
     ImageDraw.Draw(source).rectangle((4,4,171,129),fill='#C6C6C6')
-    rows = (6 if name in ('roster','shop','factions') else
-            3 if name in ('cards_1','cards_2','cards_3','spawns_1') else 5)
+    rows = (3 if name in ('spawns_1', 'cards_0') else
+            4 if name in ('cards_1','cards_2','cards_3') else
+            5 if name in ('cards_4','cards_5','cards_6') else 6)
     cut = (6-rows)*18
     height = 114+rows*18
     panel = Image.new('RGBA',(256,256))
@@ -79,20 +81,20 @@ def build_panel(name, index):
             panel.paste(cell,(7+49%9*18,18+49//9*18))
     elif name == 'factions':
         for row in range(3):
-            boxes.append((7,32+row*36,168,55+row*36))
+            boxes.append((7,26+row*36,168,54+row*36))
     elif name.startswith('spawns_'):
         for choice,slot in enumerate(SPAWNS[int(name[-1])]):
             cx=16+slot%9*18
-            top=27 if choice==0 else 68
+            top=27 if choice==0 else 66
             half=26 if choice==0 else (16 if int(name[-1]) < 6 else 13)
-            boxes.append((cx-half,top,cx+half,top+37))
+            boxes.append((cx-half,top,cx+half,top+(37 if choice==0 else 54)))
     else:
         count=3 if name=='factions' else int(name[-1])
         for slot in CARDS[count]:
             cx=16+slot%9*18
             top=27+(slot//9-1)*18
             half=25 if count>=3 else 32
-            boxes.append((cx-half,top,cx+half,top+(44 if count==1 else 37)))
+            boxes.append((cx-half,top,cx+half,top+(63 if 1<=count<=3 else 37)))
     for x,y,r,b in boxes:
         bevel(ImageDraw.Draw(panel),(x,y,r,b))
     a.point((175,height-1),fill=(255,255,255,26))
@@ -160,7 +162,7 @@ def main():
         if path.name not in wanted:
             path.unlink()
     providers = []
-    for i, name in enumerate([f'cards_{n}' for n in range(1, 7)] + ['roster', 'shop', 'factions'] + [f'spawns_{n}' for n in range(1,7)]):
+    for i, name in enumerate([f'cards_{n}' for n in range(1, 7)] + ['roster', 'shop', 'factions'] + [f'spawns_{n}' for n in range(1,7)] + ['cards_0']):
         providers.extend(build_panel(name, i))
     assert len({p['chars'][0] for p in providers}) == len(providers)
     write_json(FONTS / 'panels.json', {'providers': providers})
@@ -195,7 +197,7 @@ def main():
             'model': {'type': 'minecraft:special', 'base': 'minecraft:item/invasion/menu/banner',
                       'model': {'type': 'minecraft:banner', 'color': dye}}
         })
-    print('Built 15 menu layouts and upright banners; player heads and shop items remain native.')
+    print('Built 16 menu layouts; player heads and shop items remain native.')
 
 
 if __name__ == '__main__': main()
