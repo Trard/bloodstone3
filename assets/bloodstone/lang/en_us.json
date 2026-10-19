@@ -7105,5 +7105,6 @@
   "bloodstone.duels.game.command-whitelist.no_such_subcommand": "No subcommand with that name was found.",
   "bloodstone.duels.game.command-whitelist.removed_from_whitelist": "Command %s removed from the whitelist for permission %s",
   "bloodstone.duels.game.command-whitelist.subcommand_denied": "You cannot use this subcommand.",
-  "bloodstone.duels.game.rating.changed": "Your rating: %1$s"
+  "bloodstone.duels.game.rating.changed": "Your rating: %1$s",
+  "bloodstone.duels.hub.messages.duel-service.custom-team-size-mismatch": "Your party has %s players. Format %s uses teams of %s. Choose a suitable format; to fight within your party, open private duels."
 }

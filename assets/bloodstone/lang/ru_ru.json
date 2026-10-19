@@ -6850,5 +6850,6 @@
   "bloodstone.duels.game.command-whitelist.no_such_subcommand": "Подкоманда с таким именем не найдена.",
   "bloodstone.duels.game.command-whitelist.removed_from_whitelist": "Команда %s удалена из белого списка для разрешения %s",
   "bloodstone.duels.game.command-whitelist.subcommand_denied": "Вы не можете использовать эту подкоманду.",
-  "bloodstone.duels.game.rating.changed": "Ваш рейтинг: %1$s"
+  "bloodstone.duels.game.rating.changed": "Ваш рейтинг: %1$s",
+  "bloodstone.duels.hub.messages.duel-service.custom-team-size-mismatch": "В группе %s игроков. Формат %s: размер команды — %s. Выберите подходящий формат; для боя между участниками своей группы откройте приватные дуэли."
 }
