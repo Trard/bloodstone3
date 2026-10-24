@@ -230,6 +230,15 @@
       "chars": [
         "\ue619"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:gui/rules.png",
+      "ascent": 14,
+      "height": 256,
+      "chars": [
+        "\ue61a"
+      ]
     }
   ]
 }
