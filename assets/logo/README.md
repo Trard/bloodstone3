@@ -24,3 +24,19 @@ It is not in the default font.
 The source is 1919×288. The large alias uses a proportional 1020×153 resize and four cells; the small alias uses a
 proportional 510×77 resize and two cells. Every generated cell is exactly 255 pixels wide and no dimension exceeds 255 pixels.
 The six new glyphs use `U+F827`–`U+F82C`; the English and Russian aliases are kept identical because they contain only bitmap glyphs.
+
+## Bloodstone Money SMP
+
+Source: `Bloodstone Money1 SMP.png` (1024×248, RGBA). Each version is resized as one image with Lanczos before slicing;
+transparent padding is added below the image so every 255-pixel cell has an integer width at its configured font height.
+The original artwork and transparency are retained, with proportional dimensions rounded to the nearest texture pixel.
+
+| Variant | Output cells | Resized artwork | Cell size | Font height | GUI cell width | Translation key |
+| --- | --- | --- | --- | --- | --- | --- |
+| Large | `textures/bloodstone_money_smp_big/logo_1.png`–`logo_4.png` | 1020×247 | 255×255 | 36 | 36 | `bloodstone.logo.bloodstone_money_smp.large` |
+| Small | `textures/bloodstone_money_smp_small/logo_1.png`–`logo_2.png` | 510×124 | 255×140 | 28 | 51 | `bloodstone.logo.bloodstone_money_smp.small` |
+
+Large glyphs: `U+F83B`–`U+F83E`; small glyphs: `U+F83F`–`U+F840`. Both aliases use `U+E45C` (−1) between cells to cancel
+Minecraft's extra one-pixel glyph advance. At normal, non-bold text styling, cell starts are exactly 0/36/72/108 and 0/51 GUI
+pixels respectively, with no fractional seam coordinates. Full canvas sizes are 144×36 and 102×28 GUI pixels.
+Both `assets/bloodstone/lang/en_us.json` and `ru_ru.json` contain identical aliases, available through the default font.
