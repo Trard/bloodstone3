@@ -41,5 +41,95 @@
     "sounds": [
       "bloodostrike/click"
     ]
+  },
+  "mythic.piglin_glutton_death": {
+    "sounds": [
+      "custom/piglin_glutton_death"
+    ]
+  },
+  "mythic.piglin_glutton_healing": {
+    "sounds": [
+      "custom/piglin_glutton_healing"
+    ]
+  },
+  "mythic.piglin_glutton_horizontal_attack": {
+    "sounds": [
+      "custom/piglin_glutton_horizontal_attack"
+    ]
+  },
+  "mythic.piglin_glutton_idle": {
+    "sounds": [
+      "custom/piglin_glutton_idle"
+    ]
+  },
+  "mythic.piglin_glutton_spawn": {
+    "sounds": [
+      "custom/piglin_glutton_spawn"
+    ]
+  },
+  "mythic.piglin_glutton_vertical_attack": {
+    "sounds": [
+      "custom/piglin_glutton_vertical_attack"
+    ]
+  },
+  "mythic.piglin_glutton_walk": {
+    "sounds": [
+      "custom/piglin_glutton_walk"
+    ]
+  },
+  "mythic.piglin_glutton_upchuck": {
+    "sounds": [
+      "custom/piglin_glutton_upchuck"
+    ]
+  },
+  "mythic.piglin_glutton_summoning_chant": {
+    "sounds": [
+      "custom/piglin_glutton_summoning_chant"
+    ]
+  },
+  "mythic.piglin_glutton_spin_slam": {
+    "sounds": [
+      "custom/piglin_glutton_spin_slam"
+    ]
+  },
+  "mythic.piglin_glutton_foot_stomp": {
+    "sounds": [
+      "custom/piglin_glutton_foot_stomp"
+    ]
+  },
+  "mythic.piglin_glutton_damaged_to_stunned": {
+    "sounds": [
+      "custom/piglin_glutton_damaged_to_stunned"
+    ]
+  },
+  "mythic.piglin_glutton_body_slam": {
+    "sounds": [
+      "custom/piglin_glutton_body_slam"
+    ]
+  },
+  "mythic.piglin_glutton_charging": {
+    "sounds": [
+      "custom/piglin_glutton_charging"
+    ]
+  },
+  "mythic.piglin_glutton_stunned_standing": {
+    "sounds": [
+      "custom/piglin_glutton_stunned_standing"
+    ]
+  },
+  "mythic.piglin_glutton_stunned_to_idle": {
+    "sounds": [
+      "custom/piglin_glutton_stunned_to_idle"
+    ]
+  },
+  "mythic.piglin_glutton_minion_atk1": {
+    "sounds": [
+      "custom/piglin_glutton_minion_atk1"
+    ]
+  },
+  "mythic.piglin_glutton_minion_atk2": {
+    "sounds": [
+      "custom/piglin_glutton_minion_atk2"
+    ]
   }
 }
