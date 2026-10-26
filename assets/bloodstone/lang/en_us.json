@@ -6244,5 +6244,15 @@
   "bloodstone.practice_ui.slot.6": "6",
   "bloodstone.practice_ui.slot.7": "7",
   "bloodstone.practice_ui.slot.8": "8",
-  "bloodstone.practice_ui.slot.9": "9"
+  "bloodstone.practice_ui.slot.9": "9",
+  "bloodstone.golden.zone.title": "Golden Zone",
+  "bloodstone.golden.zone.leader": "Golden Zone leader: %s",
+  "bloodstone.golden.zone.time": "Zone expires in: %s",
+  "bloodstone.golden.zone.arena": "Arena: {arena}",
+  "bloodstone.golden.zone.no_leader": "no leader yet",
+  "bloodstone.golden.zone.started": "Golden Zone has started! Find the ring in the arena.",
+  "bloodstone.golden.zone.moved": "Golden Zone has moved!",
+  "bloodstone.golden.zone.ended": "Golden Zone has ended.",
+  "bloodstone.golden.zone.pack_prompt": "Download the resource pack for the Golden Zone ring",
+  "bloodstone.golden.zone.presence_reward": "40 seconds in the Golden Zone: +{coins} coins"
 }

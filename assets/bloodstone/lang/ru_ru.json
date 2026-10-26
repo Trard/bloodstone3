@@ -5989,5 +5989,15 @@
   "bloodstone.practice_ui.slot.6": "6",
   "bloodstone.practice_ui.slot.7": "7",
   "bloodstone.practice_ui.slot.8": "8",
-  "bloodstone.practice_ui.slot.9": "9"
+  "bloodstone.practice_ui.slot.9": "9",
+  "bloodstone.golden.zone.title": "Золотая зона",
+  "bloodstone.golden.zone.leader": "Лидер золотой зоны: %s",
+  "bloodstone.golden.zone.time": "Зона истекает через: %s",
+  "bloodstone.golden.zone.arena": "Арена: {arena}",
+  "bloodstone.golden.zone.no_leader": "пока нет",
+  "bloodstone.golden.zone.started": "Золотая зона началась! Ищи круг на арене.",
+  "bloodstone.golden.zone.moved": "Золотая зона переместилась!",
+  "bloodstone.golden.zone.ended": "Золотая зона закончилась.",
+  "bloodstone.golden.zone.pack_prompt": "Скачайте ресурспак для круга золотой зоны",
+  "bloodstone.golden.zone.presence_reward": "За 40 секунд в золотой зоне: +{coins} монет"
 }
