@@ -274,7 +274,7 @@
       "type": "bitmap",
       "file": "minecraft:gui/practice_v4/title_font.png",
       "height": 12,
-      "ascent": 11,
+      "ascent": 8,
       "chars": [
         "",
         "",
