@@ -60,6 +60,10 @@
             "chars": [
                 "𝔓"
             ]
+        },
+        {
+            "type": "reference",
+            "id": "minecraft:practice_branding"
         }
     ]
 }

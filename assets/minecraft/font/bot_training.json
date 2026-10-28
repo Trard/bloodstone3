@@ -96,6 +96,10 @@
       "chars": [
         ""
       ]
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:practice_branding"
     }
   ]
 }

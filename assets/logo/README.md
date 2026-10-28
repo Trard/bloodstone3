@@ -25,6 +25,26 @@ The source is 1919×288. The large alias uses a proportional 1020×153 resize an
 proportional 510×77 resize and two cells. Every generated cell is exactly 255 pixels wide and no dimension exceeds 255 pixels.
 The six new glyphs use `U+F827`–`U+F82C`; the English and Russian aliases are kept identical because they contain only bitmap glyphs.
 
+## Practice menus
+
+`scripts/practice-logo-blockbench.js` joins the existing four HD Bloodstone cells in Blockbench,
+resizes the image to 528×80, and adds a dark three-pixel outline. Three 255×160 textures under
+`textures/practice_menus/` retain 178 pixels of artwork each; transparent padding keeps every
+glyph within the 256×256 font-atlas limit. No menu background, slot or item texture is changed.
+
+The `minecraft:practice_branding` font renders the artwork at 132×20 GUI pixels, centered over
+the 176-pixel menu. Its outlined bounds begin at x=21.25, y=-23 relative to the menu background;
+the colored artwork begins at x=22, y=-22.25. The bitmap height is 40 and ascent is 36.
+
+Image glyphs: U+E9E1 (``), U+E9E2 (``), U+E9E3 (``). Positioning glyphs:
+U+E9E4 (``) advances 13.25, U+E9E5 (``) advances -1.5, and U+E9E6 (``)
+advances -148.25. The complete prefix `` has zero total advance, leaving
+the menu and its title in their original position. Both the default font and `bot_training`
+reference this font so legacy title updates retain the artwork.
+
+PracticeRTP, PerPlayerKit and NMS-Bot builds containing this prefix are required to display
+the logo. Their versions and JAR names are unchanged.
+
 ## Bloodstone Money SMP
 
 Source: `Bloodstone Money1 SMP.png` (1024×248, RGBA). Each version is resized as one image with Lanczos before slicing;
