@@ -1,8 +1,8 @@
 {
   "textures": {
-    "0": "bloodstone:item/tools/gamble_sword/gold/gamble_sword_gold",
-    "1": "bloodstone:item/tools/gamble_sword/gold/gamble_sword_gold_anim",
-    "particle": "bloodstone:item/tools/gamble_sword/gold/gamble_sword_gold"
+    "0": "bloodstone:item/tools/gamble_sword/default/gamble_sword_gold",
+    "1": "bloodstone:item/tools/gamble_sword/default/gamble_sword_gold_anim",
+    "particle": "bloodstone:item/tools/gamble_sword/default/gamble_sword_gold"
   },
   "elements": [
     {
