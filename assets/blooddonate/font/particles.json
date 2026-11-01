@@ -14,8 +14,22 @@
 },
 {
   "type": "bitmap",
-  "file": "blooddonate:particles/silver_medal.png",
+  "file": "blooddonate:particles/pumpkin_aura.png",
   "height": 16,
   "ascent": 13,
   "chars": ["\ue00b"]
+},
+{
+  "type": "bitmap",
+  "file": "blooddonate:particles/silver_medal.png",
+  "height": 16,
+  "ascent": 13,
+  "chars": ["\ue00c"]
+},
+{
+  "type": "bitmap",
+  "file": "blooddonate:particles/skull_trail.png",
+  "height": 8,
+  "ascent": 7,
+  "chars": ["\ue00d", "\ue00e", "\ue00f", "\ue010", "\ue011", "\ue012", "\ue013", "\ue014", "\ue015", "\ue016", "\ue017"]
 }]}

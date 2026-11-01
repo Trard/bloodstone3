@@ -61,5 +61,13 @@
 "custom.train": { "category": "master", "sounds": [ "blooddonate:custom/train" ] },
 "custom.tentacle_grasp": { "category": "master", "sounds": [ "blooddonate:custom/tentacle_grasp" ] },
 "custom.plantfood_feasting": { "category": "master", "sounds": [ "blooddonate:custom/plantfood_feasting" ] },
-"custom.grim_reaper": { "category": "master", "sounds": [ "blooddonate:custom/grim_reaper" ] }
+"custom.grim_reaper": { "category": "master", "sounds": [ "blooddonate:custom/grim_reaper" ] },
+"custom.candy_rain": { "category": "master", "sounds": [ "blooddonate:custom/candy_rain" ] },
+"custom.coffin": { "category": "master", "sounds": [ "blooddonate:custom/coffin" ] },
+"custom.zombie": { "category": "master", "sounds": [ "blooddonate:custom/zombie" ] },
+"custom.friday_reaper": { "category": "master", "sounds": [ "blooddonate:custom/friday_reaper" ] },
+"custom.pumpkin": { "category": "master", "sounds": [ "blooddonate:custom/pumpkin" ] },
+"custom.spectral_fade": { "category": "master", "sounds": [ "blooddonate:custom/spectral_fade" ] },
+"custom.witch_magic": { "category": "master", "sounds": [ "blooddonate:custom/witch_magic" ] },
+"custom.blood_wither": { "category": "master", "sounds": [ "blooddonate:custom/blood_wither" ] }
 }
