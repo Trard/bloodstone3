@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/generated","gui_light":"front","textures":{"layer0":"legendforge:item/stage_warning"},"display":{"gui":{"scale":[3,3,1]}}}

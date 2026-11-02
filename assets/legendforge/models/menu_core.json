@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/generated","gui_light":"front","textures":{"layer0":"legendforge:item/menu_core"},"display":{"gui":{"scale":[1.0,1.0,1]}}}

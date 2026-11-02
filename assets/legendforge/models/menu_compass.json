@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/generated","gui_light":"front","textures":{"layer0":"bloodstone:item/ui/hub_navigator"},"display":{"gui":{"scale":[1,1,1]}}}
