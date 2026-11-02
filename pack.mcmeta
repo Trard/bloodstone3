@@ -58,6 +58,18 @@
         "formats": 75,
         "min_format": 75,
         "max_format": 75
+      },
+      {
+        "formats": [22, 45],
+        "directory": "bettermodel_legacy",
+        "min_format": 22,
+        "max_format": 45
+      },
+      {
+        "formats": [46, 99],
+        "directory": "bettermodel_modern",
+        "min_format": 46,
+        "max_format": 99
       }
     ]
   }
