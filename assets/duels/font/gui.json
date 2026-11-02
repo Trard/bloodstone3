@@ -239,6 +239,15 @@
       "chars": [
         "\ue61a"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:gui/challenge_type.png",
+      "ascent": 14,
+      "height": 256,
+      "chars": [
+        "\ue61b"
+      ]
     }
   ]
 }

@@ -145,5 +145,8 @@
   "bloodinvasion.hud.objective.hold": "Удерживайте точки",
   "bloodinvasion.hud.capture.personal": "Вы захватываете точку %s: %s%%",
   "bloodinvasion.hud.capture.neutralize": "Вы нейтрализуете точку %s: %s%%",
-  "bloodinvasion.hud.capture.enemy": "Противник захватывает точку %s: %s%%"
+  "bloodinvasion.hud.capture.enemy": "Противник захватывает точку %s: %s%%",
+  "bloodstone.duels.hub.menus.challenge-type.normal": "Обычная дуэль",
+  "bloodstone.duels.hub.menus.challenge-type.custom": "Кастомная дуэль",
+  "bloodstone.duels.hub.menus.challenge-type.info": "Выберите тип дуэли с игроком."
 }

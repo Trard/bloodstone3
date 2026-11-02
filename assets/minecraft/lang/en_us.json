@@ -145,5 +145,8 @@
   "bloodinvasion.hud.objective.hold": "Hold the points",
   "bloodinvasion.hud.capture.personal": "You are capturing point %s: %s%%",
   "bloodinvasion.hud.capture.neutralize": "You are neutralizing point %s: %s%%",
-  "bloodinvasion.hud.capture.enemy": "The enemy is capturing point %s: %s%%"
+  "bloodinvasion.hud.capture.enemy": "The enemy is capturing point %s: %s%%",
+  "bloodstone.duels.hub.menus.challenge-type.normal": "Normal duel",
+  "bloodstone.duels.hub.menus.challenge-type.custom": "Custom duel",
+  "bloodstone.duels.hub.menus.challenge-type.info": "Choose the type of duel with this player."
 }
