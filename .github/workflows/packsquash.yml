@@ -26,6 +26,29 @@ jobs:
             # which PackSquash treats as custom files unless force-included.
             ['1.21.*/**']
             force_include = true
+            ['bettermodel_legacy/**']
+            force_include = true
+            ['bettermodel_modern/**']
+            force_include = true
+      - name: Verify BetterModel overlays in archive
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from zipfile import ZipFile
+
+          with ZipFile('BloodStone.zip') as archive:
+              included = set(archive.namelist())
+          expected = {
+              path.as_posix()
+              for directory in ('bettermodel_legacy', 'bettermodel_modern')
+              for path in Path(directory).rglob('*')
+              if path.is_file()
+          }
+          missing = expected - included
+          if not expected or missing:
+              raise SystemExit(f'BetterModel overlays missing or incomplete: {sorted(missing)}')
+          print(f'Verified {len(expected)} BetterModel overlay files in BloodStone.zip')
+          PY
       - name: Create release
         uses: softprops/action-gh-release@v2
         with:
