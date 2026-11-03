@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "minecraft:item/villager_totem"
+  "model": {
+    "type": "minecraft:model",
+    "model": "minecraft:item/villager_totem"
   }
 }
