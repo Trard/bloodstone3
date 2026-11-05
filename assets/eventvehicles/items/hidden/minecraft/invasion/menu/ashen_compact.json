@@ -1,0 +1,1 @@
+{"oversized_in_gui":true,"model":{"type":"minecraft:select","property":"minecraft:display_context","cases":[{"when":["firstperson_lefthand","firstperson_righthand"],"model":{"type":"minecraft:empty"}}],"fallback":{"type":"minecraft:model","model":"minecraft:item/invasion/menu/ashen_compact"}}}

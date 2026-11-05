@@ -1,0 +1,158 @@
+{
+  "tank.engine": {
+    "sounds": [
+      {
+        "name": "eventvehicles:tank/engine",
+        "attenuation_distance": 50
+      }
+    ]
+  },
+  "tank.tracks": {
+    "sounds": [
+      {
+        "name": "eventvehicles:tank/tracks",
+        "attenuation_distance": 50
+      }
+    ]
+  },
+  "tank.turret": {
+    "sounds": [
+      {
+        "name": "eventvehicles:tank/turret",
+        "attenuation_distance": 50
+      }
+    ]
+  },
+  "tank.ignition": {
+    "sounds": [
+      {
+        "name": "eventvehicles:tank/ignition",
+        "attenuation_distance": 50
+      }
+    ]
+  },
+  "tank.cannon": {
+    "sounds": [
+      {
+        "name": "eventvehicles:tank/cannon",
+        "attenuation_distance": 50
+      }
+    ]
+  },
+  "tank.machine_gun": {
+    "sounds": [
+      {
+        "name": "eventvehicles:tank/machine_gun",
+        "attenuation_distance": 50
+      }
+    ]
+  },
+  "tank.destroy": {
+    "sounds": [
+      {
+        "name": "eventvehicles:tank/destroy",
+        "attenuation_distance": 50
+      }
+    ]
+  },
+  "tank.metal_impact": {
+    "sounds": [
+      {
+        "name": "eventvehicles:tank/metal_impact",
+        "attenuation_distance": 50
+      }
+    ]
+  },
+  "tank.reload": {
+    "sounds": [
+      {
+        "name": "eventvehicles:tank/reload",
+        "attenuation_distance": 50
+      }
+    ]
+  },
+  "tank.cannon_open": {
+    "sounds": [
+      {
+        "name": "eventvehicles:tank/cannon_open",
+        "attenuation_distance": 50
+      }
+    ]
+  },
+  "tank.cannon_load": {
+    "sounds": [
+      {
+        "name": "eventvehicles:tank/cannon_load",
+        "attenuation_distance": 50
+      }
+    ]
+  },
+  "tank.cannon_close": {
+    "sounds": [
+      {
+        "name": "eventvehicles:tank/cannon_close",
+        "attenuation_distance": 50
+      }
+    ]
+  },
+  "tank.machine_open": {
+    "sounds": [
+      {
+        "name": "eventvehicles:tank/machine_open",
+        "attenuation_distance": 50
+      }
+    ]
+  },
+  "tank.machine_belt": {
+    "sounds": [
+      {
+        "name": "eventvehicles:tank/machine_belt",
+        "attenuation_distance": 50
+      }
+    ]
+  },
+  "tank.machine_charge": {
+    "sounds": [
+      {
+        "name": "eventvehicles:tank/machine_charge",
+        "attenuation_distance": 50
+      }
+    ]
+  },
+  "train.moving": {
+    "sounds": [
+      {
+        "name": "eventvehicles:train/moving",
+        "stream": true,
+        "attenuation_distance": 48
+      }
+    ]
+  },
+  "drone.flying": {
+    "sounds": [
+      {
+        "name": "eventvehicles:drone/flying",
+        "attenuation_distance": 48
+      }
+    ]
+  },
+  "cart.rolling": {
+    "sounds": [
+      {
+        "name": "eventvehicles:cart/rolling",
+        "attenuation_distance": 16
+      }
+    ],
+    "subtitle": "subtitles.entity.minecart.riding"
+  },
+  "train.moving_continuous": {
+    "sounds": [
+      {
+        "name": "eventvehicles:train/moving_continuous",
+        "stream": false,
+        "preload": true,
+        "attenuation_distance": 48
+      }
+    ]
+  }
+}

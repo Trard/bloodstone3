@@ -20,9 +20,15 @@
       ]
     },
     "pack_format": 46,
-    "supported_formats": [46, 75],
+    "supported_formats": [
+      46,
+      97
+    ],
     "min_format": 46,
-    "max_format": 75
+    "max_format": [
+      97,
+      1
+    ]
   },
   "overlays": {
     "entries": [
@@ -60,16 +66,33 @@
         "max_format": 75
       },
       {
-        "formats": [22, 45],
+        "formats": [
+          22,
+          45
+        ],
         "directory": "bettermodel_legacy",
         "min_format": 22,
         "max_format": 45
       },
       {
-        "formats": [46, 99],
+        "formats": [
+          46,
+          99
+        ],
         "directory": "bettermodel_modern",
         "min_format": 46,
         "max_format": 99
+      },
+      {
+        "directory": "26.3",
+        "min_format": [
+          97,
+          1
+        ],
+        "max_format": [
+          97,
+          1
+        ]
       }
     ]
   }

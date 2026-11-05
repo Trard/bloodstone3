@@ -1,0 +1,1 @@
+{"textures":{"t0":"minecraft:block/blackstone"},"elements":[{"from":[0,6,-5],"to":[16,10,21],"faces":{"east":{"texture":"#t0","uv":[0,0,16,16]},"west":{"texture":"#t0","uv":[0,0,16,16]},"up":{"texture":"#t0","uv":[0,0,16,16]},"down":{"texture":"#t0","uv":[0,0,16,16]},"south":{"texture":"#t0","uv":[0,0,16,16]},"north":{"texture":"#t0","uv":[0,0,16,16]}}}]}

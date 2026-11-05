@@ -26,6 +26,8 @@ jobs:
             # which PackSquash treats as custom files unless force-included.
             ['1.21.*/**']
             force_include = true
+            ['26.3/**']
+            force_include = true
             ['bettermodel_legacy/**']
             force_include = true
             ['bettermodel_modern/**']
