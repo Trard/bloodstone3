@@ -357,6 +357,33 @@
             "chars": [
                 "\ue72d"
             ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/custom_games/owner_game.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "\uf700"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/custom_games/confirm_changes.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "\uf701"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/custom_games/confirm_cancel.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "\uf702"
+            ]
         }
     ]
 }
