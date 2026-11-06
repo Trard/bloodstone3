@@ -27,6 +27,8 @@ flat out ivec2 invasionBrandingOrigin;
 flat out int fpvMode;
 flat out float fpvNoise;
 out vec2 fpvScreen;
+out vec2 bloodScreenUV;
+flat out float bloodClosure;
 
 int fpvCorner() {
     ivec2 pixel = ivec2(floor(UV0 * vec2(textureSize(Sampler0, 0))));
@@ -74,6 +76,8 @@ void evApplyFpv() {
 }
 
 void main() {
+    bloodClosure = -1.0;
+    bloodScreenUV = vec2(0.0);
     gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
     sphericalVertexDistance = fog_spherical_distance(Position);
     cylindricalVertexDistance = fog_cylindrical_distance(Position);
@@ -88,6 +92,19 @@ void main() {
     invasionBrandingOrigin = ivec2(0);
     evApplyFpv();
     if (fpvMode != 0) return;
+
+    ivec3 bloodMarker = ivec3(round(Color.rgb * 255.0));
+    if (bloodMarker.r == 1 && bloodMarker.g == 2 && bloodMarker.b >= 1 && bloodMarker.b <= 11) {
+        vec2 bloodCorners[4] = vec2[4](vec2(-1.0, 1.0), vec2(-1.0, -1.0), vec2(1.0, -1.0), vec2(1.0, 1.0));
+        vec2 bloodCorner = bloodCorners[gl_VertexID % 4];
+        gl_Position = vec4(bloodCorner, -0.999, 1.0);
+        bloodScreenUV = bloodCorner;
+        bloodClosure = float(bloodMarker.b - 1) / 10.0;
+        sphericalVertexDistance = 0.0;
+        cylindricalVertexDistance = 0.0;
+        vertexColor = vec4(1.0);
+        return;
+    }
 
     // Only the dedicated bse:cutscene_letterbox title uses this marker.
     // Orthographic projection excludes world text / text displays entirely.

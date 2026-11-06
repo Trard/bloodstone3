@@ -1,0 +1,15 @@
+# Исходные материалы
+
+Геометрия ледяного клинка и текстура `gungnir_frost.png` адаптированы из модели `frost_sword` ресурспака [Trard/bloodstone3](https://github.com/Trard/bloodstone3/tree/eeab391fafb4639d52f788e1145d43c69d284d68). Исходный путь: `assets/bloodstone/models/item/tools/frost_sword/default/frost_sword.json`; текстура находится по соответствующему пути в `textures/`. Масштаб и положение клинка изменены для древка Гунгнира.
+
+Для экспорта используется скрипт `scripts/extract_bbmodel_1214.py` из локального репозитория `bloodstone3`. Сам скрипт в этот проект не скопирован.
+
+Звуки включения и выключения светового меча — записи `on0.wav` и `off0.wav` автора joe93barlow, опубликованные под [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/): [включение](https://freesound.org/people/joe93barlow/sounds/78674/), [выключение](https://freesound.org/people/joe93barlow/sounds/78673/).
+
+WAV-файлы получены из открытой копии [Adafruit PropMaker Lightsaber](https://github.com/adafruit/Adafruit_Learning_System_Guides/tree/main/PropMaker_Lightsaber/sounds). В её `_readme_and_license.txt` указаны исходные номера Freesound, автор и CC0. `on.wav` и `off.wav` перекодированы в `activate.ogg` и `deactivate.ogg` без синтеза, изменения скорости или высоты звука. Исходники, лицензия и контрольные суммы сохранены в `.tools/audio-sources/`.
+
+Гул `hum.ogg` получен из `idle.wav` того же набора, исходная запись [idle1.wav](https://freesound.org/s/78672/) того же автора и лицензии CC0. Для повторения раз в 40 тиков оставлены первые 2 секунды с затуханием по 5 мс на краях. Дополнительно `swing.wav` и `hit.wav` из этого же набора CC0 перекодированы в `throw.ogg` и `hit.ogg`. Они используются при броске и попадании светового меча. Гунгнир использует ванильные звуки броска/попадания трезубца, обе леги — его звук возврата.
+
+Траектория с постоянным шагом, вращение и полёт модели обратно к владельцу адаптированы по `AeglosHandler`, `MjolnirHandler` и `BloodSwordListener` из локального проекта пользователя `TukisgAndMore 2 + SPECIALITEMS`. Здесь используются планировщики сущностей Paper/Folia, проверка отрезка перемещения на столкновения и сохранение брошенного предмета в данных владельца. Исходный проект не изменялся.
+
+Наведение адаптировано из `ArtemisBowHandler` того же проекта: захват цели рядом с полётом и доворот по расстоянию. Радиус увеличен, доворот пересчитан для скорости 2,2. Позы в руках скопированы из `frost_sword`.

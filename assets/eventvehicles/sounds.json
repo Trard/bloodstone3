@@ -154,5 +154,21 @@
         "attenuation_distance": 48
       }
     ]
+  },
+  "boat.engine": {
+    "sounds": [
+      {
+        "name": "eventvehicles:boat/engine",
+        "attenuation_distance": 28
+      }
+    ]
+  },
+  "boat.ferry_engine": {
+    "sounds": [
+      {
+        "name": "eventvehicles:boat/ferry_engine",
+        "attenuation_distance": 28
+      }
+    ]
   }
 }

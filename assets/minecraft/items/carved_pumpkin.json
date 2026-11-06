@@ -3623,6 +3623,20 @@
                 }
             },
             {
+                "threshold": 781,
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "bloodlegendary:item/wearable/silver_crown"
+                }
+            },
+            {
+                "threshold": 782,
+                "model": {
+                    "type": "model",
+                    "model": "item/cowboy_hat"
+                }
+            },
+            {
                 "threshold": 6000,
                 "model": {
                     "type": "model",

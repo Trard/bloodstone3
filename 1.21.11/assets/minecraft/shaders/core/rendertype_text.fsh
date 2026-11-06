@@ -21,6 +21,8 @@ flat in ivec2 invasionBrandingOrigin;
 flat in int fpvMode;
 flat in float fpvNoise;
 in vec2 fpvScreen;
+in vec2 bloodScreenUV;
+flat in float bloodClosure;
 
 out vec4 fragColor;
 
@@ -65,6 +67,13 @@ vec4 interference() {
 }
 
 void main() {
+    if (bloodClosure >= 0.0) {
+        float height = (1.0 - bloodClosure) * (1.3 - 0.25 * bloodScreenUV.x * bloodScreenUV.x);
+        float alpha = bloodClosure >= 0.999 ? 1.0 : smoothstep(height - 0.018, height + 0.018, abs(bloodScreenUV.y));
+        if (alpha < 0.001) discard;
+        fragColor = vec4(0.0, 0.0, 0.0, alpha);
+        return;
+    }
     if (fpvMode == 2) {
         fragColor = interference() * ColorModulator;
         return;
