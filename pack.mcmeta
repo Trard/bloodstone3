@@ -85,6 +85,7 @@
       },
       {
         "directory": "26.3",
+        "formats": 97,
         "min_format": [
           97,
           1

@@ -40,11 +40,16 @@ jobs:
       - name: Verify BetterModel overlays in archive
         run: |
           python3 - <<'PY'
+          import json
           from pathlib import Path
           from zipfile import ZipFile
 
           with ZipFile('BloodStone.zip') as archive:
               included = set(archive.namelist())
+              metadata = json.loads(archive.read('pack.mcmeta'))
+          for overlay in metadata['overlays']['entries']:
+              if 'formats' not in overlay:
+                  raise SystemExit(f"Overlay {overlay['directory']} is missing formats; Minecraft disables all overlays")
           expected = {
               path.as_posix()
               for directory in ('bettermodel_legacy', 'bettermodel_modern')
