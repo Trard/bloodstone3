@@ -75,6 +75,19 @@ void evApplyFpv() {
     gl_Position.xy = ((anchor + local) / size * vec2(2.0, -2.0) + vec2(-1.0, 1.0)) * gl_Position.w;
 }
 
+bool bloodEyelidMarker() {
+    ivec2 size = textureSize(Sampler0, 0);
+    ivec2 offsets[4] = ivec2[4](ivec2(0, 0), ivec2(0, 4), ivec2(4, 4), ivec2(4, 0));
+    ivec2 origin = ivec2(round(UV0 * vec2(size))) - offsets[gl_VertexID % 4];
+    if (any(lessThan(origin, ivec2(0))) || any(greaterThanEqual(origin + ivec2(3), size))) return false;
+    ivec4 a = ivec4(round(texelFetch(Sampler0, origin, 0) * 255.0));
+    ivec4 b = ivec4(round(texelFetch(Sampler0, origin + ivec2(3, 0), 0) * 255.0));
+    ivec4 c = ivec4(round(texelFetch(Sampler0, origin + ivec2(0, 3), 0) * 255.0));
+    ivec4 d = ivec4(round(texelFetch(Sampler0, origin + ivec2(3, 3), 0) * 255.0));
+    return a == ivec4(173, 41, 227, 255) && b == ivec4(19, 211, 97, 255)
+        && c == ivec4(61, 137, 239, 255) && d == ivec4(229, 83, 31, 255);
+}
+
 void main() {
     bloodClosure = -1.0;
     bloodScreenUV = vec2(0.0);
@@ -94,7 +107,7 @@ void main() {
     if (fpvMode != 0) return;
 
     ivec3 bloodMarker = ivec3(round(Color.rgb * 255.0));
-    if (bloodMarker.r == 1 && bloodMarker.g == 2 && bloodMarker.b >= 1 && bloodMarker.b <= 11) {
+    if (bloodMarker.r == 1 && bloodMarker.g == 2 && bloodMarker.b >= 1 && bloodMarker.b <= 11 && bloodEyelidMarker()) {
         vec2 bloodCorners[4] = vec2[4](vec2(-1.0, 1.0), vec2(-1.0, -1.0), vec2(1.0, -1.0), vec2(1.0, 1.0));
         vec2 bloodCorner = bloodCorners[gl_VertexID % 4];
         gl_Position = vec4(bloodCorner, -0.999, 1.0);
