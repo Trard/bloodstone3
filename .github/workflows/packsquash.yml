@@ -21,6 +21,11 @@ jobs:
           options: |
             pack_directory = '.'
             output_file_path = 'BloodStone.zip'
+            never_store_squash_times = true
+
+            ['assets/eventvehicles/textures/misc/tank_scope*.png']
+            skip_alpha_optimizations = true
+            color_quantization_target = 'none'
 
             # Overlay directories are top-level (e.g. 1.21.5/assets/...),
             # which PackSquash treats as custom files unless force-included.

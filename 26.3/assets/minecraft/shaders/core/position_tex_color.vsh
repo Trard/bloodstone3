@@ -28,7 +28,9 @@ void main() {
         && all(equal(ivec4(round(texelFetch(Sampler0, ivec2(0), 0) * 255.0)), ivec4(19, 78, 231, 0)))) {
         vec2 guiSize = round(vec2(2.0 / ProjMat[0][0], -2.0 / ProjMat[1][1]));
         vec2 shift = floor((guiSize - 15.0) * 0.5) + 7.5 - guiSize * 0.5;
-        gl_Position.xy += vec2(shift.x * ProjMat[0][0], shift.y * ProjMat[1][1]) * gl_Position.w;
+        vec2 offset = vec2(shift.x * ProjMat[0][0], shift.y * ProjMat[1][1]);
+        vec2 overscan = abs(offset) + 4.0 / vec2(textureSize(Sampler0, 0));
+        gl_Position.xy = gl_Position.xy * (1.0 + overscan) + offset * gl_Position.w;
     }
 
     texCoord0 = UV0;
