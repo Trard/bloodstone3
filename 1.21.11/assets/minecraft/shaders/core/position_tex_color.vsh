@@ -23,7 +23,7 @@ uniform sampler2D Sampler0;
 
 void main() {
     gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
-    if (textureSize(Sampler0, 0) == ivec2(1920, 1080)
+    if ((textureSize(Sampler0, 0) == ivec2(1280, 720) || textureSize(Sampler0, 0) == ivec2(1920, 1080))
         && all(equal(ivec4(round(texelFetch(Sampler0, ivec2(0), 0) * 255.0)), ivec4(19, 78, 231, 0)))) {
         vec2 guiSize = round(vec2(2.0 / ProjMat[0][0], -2.0 / ProjMat[1][1]));
         vec2 shift = floor((guiSize - 15.0) * 0.5) + 7.5 - guiSize * 0.5;
