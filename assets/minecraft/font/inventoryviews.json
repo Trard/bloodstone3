@@ -411,6 +411,24 @@
             "chars": [
                 "\ue86f"
             ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/custom_games/meetup_smp_vote.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "\uf703"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/store/other_2.png",
+            "ascent": 14,
+            "height": 256,
+            "chars": [
+                "\uf704"
+            ]
         }
     ]
 }
