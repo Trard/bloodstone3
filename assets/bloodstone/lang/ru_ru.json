@@ -7056,7 +7056,7 @@
   "bloodstone.blooddonate.store.ui.category.crates.line3": "",
   "bloodstone.blooddonate.store.ui.category.crates.line4": "Нажмите, чтобы открыть категорию",
   "bloodstone.blooddonate.store.ui.category.other.name": "Другое",
-  "bloodstone.blooddonate.store.ui.category.other.line1": "Размут и постоянный доступ на СМП.",
+  "bloodstone.blooddonate.store.ui.category.other.line1": "Размут, проходка на СМП и хост ККБ.",
   "bloodstone.blooddonate.store.ui.category.other.line2": "",
   "bloodstone.blooddonate.store.ui.category.other.line3": "Нажмите, чтобы открыть категорию",
   "bloodstone.blooddonate.store.ui.category.battlepass.name": "Боевой пропуск",
@@ -7158,5 +7158,7 @@
   "bloodstone.blooddonate.store.ui.booster.active.line3": "Новый бустер можно купить",
   "bloodstone.blooddonate.store.ui.booster.active.line4": "после завершения текущего.",
   "bloodstone.inventoryview.meetup_smp_vote": "",
-  "bloodstone.inventoryview.store_other_2": ""
+  "bloodstone.inventoryview.store_other_2": "",
+  "bloodstone.blooddonate.store.ui.customGame.name": "Хост ККБ",
+  "bloodstone.blooddonate.store.ui.customGame.line1": "Захости кастомную королевскую битву!"
 }
