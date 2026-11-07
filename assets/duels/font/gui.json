@@ -28,7 +28,7 @@
     {
       "type": "bitmap",
       "file": "duels:gui/custom_duels.png",
-      "ascent": 14,
+      "ascent": 13,
       "height": 256,
       "chars": [
         "\ue603"
