@@ -3,7 +3,8 @@
     {
       "type": "space",
       "advances": {
-        "\ue600": -8
+        "\ue600": -8,
+        "\ue61e": -60
       }
     },
     {
@@ -247,6 +248,24 @@
       "height": 256,
       "chars": [
         "\ue61b"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:gui/private_modes.png",
+      "ascent": 14,
+      "height": 256,
+      "chars": [
+        "\ue61c"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:gui/wins_anvil.png",
+      "ascent": 35,
+      "height": 256,
+      "chars": [
+        "\ue61d"
       ]
     }
   ]
