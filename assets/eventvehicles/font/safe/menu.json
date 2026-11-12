@@ -11,7 +11,7 @@
       "type": "bitmap",
       "file": "eventvehicles:gui/safe/code.png",
       "height": 256,
-      "ascent": 12,
+      "ascent": 11,
       "chars": [
         ""
       ]
@@ -20,7 +20,7 @@
       "type": "bitmap",
       "file": "eventvehicles:gui/safe/storage.png",
       "height": 256,
-      "ascent": 12,
+      "ascent": 11,
       "chars": [
         ""
       ]
