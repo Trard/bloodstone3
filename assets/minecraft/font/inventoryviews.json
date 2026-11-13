@@ -429,6 +429,15 @@
             "chars": [
                 "\uf704"
             ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/custom_games/meetup_kit_editor.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "\uf705"
+            ]
         }
     ]
 }
