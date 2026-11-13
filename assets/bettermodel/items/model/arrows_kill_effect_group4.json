@@ -1,0 +1,1 @@
+{"model":{"type":"composite","models":[{"type":"model","model":"bettermodel:model/arrows_kill_effect_group4_1","tints":[{"type":"custom_model_data","default":16777215}]},{"type":"model","model":"bettermodel:model/arrows_kill_effect_group4_2","tints":[{"type":"custom_model_data","default":16777215}]}]}}

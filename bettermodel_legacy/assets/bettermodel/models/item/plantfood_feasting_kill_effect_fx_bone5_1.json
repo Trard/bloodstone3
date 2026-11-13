@@ -1,1 +1,0 @@
-{"textures":{"1":"bettermodel:item/plantfood_feasting_kill_effect_eaten_by_carnivore_plant","particle":"bettermodel:item/plantfood_feasting_kill_effect_eaten_by_carnivore_plant"},"elements":[{"from":[-0.5,8.0,1.0],"to":[16.5,8.0,15.0],"faces":{"up":{"uv":[11.75,12.5,16.0,16.0],"tintindex":-2,"texture":"#1"},"down":{"uv":[11.75,16.0,16.0,12.5],"tintindex":-2,"texture":"#1"}}}]}

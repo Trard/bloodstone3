@@ -1,0 +1,1 @@
+{"model":{"type":"composite","models":[{"type":"model","model":"bettermodel:model/pig_kill_effect_43e43343e43d44c2_1","tints":[{"type":"custom_model_data","default":16777215}]},{"type":"model","model":"bettermodel:model/pig_kill_effect_43e43343e43d44c2_2","tints":[{"type":"custom_model_data","default":16777215}]}]}}

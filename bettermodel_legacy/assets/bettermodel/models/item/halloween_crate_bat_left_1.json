@@ -1,1 +1,0 @@
-{"textures":{"0":"bettermodel:item/halloween_crate_halloween_crate","particle":"bettermodel:item/halloween_crate_halloween_crate"},"elements":[{"from":[6.5,6.0,8.0],"to":[9.5,11.0,8.0],"faces":{"north":{"uv":[12.5,5.0,12.875,5.625],"tintindex":-2,"texture":"#0"},"south":{"uv":[12.875,5.0,12.5,5.625],"tintindex":-2,"texture":"#0"}}}]}

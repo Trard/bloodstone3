@@ -33,11 +33,7 @@ jobs:
             force_include = true
             ['26.3/**']
             force_include = true
-            ['bettermodel_legacy/**']
-            force_include = true
-            ['bettermodel_modern/**']
-            force_include = true
-      - name: Verify BetterModel overlays in archive
+      - name: Verify BetterModel resources in archive
         run: |
           python3 - <<'PY'
           import json
@@ -52,14 +48,13 @@ jobs:
                   raise SystemExit(f"Overlay {overlay['directory']} is missing formats; Minecraft disables all overlays")
           expected = {
               path.as_posix()
-              for directory in ('bettermodel_legacy', 'bettermodel_modern')
-              for path in Path(directory).rglob('*')
+              for path in Path('assets/bettermodel').rglob('*')
               if path.is_file()
           }
           missing = expected - included
           if not expected or missing:
-              raise SystemExit(f'BetterModel overlays missing or incomplete: {sorted(missing)}')
-          print(f'Verified {len(expected)} BetterModel overlay files in BloodStone.zip')
+              raise SystemExit(f'BetterModel resources missing or incomplete: {sorted(missing)}')
+          print(f'Verified {len(expected)} BetterModel resource files in BloodStone.zip')
           PY
       - name: Create release
         uses: softprops/action-gh-release@v2
