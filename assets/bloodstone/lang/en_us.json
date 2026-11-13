@@ -934,7 +934,7 @@
   "bloodstone.party.clickHereToAccept": "Click %1$s to accept",
   "bloodstone.party.here": "[HERE]",
   "bloodstone.party.hasBeenAddedToTheParty": "%1$s has been added to the party!",
-  "bloodstone.party.youAreLeader": "You are the party leader! Use /disband",
+  "bloodstone.party.youAreLeader": "You are the party leader! Use /party disband",
   "bloodstone.party.leftFromParty": "You left from the party!",
   "bloodstone.party.youAreNotInParty": "You are not at a party!",
   "bloodstone.party.partyDisbanded": "The party was disbanded!",
@@ -7252,5 +7252,7 @@
   "bloodstone.duels.hub.menus.party-split.items.juggernaut-kits.lore.4": "Right-click: juggernauts",
   "bloodstone.duels.hub.duels.default.entries.bloodsmp.name": "BloodSMP",
   "bloodstone.duels.hub.duels.default.entries.bloodsmp.display-kit": "BloodSMP",
-  "bloodstone.duels.game.kit.bloodsmp": "BloodSMP"
+  "bloodstone.duels.game.kit.bloodsmp": "BloodSMP",
+  "bloodstone.duels.hub.duels.wizard.settings.armor-drops.name": "Armor drops",
+  "bloodstone.party.playerNotFound": "Player not found"
 }

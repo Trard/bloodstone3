@@ -679,7 +679,7 @@
   "bloodstone.party.clickHereToAccept": "Нажмите %1$s, чтобы принять",
   "bloodstone.party.here": "[ЗДЕСЬ]",
   "bloodstone.party.hasBeenAddedToTheParty": "%1$s был добавлен в тусовку!",
-  "bloodstone.party.youAreLeader": "Вы лидер тусовки! Используйте /disband",
+  "bloodstone.party.youAreLeader": "Вы лидер тусовки! Используйте /party disband",
   "bloodstone.party.leftFromParty": "Вы покинули тусовку",
   "bloodstone.party.youAreNotInParty": "Вы не в тусовке",
   "bloodstone.party.partyDisbanded": "Тусовка была распущена!",
@@ -6997,5 +6997,7 @@
   "bloodstone.duels.hub.menus.party-split.items.juggernaut-kits.lore.4": "ПКМ — джаггеры",
   "bloodstone.duels.hub.duels.default.entries.bloodsmp.name": "BloodSMP",
   "bloodstone.duels.hub.duels.default.entries.bloodsmp.display-kit": "BloodSMP",
-  "bloodstone.duels.game.kit.bloodsmp": "BloodSMP"
+  "bloodstone.duels.game.kit.bloodsmp": "BloodSMP",
+  "bloodstone.duels.hub.duels.wizard.settings.armor-drops.name": "Выпадение брони",
+  "bloodstone.party.playerNotFound": "Игрок не найден"
 }
