@@ -145,5 +145,14 @@
   "bloodinvasion.hud.objective.hold": "Hold the points",
   "bloodinvasion.hud.capture.personal": "You are capturing point %s: %s%%",
   "bloodinvasion.hud.capture.neutralize": "You are neutralizing point %s: %s%%",
-  "bloodinvasion.hud.capture.enemy": "The enemy is capturing point %s: %s%%"
+  "bloodinvasion.hud.capture.enemy": "The enemy is capturing point %s: %s%%",
+  "bloodstone.duels.hub.roles.juggernaut": "Juggernaut",
+  "bloodstone.duels.hub.roles.hunter": "Hunters",
+  "bloodstone.duels.game.post-game.rematch": "Rematch",
+  "bloodstone.duels.game.rematch.sent": "Rematch invitation sent.",
+  "bloodstone.duels.game.rematch.unavailable": "Rematch unavailable. A player is busy or the invitation expired.",
+  "bloodstone.duels.game.rematch.accepted": "Rematch accepted. Preparing the duel.",
+  "bloodstone.duels.game.rematch.received": "%s invites you to a rematch with the same rules.",
+  "bloodstone.duels.game.rematch.accept": "[Accept]",
+  "bloodstone.duels.hub.native.rematch-unavailable": "Rematch unavailable. A player is busy or the invitation expired."
 }

@@ -3,8 +3,8 @@
     {
       "type": "space",
       "advances": {
-        "\ue600": -8,
-        "\ue61e": -60
+        "": -8,
+        "": -60
       }
     },
     {
@@ -13,7 +13,7 @@
       "ascent": 14,
       "height": 256,
       "chars": [
-        "\ue601"
+        ""
       ]
     },
     {
@@ -22,7 +22,7 @@
       "ascent": 14,
       "height": 256,
       "chars": [
-        "\ue602"
+        ""
       ]
     },
     {
@@ -31,7 +31,7 @@
       "ascent": 13,
       "height": 256,
       "chars": [
-        "\ue603"
+        ""
       ]
     },
     {
@@ -40,7 +40,7 @@
       "ascent": 14,
       "height": 256,
       "chars": [
-        "\ue604"
+        ""
       ]
     },
     {
@@ -49,7 +49,7 @@
       "ascent": 14,
       "height": 256,
       "chars": [
-        "\ue605"
+        ""
       ]
     },
     {
@@ -58,7 +58,7 @@
       "ascent": 14,
       "height": 256,
       "chars": [
-        "\ue606"
+        ""
       ]
     },
     {
@@ -67,7 +67,7 @@
       "ascent": 14,
       "height": 256,
       "chars": [
-        "\ue607"
+        ""
       ]
     },
     {
@@ -76,7 +76,7 @@
       "ascent": 14,
       "height": 256,
       "chars": [
-        "\ue608"
+        ""
       ]
     },
     {
@@ -85,7 +85,7 @@
       "ascent": 14,
       "height": 256,
       "chars": [
-        "\ue609"
+        ""
       ]
     },
     {
@@ -94,7 +94,7 @@
       "ascent": 14,
       "height": 256,
       "chars": [
-        "\ue60a"
+        ""
       ]
     },
     {
@@ -103,7 +103,7 @@
       "ascent": 14,
       "height": 256,
       "chars": [
-        "\ue60b"
+        ""
       ]
     },
     {
@@ -112,7 +112,7 @@
       "ascent": 14,
       "height": 256,
       "chars": [
-        "\ue60c"
+        ""
       ]
     },
     {
@@ -121,7 +121,7 @@
       "ascent": 14,
       "height": 256,
       "chars": [
-        "\ue60d"
+        ""
       ]
     },
     {
@@ -130,7 +130,7 @@
       "ascent": 14,
       "height": 256,
       "chars": [
-        "\ue60e"
+        ""
       ]
     },
     {
@@ -139,7 +139,7 @@
       "ascent": 14,
       "height": 256,
       "chars": [
-        "\ue60f"
+        ""
       ]
     },
     {
@@ -148,7 +148,7 @@
       "ascent": 14,
       "height": 256,
       "chars": [
-        "\ue610"
+        ""
       ]
     },
     {
@@ -157,7 +157,7 @@
       "ascent": 14,
       "height": 256,
       "chars": [
-        "\ue611"
+        ""
       ]
     },
     {
@@ -166,7 +166,7 @@
       "ascent": 14,
       "height": 256,
       "chars": [
-        "\ue612"
+        ""
       ]
     },
     {
@@ -175,7 +175,7 @@
       "ascent": 14,
       "height": 256,
       "chars": [
-        "\ue613"
+        ""
       ]
     },
     {
@@ -184,7 +184,7 @@
       "ascent": 14,
       "height": 256,
       "chars": [
-        "\ue614"
+        ""
       ]
     },
     {
@@ -193,7 +193,7 @@
       "ascent": 14,
       "height": 256,
       "chars": [
-        "\ue615"
+        ""
       ]
     },
     {
@@ -202,7 +202,7 @@
       "ascent": 14,
       "height": 256,
       "chars": [
-        "\ue616"
+        ""
       ]
     },
     {
@@ -211,7 +211,7 @@
       "ascent": 14,
       "height": 256,
       "chars": [
-        "\ue617"
+        ""
       ]
     },
     {
@@ -220,7 +220,7 @@
       "ascent": 14,
       "height": 256,
       "chars": [
-        "\ue618"
+        ""
       ]
     },
     {
@@ -229,7 +229,7 @@
       "ascent": 14,
       "height": 256,
       "chars": [
-        "\ue619"
+        ""
       ]
     },
     {
@@ -238,7 +238,7 @@
       "ascent": 14,
       "height": 256,
       "chars": [
-        "\ue61a"
+        ""
       ]
     },
     {
@@ -247,7 +247,7 @@
       "ascent": 14,
       "height": 256,
       "chars": [
-        "\ue61b"
+        ""
       ]
     },
     {
@@ -256,7 +256,7 @@
       "ascent": 14,
       "height": 256,
       "chars": [
-        "\ue61c"
+        ""
       ]
     },
     {
@@ -265,7 +265,43 @@
       "ascent": 35,
       "height": 256,
       "chars": [
-        "\ue61d"
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:gui/kit.png",
+      "ascent": 14,
+      "height": 256,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:gui/kit1.png",
+      "ascent": 14,
+      "height": 256,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:gui/kit2.png",
+      "ascent": 14,
+      "height": 256,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:gui/kit_both.png",
+      "ascent": 14,
+      "height": 256,
+      "chars": [
+        ""
       ]
     }
   ]

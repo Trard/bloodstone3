@@ -145,5 +145,14 @@
   "bloodinvasion.hud.objective.hold": "Удерживайте точки",
   "bloodinvasion.hud.capture.personal": "Вы захватываете точку %s: %s%%",
   "bloodinvasion.hud.capture.neutralize": "Вы нейтрализуете точку %s: %s%%",
-  "bloodinvasion.hud.capture.enemy": "Противник захватывает точку %s: %s%%"
+  "bloodinvasion.hud.capture.enemy": "Противник захватывает точку %s: %s%%",
+  "bloodstone.duels.hub.roles.juggernaut": "Джаггернаут",
+  "bloodstone.duels.hub.roles.hunter": "Охотники",
+  "bloodstone.duels.game.post-game.rematch": "Реванш",
+  "bloodstone.duels.game.rematch.sent": "Предложение реванша отправлено.",
+  "bloodstone.duels.game.rematch.unavailable": "Реванш недоступен. Игрок занят или время приглашения истекло.",
+  "bloodstone.duels.game.rematch.accepted": "Реванш принят. Подготавливаем дуэль.",
+  "bloodstone.duels.game.rematch.received": "%s предлагает реванш на тех же условиях.",
+  "bloodstone.duels.game.rematch.accept": "[Принять]",
+  "bloodstone.duels.hub.native.rematch-unavailable": "Реванш недоступен. Игрок занят или время приглашения истекло."
 }
