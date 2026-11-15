@@ -438,6 +438,15 @@
             "chars": [
                 "\uf705"
             ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/custom_games/meetup_uhc_vote_new.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "\uf706"
+            ]
         }
     ]
 }
