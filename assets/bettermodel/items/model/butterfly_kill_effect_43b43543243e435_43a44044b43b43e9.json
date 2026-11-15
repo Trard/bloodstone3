@@ -1,0 +1,1 @@
+{"model":{"type":"composite","models":[{"type":"model","model":"bettermodel:model/butterfly_kill_effect_43b43543243e435_43a44044b43b43e9_1","tints":[{"type":"custom_model_data","default":16777215}]},{"type":"model","model":"bettermodel:model/butterfly_kill_effect_43b43543243e435_43a44044b43b43e9_2","tints":[{"type":"custom_model_data","default":16777215}]}]}}

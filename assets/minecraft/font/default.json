@@ -51,6 +51,19 @@
         {
             "type": "reference",
             "id": "minecraft:practice_menus_v4"
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/piglinglutton_bb.png",
+            "ascent": 8,
+            "height": 43,
+            "chars": [
+                "𝔓"
+            ]
+        },
+        {
+            "type": "reference",
+            "id": "minecraft:practice_branding"
         }
     ]
 }

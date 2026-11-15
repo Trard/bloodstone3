@@ -269,6 +269,24 @@
       "chars": [
         ""
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/invasion/cards_0.png",
+      "height": 256,
+      "ascent": 14,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/invasion/cards_0_accent.png",
+      "height": 256,
+      "ascent": 14,
+      "chars": [
+        ""
+      ]
     }
   ]
 }

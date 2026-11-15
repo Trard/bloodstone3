@@ -1,0 +1,27 @@
+{
+  "hand_animation_on_swap": true,
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": "gui",
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodlegendary:item/tools/gungnir_inv/default/gungnir_inv"
+        }
+      },
+      {
+        "when": "none",
+        "model": {
+          "type": "minecraft:model",
+          "model": "bloodlegendary:item/tools/gungnir_shot/default/gungnir_shot"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "bloodlegendary:item/tools/gungnir/default/gungnir"
+    }
+  }
+}

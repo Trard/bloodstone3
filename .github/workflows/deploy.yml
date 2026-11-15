@@ -2,6 +2,12 @@ name: Deploy resource pack to server
 on:
   release:
     types: [published]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Release tag to deploy
+        required: true
+        default: v3.73
 
 permissions:
   contents: read
@@ -13,15 +19,17 @@ jobs:
     steps:
       - name: Show release info
         run: |
-          echo "Release: ${{ github.event.release.tag_name }}"
-          echo "Asset count: ${{ github.event.release.assets != null && github.event.release.assets.length || 0 }}"
+          echo "Release: ${{ github.event.release.tag_name || inputs.tag }}"
 
       - name: Download release asset (BloodStone.zip)
         env:
-          ASSET_ID: ${{ github.event.release.assets[0].id }}
           REPO: ${{ github.repository }}
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RELEASE_TAG: ${{ github.event.release.tag_name || inputs.tag }}
         run: |
+          set -Eeuo pipefail
+          release_json="$(curl -fsSL -H "Accept: application/vnd.github+json" -H "Authorization: Bearer $TOKEN" "https://api.github.com/repos/$REPO/releases/tags/$RELEASE_TAG")"
+          ASSET_ID="$(python3 -c 'import json,sys; data=json.load(sys.stdin); print(next(asset["id"] for asset in data["assets"] if asset["name"] == "BloodStone.zip"))' <<< "$release_json")"
           if [ -z "$ASSET_ID" ] || [ "$ASSET_ID" = "null" ]; then
             echo "No asset found on the release; aborting."
             exit 1

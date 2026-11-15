@@ -1,0 +1,164 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        "": -8,
+        "": -169
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/bloodstone_ffa/auction.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/bloodstone_ffa/my_lots.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/bloodstone_ffa/returns.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/bloodstone_ffa/history.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/bloodstone_ffa/ideas.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/bloodstone_ffa/my_ideas.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/bloodstone_ffa/idea.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/bloodstone_ffa/poll.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/bloodstone_ffa/idea_admin.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/bloodstone_ffa/legends.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/bloodstone_ffa/legend_detail.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/bloodstone_ffa/shop_weapons.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/bloodstone_ffa/shop_consumables.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/bloodstone_ffa/auction_empty.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/bloodstone_ffa/my_lots_empty.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/bloodstone_ffa/returns_empty.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/bloodstone_ffa/history_empty.png",
+      "height": 256,
+      "ascent": 13,
+      "chars": [
+        ""
+      ]
+    }
+  ]
+}

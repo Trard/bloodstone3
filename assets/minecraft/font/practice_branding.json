@@ -1,0 +1,39 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "logo:practice_menus/logo_1.png",
+      "height": 40,
+      "ascent": 36,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "logo:practice_menus/logo_2.png",
+      "height": 40,
+      "ascent": 36,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "logo:practice_menus/logo_3.png",
+      "height": 40,
+      "ascent": 36,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "space",
+      "advances": {
+        "": 13.25,
+        "": -1.5,
+        "": -148.25
+      }
+    }
+  ]
+}

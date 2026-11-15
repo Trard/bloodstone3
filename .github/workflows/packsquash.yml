@@ -21,11 +21,41 @@ jobs:
           options: |
             pack_directory = '.'
             output_file_path = 'BloodStone.zip'
+            never_store_squash_times = true
+
+            ['assets/eventvehicles/textures/misc/tank_scope*.png']
+            skip_alpha_optimizations = true
+            color_quantization_target = 'none'
 
             # Overlay directories are top-level (e.g. 1.21.5/assets/...),
             # which PackSquash treats as custom files unless force-included.
             ['1.21.*/**']
             force_include = true
+            ['26.3/**']
+            force_include = true
+      - name: Verify BetterModel resources in archive
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          from zipfile import ZipFile
+
+          with ZipFile('BloodStone.zip') as archive:
+              included = set(archive.namelist())
+              metadata = json.loads(archive.read('pack.mcmeta'))
+          for overlay in metadata['overlays']['entries']:
+              if 'formats' not in overlay:
+                  raise SystemExit(f"Overlay {overlay['directory']} is missing formats; Minecraft disables all overlays")
+          expected = {
+              path.as_posix()
+              for path in Path('assets/bettermodel').rglob('*')
+              if path.is_file()
+          }
+          missing = expected - included
+          if not expected or missing:
+              raise SystemExit(f'BetterModel resources missing or incomplete: {sorted(missing)}')
+          print(f'Verified {len(expected)} BetterModel resource files in BloodStone.zip')
+          PY
       - name: Create release
         uses: softprops/action-gh-release@v2
         with:

@@ -1,0 +1,1 @@
+{"ambientocclusion":false,"textures":{"ring":"legendforge:block/ring","particle":"legendforge:block/ring"},"elements":[{"from":[0,8,0],"to":[16,8.02,16],"shade":false,"faces":{"up":{"texture":"#ring","uv":[0,0,16,16]}}}]}

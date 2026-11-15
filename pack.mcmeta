@@ -20,9 +20,15 @@
       ]
     },
     "pack_format": 46,
-    "supported_formats": [46, 75],
+    "supported_formats": [
+      46,
+      97
+    ],
     "min_format": 46,
-    "max_format": 75
+    "max_format": [
+      97,
+      1
+    ]
   },
   "overlays": {
     "entries": [
@@ -58,6 +64,18 @@
         "formats": 75,
         "min_format": 75,
         "max_format": 75
+      },
+      {
+        "directory": "26.3",
+        "formats": 97,
+        "min_format": [
+          97,
+          1
+        ],
+        "max_format": [
+          97,
+          1
+        ]
       }
     ]
   }

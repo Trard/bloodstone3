@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/invasion/menu/aks"
+  },
+  "gui_light": "front",
+  "display": {
+    "gui": {
+      "scale": [
+        2.5,
+        2.5,
+        2.5
+      ],
+      "translation": [
+        0,
+        -5,
+        0
+      ]
+    }
+  }
+}

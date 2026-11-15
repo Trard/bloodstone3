@@ -1,0 +1,1 @@
+{"model":{"type":"composite","models":[{"type":"model","model":"bettermodel:model/orbital_strike_kill_effect_43144343c_1","tints":[{"type":"custom_model_data","default":16777215}]},{"type":"model","model":"bettermodel:model/orbital_strike_kill_effect_43144343c_2","tints":[{"type":"custom_model_data","default":16777215}]}]}}

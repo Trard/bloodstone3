@@ -1,0 +1,109 @@
+{
+  "parent": "bloodlegendary:item/tools/gungnir/default/gungnir",
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        -80,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0.25,
+        2.9375
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        -80,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0.5,
+        2.9375
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -50,
+        -10,
+        15
+      ],
+      "translation": [
+        3,
+        7.25,
+        2.5
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        -50,
+        -10,
+        15
+      ],
+      "translation": [
+        3,
+        7.25,
+        2.5
+      ]
+    },
+    "ground": {
+      "rotation": [
+        43.37,
+        -15.07,
+        -37.4
+      ],
+      "translation": [
+        -3.5,
+        4.75,
+        -4.25
+      ],
+      "scale": [
+        1.6,
+        1.6,
+        1.6
+      ]
+    },
+    "gui": {
+      "rotation": [
+        102.59,
+        46.03,
+        -89.79
+      ],
+      "translation": [
+        -1.5,
+        -1.5,
+        0
+      ],
+      "scale": [
+        0.58,
+        0.58,
+        0.58
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        104.75,
+        -41.57,
+        100.64
+      ],
+      "translation": [
+        4,
+        -4.25,
+        0
+      ]
+    }
+  }
+}

@@ -652,6 +652,24 @@
       "chars": [
         "\ue0e1"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/ru/pm.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue0ea"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/suffixes/en/pm.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue0eb"
+      ]
     }
   ]
 }
