@@ -19,6 +19,8 @@ import sys
 import tempfile
 from pathlib import Path
 
+from normalize_bettermodel_limbs import normalize_bettermodel_limbs
+
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
@@ -126,6 +128,7 @@ def main() -> int:
     else:
         output = root / f"{root.name}.zip"
 
+    normalize_bettermodel_limbs(root)
     output.parent.mkdir(parents=True, exist_ok=True)
 
     with tempfile.TemporaryDirectory(prefix=f"{root.name}-zip-") as temp_dir:

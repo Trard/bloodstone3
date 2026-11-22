@@ -1,4 +1,5 @@
 {
+  "airdrop.camr": { "sounds": [ "bloodstone:airdrop/camr" ] },
   "laser.laser1": { "category": "master", "sounds": [ "bloodstone:laser/laser1" ] },
   "laser.laser2": { "category": "master", "sounds": [ "bloodstone:laser/laser2" ] },
   "laser.laser_finish": { "category": "master", "sounds": [ "bloodstone:laser/laser_finish" ] },

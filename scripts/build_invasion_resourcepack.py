@@ -6,6 +6,7 @@ import zipfile
 from pathlib import Path
 
 from build_resourcepack_zip import build_include_list, load_pack_mcmeta
+from normalize_bettermodel_limbs import normalize_bettermodel_limbs
 
 
 def main():
@@ -16,7 +17,9 @@ def main():
     root = args.root.resolve()
     output = args.output.resolve()
     entries = {}
-    for name in build_include_list(root, load_pack_mcmeta(root)):
+    includes = build_include_list(root, load_pack_mcmeta(root))
+    normalize_bettermodel_limbs(root)
+    for name in includes:
         source = root / name
         for path in sorted(source.rglob("*")) if source.is_dir() else [source]:
             if path.is_file() and path.name not in {"Thumbs.db", ".DS_Store", "README.md"}:

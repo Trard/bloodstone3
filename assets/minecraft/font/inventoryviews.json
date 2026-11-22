@@ -154,7 +154,7 @@
         {
             "type": "bitmap",
             "file": "bloodstone:ui/gui/kit/kit.png",
-            "ascent": 13,
+            "ascent": 37,
             "height": 256,
             "chars": [
                 "\ue53b"
@@ -437,6 +437,24 @@
             "height": 256,
             "chars": [
                 "\uf705"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/custom_games/meetup_uhc_vote_new.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "\uf706"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bloodstone:ui/gui/custom_games/meetup_kit_choice.png",
+            "ascent": 13,
+            "height": 256,
+            "chars": [
+                "\uf707"
             ]
         }
     ]

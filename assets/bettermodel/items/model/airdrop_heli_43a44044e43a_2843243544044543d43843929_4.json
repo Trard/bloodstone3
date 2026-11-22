@@ -1,0 +1,1 @@
+{"model":{"type":"composite","models":[{"type":"model","model":"bettermodel:model/airdrop_heli_43a44044e43a_2843243544044543d43843929_4_1","tints":[{"type":"custom_model_data","default":16777215}]},{"type":"model","model":"bettermodel:model/airdrop_heli_43a44044e43a_2843243544044543d43843929_4_2","tints":[{"type":"custom_model_data","default":16777215}]}]}}
