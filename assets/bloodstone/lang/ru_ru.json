@@ -6136,7 +6136,7 @@
   "bloodstone.duels.game.countdown.shift-wait": "Ожидание игроков",
   "bloodstone.duels.game.inspect.expired": "Запрос истёк",
   "bloodstone.duels.game.inventory.title": "Инвентарь: %s",
-  "bloodstone.duels.game.kit.custom": "Custom kit #%s",
+  "bloodstone.duels.game.kit.custom": "Кастомный Кит",
   "bloodstone.duels.game.kit.purchase": "Purchase",
   "bloodstone.duels.game.kit.suhc_legendary": "SUHC Legendary",
   "bloodstone.duels.game.mode.duel": "Дуэль",
@@ -6280,8 +6280,8 @@
   "bloodstone.duels.game.sidebar.opponent": "Противник: %s %s",
   "bloodstone.duels.game.sidebar.opponents": "Противники:",
   "bloodstone.duels.game.sidebar.participants": "Участники: %s",
-  "bloodstone.duels.game.sidebar.ping": "Пинг: %s мс",
-  "bloodstone.duels.game.sidebar.ping-value": "(%s мс)",
+  "bloodstone.duels.game.sidebar.ping": "Пинг: %s",
+  "bloodstone.duels.game.sidebar.ping-value": "(%s)",
   "bloodstone.duels.game.sidebar.progress": "Прогресс: %s",
   "bloodstone.duels.game.sidebar.rank": "Ваш ранг: %s",
   "bloodstone.duels.game.sidebar.rounds": "Раунды: %s",
@@ -7220,5 +7220,9 @@
   "bloodstone.duels.hub.invitation.party": "%1$s вызывает вас на пати-дуэль.",
   "bloodstone.duels.hub.invitation.kit": "Кит: %1$s.",
   "bloodstone.duels.hub.messages.kits.rule-save-failed": "Не удалось сохранить правила кита.",
-  "bloodstone.bloodkits.kitroom.stations.rules.title": "Правила"
+  "bloodstone.bloodkits.kitroom.stations.rules.title": "Правила",
+  "bloodstone.duels.game.sidebar.ping-units": "%s мс",
+  "bloodstone.duels.game.purchase.preparation-time": "Подготовка: %s сек.",
+  "bloodstone.duels.hub.duels.wizard.settings.heal-on-kill.name": "Восстановление здоровья после убийства",
+  "bloodstone.duels.hub.duels.wizard.settings.skip-layout.name": "Без раскладки"
 }

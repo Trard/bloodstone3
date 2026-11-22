@@ -6391,7 +6391,7 @@
   "bloodstone.duels.game.countdown.shift-wait": "Waiting for players",
   "bloodstone.duels.game.inspect.expired": "The request has expired",
   "bloodstone.duels.game.inventory.title": "Inventory: %s",
-  "bloodstone.duels.game.kit.custom": "Custom kit #%s",
+  "bloodstone.duels.game.kit.custom": "Custom Kit",
   "bloodstone.duels.game.kit.purchase": "Purchase",
   "bloodstone.duels.game.kit.suhc_legendary": "SUHC Legendary",
   "bloodstone.duels.game.mode.duel": "Duel",
@@ -6535,8 +6535,8 @@
   "bloodstone.duels.game.sidebar.opponent": "Opponent: %s %s",
   "bloodstone.duels.game.sidebar.opponents": "Opponents:",
   "bloodstone.duels.game.sidebar.participants": "Players: %s",
-  "bloodstone.duels.game.sidebar.ping": "Ping: %s ms",
-  "bloodstone.duels.game.sidebar.ping-value": "(%s ms)",
+  "bloodstone.duels.game.sidebar.ping": "Ping: %s",
+  "bloodstone.duels.game.sidebar.ping-value": "(%s)",
   "bloodstone.duels.game.sidebar.progress": "Progress: %s",
   "bloodstone.duels.game.sidebar.rank": "Your rank: %s",
   "bloodstone.duels.game.sidebar.rounds": "Rounds: %s",
@@ -7475,5 +7475,9 @@
   "bloodstone.duels.hub.invitation.party": "%1$s challenges you to a party duel.",
   "bloodstone.duels.hub.invitation.kit": "Kit: %1$s.",
   "bloodstone.duels.hub.messages.kits.rule-save-failed": "Could not save kit rules.",
-  "bloodstone.bloodkits.kitroom.stations.rules.title": "Rules"
+  "bloodstone.bloodkits.kitroom.stations.rules.title": "Rules",
+  "bloodstone.duels.game.sidebar.ping-units": "%s ms",
+  "bloodstone.duels.game.purchase.preparation-time": "Preparation: %s sec.",
+  "bloodstone.duels.hub.duels.wizard.settings.heal-on-kill.name": "Restore health after a kill",
+  "bloodstone.duels.hub.duels.wizard.settings.skip-layout.name": "Skip layout"
 }
