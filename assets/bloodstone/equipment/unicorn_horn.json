@@ -1,0 +1,21 @@
+{
+  "layers": {
+    "horse_body": [
+      {
+        "texture": "bloodstone:unicorn_east"
+      },
+      {
+        "texture": "bloodstone:unicorn_west"
+      },
+      {
+        "texture": "bloodstone:unicorn_front"
+      },
+      {
+        "texture": "bloodstone:unicorn_back"
+      },
+      {
+        "texture": "bloodstone:unicorn_tip"
+      }
+    ]
+  }
+}

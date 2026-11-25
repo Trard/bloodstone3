@@ -1,0 +1,41 @@
+{
+  "textures": {
+    "0": "bloodstone:item/tools/unicorn_horn/default/rainbow_tail",
+    "particle": "#0"
+  },
+  "elements": [
+    {
+      "from": [
+        8.0,
+        3.0,
+        0.0
+      ],
+      "to": [
+        8.0,
+        13.0,
+        16.0
+      ],
+      "shade": false,
+      "faces": {
+        "east": {
+          "uv": [
+            16.0,
+            0.0,
+            0.0,
+            16.0
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ],
+          "texture": "#0"
+        }
+      }
+    }
+  ]
+}

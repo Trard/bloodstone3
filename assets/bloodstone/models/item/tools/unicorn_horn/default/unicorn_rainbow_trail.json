@@ -1,7 +1,7 @@
 {
   "textures": {
-    "1": "bloodstone:item/tools/unicorn_horn/default/rainbow_stars",
-    "particle": "#1"
+    "0": "bloodstone:item/tools/unicorn_horn/default/rainbow_trail",
+    "particle": "#0"
   },
   "elements": [
     {
@@ -24,7 +24,7 @@
             16.0,
             16.0
           ],
-          "texture": "#1"
+          "texture": "#0"
         },
         "west": {
           "uv": [
@@ -33,7 +33,7 @@
             16.0,
             16.0
           ],
-          "texture": "#1"
+          "texture": "#0"
         }
       }
     }
