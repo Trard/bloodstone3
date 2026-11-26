@@ -1,0 +1,16 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "bloodstone:font/unicorn_abilities.png",
+      "ascent": 31,
+      "height": 36,
+      "chars": [
+        "\ue100",
+        "\ue101",
+        "\ue102",
+        "\ue103"
+      ]
+    }
+  ]
+}
