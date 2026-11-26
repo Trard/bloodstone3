@@ -25,6 +25,13 @@ The source is 1919×288. The large alias uses a proportional 1020×153 resize an
 proportional 510×77 resize and two cells. Every generated cell is exactly 255 pixels wide and no dimension exceeds 255 pixels.
 The six new glyphs use `U+F827`–`U+F82C`; the English and Russian aliases are kept identical because they contain only bitmap glyphs.
 
+## Duels hub
+
+The scoreboard logo in `duels:textures/logo/hub_title.png` uses the cropped “BLOODSTONE ДУЭЛИ” artwork from `Untitle11d.png`.
+The 1024×277 transparent atlas retains the original four-column, two-row layout. The `duels:hub_title` font draws each row at
+17 GUI pixels and is included in the default font. Both `en_us` and `ru_ru` expose the complete glyph sequence as
+`bloodstone.logo.duels`, usable as `<lang:bloodstone.logo.duels>`. The original scoreboard glyph sequence also works.
+
 ## Practice menus
 
 `scripts/practice-logo-blockbench.js` joins the existing four HD Bloodstone cells in Blockbench,

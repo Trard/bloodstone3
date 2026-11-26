@@ -303,6 +303,15 @@
       "chars": [
         ""
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:gui/enchant.png",
+      "ascent": 14,
+      "height": 256,
+      "chars": [
+        ""
+      ]
     }
   ]
 }
