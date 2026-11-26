@@ -1,0 +1,13 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "bloodstone:font/join_wordmark.png",
+      "height": 4,
+      "ascent": 4,
+      "chars": [
+        "\udb82\udd00\udb82\udd01"
+      ]
+    }
+  ]
+}
