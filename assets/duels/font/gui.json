@@ -1,5 +1,6 @@
 {
   "providers": [
+    {"type": "bitmap", "file": "duels:gui/custom_duels_clean.png", "ascent": 14, "height": 256, "chars": [""]},
     {"type": "bitmap", "file": "duels:gui/default_duels_inactive.png", "ascent": 14, "height": 256, "chars": [""]},
     {"type": "bitmap", "file": "duels:gui/default_duels_previous.png", "ascent": 14, "height": 256, "chars": [""]},
     {"type": "bitmap", "file": "duels:gui/default_duels_next.png", "ascent": 14, "height": 256, "chars": [""]},

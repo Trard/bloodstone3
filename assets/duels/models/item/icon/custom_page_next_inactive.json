@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:item/generated",
+  "gui_light": "front",
+  "textures": {
+    "layer0": "duels:item/icon/custom_page_next_inactive"
+  },
+  "display": {
+    "gui": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        -6,
+        0,
+        0
+      ],
+      "scale": [
+        1.75,
+        0.8125,
+        1
+      ]
+    }
+  }
+}
