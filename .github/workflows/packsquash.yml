@@ -35,6 +35,12 @@ jobs:
             force_include = true
             ['26.3/**']
             force_include = true
+            ['join-screen/**']
+            force_include = true
+            ['join-26_1/**']
+            force_include = true
+            ['join-26_2/**']
+            force_include = true
       - name: Verify BetterModel resources in archive
         run: |
           python3 - <<'PY'

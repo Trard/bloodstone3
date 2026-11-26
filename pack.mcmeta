@@ -76,6 +76,30 @@
           97,
           1
         ]
+      },
+      {
+        "directory": "join-screen",
+        "formats": {
+          "min_inclusive": 75,
+          "max_inclusive": 97
+        },
+        "min_format": 75,
+        "max_format": [
+          97,
+          1
+        ]
+      },
+      {
+        "directory": "join-26_1",
+        "formats": 84,
+        "min_format": 84,
+        "max_format": 84
+      },
+      {
+        "directory": "join-26_2",
+        "formats": 88,
+        "min_format": 88,
+        "max_format": 88
       }
     ]
   }
