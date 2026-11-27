@@ -1,7 +1,5 @@
 name: Deploy resource pack to server
 on:
-  release:
-    types: [published]
   workflow_dispatch:
     inputs:
       tag:
@@ -14,18 +12,18 @@ permissions:
 
 jobs:
   deploy:
-    name: Deploy over SSH (on release)
+    name: Deploy over SSH (manual)
     runs-on: ubuntu-latest
     steps:
       - name: Show release info
         run: |
-          echo "Release: ${{ github.event.release.tag_name || inputs.tag }}"
+          echo "Release: ${{ inputs.tag }}"
 
       - name: Download release asset (BloodStone.zip)
         env:
           REPO: ${{ github.repository }}
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          RELEASE_TAG: ${{ github.event.release.tag_name || inputs.tag }}
+          RELEASE_TAG: ${{ inputs.tag }}
         run: |
           set -Eeuo pipefail
           release_json="$(curl -fsSL -H "Accept: application/vnd.github+json" -H "Authorization: Bearer $TOKEN" "https://api.github.com/repos/$REPO/releases/tags/$RELEASE_TAG")"
