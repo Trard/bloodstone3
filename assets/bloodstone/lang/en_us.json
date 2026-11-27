@@ -7598,5 +7598,6 @@
   "bloodstone.duels.hub.presentation.choose-rounds": "Choose the number of rounds",
   "bloodstone.duels.hub.presentation.round-option": "Rounds: %s",
   "bloodstone.duels.hub.presentation.custom-leave": "LMB — leave the queue",
-  "bloodstone.duels.hub.presentation.party-size-limit": "Your party size %s exceeds the maximum team size %s"
+  "bloodstone.duels.hub.presentation.party-size-limit": "Your party size %s exceeds the maximum team size %s",
+  "bloodstone.duels.hub.top.metric.deaths": "Deaths"
 }

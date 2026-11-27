@@ -7343,5 +7343,6 @@
   "bloodstone.duels.hub.presentation.choose-rounds": "Выберите количество раундов",
   "bloodstone.duels.hub.presentation.round-option": "Раундов: %s",
   "bloodstone.duels.hub.presentation.custom-leave": "ЛКМ — выйти из очереди",
-  "bloodstone.duels.hub.presentation.party-size-limit": "Размер вашего пати %s превышает максимальный размер команды %s"
+  "bloodstone.duels.hub.presentation.party-size-limit": "Размер вашего пати %s превышает максимальный размер команды %s",
+  "bloodstone.duels.hub.top.metric.deaths": "Смерти"
 }
