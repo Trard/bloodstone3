@@ -7599,5 +7599,10 @@
   "bloodstone.duels.hub.presentation.round-option": "Rounds: %s",
   "bloodstone.duels.hub.presentation.custom-leave": "LMB — leave the queue",
   "bloodstone.duels.hub.presentation.party-size-limit": "Your party size %s exceeds the maximum team size %s",
-  "bloodstone.duels.hub.top.metric.deaths": "Deaths"
+  "bloodstone.duels.hub.top.metric.deaths": "Deaths",
+  "bloodstone.duels.hub.menus.ranked-menu.ranking.promotion-header": "Promotion to %s",
+  "bloodstone.duels.hub.menus.ranked-menu.ranking.defense-header": "Defending %s",
+  "bloodstone.duels.hub.menus.ranked-menu.ranking.challenge-results": "Wins: %s · Losses: %s",
+  "bloodstone.duels.hub.menus.ranked-menu.ranking.senior-results": "Phase: %s · Points: %s",
+  "bloodstone.duels.hub.menus.ranked-menu.ranking.challenge-losses": "Losses: %s"
 }
