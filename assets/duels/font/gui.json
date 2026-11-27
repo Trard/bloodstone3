@@ -320,6 +320,15 @@
       "chars": [
         ""
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "duels:gui/trim.png",
+      "ascent": 14,
+      "height": 256,
+      "chars": [
+        ""
+      ]
     }
   ]
 }
