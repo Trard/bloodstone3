@@ -7543,5 +7543,21 @@
   "bloodstone.duels.game.rematch.received": "%s invites you to a rematch with the same rules.",
   "bloodstone.duels.game.rematch.accept": "[Accept]",
   "bloodstone.duels.hub.roles.juggernaut": "Juggernaut",
-  "bloodstone.duels.hub.roles.hunter": "Hunter"
+  "bloodstone.duels.hub.roles.hunter": "Hunter",
+  "bloodstone.bloodkits.kitroom.categories.prepared": "Prepared items",
+  "bloodstone.bloodkits.kitroom.categories.special": "Special items",
+  "bloodstone.bloodkits.kitroom.items.buffs": "Buffs",
+  "bloodstone.customspeeditems.items.ballista.name": "Ballista",
+  "bloodstone.customspeeditems.items.netherite_shield.name": "Netherite Shield",
+  "bloodstone.customspeeditems.items.flaming_crossbow.name": "Flaming Crossbow",
+  "bloodstone.customspeeditems.items.speed_totem.name": "Speed Totem",
+  "bloodstone.customspeeditems.items.endurance_totem.name": "Endurance Totem",
+  "bloodstone.customspeeditems.items.multi_totem.name": "Multi-Totem",
+  "bloodstone.customcarts.cart.sculk": "Sculk TNT Minecart",
+  "bloodstone.customcarts.cart.trapper": "Trapper TNT Minecart",
+  "bloodstone.customcarts.cart.nuclear": "Nuclear TNT Minecart",
+  "bloodstone.customcarts.cart.smoke": "Smoke TNT Minecart",
+  "bloodstone.customcarts.cart.magnetic": "Magnetic TNT Minecart",
+  "bloodstone.customcarts.cart.frost": "Frost TNT Minecart",
+  "bloodstone.bloodkits.builder_settings.menu.titles.current_kit_background": ""
 }

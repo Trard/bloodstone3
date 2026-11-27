@@ -7288,5 +7288,21 @@
   "bloodstone.duels.game.rematch.received": "%s предлагает реванш на тех же условиях.",
   "bloodstone.duels.game.rematch.accept": "[Принять]",
   "bloodstone.duels.hub.roles.juggernaut": "Джаггернаут",
-  "bloodstone.duels.hub.roles.hunter": "Охотник"
+  "bloodstone.duels.hub.roles.hunter": "Охотник",
+  "bloodstone.bloodkits.kitroom.categories.prepared": "Готовые предметы",
+  "bloodstone.bloodkits.kitroom.categories.special": "Особые предметы",
+  "bloodstone.bloodkits.kitroom.items.buffs": "Бафы",
+  "bloodstone.customspeeditems.items.ballista.name": "Баллиста",
+  "bloodstone.customspeeditems.items.netherite_shield.name": "Незеритовый Щит",
+  "bloodstone.customspeeditems.items.flaming_crossbow.name": "Пламенный арбалет",
+  "bloodstone.customspeeditems.items.speed_totem.name": "Тотем Скорости",
+  "bloodstone.customspeeditems.items.endurance_totem.name": "Тотем Стойкости",
+  "bloodstone.customspeeditems.items.multi_totem.name": "МультиТотем",
+  "bloodstone.customcarts.cart.sculk": "Скалковая вагонетка с динамитом",
+  "bloodstone.customcarts.cart.trapper": "Трапперская вагонетка с динамитом",
+  "bloodstone.customcarts.cart.nuclear": "Ядерная вагонетка с динамитом",
+  "bloodstone.customcarts.cart.smoke": "Дымовая вагонетка с динамитом",
+  "bloodstone.customcarts.cart.magnetic": "Магнитная вагонетка с динамитом",
+  "bloodstone.customcarts.cart.frost": "Морозная вагонетка с динамитом",
+  "bloodstone.bloodkits.builder_settings.menu.titles.current_kit_background": ""
 }
