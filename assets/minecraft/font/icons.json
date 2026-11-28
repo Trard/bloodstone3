@@ -155,7 +155,7 @@
         },
         {
             "type": "bitmap",
-            "file": "minecraft:font/redfire.png",
+            "file": "blooddonate:item/icons/star.png",
             "ascent": 8,
             "height": 9,
             "chars": [
