@@ -6329,6 +6329,7 @@
   "bloodstone.bloodkits.kitroom.menus.remove_trim": "Remove Trim",
   "bloodstone.bloodkits.kitroom.menus.shulker_title": "Shulker Contents",
   "bloodstone.bloodkits.kitroom.menus.trim_help.choose": "Choose a pattern, then a trim material.",
+  "bloodstone.bloodkits.kitroom.menus.trim_help.material": "Click a material to apply the trim to your armor.",
   "bloodstone.bloodkits.kitroom.menus.trim_help.remove": "Click the barrier to remove the trim.",
   "bloodstone.bloodkits.kitroom.menus.trim_material_title": "Trim Material",
   "bloodstone.bloodkits.kitroom.messages.busy": "Finish your current editing session first.",

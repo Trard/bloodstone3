@@ -6074,6 +6074,7 @@
   "bloodstone.bloodkits.kitroom.menus.remove_trim": "Убрать узор",
   "bloodstone.bloodkits.kitroom.menus.shulker_title": "Содержимое шалкера",
   "bloodstone.bloodkits.kitroom.menus.trim_help.choose": "Выберите узор, затем материал отделки.",
+  "bloodstone.bloodkits.kitroom.menus.trim_help.material": "Нажмите на материал, чтобы нанести узор на броню.",
   "bloodstone.bloodkits.kitroom.menus.trim_help.remove": "Чтобы снять узор, нажмите на барьер.",
   "bloodstone.bloodkits.kitroom.menus.trim_material_title": "Материал узора",
   "bloodstone.bloodkits.kitroom.messages.busy": "Сначала завершите текущее редактирование.",
